@@ -1,0 +1,1431 @@
+WARNING:
+Replacing fetcher for 'pdb_nmr' and format NMRSTAR from NMRSTAR bundle with that from NMRSTAR bundle
+INFO:
+UCSF ChimeraX version: 1.6.1 (2023-05-09)
+INFO:
+© 2016-2023 Regents of the University of California.  All rights reserved.
+INFO:
+Executing: open ./calc_dihedral_chimerax/calc_dihedral_part_01.cxc
+INFO:
+Executing: close #1
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1xfd.pdb
+INFO:
+_1xfd.pdb_ title:  
+ **Structure of A human A-type potassium channel accelerating factor DPPX, A
+member of the dipeptidyl aminopeptidase family** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 1xfd.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:127-849 "Select chain") [B](cxcmd:select /B:127-849
+"Select chain") [C](cxcmd:select /C:127-849 "Select chain") [D](cxcmd:select
+/D:127-849 "Select chain") | [dipeptidylpeptidase VI; dipeptidylpeptidase 6;
+dipeptidyl peptidase IV LIKE protein; dipeptidyl aminopeptidase-related
+protein](cxcmd:sequence chain #1/A#1/B#1/C#1/D "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 1xfd.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /F:3@C2 /F:3@C1 /F:2@O4 /F:2@C4
+INFO:
+Torsion angle for atoms /F MAN 3 C2 C1 NDG 2 O4 C4 is -139.161°
+INFO:
+Executing: torsion /F:3@C1 /F:2@O4 /F:2@C4 /F:2@C5
+INFO:
+Torsion angle for atoms /F MAN 3 C1 NDG 2 O4 C4 C5 is 160.638°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1xfd.pdb
+INFO:
+_1xfd.pdb_ title:  
+ **Structure of A human A-type potassium channel accelerating factor DPPX, A
+member of the dipeptidyl aminopeptidase family** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 1xfd.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:127-849 "Select chain") [B](cxcmd:select /B:127-849
+"Select chain") [C](cxcmd:select /C:127-849 "Select chain") [D](cxcmd:select
+/D:127-849 "Select chain") | [dipeptidylpeptidase VI; dipeptidylpeptidase 6;
+dipeptidyl peptidase IV LIKE protein; dipeptidyl aminopeptidase-related
+protein](cxcmd:sequence chain #1/A#1/B#1/C#1/D "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 1xfd.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /W:3@C2 /W:3@C1 /W:2@O4 /W:2@C4
+INFO:
+Torsion angle for atoms /W MAN 3 C2 C1 NDG 2 O4 C4 is -172.886°
+INFO:
+Executing: torsion /W:3@C1 /W:2@O4 /W:2@C4 /W:2@C5
+INFO:
+Torsion angle for atoms /W MAN 3 C1 NDG 2 O4 C4 C5 is 167.261°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1xfd.pdb
+INFO:
+_1xfd.pdb_ title:  
+ **Structure of A human A-type potassium channel accelerating factor DPPX, A
+member of the dipeptidyl aminopeptidase family** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 1xfd.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:127-849 "Select chain") [B](cxcmd:select /B:127-849
+"Select chain") [C](cxcmd:select /C:127-849 "Select chain") [D](cxcmd:select
+/D:127-849 "Select chain") | [dipeptidylpeptidase VI; dipeptidylpeptidase 6;
+dipeptidyl peptidase IV LIKE protein; dipeptidyl aminopeptidase-related
+protein](cxcmd:sequence chain #1/A#1/B#1/C#1/D "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 1xfd.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /L:3@C2 /L:3@C1 /L:2@O4 /L:2@C4
+INFO:
+Torsion angle for atoms /L MAN 3 C2 C1 NDG 2 O4 C4 is -174.941°
+INFO:
+Executing: torsion /L:3@C1 /L:2@O4 /L:2@C4 /L:2@C5
+INFO:
+Torsion angle for atoms /L MAN 3 C1 NDG 2 O4 C4 C5 is 162.787°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1xfd.pdb
+INFO:
+_1xfd.pdb_ title:  
+ **Structure of A human A-type potassium channel accelerating factor DPPX, A
+member of the dipeptidyl aminopeptidase family** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 1xfd.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:127-849 "Select chain") [B](cxcmd:select /B:127-849
+"Select chain") [C](cxcmd:select /C:127-849 "Select chain") [D](cxcmd:select
+/D:127-849 "Select chain") | [dipeptidylpeptidase VI; dipeptidylpeptidase 6;
+dipeptidyl peptidase IV LIKE protein; dipeptidyl aminopeptidase-related
+protein](cxcmd:sequence chain #1/A#1/B#1/C#1/D "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 1xfd.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /R:3@C2 /R:3@C1 /R:2@O4 /R:2@C4
+INFO:
+Torsion angle for atoms /R MAN 3 C2 C1 NDG 2 O4 C4 is 175.998°
+INFO:
+Executing: torsion /R:3@C1 /R:2@O4 /R:2@C4 /R:2@C5
+INFO:
+Torsion angle for atoms /R MAN 3 C1 NDG 2 O4 C4 C5 is 173.242°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1fl7.pdb
+INFO:
+_1fl7.pdb_ title:  
+ **Human follicle stimulating hormone** [[more info...]](cxcmd:log metadata
+#1)  
+  
+
+INFO:
+Chain information for 1fl7.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:5-90 "Select chain") [C](cxcmd:select /C:5-92 "Select
+chain") | [glycoprotein hormones α chain](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [GLHA_HUMAN](cxcmd:open P01215 from uniprot "Show annotations")
+[1-92](cxcmd:select #1/A,C:1-92 "Select sequence")  
+[B](cxcmd:select /B:3-109 "Select chain") [D](cxcmd:select /D:3-108 "Select
+chain") | [follitrophin β chain](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [FSHB_HUMAN](cxcmd:open P01225 from uniprot "Show annotations")
+[1-111](cxcmd:select #1/B,D:1-111 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 1fl7.pdb #1  
+---  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+[SO4](cxcmd:sel :SO4 "select residue") — [sulfate
+ion](http://www.rcsb.org/ligand/SO4 "show residue info")  
+  
+
+INFO:
+Executing: torsion /I:3@C2 /I:3@C1 /I:2@O4 /I:2@C4
+INFO:
+Torsion angle for atoms /I MAN 3 C2 C1 NDG 2 O4 C4 is -87.4075°
+INFO:
+Executing: torsion /I:3@C1 /I:2@O4 /I:2@C4 /I:2@C5
+INFO:
+Torsion angle for atoms /I MAN 3 C1 NDG 2 O4 C4 C5 is 57.2039°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2doj.pdb
+INFO:
+_2doj.pdb_ title:  
+ **Crystal structure of the complex of C-terminal lobe of bovine lactoferrin
+with adenosine At 2.4 A resolution** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2doj.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:342-686 "Select chain") | [lactoferrin](cxcmd:sequence
+chain #1/A "Show sequence") | [TRFL_BOVIN](cxcmd:open P24627 from uniprot
+"Show annotations") [342-686](cxcmd:select #1/A:342-686 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2doj.pdb #1  
+---  
+[ADN](cxcmd:sel :ADN "select residue") —
+[adenosine](http://www.rcsb.org/ligand/ADN "show residue info")  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[CO3](cxcmd:sel :CO3 "select residue") — [carbonate
+ion](http://www.rcsb.org/ligand/CO3 "show residue info")  
+[FE](cxcmd:sel :FE "select residue") — [Fe (III)
+ion](http://www.rcsb.org/ligand/FE "show residue info")  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+[SO4](cxcmd:sel :SO4 "select residue") — [sulfate
+ion](http://www.rcsb.org/ligand/SO4 "show residue info")  
+[ZN](cxcmd:sel :ZN "select residue") — [zinc
+ion](http://www.rcsb.org/ligand/ZN "show residue info")  
+  
+
+INFO:
+Executing: torsion /C:3@C2 /C:3@C1 /C:2@O4 /C:2@C4
+INFO:
+Torsion angle for atoms /C MAN 3 C2 C1 NDG 2 O4 C4 is -122.84°
+INFO:
+Executing: torsion /C:3@C1 /C:2@O4 /C:2@C4 /C:2@C5
+INFO:
+Torsion angle for atoms /C MAN 3 C1 NDG 2 O4 C4 C5 is -137.921°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1flc.pdb
+INFO:
+_1flc.pdb_ title:  
+ **X-ray structure of the haemagglutinin-esterase-fusion glycoprotein of
+influenza C virus** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 1flc.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-427 "Select chain") [C](cxcmd:select /C:1-427 "Select
+chain") [E](cxcmd:select /E:1-427 "Select chain") | [haemagglutinin-esterase-
+fusion glycoprotein](cxcmd:sequence chain #1/A#1/C#1/E "Show sequence") |
+[HEMA_INCJH](cxcmd:open P07975 from uniprot "Show annotations")
+[1-432](cxcmd:select #1/A,C,E:1-432 "Select sequence")  
+[B](cxcmd:select /B:4-165 "Select chain") [D](cxcmd:select /D:4-165 "Select
+chain") [F](cxcmd:select /F:4-165 "Select chain") | [haemagglutinin-esterase-
+fusion glycoprotein](cxcmd:sequence chain #1/B#1/D#1/F "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 1flc.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /U:3@C2 /U:3@C1 /U:2@O4 /U:2@C4
+INFO:
+Torsion angle for atoms /U MAN 3 C2 C1 NDG 2 O4 C4 is -95.9879°
+INFO:
+Executing: torsion /U:3@C1 /U:2@O4 /U:2@C4 /U:2@C5
+INFO:
+Torsion angle for atoms /U MAN 3 C1 NDG 2 O4 C4 C5 is -152.732°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1flc.pdb
+INFO:
+_1flc.pdb_ title:  
+ **X-ray structure of the haemagglutinin-esterase-fusion glycoprotein of
+influenza C virus** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 1flc.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-427 "Select chain") [C](cxcmd:select /C:1-427 "Select
+chain") [E](cxcmd:select /E:1-427 "Select chain") | [haemagglutinin-esterase-
+fusion glycoprotein](cxcmd:sequence chain #1/A#1/C#1/E "Show sequence") |
+[HEMA_INCJH](cxcmd:open P07975 from uniprot "Show annotations")
+[1-432](cxcmd:select #1/A,C,E:1-432 "Select sequence")  
+[B](cxcmd:select /B:4-165 "Select chain") [D](cxcmd:select /D:4-165 "Select
+chain") [F](cxcmd:select /F:4-165 "Select chain") | [haemagglutinin-esterase-
+fusion glycoprotein](cxcmd:sequence chain #1/B#1/D#1/F "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 1flc.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /K:3@C2 /K:3@C1 /K:2@O4 /K:2@C4
+INFO:
+Torsion angle for atoms /K MAN 3 C2 C1 NDG 2 O4 C4 is 11.1056°
+INFO:
+Executing: torsion /K:3@C1 /K:2@O4 /K:2@C4 /K:2@C5
+INFO:
+Torsion angle for atoms /K MAN 3 C1 NDG 2 O4 C4 C5 is -136.389°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1flc.pdb
+INFO:
+_1flc.pdb_ title:  
+ **X-ray structure of the haemagglutinin-esterase-fusion glycoprotein of
+influenza C virus** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 1flc.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-427 "Select chain") [C](cxcmd:select /C:1-427 "Select
+chain") [E](cxcmd:select /E:1-427 "Select chain") | [haemagglutinin-esterase-
+fusion glycoprotein](cxcmd:sequence chain #1/A#1/C#1/E "Show sequence") |
+[HEMA_INCJH](cxcmd:open P07975 from uniprot "Show annotations")
+[1-432](cxcmd:select #1/A,C,E:1-432 "Select sequence")  
+[B](cxcmd:select /B:4-165 "Select chain") [D](cxcmd:select /D:4-165 "Select
+chain") [F](cxcmd:select /F:4-165 "Select chain") | [haemagglutinin-esterase-
+fusion glycoprotein](cxcmd:sequence chain #1/B#1/D#1/F "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 1flc.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /P:3@C2 /P:3@C1 /P:2@O4 /P:2@C4
+INFO:
+Torsion angle for atoms /P MAN 3 C2 C1 NDG 2 O4 C4 is -102.806°
+INFO:
+Executing: torsion /P:3@C1 /P:2@O4 /P:2@C4 /P:2@C5
+INFO:
+Torsion angle for atoms /P MAN 3 C1 NDG 2 O4 C4 C5 is -153.206°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2fa7.pdb
+INFO:
+_2fa7.pdb_ title:  
+ **Crystal structure of the complex of bovine lactoferrin C-lobe with A
+pentasaccharide At 2.38 A resolution** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2fa7.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:342-686 "Select chain") | [lactoferrin](cxcmd:sequence
+chain #1/A "Show sequence") | [TRFL_BOVIN](cxcmd:open P24627 from uniprot
+"Show annotations") [342-686](cxcmd:select #1/A:342-686 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2fa7.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[CO3](cxcmd:sel :CO3 "select residue") — [carbonate
+ion](http://www.rcsb.org/ligand/CO3 "show residue info")  
+[FE](cxcmd:sel :FE "select residue") — [Fe (III)
+ion](http://www.rcsb.org/ligand/FE "show residue info")  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+[SO4](cxcmd:sel :SO4 "select residue") — [sulfate
+ion](http://www.rcsb.org/ligand/SO4 "show residue info")  
+[ZN](cxcmd:sel :ZN "select residue") — [zinc
+ion](http://www.rcsb.org/ligand/ZN "show residue info")  
+  
+
+INFO:
+Executing: torsion /C:3@C2 /C:3@C1 /C:2@O4 /C:2@C4
+INFO:
+Torsion angle for atoms /C MAN 3 C2 C1 NDG 2 O4 C4 is -65.9486°
+INFO:
+Executing: torsion /C:3@C1 /C:2@O4 /C:2@C4 /C:2@C5
+INFO:
+Torsion angle for atoms /C MAN 3 C1 NDG 2 O4 C4 C5 is -153.077°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1ozn.pdb
+INFO:
+_1ozn.pdb_ title:  
+ **1.5A crystal structure of the nogo receptor ligand binding domain reveals A
+convergent recognition scaffold mediating inhibition of myelination**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 1ozn.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:26-309 "Select chain") | [reticulon 4
+receptor](cxcmd:sequence chain #1/A "Show sequence") | [RT4R_HUMAN](cxcmd:open
+Q9BZR6 from uniprot "Show annotations") [26-310](cxcmd:select #1/A:26-310
+"Select sequence")  
+  
+
+INFO:
+Non-standard residues in 1ozn.pdb #1  
+---  
+[ACY](cxcmd:sel :ACY "select residue") — [acetic
+acid](http://www.rcsb.org/ligand/ACY "show residue info")  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info")  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info")  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info")  
+  
+
+INFO:
+Executing: torsion /B:3@C2 /B:3@C1 /B:2@O4 /B:2@C4
+INFO:
+Torsion angle for atoms /B MAN 3 C2 C1 NDG 2 O4 C4 is -146.139°
+INFO:
+Executing: torsion /B:3@C1 /B:2@O4 /B:2@C4 /B:2@C5
+INFO:
+Torsion angle for atoms /B MAN 3 C1 NDG 2 O4 C4 C5 is 60.3307°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3cig.pdb
+INFO:
+_3cig.pdb_ title:  
+ **Crystal structure of mouse TLR3 ectodomain** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 3cig.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:27-697 "Select chain") | [CD283 antigen](cxcmd:sequence
+chain #1/A "Show sequence") | [TLR3_MOUSE](cxcmd:open Q99MB1 from uniprot
+"Show annotations") [27-703](cxcmd:select #1/A:27-703 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3cig.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[FUL](cxcmd:sel :FUL "select residue") — [β-L-
+fucopyranose](http://www.rcsb.org/ligand/FUL "show residue info") (β-L-fucose;
+6-deoxy-β-L-galactopyranose; L-fucose; fucose; 6-deoxy-β-L-galactose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /F:3@C2 /F:3@C1 /F:2@O4 /F:2@C4
+INFO:
+Torsion angle for atoms /F MAN 3 C2 C1 NDG 2 O4 C4 is 110.973°
+INFO:
+Executing: torsion /F:3@C1 /F:2@O4 /F:2@C4 /F:2@C5
+INFO:
+Torsion angle for atoms /F MAN 3 C1 NDG 2 O4 C4 C5 is -150.046°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3iaz.pdb
+INFO:
+_3iaz.pdb_ title:  
+ **Structural basis of the prevention of nsaid-induced damage of the
+gastrointestinal tract by C-terminal half (C-lobe) of bovine colostrum protein
+lactoferrin: binding and structural studies of the C-lobe complex with
+aspirin** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3iaz.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:342-686 "Select chain") |
+[lactotransferrin](cxcmd:sequence chain #1/A "Show sequence") |
+[TRFL_BOVIN](cxcmd:open P24627 from uniprot "Show annotations")
+[342-686](cxcmd:select #1/A:342-686 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3iaz.pdb #1  
+---  
+[AIN](cxcmd:sel :AIN "select residue") — [2-(acetyloxy)benzoic
+acid](http://www.rcsb.org/ligand/AIN "show residue info") (acetylsalicylic
+acid; aspirin)  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[CO3](cxcmd:sel :CO3 "select residue") — [carbonate
+ion](http://www.rcsb.org/ligand/CO3 "show residue info")  
+[EOH](cxcmd:sel :EOH "select residue") —
+[ethanol](http://www.rcsb.org/ligand/EOH "show residue info")  
+[FE](cxcmd:sel :FE "select residue") — [Fe (III)
+ion](http://www.rcsb.org/ligand/FE "show residue info")  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+[SO4](cxcmd:sel :SO4 "select residue") — [sulfate
+ion](http://www.rcsb.org/ligand/SO4 "show residue info")  
+[ZN](cxcmd:sel :ZN "select residue") — [zinc
+ion](http://www.rcsb.org/ligand/ZN "show residue info")  
+  
+
+INFO:
+Executing: torsion /C:3@C2 /C:3@C1 /C:2@O4 /C:2@C4
+INFO:
+Torsion angle for atoms /C MAN 3 C2 C1 NDG 2 O4 C4 is -89.7228°
+INFO:
+Executing: torsion /C:3@C1 /C:2@O4 /C:2@C4 /C:2@C5
+INFO:
+Torsion angle for atoms /C MAN 3 C1 NDG 2 O4 C4 C5 is -132.687°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2ifg.pdb
+INFO:
+_2ifg.pdb_ title:  
+ **Structure of the extracellular segment of human TRKA In complex with nerve
+growth factor** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2ifg.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:36-382 "Select chain") [B](cxcmd:select /B:36-382 "Select
+chain") | [high affinity nerve growth factor receptor](cxcmd:sequence chain
+#1/A#1/B "Show sequence") | [NTRK1_HUMAN](cxcmd:open P04629 from uniprot "Show
+annotations") [36-382](cxcmd:select #1/A,B:36-382 "Select sequence")  
+[E](cxcmd:select /E:2-115 "Select chain") [F](cxcmd:select /F:2-116 "Select
+chain") | [β-NGF](cxcmd:sequence chain #1/E#1/F "Show sequence") |
+[NGF_HUMAN](cxcmd:open P01138 from uniprot "Show annotations")
+[1-120](cxcmd:select #1/E,F:1-120 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2ifg.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /I:3@C2 /I:3@C1 /I:2@O4 /I:2@C4
+INFO:
+Torsion angle for atoms /I MAN 3 C2 C1 NDG 2 O4 C4 is -144.721°
+INFO:
+Executing: torsion /I:3@C1 /I:2@O4 /I:2@C4 /I:2@C5
+INFO:
+Torsion angle for atoms /I MAN 3 C1 NDG 2 O4 C4 C5 is -126.565°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2ifg.pdb
+INFO:
+_2ifg.pdb_ title:  
+ **Structure of the extracellular segment of human TRKA In complex with nerve
+growth factor** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2ifg.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:36-382 "Select chain") [B](cxcmd:select /B:36-382 "Select
+chain") | [high affinity nerve growth factor receptor](cxcmd:sequence chain
+#1/A#1/B "Show sequence") | [NTRK1_HUMAN](cxcmd:open P04629 from uniprot "Show
+annotations") [36-382](cxcmd:select #1/A,B:36-382 "Select sequence")  
+[E](cxcmd:select /E:2-115 "Select chain") [F](cxcmd:select /F:2-116 "Select
+chain") | [β-NGF](cxcmd:sequence chain #1/E#1/F "Show sequence") |
+[NGF_HUMAN](cxcmd:open P01138 from uniprot "Show annotations")
+[1-120](cxcmd:select #1/E,F:1-120 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2ifg.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /D:3@C2 /D:3@C1 /D:2@O4 /D:2@C4
+INFO:
+Torsion angle for atoms /D MAN 3 C2 C1 NDG 2 O4 C4 is -139.246°
+INFO:
+Executing: torsion /D:3@C1 /D:2@O4 /D:2@C4 /D:2@C5
+INFO:
+Torsion angle for atoms /D MAN 3 C1 NDG 2 O4 C4 C5 is 61.585°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2ifg.pdb
+INFO:
+_2ifg.pdb_ title:  
+ **Structure of the extracellular segment of human TRKA In complex with nerve
+growth factor** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2ifg.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:36-382 "Select chain") [B](cxcmd:select /B:36-382 "Select
+chain") | [high affinity nerve growth factor receptor](cxcmd:sequence chain
+#1/A#1/B "Show sequence") | [NTRK1_HUMAN](cxcmd:open P04629 from uniprot "Show
+annotations") [36-382](cxcmd:select #1/A,B:36-382 "Select sequence")  
+[E](cxcmd:select /E:2-115 "Select chain") [F](cxcmd:select /F:2-116 "Select
+chain") | [β-NGF](cxcmd:sequence chain #1/E#1/F "Show sequence") |
+[NGF_HUMAN](cxcmd:open P01138 from uniprot "Show annotations")
+[1-120](cxcmd:select #1/E,F:1-120 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2ifg.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /L:3@C2 /L:3@C1 /L:2@O4 /L:2@C4
+INFO:
+Torsion angle for atoms /L MAN 3 C2 C1 NDG 2 O4 C4 is 178.929°
+INFO:
+Executing: torsion /L:3@C1 /L:2@O4 /L:2@C4 /L:2@C5
+INFO:
+Torsion angle for atoms /L MAN 3 C1 NDG 2 O4 C4 C5 is -179.07°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2ifg.pdb
+INFO:
+_2ifg.pdb_ title:  
+ **Structure of the extracellular segment of human TRKA In complex with nerve
+growth factor** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2ifg.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:36-382 "Select chain") [B](cxcmd:select /B:36-382 "Select
+chain") | [high affinity nerve growth factor receptor](cxcmd:sequence chain
+#1/A#1/B "Show sequence") | [NTRK1_HUMAN](cxcmd:open P04629 from uniprot "Show
+annotations") [36-382](cxcmd:select #1/A,B:36-382 "Select sequence")  
+[E](cxcmd:select /E:2-115 "Select chain") [F](cxcmd:select /F:2-116 "Select
+chain") | [β-NGF](cxcmd:sequence chain #1/E#1/F "Show sequence") |
+[NGF_HUMAN](cxcmd:open P01138 from uniprot "Show annotations")
+[1-120](cxcmd:select #1/E,F:1-120 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2ifg.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /O:3@C2 /O:3@C1 /O:2@O4 /O:2@C4
+INFO:
+Torsion angle for atoms /O MAN 3 C2 C1 NDG 2 O4 C4 is -110.932°
+INFO:
+Executing: torsion /O:3@C1 /O:2@O4 /O:2@C4 /O:2@C5
+INFO:
+Torsion angle for atoms /O MAN 3 C1 NDG 2 O4 C4 C5 is 69.0863°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3ciy.pdb
+INFO:
+_3ciy.pdb_ title:  
+ **Mouse toll-like receptor 3 ectodomain complexed with double-stranded RNA**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3ciy.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:28-697 "Select chain") [B](cxcmd:select /B:27-697 "Select
+chain") | [CD283 antigen](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[TLR3_MOUSE](cxcmd:open Q99MB1 from uniprot "Show annotations")
+[27-703](cxcmd:select #1/A,B:27-703 "Select sequence")  
+[C](cxcmd:select /C:1-46 "Select chain") | [46-mer](cxcmd:sequence chain #1/C
+"Show sequence") |  
+[D](cxcmd:select /D:1-46 "Select chain") | [46-mer](cxcmd:sequence chain #1/D
+"Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 3ciy.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[FUL](cxcmd:sel :FUL "select residue") — [β-L-
+fucopyranose](http://www.rcsb.org/ligand/FUL "show residue info") (β-L-fucose;
+6-deoxy-β-L-galactopyranose; L-fucose; fucose; 6-deoxy-β-L-galactose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /P:3@C2 /P:3@C1 /P:2@O4 /P:2@C4
+INFO:
+Torsion angle for atoms /P MAN 3 C2 C1 NDG 2 O4 C4 is -177.604°
+INFO:
+Executing: torsion /P:3@C1 /P:2@O4 /P:2@C4 /P:2@C5
+INFO:
+Torsion angle for atoms /P MAN 3 C1 NDG 2 O4 C4 C5 is -178.669°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1n1m.pdb
+INFO:
+_1n1m.pdb_ title:  
+ **Human dipeptidyl peptidase IV/CD26 In complex with an inhibitor**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 1n1m.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:39-764 "Select chain") [B](cxcmd:select /B:39-766 "Select
+chain") | [dipeptidyl peptidase IV soluble form](cxcmd:sequence chain #1/A#1/B
+"Show sequence") | [DPP4_HUMAN](cxcmd:open P27487 from uniprot "Show
+annotations") [39-766](cxcmd:select #1/A,B:39-766 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 1n1m.pdb #1  
+---  
+[A3M](cxcmd:sel :A3M "select residue") — [2-amino-3-methyl-1-pyrrolidin-1-yl-
+butan-1-one](http://www.rcsb.org/ligand/A3M "show residue info")  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info")  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info")  
+[HG](cxcmd:sel :HG "select residue") — [mercury (II)
+ion](http://www.rcsb.org/ligand/HG "show residue info")  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info")  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info")  
+  
+
+INFO:
+Executing: torsion /F:3@C2 /F:3@C1 /F:2@O4 /F:2@C4
+INFO:
+Torsion angle for atoms /F MAN 3 C2 C1 NDG 2 O4 C4 is -91.3084°
+INFO:
+Executing: torsion /F:3@C1 /F:2@O4 /F:2@C4 /F:2@C5
+INFO:
+Torsion angle for atoms /F MAN 3 C1 NDG 2 O4 C4 C5 is 48.3429°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1u8e.pdb
+INFO:
+_1u8e.pdb_ title:  
+ **Human dipeptidyl peptidase IV/CD26 mutant Y547F**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 1u8e.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:39-764 "Select chain") [B](cxcmd:select /B:39-766 "Select
+chain") | [dipeptidyl peptidase IV](cxcmd:sequence chain #1/A#1/B "Show
+sequence") | [DPP4_HUMAN](cxcmd:open P27487 from uniprot "Show annotations")
+[39-766](cxcmd:select #1/A,B:39-766 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 1u8e.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /F:3@C2 /F:3@C1 /F:2@O4 /F:2@C4
+INFO:
+Torsion angle for atoms /F MAN 3 C2 C1 NDG 2 O4 C4 is -102.097°
+INFO:
+Executing: torsion /F:3@C1 /F:2@O4 /F:2@C4 /F:2@C5
+INFO:
+Torsion angle for atoms /F MAN 3 C1 NDG 2 O4 C4 C5 is 50.1048°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2aos.pdb
+INFO:
+_2aos.pdb_ title:  
+ **Protein-protein interactions of protective signalling factor: crystal
+structure of ternary complex involving signalling protein from goat (SPG-40),
+tetrasaccharide and A tripeptide TRP-pro-TRP At 2.9 A resolution**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2aos.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:1-362 "Select chain") | [signaling protein from goat,
+SPG-40](cxcmd:sequence chain #1/A "Show sequence")  
+[D](cxcmd:select /D:1-3 "Select chain") | [TRP-pro-TRP
+tripeptide](cxcmd:sequence chain #1/D "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 2aos.pdb #1  
+---  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /C:3@C2 /C:3@C1 /C:2@O4 /C:2@C4
+INFO:
+Torsion angle for atoms /C MAN 3 C2 C1 NDG 2 O4 C4 is -107.658°
+INFO:
+Executing: torsion /C:3@C1 /C:2@O4 /C:2@C4 /C:2@C5
+INFO:
+Torsion angle for atoms /C MAN 3 C1 NDG 2 O4 C4 C5 is -62.6491°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1tk3.pdb
+INFO:
+_1tk3.pdb_ title:  
+ **Crystal structure of human apo dipeptidyl peptidase IV/CD26**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 1tk3.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:39-764 "Select chain") [B](cxcmd:select /B:39-766 "Select
+chain") | [dipeptidyl peptidase IV](cxcmd:sequence chain #1/A#1/B "Show
+sequence") | [DPP4_HUMAN](cxcmd:open P27487 from uniprot "Show annotations")
+[39-766](cxcmd:select #1/A,B:39-766 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 1tk3.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /F:3@C2 /F:3@C1 /F:2@O4 /F:2@C4
+INFO:
+Torsion angle for atoms /F MAN 3 C2 C1 NDG 2 O4 C4 is -105.833°
+INFO:
+Executing: torsion /F:3@C1 /F:2@O4 /F:2@C4 /F:2@C5
+INFO:
+Torsion angle for atoms /F MAN 3 C1 NDG 2 O4 C4 C5 is 52.9378°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k24.pdb
+INFO:
+_3k24.pdb_ title:  
+ **Crystal structure of mature apo-cathepsin L C25A mutant In complex with
+GLN-leu-ala peptide** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k24.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-220 "Select chain") [B](cxcmd:select /B:1-220 "Select
+chain") | [cathepsin L1](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[CATL1_HUMAN](cxcmd:open P07711 from uniprot "Show annotations")
+[1-220](cxcmd:select #1/A,B:1-220 "Select sequence")  
+[C](cxcmd:select /C:109-111 "Select chain") [D](cxcmd:select /D:109-111
+"Select chain") | [H3 peptide](cxcmd:sequence chain #1/C#1/D "Show sequence")
+|  
+  
+
+INFO:
+Non-standard residues in 3k24.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /E:3@C2 /E:3@C1 /E:2@O4 /E:2@C4
+INFO:
+Torsion angle for atoms /E MAN 3 C2 C1 NDG 2 O4 C4 is -116.594°
+INFO:
+Executing: torsion /E:3@C1 /E:2@O4 /E:2@C4 /E:2@C5
+INFO:
+Torsion angle for atoms /E MAN 3 C1 NDG 2 O4 C4 C5 is -127.839°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1tkr.pdb
+INFO:
+_1tkr.pdb_ title:  
+ **Human dipeptidyl peptidase IV/CD26 inhibited with diisopropyl
+fluorophosphate** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 1tkr.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:39-764 "Select chain") [B](cxcmd:select /B:39-766 "Select
+chain") | [dipeptidyl peptidase IV](cxcmd:sequence chain #1/A#1/B "Show
+sequence") | [DPP4_HUMAN](cxcmd:open P27487 from uniprot "Show annotations")
+[39-766](cxcmd:select #1/A,B:39-766 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 1tkr.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info")  
+[DFP](cxcmd:sel :DFP "select residue") — [diisopropyl
+phosphonate](http://www.rcsb.org/ligand/DFP "show residue info")  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info")  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info")  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info")  
+  
+
+INFO:
+Executing: torsion /F:3@C2 /F:3@C1 /F:2@O4 /F:2@C4
+INFO:
+Torsion angle for atoms /F MAN 3 C2 C1 NDG 2 O4 C4 is -112.023°
+INFO:
+Executing: torsion /F:3@C1 /F:2@O4 /F:2@C4 /F:2@C5
+INFO:
+Torsion angle for atoms /F MAN 3 C1 NDG 2 O4 C4 C5 is 64.2154°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6p3r.pdb
+INFO:
+_6p3r.pdb_ title:  
+ **Crystal structure of human fab H5.31 In complex with influenza A H5N1
+vietnam hemagglutinin head domain** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6p3r.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:2-230 "Select chain") [C](cxcmd:select /C:1-230 "Select
+chain") | [human fab H5.31 heavy chain](cxcmd:sequence chain #1/A#1/C "Show
+sequence") |  
+[B](cxcmd:select /B:1-215 "Select chain") [D](cxcmd:select /D:1-215 "Select
+chain") | [human fab H5.31 light chain](cxcmd:sequence chain #1/B#1/D "Show
+sequence") |  
+[E](cxcmd:select /E:58-266 "Select chain") [L](cxcmd:select /L:58-267 "Select
+chain") | [hemagglutinin](cxcmd:sequence chain #1/E#1/L "Show sequence") |
+[Q1KHK2_9INFA](cxcmd:open Q1KHK2 from uniprot "Show annotations")
+[58-268](cxcmd:select #1/E,L:58-268 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 6p3r.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+[PO4](cxcmd:sel :PO4 "select residue") — [phosphate
+ion](http://www.rcsb.org/ligand/PO4 "show residue info")  
+[SIA](cxcmd:sel :SIA "select residue") — [N-acetyl-α-neuraminic
+acid](http://www.rcsb.org/ligand/SIA "show residue info") (N-acetylneuraminic
+acid; sialic acid; α-sialicacid; O-sialic acid)  
+[Z9N](cxcmd:sel :Z9N "select residue") — [α-D-
+fructofuranose](http://www.rcsb.org/ligand/Z9N "show residue info") (α-D-
+fructose; D-fructose; fructose)  
+  
+
+INFO:
+Executing: torsion /G:3@C2 /G:3@C1 /G:2@O4 /G:2@C4
+INFO:
+Torsion angle for atoms /G MAN 3 C2 C1 NDG 2 O4 C4 is 161.739°
+INFO:
+Executing: torsion /G:3@C1 /G:2@O4 /G:2@C4 /G:2@C5
+INFO:
+Torsion angle for atoms /G MAN 3 C1 NDG 2 O4 C4 C5 is -166.456°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2z7x.pdb
+INFO:
+_2z7x.pdb_ title:  
+ **Crystal structure of the TLR1-TLR2 heterodimer induced by binding of A tri-
+acylated lipopeptide** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2z7x.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:27-575 "Select chain") | [TOLL/interleukin-1 receptor-LIKE
+protein 4](cxcmd:sequence chain #1/A "Show sequence") |
+[TLR2_HUMAN](cxcmd:open O60603 from uniprot "Show annotations")
+[27-508](cxcmd:select #1/A:27-508 "Select sequence"),
+[Q4G1L2_EPTBU](cxcmd:open Q4G1L2 from uniprot "Show annotations")
+[509-575](cxcmd:select #1/A:509-575 "Select sequence")  
+[B](cxcmd:select /B:25-544 "Select chain") | [toll-like receptor 1,variable
+lymphocyte receptor B](cxcmd:sequence chain #1/B "Show sequence") |
+[TLR1_HUMAN](cxcmd:open Q15399 from uniprot "Show annotations")
+[25-476](cxcmd:select #1/B:25-476 "Select sequence"),
+[Q4G1L2_EPTBU](cxcmd:open Q4G1L2 from uniprot "Show annotations")
+[478-544](cxcmd:select #1/B:478-544 "Select sequence")  
+[C](cxcmd:select /C:7-12 "Select chain") | [PAM3CSK4](cxcmd:sequence chain
+#1/C "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 2z7x.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[DCY](cxcmd:sel :DCY "select residue") —
+[D-cysteine](http://www.rcsb.org/ligand/DCY "show residue info")  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+[PLM](cxcmd:sel :PLM "select residue") — [palmitic
+acid](http://www.rcsb.org/ligand/PLM "show residue info")  
+[Z41](cxcmd:sel :Z41 "select residue") — [(2S)-3-hydroxypropane-1,2-diyl
+dihexadecanoate](http://www.rcsb.org/ligand/Z41 "show residue info")  
+  
+
+INFO:
+Executing: torsion /D:3@C2 /D:3@C1 /D:2@O4 /D:2@C4
+INFO:
+Torsion angle for atoms /D MAN 3 C2 C1 NDG 2 O4 C4 is -176.168°
+INFO:
+Executing: torsion /D:3@C1 /D:2@O4 /D:2@C4 /D:2@C5
+INFO:
+Torsion angle for atoms /D MAN 3 C1 NDG 2 O4 C4 C5 is -170.456°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1zu8.pdb
+INFO:
+_1zu8.pdb_ title:  
+ **Crystal structure of the goat signalling protein with A bound trisaccharide
+reveals that TRP78 reduces the carbohydrate binding site to half**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 1zu8.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-362 "Select chain") | [chitinase-3 like protein
+1](cxcmd:sequence chain #1/A "Show sequence") | [CH3L1_CAPHI](cxcmd:open
+Q8SPQ0 from uniprot "Show annotations") [1-361](cxcmd:select #1/A:1-361
+"Select sequence")  
+  
+
+INFO:
+Non-standard residues in 1zu8.pdb #1  
+---  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /C:3@C2 /C:3@C1 /C:2@O4 /C:2@C4
+INFO:
+Torsion angle for atoms /C MAN 3 C2 C1 NDG 2 O4 C4 is -122.696°
+INFO:
+Executing: torsion /C:3@C1 /C:2@O4 /C:2@C4 /C:2@C5
+INFO:
+Torsion angle for atoms /C MAN 3 C1 NDG 2 O4 C4 C5 is -81.9613°
+INFO:
+Executing: close #1
+INFO:
+Executing: exit
+STATUS:
+Exiting ...

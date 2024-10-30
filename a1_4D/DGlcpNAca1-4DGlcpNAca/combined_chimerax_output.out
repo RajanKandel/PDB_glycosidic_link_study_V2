@@ -1,0 +1,253 @@
+WARNING:
+Replacing fetcher for 'pdb_nmr' and format NMRSTAR from NMRSTAR bundle with that from NMRSTAR bundle
+INFO:
+UCSF ChimeraX version: 1.6.1 (2023-05-09)
+INFO:
+© 2016-2023 Regents of the University of California.  All rights reserved.
+INFO:
+Executing: open ./calc_dihedral_chimerax/calc_dihedral_part_01.cxc
+INFO:
+Executing: close #1
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1d9u.pdb
+INFO:
+_1d9u.pdb_ title:  
+ **Bacteriophage λ lysozyme complexed with A chitohexasacharide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 1d9u.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-154 "Select chain") [B](cxcmd:select /B:1-154 "Select
+chain") | [LAL](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[LYS_LAMBD](cxcmd:open P03706 from uniprot "Show annotations")
+[1-154](cxcmd:select #1/A,B:1-154 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 1d9u.pdb #1  
+---  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+[SO4](cxcmd:sel :SO4 "select residue") — [sulfate
+ion](http://www.rcsb.org/ligand/SO4 "show residue info")  
+  
+
+INFO:
+Executing: torsion /D:5@C2 /D:5@C1 /D:4@O4 /D:4@C4
+INFO:
+Torsion angle for atoms /D NDG 5 C2 C1 NDG 4 O4 C4 is -174.753°
+INFO:
+Executing: torsion /D:5@C1 /D:4@O4 /D:4@C4 /D:4@C5
+INFO:
+Torsion angle for atoms /D NDG 5 C1 NDG 4 O4 C4 C5 is 156.76°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1zu8.pdb
+INFO:
+_1zu8.pdb_ title:  
+ **Crystal structure of the goat signalling protein with A bound trisaccharide
+reveals that TRP78 reduces the carbohydrate binding site to half**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 1zu8.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-362 "Select chain") | [chitinase-3 like protein
+1](cxcmd:sequence chain #1/A "Show sequence") | [CH3L1_CAPHI](cxcmd:open
+Q8SPQ0 from uniprot "Show annotations") [1-361](cxcmd:select #1/A:1-361
+"Select sequence")  
+  
+
+INFO:
+Non-standard residues in 1zu8.pdb #1  
+---  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /B:3@C2 /B:3@C1 /B:2@O4 /B:2@C4
+INFO:
+Torsion angle for atoms /B NDG 3 C2 C1 NDG 2 O4 C4 is -159.414°
+INFO:
+Executing: torsion /B:3@C1 /B:2@O4 /B:2@C4 /B:2@C5
+INFO:
+Torsion angle for atoms /B NDG 3 C1 NDG 2 O4 C4 C5 is 77.1334°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3iyw.pdb
+INFO:
+_3iyw.pdb_ title:  
+ **West nile virus In complex with fab fragments of mab CR4354 (fitted
+coordinates of envelope proteins and fab fragments of one icosahedral asu)**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3iyw.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-400 "Select chain") [B](cxcmd:select /B:1-400 "Select
+chain") [C](cxcmd:select /C:1-400 "Select chain") | [envelope
+glycoprotein](cxcmd:sequence chain #1/A#1/B#1/C "Show sequence") |
+[Q91R02_WNV](cxcmd:open Q91R02 from uniprot "Show annotations")
+[1-400](cxcmd:select #1/A,B,C:1-400 "Select sequence")  
+[H](cxcmd:select /H:1-230 "Select chain") [K](cxcmd:select /K:1-230 "Select
+chain") | [CR4354 fab fragment X1, heavy chain H](cxcmd:sequence chain
+#1/H#1/K "Show sequence") |  
+[L](cxcmd:select /L:1-220 "Select chain") [M](cxcmd:select /M:1-220 "Select
+chain") | [CR4354 fab fragment X1, light chain L](cxcmd:sequence chain
+#1/L#1/M "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 3iyw.pdb #1  
+---  
+[FUL](cxcmd:sel :FUL "select residue") — [β-L-
+fucopyranose](http://www.rcsb.org/ligand/FUL "show residue info") (β-L-fucose;
+6-deoxy-β-L-galactopyranose; L-fucose; fucose; 6-deoxy-β-L-galactose)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /E:2@C2 /E:2@C1 /E:1@O4 /E:1@C4
+INFO:
+Torsion angle for atoms /E NDG 2 C2 C1 NDG 1 O4 C4 is -58.8255°
+INFO:
+Executing: torsion /E:2@C1 /E:1@O4 /E:1@C4 /E:1@C5
+INFO:
+Torsion angle for atoms /E NDG 2 C1 NDG 1 O4 C4 C5 is -103.235°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3iyw.pdb
+INFO:
+_3iyw.pdb_ title:  
+ **West nile virus In complex with fab fragments of mab CR4354 (fitted
+coordinates of envelope proteins and fab fragments of one icosahedral asu)**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3iyw.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-400 "Select chain") [B](cxcmd:select /B:1-400 "Select
+chain") [C](cxcmd:select /C:1-400 "Select chain") | [envelope
+glycoprotein](cxcmd:sequence chain #1/A#1/B#1/C "Show sequence") |
+[Q91R02_WNV](cxcmd:open Q91R02 from uniprot "Show annotations")
+[1-400](cxcmd:select #1/A,B,C:1-400 "Select sequence")  
+[H](cxcmd:select /H:1-230 "Select chain") [K](cxcmd:select /K:1-230 "Select
+chain") | [CR4354 fab fragment X1, heavy chain H](cxcmd:sequence chain
+#1/H#1/K "Show sequence") |  
+[L](cxcmd:select /L:1-220 "Select chain") [M](cxcmd:select /M:1-220 "Select
+chain") | [CR4354 fab fragment X1, light chain L](cxcmd:sequence chain
+#1/L#1/M "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 3iyw.pdb #1  
+---  
+[FUL](cxcmd:sel :FUL "select residue") — [β-L-
+fucopyranose](http://www.rcsb.org/ligand/FUL "show residue info") (β-L-fucose;
+6-deoxy-β-L-galactopyranose; L-fucose; fucose; 6-deoxy-β-L-galactose)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /F:2@C2 /F:2@C1 /F:1@O4 /F:1@C4
+INFO:
+Torsion angle for atoms /F NDG 2 C2 C1 NDG 1 O4 C4 is -58.9324°
+INFO:
+Executing: torsion /F:2@C1 /F:1@O4 /F:1@C4 /F:1@C5
+INFO:
+Torsion angle for atoms /F NDG 2 C1 NDG 1 O4 C4 C5 is -103.134°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3iyw.pdb
+INFO:
+_3iyw.pdb_ title:  
+ **West nile virus In complex with fab fragments of mab CR4354 (fitted
+coordinates of envelope proteins and fab fragments of one icosahedral asu)**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3iyw.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-400 "Select chain") [B](cxcmd:select /B:1-400 "Select
+chain") [C](cxcmd:select /C:1-400 "Select chain") | [envelope
+glycoprotein](cxcmd:sequence chain #1/A#1/B#1/C "Show sequence") |
+[Q91R02_WNV](cxcmd:open Q91R02 from uniprot "Show annotations")
+[1-400](cxcmd:select #1/A,B,C:1-400 "Select sequence")  
+[H](cxcmd:select /H:1-230 "Select chain") [K](cxcmd:select /K:1-230 "Select
+chain") | [CR4354 fab fragment X1, heavy chain H](cxcmd:sequence chain
+#1/H#1/K "Show sequence") |  
+[L](cxcmd:select /L:1-220 "Select chain") [M](cxcmd:select /M:1-220 "Select
+chain") | [CR4354 fab fragment X1, light chain L](cxcmd:sequence chain
+#1/L#1/M "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 3iyw.pdb #1  
+---  
+[FUL](cxcmd:sel :FUL "select residue") — [β-L-
+fucopyranose](http://www.rcsb.org/ligand/FUL "show residue info") (β-L-fucose;
+6-deoxy-β-L-galactopyranose; L-fucose; fucose; 6-deoxy-β-L-galactose)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /D:2@C2 /D:2@C1 /D:1@O4 /D:1@C4
+INFO:
+Torsion angle for atoms /D NDG 2 C2 C1 NDG 1 O4 C4 is -58.8752°
+INFO:
+Executing: torsion /D:2@C1 /D:1@O4 /D:1@C4 /D:1@C5
+INFO:
+Torsion angle for atoms /D NDG 2 C1 NDG 1 O4 C4 C5 is -103.186°
+INFO:
+Executing: close #1
+INFO:
+Executing: exit
+STATUS:
+Exiting ...

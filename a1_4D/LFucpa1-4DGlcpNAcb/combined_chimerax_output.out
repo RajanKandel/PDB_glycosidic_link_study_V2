@@ -1,0 +1,3478 @@
+WARNING:
+Replacing fetcher for 'pdb_nmr' and format NMRSTAR from NMRSTAR bundle with that from NMRSTAR bundle
+INFO:
+UCSF ChimeraX version: 1.6.1 (2023-05-09)
+INFO:
+© 2016-2023 Regents of the University of California.  All rights reserved.
+INFO:
+Executing: open ./calc_dihedral_chimerax/calc_dihedral_part_01.cxc
+INFO:
+Executing: close #1
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4aha.pdb
+INFO:
+_4aha.pdb_ title:  
+ **Crystal structure of fucose binding lectin from aspergillus fumigatus (afl)
+In complex with fucosylated monosaccharides (FUC1-2GAL, FUC1- 3GLCNAC,
+FUC1-4GLCNAC and FUC1-6GLCNAC)** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 4aha.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:2-315 "Select chain") [B](cxcmd:select /B:2-315 "Select
+chain") | [fucose-specific lectin](cxcmd:sequence chain #1/A#1/B "Show
+sequence") | [LECF_ASPFU](cxcmd:open Q4WW81 from uniprot "Show annotations")
+[1-315](cxcmd:select #1/A,B:1-315 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4aha.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /F:2@C2 /F:2@C1 /F:1@O4 /F:1@C4
+INFO:
+Torsion angle for atoms /F FUC 2 C2 C1 NAG 1 O4 C4 is 138.847°
+INFO:
+Executing: torsion /F:2@C1 /F:1@O4 /F:1@C4 /F:1@C5
+INFO:
+Torsion angle for atoms /F FUC 2 C1 NAG 1 O4 C4 C5 is -147.338°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6xun.pdb
+INFO:
+_6xun.pdb_ title:  
+ **AB 5B1 bound to CA19-9** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6xun.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:1-215 "Select chain") [C](cxcmd:select /C:1-215 "Select
+chain") [H](cxcmd:select /H:1-216 "Select chain") | [heavy
+chain](cxcmd:sequence chain #1/A#1/C#1/H "Show sequence")  
+[B](cxcmd:select /B:1-213 "Select chain") [D](cxcmd:select /D:1-213 "Select
+chain") [L](cxcmd:select /L:1-213 "Select chain") | [light
+chain](cxcmd:sequence chain #1/B#1/D#1/L "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6xun.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GOL](cxcmd:sel :GOL "select residue") —
+[glycerol](http://www.rcsb.org/ligand/GOL "show residue info") (glycerin;
+propane-1,2,3-triol)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[SIA](cxcmd:sel :SIA "select residue") — [N-acetyl-α-neuraminic
+acid](http://www.rcsb.org/ligand/SIA "show residue info") (N-acetylneuraminic
+acid; sialic acid; α-sialicacid; O-sialic acid)  
+  
+
+INFO:
+Executing: torsion /G:4@C2 /G:4@C1 /G:1@O4 /G:1@C4
+INFO:
+Torsion angle for atoms /G FUC 4 C2 C1 NAG 1 O4 C4 is 176.589°
+INFO:
+Executing: torsion /G:4@C1 /G:1@O4 /G:1@C4 /G:1@C5
+INFO:
+Torsion angle for atoms /G FUC 4 C1 NAG 1 O4 C4 C5 is -109.618°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6xun.pdb
+INFO:
+_6xun.pdb_ title:  
+ **AB 5B1 bound to CA19-9** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6xun.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:1-215 "Select chain") [C](cxcmd:select /C:1-215 "Select
+chain") [H](cxcmd:select /H:1-216 "Select chain") | [heavy
+chain](cxcmd:sequence chain #1/A#1/C#1/H "Show sequence")  
+[B](cxcmd:select /B:1-213 "Select chain") [D](cxcmd:select /D:1-213 "Select
+chain") [L](cxcmd:select /L:1-213 "Select chain") | [light
+chain](cxcmd:sequence chain #1/B#1/D#1/L "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6xun.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GOL](cxcmd:sel :GOL "select residue") —
+[glycerol](http://www.rcsb.org/ligand/GOL "show residue info") (glycerin;
+propane-1,2,3-triol)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[SIA](cxcmd:sel :SIA "select residue") — [N-acetyl-α-neuraminic
+acid](http://www.rcsb.org/ligand/SIA "show residue info") (N-acetylneuraminic
+acid; sialic acid; α-sialicacid; O-sialic acid)  
+  
+
+INFO:
+Executing: torsion /F:4@C2 /F:4@C1 /F:1@O4 /F:1@C4
+INFO:
+Torsion angle for atoms /F FUC 4 C2 C1 NAG 1 O4 C4 is 173.737°
+INFO:
+Executing: torsion /F:4@C1 /F:1@O4 /F:1@C4 /F:1@C5
+INFO:
+Torsion angle for atoms /F FUC 4 C1 NAG 1 O4 C4 C5 is -107.208°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6xun.pdb
+INFO:
+_6xun.pdb_ title:  
+ **AB 5B1 bound to CA19-9** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6xun.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:1-215 "Select chain") [C](cxcmd:select /C:1-215 "Select
+chain") [H](cxcmd:select /H:1-216 "Select chain") | [heavy
+chain](cxcmd:sequence chain #1/A#1/C#1/H "Show sequence")  
+[B](cxcmd:select /B:1-213 "Select chain") [D](cxcmd:select /D:1-213 "Select
+chain") [L](cxcmd:select /L:1-213 "Select chain") | [light
+chain](cxcmd:sequence chain #1/B#1/D#1/L "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6xun.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GOL](cxcmd:sel :GOL "select residue") —
+[glycerol](http://www.rcsb.org/ligand/GOL "show residue info") (glycerin;
+propane-1,2,3-triol)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[SIA](cxcmd:sel :SIA "select residue") — [N-acetyl-α-neuraminic
+acid](http://www.rcsb.org/ligand/SIA "show residue info") (N-acetylneuraminic
+acid; sialic acid; α-sialicacid; O-sialic acid)  
+  
+
+INFO:
+Executing: torsion /E:4@C2 /E:4@C1 /E:1@O4 /E:1@C4
+INFO:
+Torsion angle for atoms /E FUC 4 C2 C1 NAG 1 O4 C4 is 170.475°
+INFO:
+Executing: torsion /E:4@C1 /E:1@O4 /E:1@C4 /E:1@C5
+INFO:
+Torsion angle for atoms /E FUC 4 C1 NAG 1 O4 C4 C5 is -98.0132°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3asr.pdb
+INFO:
+_3asr.pdb_ title:  
+ **Crystal structure of P domain from norovirus FUNABASHI258 stain In the
+complex with lewis-A** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3asr.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:224-534 "Select chain") [B](cxcmd:select /B:230-531
+"Select chain") | [capsid protein](cxcmd:sequence chain #1/A#1/B "Show
+sequence") | [Q8JW44_9CALI](cxcmd:open Q8JW44 from uniprot "Show annotations")
+[221-541](cxcmd:select #1/A,B:221-541 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3asr.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NPO](cxcmd:sel :NPO "select residue") —
+[P-nitrophenol](http://www.rcsb.org/ligand/NPO "show residue info")  
+  
+
+INFO:
+Executing: torsion /D:3@C2 /D:3@C1 /D:1@O4 /D:1@C4
+INFO:
+Torsion angle for atoms /D FUC 3 C2 C1 NAG 1 O4 C4 is 169.42°
+INFO:
+Executing: torsion /D:3@C1 /D:1@O4 /D:1@C4 /D:1@C5
+INFO:
+Torsion angle for atoms /D FUC 3 C1 NAG 1 O4 C4 C5 is -102.692°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3asr.pdb
+INFO:
+_3asr.pdb_ title:  
+ **Crystal structure of P domain from norovirus FUNABASHI258 stain In the
+complex with lewis-A** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3asr.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:224-534 "Select chain") [B](cxcmd:select /B:230-531
+"Select chain") | [capsid protein](cxcmd:sequence chain #1/A#1/B "Show
+sequence") | [Q8JW44_9CALI](cxcmd:open Q8JW44 from uniprot "Show annotations")
+[221-541](cxcmd:select #1/A,B:221-541 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3asr.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NPO](cxcmd:sel :NPO "select residue") —
+[P-nitrophenol](http://www.rcsb.org/ligand/NPO "show residue info")  
+  
+
+INFO:
+Executing: torsion /C:3@C2 /C:3@C1 /C:1@O4 /C:1@C4
+INFO:
+Torsion angle for atoms /C FUC 3 C2 C1 NAG 1 O4 C4 is 164.772°
+INFO:
+Executing: torsion /C:3@C1 /C:1@O4 /C:1@C4 /C:1@C5
+INFO:
+Torsion angle for atoms /C FUC 3 C1 NAG 1 O4 C4 C5 is -101.257°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5f7m.pdb
+INFO:
+_5f7m.pdb_ title:  
+ **Blood group antigen binding adhesin baba of helicobacter pylori strain
+17875 In complex with blood group H lewis B hexasaccharide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5f7m.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:35-462 "Select chain") [B](cxcmd:select /B:35-463 "Select
+chain") | [adhesin binding fucosylated histo-blood group
+antigen](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[O52269_HELPX](cxcmd:open O52269 from uniprot "Show annotations")
+[25-460](cxcmd:select #1/A,B:25-460 "Select sequence")  
+[C](cxcmd:select /C:3-115 "Select chain") [D](cxcmd:select /D:3-116 "Select
+chain") | [nanobody Nb-ER19](cxcmd:sequence chain #1/C#1/D "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 5f7m.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /E:6@C2 /E:6@C1 /E:3@O4 /E:3@C4
+INFO:
+Torsion angle for atoms /E FUC 6 C2 C1 NAG 3 O4 C4 is 152.578°
+INFO:
+Executing: torsion /E:6@C1 /E:3@O4 /E:3@C4 /E:3@C5
+INFO:
+Torsion angle for atoms /E FUC 6 C1 NAG 3 O4 C4 C5 is -96.0845°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5f7m.pdb
+INFO:
+_5f7m.pdb_ title:  
+ **Blood group antigen binding adhesin baba of helicobacter pylori strain
+17875 In complex with blood group H lewis B hexasaccharide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5f7m.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:35-462 "Select chain") [B](cxcmd:select /B:35-463 "Select
+chain") | [adhesin binding fucosylated histo-blood group
+antigen](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[O52269_HELPX](cxcmd:open O52269 from uniprot "Show annotations")
+[25-460](cxcmd:select #1/A,B:25-460 "Select sequence")  
+[C](cxcmd:select /C:3-115 "Select chain") [D](cxcmd:select /D:3-116 "Select
+chain") | [nanobody Nb-ER19](cxcmd:sequence chain #1/C#1/D "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 5f7m.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /F:6@C2 /F:6@C1 /F:3@O4 /F:3@C4
+INFO:
+Torsion angle for atoms /F FUC 6 C2 C1 NAG 3 O4 C4 is 164.779°
+INFO:
+Executing: torsion /F:6@C1 /F:3@O4 /F:3@C4 /F:3@C5
+INFO:
+Torsion angle for atoms /F FUC 6 C1 NAG 3 O4 C4 C5 is -99.1703°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3sej.pdb
+INFO:
+_3sej.pdb_ title:  
+ **Structural characterization of A gii.4 2004 norovirus variant (TCH05) bound
+to secretor lewis HBGA (leb)** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3sej.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:223-531 "Select chain") [B](cxcmd:select /B:224-530
+"Select chain") [C](cxcmd:select /C:221-531 "Select chain") [D](cxcmd:select
+/D:225-531 "Select chain") [E](cxcmd:select /E:222-530 "Select chain")
+[F](cxcmd:select /F:224-531 "Select chain") [G](cxcmd:select /G:224-531
+"Select chain") [H](cxcmd:select /H:221-531 "Select chain") [I](cxcmd:select
+/I:221-530 "Select chain") [J](cxcmd:select /J:225-531 "Select chain") |
+[capsid](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F#1/G#1/H#1/I#1/J "Show
+sequence") | [Q5EGK8_9CALI](cxcmd:open Q5EGK8 from uniprot "Show annotations")
+[221-531](cxcmd:select #1/A,B,C,D,E,F,G,H,I,J:221-531 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3sej.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /K:6@C2 /K:6@C1 /K:3@O4 /K:3@C4
+INFO:
+Torsion angle for atoms /K FUC 6 C2 C1 NAG 3 O4 C4 is 164.65°
+INFO:
+Executing: torsion /K:6@C1 /K:3@O4 /K:3@C4 /K:3@C5
+INFO:
+Torsion angle for atoms /K FUC 6 C1 NAG 3 O4 C4 C5 is -97.6427°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3sej.pdb
+INFO:
+_3sej.pdb_ title:  
+ **Structural characterization of A gii.4 2004 norovirus variant (TCH05) bound
+to secretor lewis HBGA (leb)** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3sej.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:223-531 "Select chain") [B](cxcmd:select /B:224-530
+"Select chain") [C](cxcmd:select /C:221-531 "Select chain") [D](cxcmd:select
+/D:225-531 "Select chain") [E](cxcmd:select /E:222-530 "Select chain")
+[F](cxcmd:select /F:224-531 "Select chain") [G](cxcmd:select /G:224-531
+"Select chain") [H](cxcmd:select /H:221-531 "Select chain") [I](cxcmd:select
+/I:221-530 "Select chain") [J](cxcmd:select /J:225-531 "Select chain") |
+[capsid](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F#1/G#1/H#1/I#1/J "Show
+sequence") | [Q5EGK8_9CALI](cxcmd:open Q5EGK8 from uniprot "Show annotations")
+[221-531](cxcmd:select #1/A,B,C,D,E,F,G,H,I,J:221-531 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3sej.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /Q:6@C2 /Q:6@C1 /Q:3@O4 /Q:3@C4
+INFO:
+Torsion angle for atoms /Q FUC 6 C2 C1 NAG 3 O4 C4 is 174.467°
+INFO:
+Executing: torsion /Q:6@C1 /Q:3@O4 /Q:3@C4 /Q:3@C5
+INFO:
+Torsion angle for atoms /Q FUC 6 C1 NAG 3 O4 C4 C5 is -109.35°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3sej.pdb
+INFO:
+_3sej.pdb_ title:  
+ **Structural characterization of A gii.4 2004 norovirus variant (TCH05) bound
+to secretor lewis HBGA (leb)** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3sej.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:223-531 "Select chain") [B](cxcmd:select /B:224-530
+"Select chain") [C](cxcmd:select /C:221-531 "Select chain") [D](cxcmd:select
+/D:225-531 "Select chain") [E](cxcmd:select /E:222-530 "Select chain")
+[F](cxcmd:select /F:224-531 "Select chain") [G](cxcmd:select /G:224-531
+"Select chain") [H](cxcmd:select /H:221-531 "Select chain") [I](cxcmd:select
+/I:221-530 "Select chain") [J](cxcmd:select /J:225-531 "Select chain") |
+[capsid](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F#1/G#1/H#1/I#1/J "Show
+sequence") | [Q5EGK8_9CALI](cxcmd:open Q5EGK8 from uniprot "Show annotations")
+[221-531](cxcmd:select #1/A,B,C,D,E,F,G,H,I,J:221-531 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3sej.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /M:6@C2 /M:6@C1 /M:3@O4 /M:3@C4
+INFO:
+Torsion angle for atoms /M FUC 6 C2 C1 NAG 3 O4 C4 is 156.732°
+INFO:
+Executing: torsion /M:6@C1 /M:3@O4 /M:3@C4 /M:3@C5
+INFO:
+Torsion angle for atoms /M FUC 6 C1 NAG 3 O4 C4 C5 is -94.9565°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3sej.pdb
+INFO:
+_3sej.pdb_ title:  
+ **Structural characterization of A gii.4 2004 norovirus variant (TCH05) bound
+to secretor lewis HBGA (leb)** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3sej.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:223-531 "Select chain") [B](cxcmd:select /B:224-530
+"Select chain") [C](cxcmd:select /C:221-531 "Select chain") [D](cxcmd:select
+/D:225-531 "Select chain") [E](cxcmd:select /E:222-530 "Select chain")
+[F](cxcmd:select /F:224-531 "Select chain") [G](cxcmd:select /G:224-531
+"Select chain") [H](cxcmd:select /H:221-531 "Select chain") [I](cxcmd:select
+/I:221-530 "Select chain") [J](cxcmd:select /J:225-531 "Select chain") |
+[capsid](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F#1/G#1/H#1/I#1/J "Show
+sequence") | [Q5EGK8_9CALI](cxcmd:open Q5EGK8 from uniprot "Show annotations")
+[221-531](cxcmd:select #1/A,B,C,D,E,F,G,H,I,J:221-531 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3sej.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /L:6@C2 /L:6@C1 /L:3@O4 /L:3@C4
+INFO:
+Torsion angle for atoms /L FUC 6 C2 C1 NAG 3 O4 C4 is 149.053°
+INFO:
+Executing: torsion /L:6@C1 /L:3@O4 /L:3@C4 /L:3@C5
+INFO:
+Torsion angle for atoms /L FUC 6 C1 NAG 3 O4 C4 C5 is -79.0819°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3sej.pdb
+INFO:
+_3sej.pdb_ title:  
+ **Structural characterization of A gii.4 2004 norovirus variant (TCH05) bound
+to secretor lewis HBGA (leb)** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3sej.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:223-531 "Select chain") [B](cxcmd:select /B:224-530
+"Select chain") [C](cxcmd:select /C:221-531 "Select chain") [D](cxcmd:select
+/D:225-531 "Select chain") [E](cxcmd:select /E:222-530 "Select chain")
+[F](cxcmd:select /F:224-531 "Select chain") [G](cxcmd:select /G:224-531
+"Select chain") [H](cxcmd:select /H:221-531 "Select chain") [I](cxcmd:select
+/I:221-530 "Select chain") [J](cxcmd:select /J:225-531 "Select chain") |
+[capsid](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F#1/G#1/H#1/I#1/J "Show
+sequence") | [Q5EGK8_9CALI](cxcmd:open Q5EGK8 from uniprot "Show annotations")
+[221-531](cxcmd:select #1/A,B,C,D,E,F,G,H,I,J:221-531 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3sej.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /N:6@C2 /N:6@C1 /N:3@O4 /N:3@C4
+INFO:
+Torsion angle for atoms /N FUC 6 C2 C1 NAG 3 O4 C4 is 171.454°
+INFO:
+Executing: torsion /N:6@C1 /N:3@O4 /N:3@C4 /N:3@C5
+INFO:
+Torsion angle for atoms /N FUC 6 C1 NAG 3 O4 C4 C5 is -98.999°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3sej.pdb
+INFO:
+_3sej.pdb_ title:  
+ **Structural characterization of A gii.4 2004 norovirus variant (TCH05) bound
+to secretor lewis HBGA (leb)** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3sej.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:223-531 "Select chain") [B](cxcmd:select /B:224-530
+"Select chain") [C](cxcmd:select /C:221-531 "Select chain") [D](cxcmd:select
+/D:225-531 "Select chain") [E](cxcmd:select /E:222-530 "Select chain")
+[F](cxcmd:select /F:224-531 "Select chain") [G](cxcmd:select /G:224-531
+"Select chain") [H](cxcmd:select /H:221-531 "Select chain") [I](cxcmd:select
+/I:221-530 "Select chain") [J](cxcmd:select /J:225-531 "Select chain") |
+[capsid](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F#1/G#1/H#1/I#1/J "Show
+sequence") | [Q5EGK8_9CALI](cxcmd:open Q5EGK8 from uniprot "Show annotations")
+[221-531](cxcmd:select #1/A,B,C,D,E,F,G,H,I,J:221-531 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3sej.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /P:6@C2 /P:6@C1 /P:3@O4 /P:3@C4
+INFO:
+Torsion angle for atoms /P FUC 6 C2 C1 NAG 3 O4 C4 is -173.819°
+INFO:
+Executing: torsion /P:6@C1 /P:3@O4 /P:3@C4 /P:3@C5
+INFO:
+Torsion angle for atoms /P FUC 6 C1 NAG 3 O4 C4 C5 is -108.906°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3sej.pdb
+INFO:
+_3sej.pdb_ title:  
+ **Structural characterization of A gii.4 2004 norovirus variant (TCH05) bound
+to secretor lewis HBGA (leb)** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3sej.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:223-531 "Select chain") [B](cxcmd:select /B:224-530
+"Select chain") [C](cxcmd:select /C:221-531 "Select chain") [D](cxcmd:select
+/D:225-531 "Select chain") [E](cxcmd:select /E:222-530 "Select chain")
+[F](cxcmd:select /F:224-531 "Select chain") [G](cxcmd:select /G:224-531
+"Select chain") [H](cxcmd:select /H:221-531 "Select chain") [I](cxcmd:select
+/I:221-530 "Select chain") [J](cxcmd:select /J:225-531 "Select chain") |
+[capsid](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F#1/G#1/H#1/I#1/J "Show
+sequence") | [Q5EGK8_9CALI](cxcmd:open Q5EGK8 from uniprot "Show annotations")
+[221-531](cxcmd:select #1/A,B,C,D,E,F,G,H,I,J:221-531 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3sej.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /R:6@C2 /R:6@C1 /R:3@O4 /R:3@C4
+INFO:
+Torsion angle for atoms /R FUC 6 C2 C1 NAG 3 O4 C4 is -175.684°
+INFO:
+Executing: torsion /R:6@C1 /R:3@O4 /R:3@C4 /R:3@C5
+INFO:
+Torsion angle for atoms /R FUC 6 C1 NAG 3 O4 C4 C5 is -106.523°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3sej.pdb
+INFO:
+_3sej.pdb_ title:  
+ **Structural characterization of A gii.4 2004 norovirus variant (TCH05) bound
+to secretor lewis HBGA (leb)** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3sej.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:223-531 "Select chain") [B](cxcmd:select /B:224-530
+"Select chain") [C](cxcmd:select /C:221-531 "Select chain") [D](cxcmd:select
+/D:225-531 "Select chain") [E](cxcmd:select /E:222-530 "Select chain")
+[F](cxcmd:select /F:224-531 "Select chain") [G](cxcmd:select /G:224-531
+"Select chain") [H](cxcmd:select /H:221-531 "Select chain") [I](cxcmd:select
+/I:221-530 "Select chain") [J](cxcmd:select /J:225-531 "Select chain") |
+[capsid](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F#1/G#1/H#1/I#1/J "Show
+sequence") | [Q5EGK8_9CALI](cxcmd:open Q5EGK8 from uniprot "Show annotations")
+[221-531](cxcmd:select #1/A,B,C,D,E,F,G,H,I,J:221-531 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3sej.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /O:6@C2 /O:6@C1 /O:3@O4 /O:3@C4
+INFO:
+Torsion angle for atoms /O FUC 6 C2 C1 NAG 3 O4 C4 is 177.299°
+INFO:
+Executing: torsion /O:6@C1 /O:3@O4 /O:3@C4 /O:3@C5
+INFO:
+Torsion angle for atoms /O FUC 6 C1 NAG 3 O4 C4 C5 is -94.2572°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4zh7.pdb
+INFO:
+_4zh7.pdb_ title:  
+ **Structural basis of lewisb antigen binding by the helicobacter pylori
+adhesin baba** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 4zh7.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:27-528 "Select chain") | [blood group antibody binding
+adhesin](cxcmd:sequence chain #1/A "Show sequence") |
+[Q9ZKV2_HELPJ](cxcmd:open Q9ZKV2 from uniprot "Show annotations")
+[10-527](cxcmd:select #1/A:10-527 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4zh7.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /B:5@C2 /B:5@C1 /B:2@O4 /B:2@C4
+INFO:
+Torsion angle for atoms /B FUC 5 C2 C1 NAG 2 O4 C4 is 151.034°
+INFO:
+Executing: torsion /B:5@C1 /B:2@O4 /B:2@C4 /B:2@C5
+INFO:
+Torsion angle for atoms /B FUC 5 C1 NAG 2 O4 C4 C5 is -112.896°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/7khu.pdb
+INFO:
+_7khu.pdb_ title:  
+ **Crystal structure of the carbohydrate-binding domain VP8* of human P[4]
+rotavirus strain BM5265 In complex with lndfh I** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 7khu.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:2-159 "Select chain") [B](cxcmd:select /B:1-159 "Select
+chain") | [outer capsid protein VP4](cxcmd:sequence chain #1/A#1/B "Show
+sequence") | [E9BVI9_9REOV](cxcmd:open E9BVI9 from uniprot "Show annotations")
+[1-160](cxcmd:select #1/A,B:1-160 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 7khu.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /E:6@C2 /E:6@C1 /E:3@O4 /E:3@C4
+INFO:
+Torsion angle for atoms /E FUC 6 C2 C1 NAG 3 O4 C4 is 157.663°
+INFO:
+Executing: torsion /E:6@C1 /E:3@O4 /E:3@C4 /E:3@C5
+INFO:
+Torsion angle for atoms /E FUC 6 C1 NAG 3 O4 C4 C5 is -101.681°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/7khu.pdb
+INFO:
+_7khu.pdb_ title:  
+ **Crystal structure of the carbohydrate-binding domain VP8* of human P[4]
+rotavirus strain BM5265 In complex with lndfh I** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 7khu.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:2-159 "Select chain") [B](cxcmd:select /B:1-159 "Select
+chain") | [outer capsid protein VP4](cxcmd:sequence chain #1/A#1/B "Show
+sequence") | [E9BVI9_9REOV](cxcmd:open E9BVI9 from uniprot "Show annotations")
+[1-160](cxcmd:select #1/A,B:1-160 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 7khu.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /C:6@C2 /C:6@C1 /C:3@O4 /C:3@C4
+INFO:
+Torsion angle for atoms /C FUC 6 C2 C1 NAG 3 O4 C4 is 160.636°
+INFO:
+Executing: torsion /C:6@C1 /C:3@O4 /C:3@C4 /C:3@C5
+INFO:
+Torsion angle for atoms /C FUC 6 C1 NAG 3 O4 C4 C5 is -108.803°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3uet.pdb
+INFO:
+_3uet.pdb_ title:  
+ **Crystal structure of α-1,3/4-fucosidase from bifidobacterium longum subsp.
+Infantis D172A/E217A mutant complexed with lacto-N- fucopentaose II**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3uet.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:9-478 "Select chain") [B](cxcmd:select /B:9-478 "Select
+chain") | [α-1,3/4-fucosidase](cxcmd:sequence chain #1/A#1/B "Show sequence")
+| [B7GNN8_BIFLS](cxcmd:open B7GNN8 from uniprot "Show annotations")
+[1-478](cxcmd:select #1/A,B:1-478 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3uet.pdb #1  
+---  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /C:3@C2 /C:3@C1 /C:1@O4 /C:1@C4
+INFO:
+Torsion angle for atoms /C FUC 3 C2 C1 NAG 1 O4 C4 is 84.8459°
+INFO:
+Executing: torsion /C:3@C1 /C:1@O4 /C:1@C4 /C:1@C5
+INFO:
+Torsion angle for atoms /C FUC 3 C1 NAG 1 O4 C4 C5 is -139.553°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4opo.pdb
+INFO:
+_4opo.pdb_ title:  
+ **Crystal structure of P domain from norovirus strain SAGA4 In complex with
+HBGA type leb (tetraglycan)** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 4opo.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:222-530 "Select chain") [B](cxcmd:select /B:224-530
+"Select chain") | [VP1](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[B5BTT5_9CALI](cxcmd:open B5BTT5 from uniprot "Show annotations")
+[225-530](cxcmd:select #1/A,B:225-530 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4opo.pdb #1  
+---  
+[ACT](cxcmd:sel :ACT "select residue") — [acetate
+ion](http://www.rcsb.org/ligand/ACT "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /C:4@C2 /C:4@C1 /C:1@O4 /C:1@C4
+INFO:
+Torsion angle for atoms /C FUC 4 C2 C1 NAG 1 O4 C4 is 169.555°
+INFO:
+Executing: torsion /C:4@C1 /C:1@O4 /C:1@C4 /C:1@C5
+INFO:
+Torsion angle for atoms /C FUC 4 C1 NAG 1 O4 C4 C5 is -100.533°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4opo.pdb
+INFO:
+_4opo.pdb_ title:  
+ **Crystal structure of P domain from norovirus strain SAGA4 In complex with
+HBGA type leb (tetraglycan)** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 4opo.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:222-530 "Select chain") [B](cxcmd:select /B:224-530
+"Select chain") | [VP1](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[B5BTT5_9CALI](cxcmd:open B5BTT5 from uniprot "Show annotations")
+[225-530](cxcmd:select #1/A,B:225-530 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4opo.pdb #1  
+---  
+[ACT](cxcmd:sel :ACT "select residue") — [acetate
+ion](http://www.rcsb.org/ligand/ACT "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /D:4@C2 /D:4@C1 /D:1@O4 /D:1@C4
+INFO:
+Torsion angle for atoms /D FUC 4 C2 C1 NAG 1 O4 C4 is 168.167°
+INFO:
+Executing: torsion /D:4@C1 /D:1@O4 /D:1@C4 /D:1@C5
+INFO:
+Torsion angle for atoms /D FUC 4 C1 NAG 1 O4 C4 C5 is -96.7063°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5f7w.pdb
+INFO:
+_5f7w.pdb_ title:  
+ **Blood group antigen binding adhesin baba of helicobacter pylori strain
+17875 In complex with blood group B lewis B heptasaccharide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5f7w.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:35-462 "Select chain") [B](cxcmd:select /B:35-463 "Select
+chain") | [blood group antigen binding adhesin (BABA)](cxcmd:sequence chain
+#1/A#1/B "Show sequence") | [O52269_HELPX](cxcmd:open O52269 from uniprot
+"Show annotations") [25-460](cxcmd:select #1/A,B:25-460 "Select sequence")  
+[C](cxcmd:select /C:3-115 "Select chain") [D](cxcmd:select /D:3-116 "Select
+chain") | [nanobody Nb-ER19](cxcmd:sequence chain #1/C#1/D "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 5f7w.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /E:7@C2 /E:7@C1 /E:3@O4 /E:3@C4
+INFO:
+Torsion angle for atoms /E FUC 7 C2 C1 NAG 3 O4 C4 is 166.885°
+INFO:
+Executing: torsion /E:7@C1 /E:3@O4 /E:3@C4 /E:3@C5
+INFO:
+Torsion angle for atoms /E FUC 7 C1 NAG 3 O4 C4 C5 is -98.0137°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5f7w.pdb
+INFO:
+_5f7w.pdb_ title:  
+ **Blood group antigen binding adhesin baba of helicobacter pylori strain
+17875 In complex with blood group B lewis B heptasaccharide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5f7w.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:35-462 "Select chain") [B](cxcmd:select /B:35-463 "Select
+chain") | [blood group antigen binding adhesin (BABA)](cxcmd:sequence chain
+#1/A#1/B "Show sequence") | [O52269_HELPX](cxcmd:open O52269 from uniprot
+"Show annotations") [25-460](cxcmd:select #1/A,B:25-460 "Select sequence")  
+[C](cxcmd:select /C:3-115 "Select chain") [D](cxcmd:select /D:3-116 "Select
+chain") | [nanobody Nb-ER19](cxcmd:sequence chain #1/C#1/D "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 5f7w.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /F:7@C2 /F:7@C1 /F:3@O4 /F:3@C4
+INFO:
+Torsion angle for atoms /F FUC 7 C2 C1 NAG 3 O4 C4 is 151.307°
+INFO:
+Executing: torsion /F:7@C1 /F:3@O4 /F:3@C4 /F:3@C5
+INFO:
+Torsion angle for atoms /F FUC 7 C1 NAG 3 O4 C4 C5 is -96.0788°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4p3i.pdb
+INFO:
+_4p3i.pdb_ title:  
+ **Structure of the P domain from A gi.7 norovirus variant In complex with lea
+HBGA.** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 4p3i.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:231-525 "Select chain") [B](cxcmd:select /B:232-525
+"Select chain") [C](cxcmd:select /C:232-526 "Select chain") [D](cxcmd:select
+/D:232-526 "Select chain") | [P domain of VP1](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D "Show sequence") | [G8FL04_9CALI](cxcmd:open G8FL04 from
+uniprot "Show annotations") [226-526](cxcmd:select #1/A,B,C,D:226-526 "Select
+sequence")  
+  
+
+INFO:
+Non-standard residues in 4p3i.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /G:3@C2 /G:3@C1 /G:1@O4 /G:1@C4
+INFO:
+Torsion angle for atoms /G FUC 3 C2 C1 NAG 1 O4 C4 is -171.143°
+INFO:
+Executing: torsion /G:3@C1 /G:1@O4 /G:1@C4 /G:1@C5
+INFO:
+Torsion angle for atoms /G FUC 3 C1 NAG 1 O4 C4 C5 is -102.325°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4p3i.pdb
+INFO:
+_4p3i.pdb_ title:  
+ **Structure of the P domain from A gi.7 norovirus variant In complex with lea
+HBGA.** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 4p3i.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:231-525 "Select chain") [B](cxcmd:select /B:232-525
+"Select chain") [C](cxcmd:select /C:232-526 "Select chain") [D](cxcmd:select
+/D:232-526 "Select chain") | [P domain of VP1](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D "Show sequence") | [G8FL04_9CALI](cxcmd:open G8FL04 from
+uniprot "Show annotations") [226-526](cxcmd:select #1/A,B,C,D:226-526 "Select
+sequence")  
+  
+
+INFO:
+Non-standard residues in 4p3i.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /F:3@C2 /F:3@C1 /F:1@O4 /F:1@C4
+INFO:
+Torsion angle for atoms /F FUC 3 C2 C1 NAG 1 O4 C4 is 172.318°
+INFO:
+Executing: torsion /F:3@C1 /F:1@O4 /F:1@C4 /F:1@C5
+INFO:
+Torsion angle for atoms /F FUC 3 C1 NAG 1 O4 C4 C5 is -108.485°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4p3i.pdb
+INFO:
+_4p3i.pdb_ title:  
+ **Structure of the P domain from A gi.7 norovirus variant In complex with lea
+HBGA.** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 4p3i.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:231-525 "Select chain") [B](cxcmd:select /B:232-525
+"Select chain") [C](cxcmd:select /C:232-526 "Select chain") [D](cxcmd:select
+/D:232-526 "Select chain") | [P domain of VP1](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D "Show sequence") | [G8FL04_9CALI](cxcmd:open G8FL04 from
+uniprot "Show annotations") [226-526](cxcmd:select #1/A,B,C,D:226-526 "Select
+sequence")  
+  
+
+INFO:
+Non-standard residues in 4p3i.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /E:3@C2 /E:3@C1 /E:1@O4 /E:1@C4
+INFO:
+Torsion angle for atoms /E FUC 3 C2 C1 NAG 1 O4 C4 is 164.488°
+INFO:
+Executing: torsion /E:3@C1 /E:1@O4 /E:1@C4 /E:1@C5
+INFO:
+Torsion angle for atoms /E FUC 3 C1 NAG 1 O4 C4 C5 is -93.8909°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4p3i.pdb
+INFO:
+_4p3i.pdb_ title:  
+ **Structure of the P domain from A gi.7 norovirus variant In complex with lea
+HBGA.** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 4p3i.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:231-525 "Select chain") [B](cxcmd:select /B:232-525
+"Select chain") [C](cxcmd:select /C:232-526 "Select chain") [D](cxcmd:select
+/D:232-526 "Select chain") | [P domain of VP1](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D "Show sequence") | [G8FL04_9CALI](cxcmd:open G8FL04 from
+uniprot "Show annotations") [226-526](cxcmd:select #1/A,B,C,D:226-526 "Select
+sequence")  
+  
+
+INFO:
+Non-standard residues in 4p3i.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /H:3@C2 /H:3@C1 /H:1@O4 /H:1@C4
+INFO:
+Torsion angle for atoms /H FUC 3 C2 C1 NAG 1 O4 C4 is 162.379°
+INFO:
+Executing: torsion /H:3@C1 /H:1@O4 /H:1@C4 /H:1@C5
+INFO:
+Torsion angle for atoms /H FUC 3 C1 NAG 1 O4 C4 C5 is -101.999°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6or4.pdb
+INFO:
+_6or4.pdb_ title:  
+ **Crystal structure of SPGH29** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6or4.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:3-451 "Select chain") [B](cxcmd:select /B:3-451 "Select
+chain") | [SPGH29](cxcmd:sequence chain #1/A#1/B "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6or4.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /C:3@C2 /C:3@C1 /C:1@O4 /C:1@C4
+INFO:
+Torsion angle for atoms /C FUC 3 C2 C1 NAG 1 O4 C4 is 86.8544°
+INFO:
+Executing: torsion /C:3@C1 /C:1@O4 /C:1@C4 /C:1@C5
+INFO:
+Torsion angle for atoms /C FUC 3 C1 NAG 1 O4 C4 C5 is -147.098°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6or4.pdb
+INFO:
+_6or4.pdb_ title:  
+ **Crystal structure of SPGH29** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6or4.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:3-451 "Select chain") [B](cxcmd:select /B:3-451 "Select
+chain") | [SPGH29](cxcmd:sequence chain #1/A#1/B "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6or4.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /D:3@C2 /D:3@C1 /D:1@O4 /D:1@C4
+INFO:
+Torsion angle for atoms /D FUC 3 C2 C1 NAG 1 O4 C4 is 79.2184°
+INFO:
+Executing: torsion /D:3@C1 /D:1@O4 /D:1@C4 /D:1@C5
+INFO:
+Torsion angle for atoms /D FUC 3 C1 NAG 1 O4 C4 C5 is -141.315°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3ast.pdb
+INFO:
+_3ast.pdb_ title:  
+ **Crystal structure of P domain Q389N mutant from norovirus FUNABASHI258
+stain In the complex with lewis-B** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3ast.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:224-534 "Select chain") [B](cxcmd:select /B:230-531
+"Select chain") | [capsid protein](cxcmd:sequence chain #1/A#1/B "Show
+sequence") | [Q8JW44_9CALI](cxcmd:open Q8JW44 from uniprot "Show annotations")
+[221-541](cxcmd:select #1/A,B:221-541 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3ast.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NPO](cxcmd:sel :NPO "select residue") —
+[P-nitrophenol](http://www.rcsb.org/ligand/NPO "show residue info")  
+  
+
+INFO:
+Executing: torsion /C:4@C2 /C:4@C1 /C:1@O4 /C:1@C4
+INFO:
+Torsion angle for atoms /C FUC 4 C2 C1 NAG 1 O4 C4 is 169.614°
+INFO:
+Executing: torsion /C:4@C1 /C:1@O4 /C:1@C4 /C:1@C5
+INFO:
+Torsion angle for atoms /C FUC 4 C1 NAG 1 O4 C4 C5 is -99.6982°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3ast.pdb
+INFO:
+_3ast.pdb_ title:  
+ **Crystal structure of P domain Q389N mutant from norovirus FUNABASHI258
+stain In the complex with lewis-B** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3ast.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:224-534 "Select chain") [B](cxcmd:select /B:230-531
+"Select chain") | [capsid protein](cxcmd:sequence chain #1/A#1/B "Show
+sequence") | [Q8JW44_9CALI](cxcmd:open Q8JW44 from uniprot "Show annotations")
+[221-541](cxcmd:select #1/A,B:221-541 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3ast.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NPO](cxcmd:sel :NPO "select residue") —
+[P-nitrophenol](http://www.rcsb.org/ligand/NPO "show residue info")  
+  
+
+INFO:
+Executing: torsion /D:4@C2 /D:4@C1 /D:1@O4 /D:1@C4
+INFO:
+Torsion angle for atoms /D FUC 4 C2 C1 NAG 1 O4 C4 is 167.832°
+INFO:
+Executing: torsion /D:4@C1 /D:1@O4 /D:1@C4 /D:1@C5
+INFO:
+Torsion angle for atoms /D FUC 4 C1 NAG 1 O4 C4 C5 is -102.468°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6xuk.pdb
+INFO:
+_6xuk.pdb_ title:  
+ **Ablift design 15 of ab 1116NS19.9** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6xuk.pdb #1  
+---  
+Chain | Description  
+[H](cxcmd:select /H:1-210 "Select chain") | [heavy chain](cxcmd:sequence chain
+#1/H "Show sequence")  
+[L](cxcmd:select /L:1-214 "Select chain") | [light chain](cxcmd:sequence chain
+#1/L "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6xuk.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GOL](cxcmd:sel :GOL "select residue") —
+[glycerol](http://www.rcsb.org/ligand/GOL "show residue info") (glycerin;
+propane-1,2,3-triol)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[SIA](cxcmd:sel :SIA "select residue") — [N-acetyl-α-neuraminic
+acid](http://www.rcsb.org/ligand/SIA "show residue info") (N-acetylneuraminic
+acid; sialic acid; α-sialicacid; O-sialic acid)  
+  
+
+INFO:
+Executing: torsion /A:4@C2 /A:4@C1 /A:1@O4 /A:1@C4
+INFO:
+Torsion angle for atoms /A FUC 4 C2 C1 NAG 1 O4 C4 is 168.941°
+INFO:
+Executing: torsion /A:4@C1 /A:1@O4 /A:1@C4 /A:1@C5
+INFO:
+Torsion angle for atoms /A FUC 4 C1 NAG 1 O4 C4 C5 is -100.451°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/7l64.pdb
+INFO:
+_7l64.pdb_ title:  
+ **C-type carbohydrate-recognition domain 4 of the mannose receptor complexed
+with lewis-A** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 7l64.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:640-761 "Select chain") | [macrophage mannose receptor
+1](cxcmd:sequence chain #1/A "Show sequence") | [MRC1_HUMAN](cxcmd:open P22897
+from uniprot "Show annotations") [628-761](cxcmd:select #1/A:628-761 "Select
+sequence")  
+  
+
+INFO:
+Non-standard residues in 7l64.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /B:3@C2 /B:3@C1 /B:1@O4 /B:1@C4
+INFO:
+Torsion angle for atoms /B FUC 3 C2 C1 NAG 1 O4 C4 is 168.428°
+INFO:
+Executing: torsion /B:3@C1 /B:1@O4 /B:1@C4 /B:1@C5
+INFO:
+Torsion angle for atoms /B FUC 3 C1 NAG 1 O4 C4 C5 is -102.884°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5f93.pdb
+INFO:
+_5f93.pdb_ title:  
+ **Blood group antigen binding adhesin baba of helicobacter pylori strain A730
+In complex with blood group H lewis B hexasaccharide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5f93.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:32-467 "Select chain") [B](cxcmd:select /B:32-466 "Select
+chain") [E](cxcmd:select /E:32-466 "Select chain") [G](cxcmd:select /G:32-466
+"Select chain") | [adhesin binding fucosylated histo-blood group antigen,
+adhesin,adhesin binding fucosylated histo-blood group antigen](cxcmd:sequence
+chain #1/A#1/B#1/E#1/G "Show sequence") | [O52269_HELPX](cxcmd:open O52269
+from uniprot "Show annotations") [25-180](cxcmd:select #1/A,B,E,G:25-180
+"Select sequence") [258-463](cxcmd:select #1/A,B,E,G:258-463 "Select
+sequence"), [Q6DSX7_HELPX](cxcmd:open Q6DSX7 from uniprot "Show annotations")
+[181-257](cxcmd:select #1/A,B,E,G:181-257 "Select sequence")  
+[C](cxcmd:select /C:3-116 "Select chain") [D](cxcmd:select /D:3-116 "Select
+chain") [F](cxcmd:select /F:3-116 "Select chain") [H](cxcmd:select /H:3-116
+"Select chain") | [nanobody Nb-ER19](cxcmd:sequence chain #1/C#1/D#1/F#1/H
+"Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 5f93.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /J:6@C2 /J:6@C1 /J:3@O4 /J:3@C4
+INFO:
+Torsion angle for atoms /J FUC 6 C2 C1 NAG 3 O4 C4 is 155.803°
+INFO:
+Executing: torsion /J:6@C1 /J:3@O4 /J:3@C4 /J:3@C5
+INFO:
+Torsion angle for atoms /J FUC 6 C1 NAG 3 O4 C4 C5 is -101.91°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5f93.pdb
+INFO:
+_5f93.pdb_ title:  
+ **Blood group antigen binding adhesin baba of helicobacter pylori strain A730
+In complex with blood group H lewis B hexasaccharide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5f93.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:32-467 "Select chain") [B](cxcmd:select /B:32-466 "Select
+chain") [E](cxcmd:select /E:32-466 "Select chain") [G](cxcmd:select /G:32-466
+"Select chain") | [adhesin binding fucosylated histo-blood group antigen,
+adhesin,adhesin binding fucosylated histo-blood group antigen](cxcmd:sequence
+chain #1/A#1/B#1/E#1/G "Show sequence") | [O52269_HELPX](cxcmd:open O52269
+from uniprot "Show annotations") [25-180](cxcmd:select #1/A,B,E,G:25-180
+"Select sequence") [258-463](cxcmd:select #1/A,B,E,G:258-463 "Select
+sequence"), [Q6DSX7_HELPX](cxcmd:open Q6DSX7 from uniprot "Show annotations")
+[181-257](cxcmd:select #1/A,B,E,G:181-257 "Select sequence")  
+[C](cxcmd:select /C:3-116 "Select chain") [D](cxcmd:select /D:3-116 "Select
+chain") [F](cxcmd:select /F:3-116 "Select chain") [H](cxcmd:select /H:3-116
+"Select chain") | [nanobody Nb-ER19](cxcmd:sequence chain #1/C#1/D#1/F#1/H
+"Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 5f93.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /L:6@C2 /L:6@C1 /L:3@O4 /L:3@C4
+INFO:
+Torsion angle for atoms /L FUC 6 C2 C1 NAG 3 O4 C4 is 154.47°
+INFO:
+Executing: torsion /L:6@C1 /L:3@O4 /L:3@C4 /L:3@C5
+INFO:
+Torsion angle for atoms /L FUC 6 C1 NAG 3 O4 C4 C5 is -105.642°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5f93.pdb
+INFO:
+_5f93.pdb_ title:  
+ **Blood group antigen binding adhesin baba of helicobacter pylori strain A730
+In complex with blood group H lewis B hexasaccharide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5f93.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:32-467 "Select chain") [B](cxcmd:select /B:32-466 "Select
+chain") [E](cxcmd:select /E:32-466 "Select chain") [G](cxcmd:select /G:32-466
+"Select chain") | [adhesin binding fucosylated histo-blood group antigen,
+adhesin,adhesin binding fucosylated histo-blood group antigen](cxcmd:sequence
+chain #1/A#1/B#1/E#1/G "Show sequence") | [O52269_HELPX](cxcmd:open O52269
+from uniprot "Show annotations") [25-180](cxcmd:select #1/A,B,E,G:25-180
+"Select sequence") [258-463](cxcmd:select #1/A,B,E,G:258-463 "Select
+sequence"), [Q6DSX7_HELPX](cxcmd:open Q6DSX7 from uniprot "Show annotations")
+[181-257](cxcmd:select #1/A,B,E,G:181-257 "Select sequence")  
+[C](cxcmd:select /C:3-116 "Select chain") [D](cxcmd:select /D:3-116 "Select
+chain") [F](cxcmd:select /F:3-116 "Select chain") [H](cxcmd:select /H:3-116
+"Select chain") | [nanobody Nb-ER19](cxcmd:sequence chain #1/C#1/D#1/F#1/H
+"Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 5f93.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /I:6@C2 /I:6@C1 /I:3@O4 /I:3@C4
+INFO:
+Torsion angle for atoms /I FUC 6 C2 C1 NAG 3 O4 C4 is 149.488°
+INFO:
+Executing: torsion /I:6@C1 /I:3@O4 /I:3@C4 /I:3@C5
+INFO:
+Torsion angle for atoms /I FUC 6 C1 NAG 3 O4 C4 C5 is -106.272°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5f93.pdb
+INFO:
+_5f93.pdb_ title:  
+ **Blood group antigen binding adhesin baba of helicobacter pylori strain A730
+In complex with blood group H lewis B hexasaccharide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5f93.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:32-467 "Select chain") [B](cxcmd:select /B:32-466 "Select
+chain") [E](cxcmd:select /E:32-466 "Select chain") [G](cxcmd:select /G:32-466
+"Select chain") | [adhesin binding fucosylated histo-blood group antigen,
+adhesin,adhesin binding fucosylated histo-blood group antigen](cxcmd:sequence
+chain #1/A#1/B#1/E#1/G "Show sequence") | [O52269_HELPX](cxcmd:open O52269
+from uniprot "Show annotations") [25-180](cxcmd:select #1/A,B,E,G:25-180
+"Select sequence") [258-463](cxcmd:select #1/A,B,E,G:258-463 "Select
+sequence"), [Q6DSX7_HELPX](cxcmd:open Q6DSX7 from uniprot "Show annotations")
+[181-257](cxcmd:select #1/A,B,E,G:181-257 "Select sequence")  
+[C](cxcmd:select /C:3-116 "Select chain") [D](cxcmd:select /D:3-116 "Select
+chain") [F](cxcmd:select /F:3-116 "Select chain") [H](cxcmd:select /H:3-116
+"Select chain") | [nanobody Nb-ER19](cxcmd:sequence chain #1/C#1/D#1/F#1/H
+"Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 5f93.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /K:6@C2 /K:6@C1 /K:3@O4 /K:3@C4
+INFO:
+Torsion angle for atoms /K FUC 6 C2 C1 NAG 3 O4 C4 is 161.392°
+INFO:
+Executing: torsion /K:6@C1 /K:3@O4 /K:3@C4 /K:3@C5
+INFO:
+Torsion angle for atoms /K FUC 6 C1 NAG 3 O4 C4 C5 is -100.853°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6l6r.pdb
+INFO:
+_6l6r.pdb_ title:  
+ **Crystal structure of LRP6 E1E2-sost complex** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 6l6r.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:19-630 "Select chain") [B](cxcmd:select /B:20-631 "Select
+chain") | [LRP-6](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[LRP6_HUMAN](cxcmd:open O75581 from uniprot "Show annotations")
+[21-630](cxcmd:select #1/A,B:21-630 "Select sequence")  
+[C](cxcmd:select /C:78-177 "Select chain") [D](cxcmd:select /D:78-177 "Select
+chain") | [sclerostin](cxcmd:sequence chain #1/C#1/D "Show sequence") |
+[SOST_HUMAN](cxcmd:open Q9BQB4 from uniprot "Show annotations")
+[24-177](cxcmd:select #1/C,D:24-177 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 6l6r.pdb #1  
+---  
+[ACT](cxcmd:sel :ACT "select residue") — [acetate
+ion](http://www.rcsb.org/ligand/ACT "show residue info")  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /H:2@C2 /H:2@C1 /H:1@O4 /H:1@C4
+INFO:
+Torsion angle for atoms /H FUC 2 C2 C1 NAG 1 O4 C4 is 156.87°
+INFO:
+Executing: torsion /H:2@C1 /H:1@O4 /H:1@C4 /H:1@C5
+INFO:
+Torsion angle for atoms /H FUC 2 C1 NAG 1 O4 C4 C5 is -129.323°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6l6r.pdb
+INFO:
+_6l6r.pdb_ title:  
+ **Crystal structure of LRP6 E1E2-sost complex** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 6l6r.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:19-630 "Select chain") [B](cxcmd:select /B:20-631 "Select
+chain") | [LRP-6](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[LRP6_HUMAN](cxcmd:open O75581 from uniprot "Show annotations")
+[21-630](cxcmd:select #1/A,B:21-630 "Select sequence")  
+[C](cxcmd:select /C:78-177 "Select chain") [D](cxcmd:select /D:78-177 "Select
+chain") | [sclerostin](cxcmd:sequence chain #1/C#1/D "Show sequence") |
+[SOST_HUMAN](cxcmd:open Q9BQB4 from uniprot "Show annotations")
+[24-177](cxcmd:select #1/C,D:24-177 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 6l6r.pdb #1  
+---  
+[ACT](cxcmd:sel :ACT "select residue") — [acetate
+ion](http://www.rcsb.org/ligand/ACT "show residue info")  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /H:3@C2 /H:3@C1 /H:1@O4 /H:1@C4
+INFO:
+Torsion angle for atoms /H FUC 3 C2 C1 NAG 1 O4 C4 is -110.343°
+INFO:
+Executing: torsion /H:3@C1 /H:1@O4 /H:1@C4 /H:1@C5
+INFO:
+Torsion angle for atoms /H FUC 3 C1 NAG 1 O4 C4 C5 is -40.3588°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6l6r.pdb
+INFO:
+_6l6r.pdb_ title:  
+ **Crystal structure of LRP6 E1E2-sost complex** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 6l6r.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:19-630 "Select chain") [B](cxcmd:select /B:20-631 "Select
+chain") | [LRP-6](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[LRP6_HUMAN](cxcmd:open O75581 from uniprot "Show annotations")
+[21-630](cxcmd:select #1/A,B:21-630 "Select sequence")  
+[C](cxcmd:select /C:78-177 "Select chain") [D](cxcmd:select /D:78-177 "Select
+chain") | [sclerostin](cxcmd:sequence chain #1/C#1/D "Show sequence") |
+[SOST_HUMAN](cxcmd:open Q9BQB4 from uniprot "Show annotations")
+[24-177](cxcmd:select #1/C,D:24-177 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 6l6r.pdb #1  
+---  
+[ACT](cxcmd:sel :ACT "select residue") — [acetate
+ion](http://www.rcsb.org/ligand/ACT "show residue info")  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /F:2@C2 /F:2@C1 /F:1@O4 /F:1@C4
+INFO:
+Torsion angle for atoms /F FUC 2 C2 C1 NAG 1 O4 C4 is 135.814°
+INFO:
+Executing: torsion /F:2@C1 /F:1@O4 /F:1@C4 /F:1@C5
+INFO:
+Torsion angle for atoms /F FUC 2 C1 NAG 1 O4 C4 C5 is -137.084°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6l6r.pdb
+INFO:
+_6l6r.pdb_ title:  
+ **Crystal structure of LRP6 E1E2-sost complex** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 6l6r.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:19-630 "Select chain") [B](cxcmd:select /B:20-631 "Select
+chain") | [LRP-6](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[LRP6_HUMAN](cxcmd:open O75581 from uniprot "Show annotations")
+[21-630](cxcmd:select #1/A,B:21-630 "Select sequence")  
+[C](cxcmd:select /C:78-177 "Select chain") [D](cxcmd:select /D:78-177 "Select
+chain") | [sclerostin](cxcmd:sequence chain #1/C#1/D "Show sequence") |
+[SOST_HUMAN](cxcmd:open Q9BQB4 from uniprot "Show annotations")
+[24-177](cxcmd:select #1/C,D:24-177 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 6l6r.pdb #1  
+---  
+[ACT](cxcmd:sel :ACT "select residue") — [acetate
+ion](http://www.rcsb.org/ligand/ACT "show residue info")  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /F:3@C2 /F:3@C1 /F:1@O4 /F:1@C4
+INFO:
+Torsion angle for atoms /F FUC 3 C2 C1 NAG 1 O4 C4 is -100.009°
+INFO:
+Executing: torsion /F:3@C1 /F:1@O4 /F:1@C4 /F:1@C5
+INFO:
+Torsion angle for atoms /F FUC 3 C1 NAG 1 O4 C4 C5 is -54.0275°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/7jhz.pdb
+INFO:
+_7jhz.pdb_ title:  
+ **Crystal structure of the carbohydrate-binding domain VP8* of human P[8]
+rotavirus strain BM13851 In complex with lndfh I** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 7jhz.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:2-159 "Select chain") [B](cxcmd:select /B:4-159 "Select
+chain") [C](cxcmd:select /C:3-159 "Select chain") | [outer capsid protein
+VP4](cxcmd:sequence chain #1/A#1/B#1/C "Show sequence") |
+[M4VPJ0_9REOV](cxcmd:open M4VPJ0 from uniprot "Show annotations")
+[1-160](cxcmd:select #1/A,B,C:1-160 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 7jhz.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GOL](cxcmd:sel :GOL "select residue") —
+[glycerol](http://www.rcsb.org/ligand/GOL "show residue info") (glycerin;
+propane-1,2,3-triol)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /F:6@C2 /F:6@C1 /F:3@O4 /F:3@C4
+INFO:
+Torsion angle for atoms /F FUC 6 C2 C1 NAG 3 O4 C4 is 129.258°
+INFO:
+Executing: torsion /F:6@C1 /F:3@O4 /F:3@C4 /F:3@C5
+INFO:
+Torsion angle for atoms /F FUC 6 C1 NAG 3 O4 C4 C5 is 64.8463°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/7jhz.pdb
+INFO:
+_7jhz.pdb_ title:  
+ **Crystal structure of the carbohydrate-binding domain VP8* of human P[8]
+rotavirus strain BM13851 In complex with lndfh I** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 7jhz.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:2-159 "Select chain") [B](cxcmd:select /B:4-159 "Select
+chain") [C](cxcmd:select /C:3-159 "Select chain") | [outer capsid protein
+VP4](cxcmd:sequence chain #1/A#1/B#1/C "Show sequence") |
+[M4VPJ0_9REOV](cxcmd:open M4VPJ0 from uniprot "Show annotations")
+[1-160](cxcmd:select #1/A,B,C:1-160 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 7jhz.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GOL](cxcmd:sel :GOL "select residue") —
+[glycerol](http://www.rcsb.org/ligand/GOL "show residue info") (glycerin;
+propane-1,2,3-triol)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /E:5@C2 /E:5@C1 /E:2@O4 /E:2@C4
+INFO:
+Torsion angle for atoms /E FUC 5 C2 C1 NAG 2 O4 C4 is 153.713°
+INFO:
+Executing: torsion /E:5@C1 /E:2@O4 /E:2@C4 /E:2@C5
+INFO:
+Torsion angle for atoms /E FUC 5 C1 NAG 2 O4 C4 C5 is -99.8078°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5f7n.pdb
+INFO:
+_5f7n.pdb_ title:  
+ **Blood group antigen binding adhesin baba of helicobacter pylori strain
+17875 In complex with blood group A lewis B pentasaccharide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5f7n.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:35-462 "Select chain") [B](cxcmd:select /B:34-462 "Select
+chain") | [adhesin binding fucosylated histo-blood group
+antigen](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[O52269_HELPX](cxcmd:open O52269 from uniprot "Show annotations")
+[25-460](cxcmd:select #1/A,B:25-460 "Select sequence")  
+[C](cxcmd:select /C:3-115 "Select chain") [D](cxcmd:select /D:3-117 "Select
+chain") | [nanobody Nb-ER19](cxcmd:sequence chain #1/C#1/D "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 5f7n.pdb #1  
+---  
+[A2G](cxcmd:sel :A2G "select residue") — [2-acetamido-2-deoxy-α-D-
+galactopyranose](http://www.rcsb.org/ligand/A2G "show residue info")
+(N-acetyl-α-D-galactosamine; 2-acetamido-2-deoxy-α-D-galactose;
+2-acetamido-2-deoxy-D-galactose; 2-acetamido-2-deoxy-galactose;
+N-acetyl-2-deoxy-2-amino-galactose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /F:5@C2 /F:5@C1 /F:1@O4 /F:1@C4
+INFO:
+Torsion angle for atoms /F FUC 5 C2 C1 NAG 1 O4 C4 is 161.861°
+INFO:
+Executing: torsion /F:5@C1 /F:1@O4 /F:1@C4 /F:1@C5
+INFO:
+Torsion angle for atoms /F FUC 5 C1 NAG 1 O4 C4 C5 is -103.162°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5f7n.pdb
+INFO:
+_5f7n.pdb_ title:  
+ **Blood group antigen binding adhesin baba of helicobacter pylori strain
+17875 In complex with blood group A lewis B pentasaccharide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5f7n.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:35-462 "Select chain") [B](cxcmd:select /B:34-462 "Select
+chain") | [adhesin binding fucosylated histo-blood group
+antigen](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[O52269_HELPX](cxcmd:open O52269 from uniprot "Show annotations")
+[25-460](cxcmd:select #1/A,B:25-460 "Select sequence")  
+[C](cxcmd:select /C:3-115 "Select chain") [D](cxcmd:select /D:3-117 "Select
+chain") | [nanobody Nb-ER19](cxcmd:sequence chain #1/C#1/D "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 5f7n.pdb #1  
+---  
+[A2G](cxcmd:sel :A2G "select residue") — [2-acetamido-2-deoxy-α-D-
+galactopyranose](http://www.rcsb.org/ligand/A2G "show residue info")
+(N-acetyl-α-D-galactosamine; 2-acetamido-2-deoxy-α-D-galactose;
+2-acetamido-2-deoxy-D-galactose; 2-acetamido-2-deoxy-galactose;
+N-acetyl-2-deoxy-2-amino-galactose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /E:5@C2 /E:5@C1 /E:1@O4 /E:1@C4
+INFO:
+Torsion angle for atoms /E FUC 5 C2 C1 NAG 1 O4 C4 is 163.837°
+INFO:
+Executing: torsion /E:5@C1 /E:1@O4 /E:1@C4 /E:1@C5
+INFO:
+Torsion angle for atoms /E FUC 5 C1 NAG 1 O4 C4 C5 is -99.4578°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5zvc.pdb
+INFO:
+_5zvc.pdb_ title:  
+ **P domain of gii.13 norovirus capsid complexed with lewis A trisaccharide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5zvc.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:225-532 "Select chain") [B](cxcmd:select /B:224-534
+"Select chain") | [major capsid protein VP1](cxcmd:sequence chain #1/A#1/B
+"Show sequence")  
+  
+
+INFO:
+Non-standard residues in 5zvc.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GOL](cxcmd:sel :GOL "select residue") —
+[glycerol](http://www.rcsb.org/ligand/GOL "show residue info") (glycerin;
+propane-1,2,3-triol)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /C:3@C2 /C:3@C1 /C:1@O4 /C:1@C4
+INFO:
+Torsion angle for atoms /C FUC 3 C2 C1 NAG 1 O4 C4 is 162.704°
+INFO:
+Executing: torsion /C:3@C1 /C:1@O4 /C:1@C4 /C:1@C5
+INFO:
+Torsion angle for atoms /C FUC 3 C1 NAG 1 O4 C4 C5 is -98.723°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5zvc.pdb
+INFO:
+_5zvc.pdb_ title:  
+ **P domain of gii.13 norovirus capsid complexed with lewis A trisaccharide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5zvc.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:225-532 "Select chain") [B](cxcmd:select /B:224-534
+"Select chain") | [major capsid protein VP1](cxcmd:sequence chain #1/A#1/B
+"Show sequence")  
+  
+
+INFO:
+Non-standard residues in 5zvc.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GOL](cxcmd:sel :GOL "select residue") —
+[glycerol](http://www.rcsb.org/ligand/GOL "show residue info") (glycerin;
+propane-1,2,3-triol)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /D:3@C2 /D:3@C1 /D:1@O4 /D:1@C4
+INFO:
+Torsion angle for atoms /D FUC 3 C2 C1 NAG 1 O4 C4 is 161.603°
+INFO:
+Executing: torsion /D:3@C1 /D:1@O4 /D:1@C4 /D:1@C5
+INFO:
+Torsion angle for atoms /D FUC 3 C1 NAG 1 O4 C4 C5 is -89.4477°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6xtg.pdb
+INFO:
+_6xtg.pdb_ title:  
+ **AB 1116NS19.9 bound to CA19-9** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6xtg.pdb #1  
+---  
+Chain | Description  
+[H](cxcmd:select /H:1-210 "Select chain") | [heavy chain](cxcmd:sequence chain
+#1/H "Show sequence")  
+[L](cxcmd:select /L:1-214 "Select chain") | [light chain](cxcmd:sequence chain
+#1/L "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6xtg.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[SIA](cxcmd:sel :SIA "select residue") — [N-acetyl-α-neuraminic
+acid](http://www.rcsb.org/ligand/SIA "show residue info") (N-acetylneuraminic
+acid; sialic acid; α-sialicacid; O-sialic acid)  
+  
+
+INFO:
+Executing: torsion /A:4@C2 /A:4@C1 /A:1@O4 /A:1@C4
+INFO:
+Torsion angle for atoms /A FUC 4 C2 C1 NAG 1 O4 C4 is 163.041°
+INFO:
+Executing: torsion /A:4@C1 /A:1@O4 /A:1@C4 /A:1@C5
+INFO:
+Torsion angle for atoms /A FUC 4 C1 NAG 1 O4 C4 C5 is -96.8123°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4gwj.pdb
+INFO:
+_4gwj.pdb_ title:  
+ **His 62 mutant of the lectin binding domain of lectinolysin complexed with
+lewis B** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 4gwj.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:43-184 "Select chain") | [lectinolysin](cxcmd:sequence
+chain #1/A "Show sequence") | [Q2PHL4_STRMT](cxcmd:open Q2PHL4 from uniprot
+"Show annotations") [38-190](cxcmd:select #1/A:38-190 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4gwj.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /B:4@C2 /B:4@C1 /B:1@O4 /B:1@C4
+INFO:
+Torsion angle for atoms /B FUC 4 C2 C1 NAG 1 O4 C4 is 159.431°
+INFO:
+Executing: torsion /B:4@C1 /B:1@O4 /B:1@C4 /B:1@C5
+INFO:
+Torsion angle for atoms /B FUC 4 C1 NAG 1 O4 C4 C5 is -96.0899°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/7lir.pdb
+INFO:
+_7lir.pdb_ title:  
+ **Structure of the invertebrate alk GRD** [[more info...]](cxcmd:log metadata
+#1)  
+  
+
+INFO:
+Chain information for 7lir.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:3-349 "Select chain") [B](cxcmd:select /B:5-349 "Select
+chain") | [suppressor OF constitutive dauer formation protein
+2](cxcmd:sequence chain #1/A#1/B "Show sequence") | [SCD2_CAEEL](cxcmd:open
+O76411 from uniprot "Show annotations") [1-350](cxcmd:select #1/A,B:1-350
+"Select sequence")  
+  
+
+INFO:
+Non-standard residues in 7lir.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[SO4](cxcmd:sel :SO4 "select residue") — [sulfate
+ion](http://www.rcsb.org/ligand/SO4 "show residue info")  
+  
+
+INFO:
+Executing: torsion /E:2@C2 /E:2@C1 /E:1@O4 /E:1@C4
+INFO:
+Torsion angle for atoms /E FUC 2 C2 C1 NAG 1 O4 C4 is 177.291°
+INFO:
+Executing: torsion /E:2@C1 /E:1@O4 /E:1@C4 /E:1@C5
+INFO:
+Torsion angle for atoms /E FUC 2 C1 NAG 1 O4 C4 C5 is -62.3655°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5f9a.pdb
+INFO:
+_5f9a.pdb_ title:  
+ **Blood group antigen binding adhesin baba of helicobacter pylori strain P436
+In complex with blood group H lewis B hexasaccharide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5f9a.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:34-460 "Select chain") | [adhesin binding fucosylated
+histo-blood group antigen, adhesin,adhesin binding fucosylated histo-blood
+group antigen](cxcmd:sequence chain #1/A "Show sequence") |
+[O52269_HELPX](cxcmd:open O52269 from uniprot "Show annotations")
+[25-180](cxcmd:select #1/A:25-180 "Select sequence") [251-457](cxcmd:select
+#1/A:251-457 "Select sequence"), [Q6DT10_HELPX](cxcmd:open Q6DT10 from uniprot
+"Show annotations") [181-250](cxcmd:select #1/A:181-250 "Select sequence")  
+[B](cxcmd:select /B:5-6 "Select chain") | [No description
+available](cxcmd:sequence chain #1/B "Show sequence") |  
+[C](cxcmd:select /C:3-115 "Select chain") | [nanobody Nb-ER19](cxcmd:sequence
+chain #1/C "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 5f9a.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /B:6@C2 /B:6@C1 /B:3@O4 /B:3@C4
+INFO:
+Torsion angle for atoms /B FUC 6 C2 C1 NAG 3 O4 C4 is 170.784°
+INFO:
+Executing: torsion /B:6@C1 /B:3@O4 /B:3@C4 /B:3@C5
+INFO:
+Torsion angle for atoms /B FUC 6 C1 NAG 3 O4 C4 C5 is -127.283°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4ut5.pdb
+INFO:
+_4ut5.pdb_ title:  
+ **Crystal structure of the lecb lectin from pseudomonas aeruginosa strain PA7
+In complex with lewis A tetrasaccharide** [[more info...]](cxcmd:log metadata
+#1)  
+  
+
+INFO:
+Chain information for 4ut5.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-114 "Select chain") [B](cxcmd:select /B:1-114 "Select
+chain") [C](cxcmd:select /C:1-114 "Select chain") [D](cxcmd:select /D:1-114
+"Select chain") | [lecb lectin](cxcmd:sequence chain #1/A#1/B#1/C#1/D "Show
+sequence") | [A6V267_PSEA7](cxcmd:open A6V267 from uniprot "Show annotations")
+[1-114](cxcmd:select #1/A,B,C,D:1-114 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4ut5.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /F:4@C2 /F:4@C1 /F:2@O4 /F:2@C4
+INFO:
+Torsion angle for atoms /F FUC 4 C2 C1 NAG 2 O4 C4 is 164.698°
+INFO:
+Executing: torsion /F:4@C1 /F:2@O4 /F:2@C4 /F:2@C5
+INFO:
+Torsion angle for atoms /F FUC 4 C1 NAG 2 O4 C4 C5 is -95.3919°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4ut5.pdb
+INFO:
+_4ut5.pdb_ title:  
+ **Crystal structure of the lecb lectin from pseudomonas aeruginosa strain PA7
+In complex with lewis A tetrasaccharide** [[more info...]](cxcmd:log metadata
+#1)  
+  
+
+INFO:
+Chain information for 4ut5.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-114 "Select chain") [B](cxcmd:select /B:1-114 "Select
+chain") [C](cxcmd:select /C:1-114 "Select chain") [D](cxcmd:select /D:1-114
+"Select chain") | [lecb lectin](cxcmd:sequence chain #1/A#1/B#1/C#1/D "Show
+sequence") | [A6V267_PSEA7](cxcmd:open A6V267 from uniprot "Show annotations")
+[1-114](cxcmd:select #1/A,B,C,D:1-114 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4ut5.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /G:4@C2 /G:4@C1 /G:2@O4 /G:2@C4
+INFO:
+Torsion angle for atoms /G FUC 4 C2 C1 NAG 2 O4 C4 is 173.764°
+INFO:
+Executing: torsion /G:4@C1 /G:2@O4 /G:2@C4 /G:2@C5
+INFO:
+Torsion angle for atoms /G FUC 4 C1 NAG 2 O4 C4 C5 is -99.0297°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4ut5.pdb
+INFO:
+_4ut5.pdb_ title:  
+ **Crystal structure of the lecb lectin from pseudomonas aeruginosa strain PA7
+In complex with lewis A tetrasaccharide** [[more info...]](cxcmd:log metadata
+#1)  
+  
+
+INFO:
+Chain information for 4ut5.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-114 "Select chain") [B](cxcmd:select /B:1-114 "Select
+chain") [C](cxcmd:select /C:1-114 "Select chain") [D](cxcmd:select /D:1-114
+"Select chain") | [lecb lectin](cxcmd:sequence chain #1/A#1/B#1/C#1/D "Show
+sequence") | [A6V267_PSEA7](cxcmd:open A6V267 from uniprot "Show annotations")
+[1-114](cxcmd:select #1/A,B,C,D:1-114 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4ut5.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /E:4@C2 /E:4@C1 /E:2@O4 /E:2@C4
+INFO:
+Torsion angle for atoms /E FUC 4 C2 C1 NAG 2 O4 C4 is 170.465°
+INFO:
+Executing: torsion /E:4@C1 /E:2@O4 /E:2@C4 /E:2@C5
+INFO:
+Torsion angle for atoms /E FUC 4 C1 NAG 2 O4 C4 C5 is -97.9763°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4ut5.pdb
+INFO:
+_4ut5.pdb_ title:  
+ **Crystal structure of the lecb lectin from pseudomonas aeruginosa strain PA7
+In complex with lewis A tetrasaccharide** [[more info...]](cxcmd:log metadata
+#1)  
+  
+
+INFO:
+Chain information for 4ut5.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-114 "Select chain") [B](cxcmd:select /B:1-114 "Select
+chain") [C](cxcmd:select /C:1-114 "Select chain") [D](cxcmd:select /D:1-114
+"Select chain") | [lecb lectin](cxcmd:sequence chain #1/A#1/B#1/C#1/D "Show
+sequence") | [A6V267_PSEA7](cxcmd:open A6V267 from uniprot "Show annotations")
+[1-114](cxcmd:select #1/A,B,C,D:1-114 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4ut5.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /H:3@C2 /H:3@C1 /H:1@O4 /H:1@C4
+INFO:
+Torsion angle for atoms /H FUC 3 C2 C1 NAG 1 O4 C4 is 167.368°
+INFO:
+Executing: torsion /H:3@C1 /H:1@O4 /H:1@C4 /H:1@C5
+INFO:
+Torsion angle for atoms /H FUC 3 C1 NAG 1 O4 C4 C5 is -91.5769°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5f9d.pdb
+INFO:
+_5f9d.pdb_ title:  
+ **Blood group antigen binding adhesin baba of helicobacter pylori strain P436
+In complex with lewis B blood group B heptasaccharide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5f9d.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:34-460 "Select chain") | [adhesin binding fucosylated
+histo-blood group antigen, adhesin,adhesin binding fucosylated histo-blood
+group antigen](cxcmd:sequence chain #1/A "Show sequence") |
+[O52269_HELPX](cxcmd:open O52269 from uniprot "Show annotations")
+[25-180](cxcmd:select #1/A:25-180 "Select sequence") [261-457](cxcmd:select
+#1/A:261-457 "Select sequence"), [Q6DT10_HELPX](cxcmd:open Q6DT10 from uniprot
+"Show annotations") [181-260](cxcmd:select #1/A:181-260 "Select sequence")  
+[B](cxcmd:select /B:6-7 "Select chain") | [No description
+available](cxcmd:sequence chain #1/B "Show sequence") |  
+[C](cxcmd:select /C:3-116 "Select chain") | [nanobody Nb-ER19](cxcmd:sequence
+chain #1/C "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 5f9d.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /B:7@C2 /B:7@C1 /B:3@O4 /B:3@C4
+INFO:
+Torsion angle for atoms /B FUC 7 C2 C1 NAG 3 O4 C4 is 157.027°
+INFO:
+Executing: torsion /B:7@C1 /B:3@O4 /B:3@C4 /B:3@C5
+INFO:
+Torsion angle for atoms /B FUC 7 C1 NAG 3 O4 C4 C5 is -102.913°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5a6z.pdb
+INFO:
+_5a6z.pdb_ title:  
+ **Structure of the lecb lectin from pseudomonas aeruginosa strain PA14 In
+complex with lewis A** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5a6z.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-114 "Select chain") [B](cxcmd:select /B:1-114 "Select
+chain") [C](cxcmd:select /C:1-114 "Select chain") [D](cxcmd:select /D:1-114
+"Select chain") | [LECB](cxcmd:sequence chain #1/A#1/B#1/C#1/D "Show
+sequence") | [U8MRX2_PSEAI](cxcmd:open U8MRX2 from uniprot "Show annotations")
+[1-114](cxcmd:select #1/A,B,C,D:1-114 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 5a6z.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[PEG](cxcmd:sel :PEG "select residue") —
+[di(hydroxyethyl)ether](http://www.rcsb.org/ligand/PEG "show residue info")  
+[SO4](cxcmd:sel :SO4 "select residue") — [sulfate
+ion](http://www.rcsb.org/ligand/SO4 "show residue info")  
+  
+
+INFO:
+Executing: torsion /E:4@C2 /E:4@C1 /E:2@O4 /E:2@C4
+INFO:
+Torsion angle for atoms /E FUC 4 C2 C1 NAG 2 O4 C4 is 171.868°
+INFO:
+Executing: torsion /E:4@C1 /E:2@O4 /E:2@C4 /E:2@C5
+INFO:
+Torsion angle for atoms /E FUC 4 C1 NAG 2 O4 C4 C5 is -101.727°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5a6z.pdb
+INFO:
+_5a6z.pdb_ title:  
+ **Structure of the lecb lectin from pseudomonas aeruginosa strain PA14 In
+complex with lewis A** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5a6z.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-114 "Select chain") [B](cxcmd:select /B:1-114 "Select
+chain") [C](cxcmd:select /C:1-114 "Select chain") [D](cxcmd:select /D:1-114
+"Select chain") | [LECB](cxcmd:sequence chain #1/A#1/B#1/C#1/D "Show
+sequence") | [U8MRX2_PSEAI](cxcmd:open U8MRX2 from uniprot "Show annotations")
+[1-114](cxcmd:select #1/A,B,C,D:1-114 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 5a6z.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[PEG](cxcmd:sel :PEG "select residue") —
+[di(hydroxyethyl)ether](http://www.rcsb.org/ligand/PEG "show residue info")  
+[SO4](cxcmd:sel :SO4 "select residue") — [sulfate
+ion](http://www.rcsb.org/ligand/SO4 "show residue info")  
+  
+
+INFO:
+Executing: torsion /G:4@C2 /G:4@C1 /G:2@O4 /G:2@C4
+INFO:
+Torsion angle for atoms /G FUC 4 C2 C1 NAG 2 O4 C4 is 169.566°
+INFO:
+Executing: torsion /G:4@C1 /G:2@O4 /G:2@C4 /G:2@C5
+INFO:
+Torsion angle for atoms /G FUC 4 C1 NAG 2 O4 C4 C5 is -101.613°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5a6z.pdb
+INFO:
+_5a6z.pdb_ title:  
+ **Structure of the lecb lectin from pseudomonas aeruginosa strain PA14 In
+complex with lewis A** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5a6z.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-114 "Select chain") [B](cxcmd:select /B:1-114 "Select
+chain") [C](cxcmd:select /C:1-114 "Select chain") [D](cxcmd:select /D:1-114
+"Select chain") | [LECB](cxcmd:sequence chain #1/A#1/B#1/C#1/D "Show
+sequence") | [U8MRX2_PSEAI](cxcmd:open U8MRX2 from uniprot "Show annotations")
+[1-114](cxcmd:select #1/A,B,C,D:1-114 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 5a6z.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[PEG](cxcmd:sel :PEG "select residue") —
+[di(hydroxyethyl)ether](http://www.rcsb.org/ligand/PEG "show residue info")  
+[SO4](cxcmd:sel :SO4 "select residue") — [sulfate
+ion](http://www.rcsb.org/ligand/SO4 "show residue info")  
+  
+
+INFO:
+Executing: torsion /F:3@C2 /F:3@C1 /F:1@O4 /F:1@C4
+INFO:
+Torsion angle for atoms /F FUC 3 C2 C1 NAG 1 O4 C4 is 171.771°
+INFO:
+Executing: torsion /F:3@C1 /F:1@O4 /F:1@C4 /F:1@C5
+INFO:
+Torsion angle for atoms /F FUC 3 C1 NAG 1 O4 C4 C5 is -100.674°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5a6z.pdb
+INFO:
+_5a6z.pdb_ title:  
+ **Structure of the lecb lectin from pseudomonas aeruginosa strain PA14 In
+complex with lewis A** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5a6z.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-114 "Select chain") [B](cxcmd:select /B:1-114 "Select
+chain") [C](cxcmd:select /C:1-114 "Select chain") [D](cxcmd:select /D:1-114
+"Select chain") | [LECB](cxcmd:sequence chain #1/A#1/B#1/C#1/D "Show
+sequence") | [U8MRX2_PSEAI](cxcmd:open U8MRX2 from uniprot "Show annotations")
+[1-114](cxcmd:select #1/A,B,C,D:1-114 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 5a6z.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[PEG](cxcmd:sel :PEG "select residue") —
+[di(hydroxyethyl)ether](http://www.rcsb.org/ligand/PEG "show residue info")  
+[SO4](cxcmd:sel :SO4 "select residue") — [sulfate
+ion](http://www.rcsb.org/ligand/SO4 "show residue info")  
+  
+
+INFO:
+Executing: torsion /H:4@C2 /H:4@C1 /H:2@O4 /H:2@C4
+INFO:
+Torsion angle for atoms /H FUC 4 C2 C1 NAG 2 O4 C4 is 168°
+INFO:
+Executing: torsion /H:4@C1 /H:2@O4 /H:2@C4 /H:2@C5
+INFO:
+Torsion angle for atoms /H FUC 4 C1 NAG 2 O4 C4 C5 is -99.2642°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4rm0.pdb
+INFO:
+_4rm0.pdb_ title:  
+ **Crystal structure of norovirus oif P domain In complex with lewis A
+trisaccharide** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 4rm0.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:221-527 "Select chain") [B](cxcmd:select /B:222-527
+"Select chain") | [capsid protein](cxcmd:sequence chain #1/A#1/B "Show
+sequence") | [Q6B7R3_9CALI](cxcmd:open Q6B7R3 from uniprot "Show annotations")
+[220-527](cxcmd:select #1/A,B:220-527 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4rm0.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NDG](cxcmd:sel :NDG "select residue") — [2-acetamido-2-deoxy-α-D-
+glucopyranose](http://www.rcsb.org/ligand/NDG "show residue info") (N-acetyl-
+α-D-glucosamine; 2-acetamido-2-deoxy-α-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; 2-(acetylamino)-2-deoxy-A-D-
+glucopyranose)  
+  
+
+INFO:
+Executing: torsion /C:3@C2 /C:3@C1 /C:1@O4 /C:1@C4
+INFO:
+Torsion angle for atoms /C FUC 3 C2 C1 NAG 1 O4 C4 is 168.428°
+INFO:
+Executing: torsion /C:3@C1 /C:1@O4 /C:1@C4 /C:1@C5
+INFO:
+Torsion angle for atoms /C FUC 3 C1 NAG 1 O4 C4 C5 is -95.3884°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4ops.pdb
+INFO:
+_4ops.pdb_ title:  
+ **Crystal structure of P domain from norovirus strain farmington hills 2004
+In complex with HBGA type leb (tetraglycan)** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4ops.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:225-530 "Select chain") [B](cxcmd:select /B:225-530
+"Select chain") | [major capsid protein](cxcmd:sequence chain #1/A#1/B "Show
+sequence") | [R4I4P2_9CALI](cxcmd:open R4I4P2 from uniprot "Show annotations")
+[225-530](cxcmd:select #1/A,B:225-530 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4ops.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /C:4@C2 /C:4@C1 /C:1@O4 /C:1@C4
+INFO:
+Torsion angle for atoms /C FUC 4 C2 C1 NAG 1 O4 C4 is 167.383°
+INFO:
+Executing: torsion /C:4@C1 /C:1@O4 /C:1@C4 /C:1@C5
+INFO:
+Torsion angle for atoms /C FUC 4 C1 NAG 1 O4 C4 C5 is -102.421°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6idv.pdb
+INFO:
+_6idv.pdb_ title:  
+ **Peptide asparaginyl ligases from viola yedoensis**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6idv.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:51-483 "Select chain") [B](cxcmd:select /B:52-483 "Select
+chain") | [peptide asparaginyl ligases](cxcmd:sequence chain #1/A#1/B "Show
+sequence")  
+  
+
+INFO:
+Non-standard residues in 6idv.pdb #1  
+---  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[PEG](cxcmd:sel :PEG "select residue") —
+[di(hydroxyethyl)ether](http://www.rcsb.org/ligand/PEG "show residue info")  
+[SNN](cxcmd:sel :SNN "select residue") —
+[L-3-aminosuccinimide](http://www.rcsb.org/ligand/SNN "show residue info")  
+  
+
+INFO:
+Executing: torsion /E:3@C2 /E:3@C1 /E:2@O4 /E:2@C4
+INFO:
+Torsion angle for atoms /E FUC 3 C2 C1 NAG 2 O4 C4 is -19.9118°
+INFO:
+Executing: torsion /E:3@C1 /E:2@O4 /E:2@C4 /E:2@C5
+INFO:
+Torsion angle for atoms /E FUC 3 C1 NAG 2 O4 C4 C5 is -121.973°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6idv.pdb
+INFO:
+_6idv.pdb_ title:  
+ **Peptide asparaginyl ligases from viola yedoensis**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6idv.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:51-483 "Select chain") [B](cxcmd:select /B:52-483 "Select
+chain") | [peptide asparaginyl ligases](cxcmd:sequence chain #1/A#1/B "Show
+sequence")  
+  
+
+INFO:
+Non-standard residues in 6idv.pdb #1  
+---  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[PEG](cxcmd:sel :PEG "select residue") —
+[di(hydroxyethyl)ether](http://www.rcsb.org/ligand/PEG "show residue info")  
+[SNN](cxcmd:sel :SNN "select residue") —
+[L-3-aminosuccinimide](http://www.rcsb.org/ligand/SNN "show residue info")  
+  
+
+INFO:
+Executing: torsion /C:3@C2 /C:3@C1 /C:2@O4 /C:2@C4
+INFO:
+Torsion angle for atoms /C FUC 3 C2 C1 NAG 2 O4 C4 is 145.626°
+INFO:
+Executing: torsion /C:3@C1 /C:2@O4 /C:2@C4 /C:2@C5
+INFO:
+Torsion angle for atoms /C FUC 3 C1 NAG 2 O4 C4 C5 is -142.656°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5urz.pdb
+INFO:
+_5urz.pdb_ title:  
+ **Crystal structure of frizzled 5 CRD In complex with bog**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5urz.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:7-125 "Select chain") [B](cxcmd:select /B:8-126 "Select
+chain") | [frizzled-5](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[FZD5_HUMAN](cxcmd:open Q13467 from uniprot "Show annotations")
+[3-130](cxcmd:select #1/A,B:3-130 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 5urz.pdb #1  
+---  
+[BOG](cxcmd:sel :BOG "select residue") — [octyl β-D-
+glucopyranoside](http://www.rcsb.org/ligand/BOG "show residue info")  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info")  
+  
+
+INFO:
+Executing: torsion /C:2@C2 /C:2@C1 /C:1@O4 /C:1@C4
+INFO:
+Torsion angle for atoms /C FUC 2 C2 C1 NAG 1 O4 C4 is 146.368°
+INFO:
+Executing: torsion /C:2@C1 /C:1@O4 /C:1@C4 /C:1@C5
+INFO:
+Torsion angle for atoms /C FUC 2 C1 NAG 1 O4 C4 C5 is -112.195°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5urz.pdb
+INFO:
+_5urz.pdb_ title:  
+ **Crystal structure of frizzled 5 CRD In complex with bog**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5urz.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:7-125 "Select chain") [B](cxcmd:select /B:8-126 "Select
+chain") | [frizzled-5](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[FZD5_HUMAN](cxcmd:open Q13467 from uniprot "Show annotations")
+[3-130](cxcmd:select #1/A,B:3-130 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 5urz.pdb #1  
+---  
+[BOG](cxcmd:sel :BOG "select residue") — [octyl β-D-
+glucopyranoside](http://www.rcsb.org/ligand/BOG "show residue info")  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info")  
+  
+
+INFO:
+Executing: torsion /C:3@C2 /C:3@C1 /C:1@O4 /C:1@C4
+INFO:
+Torsion angle for atoms /C FUC 3 C2 C1 NAG 1 O4 C4 is -87.7877°
+INFO:
+Executing: torsion /C:3@C1 /C:1@O4 /C:1@C4 /C:1@C5
+INFO:
+Torsion angle for atoms /C FUC 3 C1 NAG 1 O4 C4 C5 is -59.5486°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3ass.pdb
+INFO:
+_3ass.pdb_ title:  
+ **Crystal structure of P domain from norovirus FUNABASHI258 stain In the
+complex with lewis-B** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3ass.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:224-534 "Select chain") [B](cxcmd:select /B:230-531
+"Select chain") | [capsid protein](cxcmd:sequence chain #1/A#1/B "Show
+sequence") | [Q8JW44_9CALI](cxcmd:open Q8JW44 from uniprot "Show annotations")
+[221-541](cxcmd:select #1/A,B:221-541 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3ass.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NPO](cxcmd:sel :NPO "select residue") —
+[P-nitrophenol](http://www.rcsb.org/ligand/NPO "show residue info")  
+  
+
+INFO:
+Executing: torsion /D:4@C2 /D:4@C1 /D:1@O4 /D:1@C4
+INFO:
+Torsion angle for atoms /D FUC 4 C2 C1 NAG 1 O4 C4 is 167.539°
+INFO:
+Executing: torsion /D:4@C1 /D:1@O4 /D:1@C4 /D:1@C5
+INFO:
+Torsion angle for atoms /D FUC 4 C1 NAG 1 O4 C4 C5 is -101.714°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3ass.pdb
+INFO:
+_3ass.pdb_ title:  
+ **Crystal structure of P domain from norovirus FUNABASHI258 stain In the
+complex with lewis-B** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3ass.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:224-534 "Select chain") [B](cxcmd:select /B:230-531
+"Select chain") | [capsid protein](cxcmd:sequence chain #1/A#1/B "Show
+sequence") | [Q8JW44_9CALI](cxcmd:open Q8JW44 from uniprot "Show annotations")
+[221-541](cxcmd:select #1/A,B:221-541 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3ass.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[NPO](cxcmd:sel :NPO "select residue") —
+[P-nitrophenol](http://www.rcsb.org/ligand/NPO "show residue info")  
+  
+
+INFO:
+Executing: torsion /C:4@C2 /C:4@C1 /C:1@O4 /C:1@C4
+INFO:
+Torsion angle for atoms /C FUC 4 C2 C1 NAG 1 O4 C4 is 168.83°
+INFO:
+Executing: torsion /C:4@C1 /C:1@O4 /C:1@C4 /C:1@C5
+INFO:
+Torsion angle for atoms /C FUC 4 C1 NAG 1 O4 C4 C5 is -100.26°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5f8r.pdb
+INFO:
+_5f8r.pdb_ title:  
+ **Blood group antigen binding adhesin baba of helicobacter pylori strain S831
+In complex with blood group H lewis B hexasaccharide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5f8r.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:35-462 "Select chain") [B](cxcmd:select /B:33-462 "Select
+chain") | [adhesin binding fucosylated histo-blood group antigen,
+adhesin,adhesin binding fucosylated histo-blood group antigen](cxcmd:sequence
+chain #1/A#1/B "Show sequence") | [O52269_HELPX](cxcmd:open O52269 from
+uniprot "Show annotations") [25-197](cxcmd:select #1/A,B:25-197 "Select
+sequence") [207-460](cxcmd:select #1/A,B:207-460 "Select sequence"),
+[Q6DSZ5_HELPX](cxcmd:open Q6DSZ5 from uniprot "Show annotations")
+[198-206](cxcmd:select #1/A,B:198-206 "Select sequence")  
+[C](cxcmd:select /C:3-115 "Select chain") [D](cxcmd:select /D:3-116 "Select
+chain") | [nanobody Nb-ER19](cxcmd:sequence chain #1/C#1/D "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 5f8r.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /F:6@C2 /F:6@C1 /F:3@O4 /F:3@C4
+INFO:
+Torsion angle for atoms /F FUC 6 C2 C1 NAG 3 O4 C4 is 158.87°
+INFO:
+Executing: torsion /F:6@C1 /F:3@O4 /F:3@C4 /F:3@C5
+INFO:
+Torsion angle for atoms /F FUC 6 C1 NAG 3 O4 C4 C5 is -103.32°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5f8r.pdb
+INFO:
+_5f8r.pdb_ title:  
+ **Blood group antigen binding adhesin baba of helicobacter pylori strain S831
+In complex with blood group H lewis B hexasaccharide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5f8r.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:35-462 "Select chain") [B](cxcmd:select /B:33-462 "Select
+chain") | [adhesin binding fucosylated histo-blood group antigen,
+adhesin,adhesin binding fucosylated histo-blood group antigen](cxcmd:sequence
+chain #1/A#1/B "Show sequence") | [O52269_HELPX](cxcmd:open O52269 from
+uniprot "Show annotations") [25-197](cxcmd:select #1/A,B:25-197 "Select
+sequence") [207-460](cxcmd:select #1/A,B:207-460 "Select sequence"),
+[Q6DSZ5_HELPX](cxcmd:open Q6DSZ5 from uniprot "Show annotations")
+[198-206](cxcmd:select #1/A,B:198-206 "Select sequence")  
+[C](cxcmd:select /C:3-115 "Select chain") [D](cxcmd:select /D:3-116 "Select
+chain") | [nanobody Nb-ER19](cxcmd:sequence chain #1/C#1/D "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 5f8r.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /E:6@C2 /E:6@C1 /E:3@O4 /E:3@C4
+INFO:
+Torsion angle for atoms /E FUC 6 C2 C1 NAG 3 O4 C4 is 151.791°
+INFO:
+Executing: torsion /E:6@C1 /E:3@O4 /E:3@C4 /E:3@C5
+INFO:
+Torsion angle for atoms /E FUC 6 C1 NAG 3 O4 C4 C5 is -90.9727°
+INFO:
+Executing: close #1
+INFO:
+Executing: exit
+STATUS:
+Exiting ...

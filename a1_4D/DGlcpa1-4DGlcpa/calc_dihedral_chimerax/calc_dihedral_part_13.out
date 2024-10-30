@@ -1,0 +1,4172 @@
+WARNING:
+Replacing fetcher for 'pdb_nmr' and format NMRSTAR from NMRSTAR bundle with that from NMRSTAR bundle
+INFO:
+UCSF ChimeraX version: 1.6.1 (2023-05-09)
+INFO:
+© 2016-2023 Regents of the University of California.  All rights reserved.
+INFO:
+Executing: open ./calc_dihedral_chimerax/calc_dihedral_part_13.cxc
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/7kd4.pdb
+INFO:
+_7kd4.pdb_ title:  
+ **Structure of the C-terminal domain of the menangle virus phosphoprotein
+(residues 329 -388), fused to MBP. Space group P21.**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 7kd4.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:0-1388 "Select chain") [B](cxcmd:select /B:0-1388 "Select
+chain") | [maltodextrin-binding protein and phosphoprotein fusion
+protein](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q91MK1_9MONO](cxcmd:open Q91MK1 from uniprot "Show annotations")
+[1329-1388](cxcmd:select #1/A,B:1329-1388 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 7kd4.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[SO4](cxcmd:sel :SO4 "select residue") — [sulfate
+ion](http://www.rcsb.org/ligand/SO4 "show residue info")  
+  
+
+INFO:
+Executing: torsion /D:2@C2 /D:2@C1 /D:1@O4 /D:1@C4
+INFO:
+Torsion angle for atoms /D GLC 2 C2 C1 GLC 1 O4 C4 is -136.426°
+INFO:
+Executing: torsion /D:2@C1 /D:1@O4 /D:1@C4 /D:1@C5
+INFO:
+Torsion angle for atoms /D GLC 2 C1 GLC 1 O4 C4 C5 is -138.147°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4kyt.pdb
+INFO:
+_4kyt.pdb_ title:  
+ **The structure of superinhibitory phospholamban bound to the calcium pump
+SERCA1A** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 4kyt.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-992 "Select chain") | [SERCA1A](cxcmd:sequence chain
+#1/A "Show sequence") | [B6CAM1_RABIT](cxcmd:open B6CAM1 from uniprot "Show
+annotations") [1-994](cxcmd:select #1/A:1-994 "Select sequence")  
+[B](cxcmd:select /B:21-49 "Select chain") [C](cxcmd:select /C:26-40 "Select
+chain") | [PLB](cxcmd:sequence chain #1/B#1/C "Show sequence") |
+[PPLA_CANFA](cxcmd:open P61012 from uniprot "Show annotations")
+[1-52](cxcmd:select #1/B,C:1-52 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4kyt.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[K](cxcmd:sel :K "select residue") — [potassium
+ion](http://www.rcsb.org/ligand/K "show residue info")  
+  
+
+INFO:
+Executing: torsion /D:2@C2 /D:2@C1 /D:1@O4 /D:1@C4
+INFO:
+Torsion angle for atoms /D GLC 2 C2 C1 GLC 1 O4 C4 is -150.881°
+INFO:
+Executing: torsion /D:2@C1 /D:1@O4 /D:1@C4 /D:1@C5
+INFO:
+Torsion angle for atoms /D GLC 2 C1 GLC 1 O4 C4 C5 is -145.091°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4kyt.pdb
+INFO:
+_4kyt.pdb_ title:  
+ **The structure of superinhibitory phospholamban bound to the calcium pump
+SERCA1A** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 4kyt.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-992 "Select chain") | [SERCA1A](cxcmd:sequence chain
+#1/A "Show sequence") | [B6CAM1_RABIT](cxcmd:open B6CAM1 from uniprot "Show
+annotations") [1-994](cxcmd:select #1/A:1-994 "Select sequence")  
+[B](cxcmd:select /B:21-49 "Select chain") [C](cxcmd:select /C:26-40 "Select
+chain") | [PLB](cxcmd:sequence chain #1/B#1/C "Show sequence") |
+[PPLA_CANFA](cxcmd:open P61012 from uniprot "Show annotations")
+[1-52](cxcmd:select #1/B,C:1-52 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4kyt.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[K](cxcmd:sel :K "select residue") — [potassium
+ion](http://www.rcsb.org/ligand/K "show residue info")  
+  
+
+INFO:
+Executing: torsion /E:2@C2 /E:2@C1 /E:1@O4 /E:1@C4
+INFO:
+Torsion angle for atoms /E GLC 2 C2 C1 GLC 1 O4 C4 is -135.485°
+INFO:
+Executing: torsion /E:2@C1 /E:1@O4 /E:1@C4 /E:1@C5
+INFO:
+Torsion angle for atoms /E GLC 2 C1 GLC 1 O4 C4 C5 is -124.704°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6wb7.pdb
+INFO:
+_6wb7.pdb_ title:  
+ **Acarbose kinase ACBK As A complex with acarbose and amp-PNP**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6wb7.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:3-298 "Select chain") [B](cxcmd:select /B:4-296 "Select
+chain") [C](cxcmd:select /C:4-296 "Select chain") [D](cxcmd:select /D:4-297
+"Select chain") | [acarbose 7-kinase](cxcmd:sequence chain #1/A#1/B#1/C#1/D
+"Show sequence") | [ACBK_ACTS5](cxcmd:open Q8RMD4 from uniprot "Show
+annotations") [1-299](cxcmd:select #1/A,B,C,D:1-299 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 6wb7.pdb #1  
+---  
+[AC1](cxcmd:sel :AC1 "select residue") —
+[4,6-dideoxy-4-{[(1S,4R,5S,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl]amino}-α-D-
+glucopyranose](http://www.rcsb.org/ligand/AC1 "show residue info")
+(6-methyl-5-(4,5,6-trihydroxy-3-hydroxymethyl-
+cyclohex-2-enylamino)-tetrahydro-pyran-2,3,4-triol;
+4,6-dideoxy-4-{[(1S,4R,5S,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl]amino}-α-D-
+glucose;
+4,6-dideoxy-4-{[(1S,4R,5S,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl]amino}-D-glucose;
+4,6-dideoxy-4-{[(1S,4R,5S,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl]amino}-glucose)  
+[ANP](cxcmd:sel :ANP "select residue") — [phosphoaminophosphonic acid-
+adenylate ester](http://www.rcsb.org/ligand/ANP "show residue info")  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[MN](cxcmd:sel :MN "select residue") — [manganese (II)
+ion](http://www.rcsb.org/ligand/MN "show residue info")  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+  
+
+INFO:
+Executing: torsion /F:2@C2 /F:2@C1 /F:1@O4 /F:1@C4
+INFO:
+Torsion angle for atoms /F GLC 2 C2 C1 GLC 1 O4 C4 is -124.079°
+INFO:
+Executing: torsion /F:2@C1 /F:1@O4 /F:1@C4 /F:1@C5
+INFO:
+Torsion angle for atoms /F GLC 2 C1 GLC 1 O4 C4 C5 is -131.85°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6wb7.pdb
+INFO:
+_6wb7.pdb_ title:  
+ **Acarbose kinase ACBK As A complex with acarbose and amp-PNP**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6wb7.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:3-298 "Select chain") [B](cxcmd:select /B:4-296 "Select
+chain") [C](cxcmd:select /C:4-296 "Select chain") [D](cxcmd:select /D:4-297
+"Select chain") | [acarbose 7-kinase](cxcmd:sequence chain #1/A#1/B#1/C#1/D
+"Show sequence") | [ACBK_ACTS5](cxcmd:open Q8RMD4 from uniprot "Show
+annotations") [1-299](cxcmd:select #1/A,B,C,D:1-299 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 6wb7.pdb #1  
+---  
+[AC1](cxcmd:sel :AC1 "select residue") —
+[4,6-dideoxy-4-{[(1S,4R,5S,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl]amino}-α-D-
+glucopyranose](http://www.rcsb.org/ligand/AC1 "show residue info")
+(6-methyl-5-(4,5,6-trihydroxy-3-hydroxymethyl-
+cyclohex-2-enylamino)-tetrahydro-pyran-2,3,4-triol;
+4,6-dideoxy-4-{[(1S,4R,5S,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl]amino}-α-D-
+glucose;
+4,6-dideoxy-4-{[(1S,4R,5S,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl]amino}-D-glucose;
+4,6-dideoxy-4-{[(1S,4R,5S,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl]amino}-glucose)  
+[ANP](cxcmd:sel :ANP "select residue") — [phosphoaminophosphonic acid-
+adenylate ester](http://www.rcsb.org/ligand/ANP "show residue info")  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[MN](cxcmd:sel :MN "select residue") — [manganese (II)
+ion](http://www.rcsb.org/ligand/MN "show residue info")  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+  
+
+INFO:
+Executing: torsion /G:2@C2 /G:2@C1 /G:1@O4 /G:1@C4
+INFO:
+Torsion angle for atoms /G GLC 2 C2 C1 GLC 1 O4 C4 is -124.796°
+INFO:
+Executing: torsion /G:2@C1 /G:1@O4 /G:1@C4 /G:1@C5
+INFO:
+Torsion angle for atoms /G GLC 2 C1 GLC 1 O4 C4 C5 is -128.005°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6wb7.pdb
+INFO:
+_6wb7.pdb_ title:  
+ **Acarbose kinase ACBK As A complex with acarbose and amp-PNP**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6wb7.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:3-298 "Select chain") [B](cxcmd:select /B:4-296 "Select
+chain") [C](cxcmd:select /C:4-296 "Select chain") [D](cxcmd:select /D:4-297
+"Select chain") | [acarbose 7-kinase](cxcmd:sequence chain #1/A#1/B#1/C#1/D
+"Show sequence") | [ACBK_ACTS5](cxcmd:open Q8RMD4 from uniprot "Show
+annotations") [1-299](cxcmd:select #1/A,B,C,D:1-299 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 6wb7.pdb #1  
+---  
+[AC1](cxcmd:sel :AC1 "select residue") —
+[4,6-dideoxy-4-{[(1S,4R,5S,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl]amino}-α-D-
+glucopyranose](http://www.rcsb.org/ligand/AC1 "show residue info")
+(6-methyl-5-(4,5,6-trihydroxy-3-hydroxymethyl-
+cyclohex-2-enylamino)-tetrahydro-pyran-2,3,4-triol;
+4,6-dideoxy-4-{[(1S,4R,5S,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl]amino}-α-D-
+glucose;
+4,6-dideoxy-4-{[(1S,4R,5S,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl]amino}-D-glucose;
+4,6-dideoxy-4-{[(1S,4R,5S,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl]amino}-glucose)  
+[ANP](cxcmd:sel :ANP "select residue") — [phosphoaminophosphonic acid-
+adenylate ester](http://www.rcsb.org/ligand/ANP "show residue info")  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[MN](cxcmd:sel :MN "select residue") — [manganese (II)
+ion](http://www.rcsb.org/ligand/MN "show residue info")  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+  
+
+INFO:
+Executing: torsion /H:2@C2 /H:2@C1 /H:1@O4 /H:1@C4
+INFO:
+Torsion angle for atoms /H GLC 2 C2 C1 GLC 1 O4 C4 is -123.45°
+INFO:
+Executing: torsion /H:2@C1 /H:1@O4 /H:1@C4 /H:1@C5
+INFO:
+Torsion angle for atoms /H GLC 2 C1 GLC 1 O4 C4 C5 is -123.397°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6wb7.pdb
+INFO:
+_6wb7.pdb_ title:  
+ **Acarbose kinase ACBK As A complex with acarbose and amp-PNP**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6wb7.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:3-298 "Select chain") [B](cxcmd:select /B:4-296 "Select
+chain") [C](cxcmd:select /C:4-296 "Select chain") [D](cxcmd:select /D:4-297
+"Select chain") | [acarbose 7-kinase](cxcmd:sequence chain #1/A#1/B#1/C#1/D
+"Show sequence") | [ACBK_ACTS5](cxcmd:open Q8RMD4 from uniprot "Show
+annotations") [1-299](cxcmd:select #1/A,B,C,D:1-299 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 6wb7.pdb #1  
+---  
+[AC1](cxcmd:sel :AC1 "select residue") —
+[4,6-dideoxy-4-{[(1S,4R,5S,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl]amino}-α-D-
+glucopyranose](http://www.rcsb.org/ligand/AC1 "show residue info")
+(6-methyl-5-(4,5,6-trihydroxy-3-hydroxymethyl-
+cyclohex-2-enylamino)-tetrahydro-pyran-2,3,4-triol;
+4,6-dideoxy-4-{[(1S,4R,5S,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl]amino}-α-D-
+glucose;
+4,6-dideoxy-4-{[(1S,4R,5S,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl]amino}-D-glucose;
+4,6-dideoxy-4-{[(1S,4R,5S,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl]amino}-glucose)  
+[ANP](cxcmd:sel :ANP "select residue") — [phosphoaminophosphonic acid-
+adenylate ester](http://www.rcsb.org/ligand/ANP "show residue info")  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[MN](cxcmd:sel :MN "select residue") — [manganese (II)
+ion](http://www.rcsb.org/ligand/MN "show residue info")  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+  
+
+INFO:
+Executing: torsion /E:2@C2 /E:2@C1 /E:1@O4 /E:1@C4
+INFO:
+Torsion angle for atoms /E GLC 2 C2 C1 GLC 1 O4 C4 is -125.903°
+INFO:
+Executing: torsion /E:2@C1 /E:1@O4 /E:1@C4 /E:1@C5
+INFO:
+Torsion angle for atoms /E GLC 2 C1 GLC 1 O4 C4 C5 is -127.797°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1mxd.pdb
+INFO:
+_1mxd.pdb_ title:  
+ **Structure of A (Ca,Zn)-dependent α-amylase from the hyperthermophilic
+archaeon pyrococcus woesei** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 1mxd.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-435 "Select chain") | [α amylase](cxcmd:sequence chain
+#1/A "Show sequence") | [O08452_PYRFU](cxcmd:open O08452 from uniprot "Show
+annotations") [1-435](cxcmd:select #1/A:1-435 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 1mxd.pdb #1  
+---  
+[AC1](cxcmd:sel :AC1 "select residue") —
+[4,6-dideoxy-4-{[(1S,4R,5S,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl]amino}-α-D-
+glucopyranose](http://www.rcsb.org/ligand/AC1 "show residue info")
+(N-[4-hydroxymethyl-
+cyclohexan-6-yl-1,2,3-triol]-4,6-dideoxy-4-aminoglucopyranoside)  
+[ACT](cxcmd:sel :ACT "select residue") — [acetate
+ion](http://www.rcsb.org/ligand/ACT "show residue info")  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info")  
+[ZN](cxcmd:sel :ZN "select residue") — [zinc
+ion](http://www.rcsb.org/ligand/ZN "show residue info")  
+  
+
+INFO:
+Executing: torsion /B:2@C2 /B:2@C1 /B:1@O4 /B:1@C4
+INFO:
+Torsion angle for atoms /B GLC 2 C2 C1 GLC 1 O4 C4 is -131.481°
+INFO:
+Executing: torsion /B:2@C1 /B:1@O4 /B:1@C4 /B:1@C5
+INFO:
+Torsion angle for atoms /B GLC 2 C1 GLC 1 O4 C4 C5 is -115.135°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1mxd.pdb
+INFO:
+_1mxd.pdb_ title:  
+ **Structure of A (Ca,Zn)-dependent α-amylase from the hyperthermophilic
+archaeon pyrococcus woesei** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 1mxd.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-435 "Select chain") | [α amylase](cxcmd:sequence chain
+#1/A "Show sequence") | [O08452_PYRFU](cxcmd:open O08452 from uniprot "Show
+annotations") [1-435](cxcmd:select #1/A:1-435 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 1mxd.pdb #1  
+---  
+[AC1](cxcmd:sel :AC1 "select residue") —
+[4,6-dideoxy-4-{[(1S,4R,5S,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl]amino}-α-D-
+glucopyranose](http://www.rcsb.org/ligand/AC1 "show residue info")
+(N-[4-hydroxymethyl-
+cyclohexan-6-yl-1,2,3-triol]-4,6-dideoxy-4-aminoglucopyranoside)  
+[ACT](cxcmd:sel :ACT "select residue") — [acetate
+ion](http://www.rcsb.org/ligand/ACT "show residue info")  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info")  
+[ZN](cxcmd:sel :ZN "select residue") — [zinc
+ion](http://www.rcsb.org/ligand/ZN "show residue info")  
+  
+
+INFO:
+Executing: torsion /D:2@C2 /D:2@C1 /D:1@O4 /D:1@C4
+INFO:
+Torsion angle for atoms /D GLC 2 C2 C1 GLC 1 O4 C4 is -136.534°
+INFO:
+Executing: torsion /D:2@C1 /D:1@O4 /D:1@C4 /D:1@C5
+INFO:
+Torsion angle for atoms /D GLC 2 C1 GLC 1 O4 C4 C5 is -135.004°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5fsg.pdb
+INFO:
+_5fsg.pdb_ title:  
+ **Structure of the hantavirus nucleoprotein provides insights INTO the
+mechanism of RNA encapsidation and A template for drug design**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5fsg.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:-372-430 "Select chain") | [maltose-binding periplasmic
+protein, hantavirus nucleoprotein](cxcmd:sequence chain #1/A "Show sequence")
+| [MALE_ECOLI](cxcmd:open P0AEX9 from uniprot "Show annotations") [-372--
+14](cxcmd:select #1/A:-372--14 "Select sequence"), [NCAP_HANTV](cxcmd:open
+P05133 from uniprot "Show annotations") [113-429](cxcmd:select #1/A:113-429
+"Select sequence")  
+  
+
+INFO:
+Non-standard residues in 5fsg.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /B:4@C2 /B:4@C1 /B:3@O4 /B:3@C4
+INFO:
+Torsion angle for atoms /B GLC 4 C2 C1 GLC 3 O4 C4 is -166.378°
+INFO:
+Executing: torsion /B:4@C1 /B:3@O4 /B:3@C4 /B:3@C5
+INFO:
+Torsion angle for atoms /B GLC 4 C1 GLC 3 O4 C4 C5 is -146.75°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5fsg.pdb
+INFO:
+_5fsg.pdb_ title:  
+ **Structure of the hantavirus nucleoprotein provides insights INTO the
+mechanism of RNA encapsidation and A template for drug design**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5fsg.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:-372-430 "Select chain") | [maltose-binding periplasmic
+protein, hantavirus nucleoprotein](cxcmd:sequence chain #1/A "Show sequence")
+| [MALE_ECOLI](cxcmd:open P0AEX9 from uniprot "Show annotations") [-372--
+14](cxcmd:select #1/A:-372--14 "Select sequence"), [NCAP_HANTV](cxcmd:open
+P05133 from uniprot "Show annotations") [113-429](cxcmd:select #1/A:113-429
+"Select sequence")  
+  
+
+INFO:
+Non-standard residues in 5fsg.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /B:3@C2 /B:3@C1 /B:2@O4 /B:2@C4
+INFO:
+Torsion angle for atoms /B GLC 3 C2 C1 GLC 2 O4 C4 is -141.499°
+INFO:
+Executing: torsion /B:3@C1 /B:2@O4 /B:2@C4 /B:2@C5
+INFO:
+Torsion angle for atoms /B GLC 3 C1 GLC 2 O4 C4 C5 is -121.48°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5fsg.pdb
+INFO:
+_5fsg.pdb_ title:  
+ **Structure of the hantavirus nucleoprotein provides insights INTO the
+mechanism of RNA encapsidation and A template for drug design**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5fsg.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:-372-430 "Select chain") | [maltose-binding periplasmic
+protein, hantavirus nucleoprotein](cxcmd:sequence chain #1/A "Show sequence")
+| [MALE_ECOLI](cxcmd:open P0AEX9 from uniprot "Show annotations") [-372--
+14](cxcmd:select #1/A:-372--14 "Select sequence"), [NCAP_HANTV](cxcmd:open
+P05133 from uniprot "Show annotations") [113-429](cxcmd:select #1/A:113-429
+"Select sequence")  
+  
+
+INFO:
+Non-standard residues in 5fsg.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /B:2@C2 /B:2@C1 /B:1@O4 /B:1@C4
+INFO:
+Torsion angle for atoms /B GLC 2 C2 C1 GLC 1 O4 C4 is -142.37°
+INFO:
+Executing: torsion /B:2@C1 /B:1@O4 /B:1@C4 /B:1@C5
+INFO:
+Torsion angle for atoms /B GLC 2 C1 GLC 1 O4 C4 C5 is -134.515°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6usm.pdb
+INFO:
+_6usm.pdb_ title:  
+ **Structure of nuclease domain of human parvovirus B19 non-structural protein
+1 In complex with zinc** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6usm.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:2-371 "Select chain") | [maltodextrin-binding
+protein](cxcmd:sequence chain #1/A "Show sequence") |
+[C3SHQ8_ECOLX](cxcmd:open C3SHQ8 from uniprot "Show annotations")
+[2-367](cxcmd:select #1/A:2-367 "Select sequence")  
+[B](cxcmd:select /B:5-171 "Select chain") | [non-structural protein
+NS1](cxcmd:sequence chain #1/B "Show sequence") | [Q6TV13_PAVHB](cxcmd:open
+Q6TV13 from uniprot "Show annotations") [1-171](cxcmd:select #1/B:1-171
+"Select sequence")  
+  
+
+INFO:
+Non-standard residues in 6usm.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[ZN](cxcmd:sel :ZN "select residue") — [zinc
+ion](http://www.rcsb.org/ligand/ZN "show residue info")  
+  
+
+INFO:
+Executing: torsion /C:2@C2 /C:2@C1 /C:1@O4 /C:1@C4
+INFO:
+Torsion angle for atoms /C GLC 2 C2 C1 GLC 1 O4 C4 is -138.402°
+INFO:
+Executing: torsion /C:2@C1 /C:1@O4 /C:1@C4 /C:1@C5
+INFO:
+Torsion angle for atoms /C GLC 2 C1 GLC 1 O4 C4 C5 is -153.729°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1q6e.pdb
+INFO:
+_1q6e.pdb_ title:  
+ **Crystal structure of soybean β-amylase mutant (E178Y) with increased pH
+optimum At pH 5.4** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 1q6e.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:6-495 "Select chain") | [β-amylase](cxcmd:sequence chain
+#1/A "Show sequence") | [Q42795_SOYBN](cxcmd:open Q42795 from uniprot "Show
+annotations") [1-495](cxcmd:select #1/A:1-495 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 1q6e.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[SO4](cxcmd:sel :SO4 "select residue") — [sulfate
+ion](http://www.rcsb.org/ligand/SO4 "show residue info")  
+  
+
+INFO:
+Executing: torsion /B:2@C2 /B:2@C1 /B:1@O4 /B:1@C4
+INFO:
+Torsion angle for atoms /B GLC 2 C2 C1 GLC 1 O4 C4 is -172.329°
+INFO:
+Executing: torsion /B:2@C1 /B:1@O4 /B:1@C4 /B:1@C5
+INFO:
+Torsion angle for atoms /B GLC 2 C1 GLC 1 O4 C4 C5 is -147.752°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5jst.pdb
+INFO:
+_5jst.pdb_ title:  
+ **MBP fused MDV1 coiled coil** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5jst.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:4-431 "Select chain") [B](cxcmd:select /B:1-432 "Select
+chain") | [maltose-binding periplasmic protein,mitochondrial division protein
+1](cxcmd:sequence chain #1/A#1/B "Show sequence") | [MALE_ECOLI](cxcmd:open
+P0AEX9 from uniprot "Show annotations") [1-366](cxcmd:select #1/A,B:1-366
+"Select sequence"), [MDV1_YEAS7](cxcmd:open A6ZQL5 from uniprot "Show
+annotations") [372-442](cxcmd:select #1/A,B:372-442 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 5jst.pdb #1  
+---  
+[ACT](cxcmd:sel :ACT "select residue") — [acetate
+ion](http://www.rcsb.org/ligand/ACT "show residue info")  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[GOL](cxcmd:sel :GOL "select residue") —
+[glycerol](http://www.rcsb.org/ligand/GOL "show residue info") (glycerin;
+propane-1,2,3-triol)  
+  
+
+INFO:
+Executing: torsion /D:2@C2 /D:2@C1 /D:1@O4 /D:1@C4
+INFO:
+Torsion angle for atoms /D GLC 2 C2 C1 GLC 1 O4 C4 is -135.67°
+INFO:
+Executing: torsion /D:2@C1 /D:1@O4 /D:1@C4 /D:1@C5
+INFO:
+Torsion angle for atoms /D GLC 2 C1 GLC 1 O4 C4 C5 is -142.67°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5jst.pdb
+INFO:
+_5jst.pdb_ title:  
+ **MBP fused MDV1 coiled coil** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5jst.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:4-431 "Select chain") [B](cxcmd:select /B:1-432 "Select
+chain") | [maltose-binding periplasmic protein,mitochondrial division protein
+1](cxcmd:sequence chain #1/A#1/B "Show sequence") | [MALE_ECOLI](cxcmd:open
+P0AEX9 from uniprot "Show annotations") [1-366](cxcmd:select #1/A,B:1-366
+"Select sequence"), [MDV1_YEAS7](cxcmd:open A6ZQL5 from uniprot "Show
+annotations") [372-442](cxcmd:select #1/A,B:372-442 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 5jst.pdb #1  
+---  
+[ACT](cxcmd:sel :ACT "select residue") — [acetate
+ion](http://www.rcsb.org/ligand/ACT "show residue info")  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[GOL](cxcmd:sel :GOL "select residue") —
+[glycerol](http://www.rcsb.org/ligand/GOL "show residue info") (glycerin;
+propane-1,2,3-triol)  
+  
+
+INFO:
+Executing: torsion /C:2@C2 /C:2@C1 /C:1@O4 /C:1@C4
+INFO:
+Torsion angle for atoms /C GLC 2 C2 C1 GLC 1 O4 C4 is -136.414°
+INFO:
+Executing: torsion /C:2@C1 /C:1@O4 /C:1@C4 /C:1@C5
+INFO:
+Torsion angle for atoms /C GLC 2 C1 GLC 1 O4 C4 C5 is -131.488°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4kyc.pdb
+INFO:
+_4kyc.pdb_ title:  
+ **Structure of the C-terminal domain of the menangle virus phosphoprotein,
+fused to MBP.** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 4kyc.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-1388 "Select chain") | [maltose-binding periplasmic
+protein, phosphoprotein, chimeric construct](cxcmd:sequence chain #1/A "Show
+sequence") | [MALE_ECOLI](cxcmd:open P0AEX9 from uniprot "Show annotations")
+[1-366](cxcmd:select #1/A:1-366 "Select sequence"), [Q91MK1_9PARA](cxcmd:open
+Q91MK1 from uniprot "Show annotations") [1339-1388](cxcmd:select
+#1/A:1339-1388 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4kyc.pdb #1  
+---  
+[BO3](cxcmd:sel :BO3 "select residue") — [boric
+acid](http://www.rcsb.org/ligand/BO3 "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /B:2@C2 /B:2@C1 /B:1@O4 /B:1@C4
+INFO:
+Torsion angle for atoms /B GLC 2 C2 C1 GLC 1 O4 C4 is -137.073°
+INFO:
+Executing: torsion /B:2@C1 /B:1@O4 /B:1@C4 /B:1@C5
+INFO:
+Torsion angle for atoms /B GLC 2 C1 GLC 1 O4 C4 C5 is -138.21°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5mm3.pdb
+INFO:
+_5mm3.pdb_ title:  
+ **Unstructured mamc magnetite-binding protein located between two helices.**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5mm3.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:1-371 "Select chain") [B](cxcmd:select /B:1-352 "Select
+chain") | [sugar abc transporter substrate-binding protein,magnetosome protein
+mamc,sugar abc transporter substrate-binding protein](cxcmd:sequence chain
+#1/A#1/B "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 5mm3.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /D:2@C2 /D:2@C1 /D:1@O4 /D:1@C4
+INFO:
+Torsion angle for atoms /D GLC 2 C2 C1 GLC 1 O4 C4 is -135.94°
+INFO:
+Executing: torsion /D:2@C1 /D:1@O4 /D:1@C4 /D:1@C5
+INFO:
+Torsion angle for atoms /D GLC 2 C1 GLC 1 O4 C4 C5 is -141.101°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5mm3.pdb
+INFO:
+_5mm3.pdb_ title:  
+ **Unstructured mamc magnetite-binding protein located between two helices.**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5mm3.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:1-371 "Select chain") [B](cxcmd:select /B:1-352 "Select
+chain") | [sugar abc transporter substrate-binding protein,magnetosome protein
+mamc,sugar abc transporter substrate-binding protein](cxcmd:sequence chain
+#1/A#1/B "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 5mm3.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /C:2@C2 /C:2@C1 /C:1@O4 /C:1@C4
+INFO:
+Torsion angle for atoms /C GLC 2 C2 C1 GLC 1 O4 C4 is -121.012°
+INFO:
+Executing: torsion /C:2@C1 /C:1@O4 /C:1@C4 /C:1@C5
+INFO:
+Torsion angle for atoms /C GLC 2 C1 GLC 1 O4 C4 C5 is -125.836°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5iic.pdb
+INFO:
+_5iic.pdb_ title:  
+ **Crystal structure of red abalone verl repeat 3 At 2.9 A resolution**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5iic.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:3969-4448 "Select chain") [B](cxcmd:select /B:3974-4448
+"Select chain") | [maltose-binding periplasmic protein,vitelline envelope
+sperm lysin receptor](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[MALE_ECOLI](cxcmd:open P0AEX9 from uniprot "Show annotations")
+[3970-4336](cxcmd:select #1/A,B:3970-4336 "Select sequence"),
+[Q8WR62_HALRU](cxcmd:open Q8WR62 from uniprot "Show annotations")
+[4340-4453](cxcmd:select #1/A,B:4340-4453 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 5iic.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /C:2@C2 /C:2@C1 /C:1@O4 /C:1@C4
+INFO:
+Torsion angle for atoms /C GLC 2 C2 C1 GLC 1 O4 C4 is -128.782°
+INFO:
+Executing: torsion /C:2@C1 /C:1@O4 /C:1@C4 /C:1@C5
+INFO:
+Torsion angle for atoms /C GLC 2 C1 GLC 1 O4 C4 C5 is -140.853°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5iic.pdb
+INFO:
+_5iic.pdb_ title:  
+ **Crystal structure of red abalone verl repeat 3 At 2.9 A resolution**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5iic.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:3969-4448 "Select chain") [B](cxcmd:select /B:3974-4448
+"Select chain") | [maltose-binding periplasmic protein,vitelline envelope
+sperm lysin receptor](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[MALE_ECOLI](cxcmd:open P0AEX9 from uniprot "Show annotations")
+[3970-4336](cxcmd:select #1/A,B:3970-4336 "Select sequence"),
+[Q8WR62_HALRU](cxcmd:open Q8WR62 from uniprot "Show annotations")
+[4340-4453](cxcmd:select #1/A,B:4340-4453 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 5iic.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+  
+
+INFO:
+Executing: torsion /D:2@C2 /D:2@C1 /D:1@O4 /D:1@C4
+INFO:
+Torsion angle for atoms /D GLC 2 C2 C1 GLC 1 O4 C4 is -138.046°
+INFO:
+Executing: torsion /D:2@C1 /D:1@O4 /D:1@C4 /D:1@C5
+INFO:
+Torsion angle for atoms /D GLC 2 C1 GLC 1 O4 C4 C5 is -144.952°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/8art.pdb
+INFO:
+_8art.pdb_ title:  
+ **ABC transporter binding protein male from streptomyces scabiei In complex
+with maltose** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 8art.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:31-423 "Select chain") [B](cxcmd:select /B:31-423 "Select
+chain") | [putative secreted maltose-binding protein](cxcmd:sequence chain
+#1/A#1/B "Show sequence") | [C9ZHD5_STRSW](cxcmd:open C9ZHD5 from uniprot
+"Show annotations") [1-423](cxcmd:select #1/A,B:1-423 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 8art.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /D:2@C2 /D:2@C1 /D:1@O4 /D:1@C4
+INFO:
+Torsion angle for atoms /D GLC 2 C2 C1 GLC 1 O4 C4 is -120.409°
+INFO:
+Executing: torsion /D:2@C1 /D:1@O4 /D:1@C4 /D:1@C5
+INFO:
+Torsion angle for atoms /D GLC 2 C1 GLC 1 O4 C4 C5 is -135.569°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/8art.pdb
+INFO:
+_8art.pdb_ title:  
+ **ABC transporter binding protein male from streptomyces scabiei In complex
+with maltose** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 8art.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:31-423 "Select chain") [B](cxcmd:select /B:31-423 "Select
+chain") | [putative secreted maltose-binding protein](cxcmd:sequence chain
+#1/A#1/B "Show sequence") | [C9ZHD5_STRSW](cxcmd:open C9ZHD5 from uniprot
+"Show annotations") [1-423](cxcmd:select #1/A,B:1-423 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 8art.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /C:2@C2 /C:2@C1 /C:1@O4 /C:1@C4
+INFO:
+Torsion angle for atoms /C GLC 2 C2 C1 GLC 1 O4 C4 is -114.648°
+INFO:
+Executing: torsion /C:2@C1 /C:1@O4 /C:1@C4 /C:1@C5
+INFO:
+Torsion angle for atoms /C GLC 2 C1 GLC 1 O4 C4 C5 is -114.457°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /R:6@C2 /R:6@C1 /R:5@O4 /R:5@C4
+INFO:
+Torsion angle for atoms /R GLC 6 C2 C1 GLC 5 O4 C4 is -157.812°
+INFO:
+Executing: torsion /R:6@C1 /R:5@O4 /R:5@C4 /R:5@C5
+INFO:
+Torsion angle for atoms /R GLC 6 C1 GLC 5 O4 C4 C5 is -104.722°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /R:5@C2 /R:5@C1 /R:4@O4 /R:4@C4
+INFO:
+Torsion angle for atoms /R GLC 5 C2 C1 GLC 4 O4 C4 is -117.412°
+INFO:
+Executing: torsion /R:5@C1 /R:4@O4 /R:4@C4 /R:4@C5
+INFO:
+Torsion angle for atoms /R GLC 5 C1 GLC 4 O4 C4 C5 is -98.6727°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /R:4@C2 /R:4@C1 /R:3@O4 /R:3@C4
+INFO:
+Torsion angle for atoms /R GLC 4 C2 C1 GLC 3 O4 C4 is -137.242°
+INFO:
+Executing: torsion /R:4@C1 /R:3@O4 /R:3@C4 /R:3@C5
+INFO:
+Torsion angle for atoms /R GLC 4 C1 GLC 3 O4 C4 C5 is -132.383°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /R:3@C2 /R:3@C1 /R:2@O4 /R:2@C4
+INFO:
+Torsion angle for atoms /R GLC 3 C2 C1 GLC 2 O4 C4 is 164.676°
+INFO:
+Executing: torsion /R:3@C1 /R:2@O4 /R:2@C4 /R:2@C5
+INFO:
+Torsion angle for atoms /R GLC 3 C1 GLC 2 O4 C4 C5 is -143.989°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /R:2@C2 /R:2@C1 /R:1@O4 /R:1@C4
+INFO:
+Torsion angle for atoms /R GLC 2 C2 C1 GLC 1 O4 C4 is -124.123°
+INFO:
+Executing: torsion /R:2@C1 /R:1@O4 /R:1@C4 /R:1@C5
+INFO:
+Torsion angle for atoms /R GLC 2 C1 GLC 1 O4 C4 C5 is -124.053°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /J:6@C2 /J:6@C1 /J:5@O4 /J:5@C4
+INFO:
+Torsion angle for atoms /J GLC 6 C2 C1 GLC 5 O4 C4 is -146.475°
+INFO:
+Executing: torsion /J:6@C1 /J:5@O4 /J:5@C4 /J:5@C5
+INFO:
+Torsion angle for atoms /J GLC 6 C1 GLC 5 O4 C4 C5 is -115.601°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /J:5@C2 /J:5@C1 /J:4@O4 /J:4@C4
+INFO:
+Torsion angle for atoms /J GLC 5 C2 C1 GLC 4 O4 C4 is -149.343°
+INFO:
+Executing: torsion /J:5@C1 /J:4@O4 /J:4@C4 /J:4@C5
+INFO:
+Torsion angle for atoms /J GLC 5 C1 GLC 4 O4 C4 C5 is -58.0212°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /J:4@C2 /J:4@C1 /J:3@O4 /J:3@C4
+INFO:
+Torsion angle for atoms /J GLC 4 C2 C1 GLC 3 O4 C4 is -118.923°
+INFO:
+Executing: torsion /J:4@C1 /J:3@O4 /J:3@C4 /J:3@C5
+INFO:
+Torsion angle for atoms /J GLC 4 C1 GLC 3 O4 C4 C5 is -115.372°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /J:3@C2 /J:3@C1 /J:2@O4 /J:2@C4
+INFO:
+Torsion angle for atoms /J GLC 3 C2 C1 GLC 2 O4 C4 is 155.853°
+INFO:
+Executing: torsion /J:3@C1 /J:2@O4 /J:2@C4 /J:2@C5
+INFO:
+Torsion angle for atoms /J GLC 3 C1 GLC 2 O4 C4 C5 is -121.356°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /J:2@C2 /J:2@C1 /J:1@O4 /J:1@C4
+INFO:
+Torsion angle for atoms /J GLC 2 C2 C1 GLC 1 O4 C4 is -121.126°
+INFO:
+Executing: torsion /J:2@C1 /J:1@O4 /J:1@C4 /J:1@C5
+INFO:
+Torsion angle for atoms /J GLC 2 C1 GLC 1 O4 C4 C5 is -118.548°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /K:2@C2 /K:2@C1 /K:1@O4 /K:1@C4
+INFO:
+Torsion angle for atoms /K GLC 2 C2 C1 GLC 1 O4 C4 is -145.384°
+INFO:
+Executing: torsion /K:2@C1 /K:1@O4 /K:1@C4 /K:1@C5
+INFO:
+Torsion angle for atoms /K GLC 2 C1 GLC 1 O4 C4 C5 is 83.7102°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /G:2@C2 /G:2@C1 /G:1@O4 /G:1@C4
+INFO:
+Torsion angle for atoms /G GLC 2 C2 C1 GLC 1 O4 C4 is -160.179°
+INFO:
+Executing: torsion /G:2@C1 /G:1@O4 /G:1@C4 /G:1@C5
+INFO:
+Torsion angle for atoms /G GLC 2 C1 GLC 1 O4 C4 C5 is -140.227°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /O:2@C2 /O:2@C1 /O:1@O4 /O:1@C4
+INFO:
+Torsion angle for atoms /O GLC 2 C2 C1 GLC 1 O4 C4 is 125.028°
+INFO:
+Executing: torsion /O:2@C1 /O:1@O4 /O:1@C4 /O:1@C5
+INFO:
+Torsion angle for atoms /O GLC 2 C1 GLC 1 O4 C4 C5 is -136.351°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /L:6@C2 /L:6@C1 /L:5@O4 /L:5@C4
+INFO:
+Torsion angle for atoms /L GLC 6 C2 C1 GLC 5 O4 C4 is -129.627°
+INFO:
+Executing: torsion /L:6@C1 /L:5@O4 /L:5@C4 /L:5@C5
+INFO:
+Torsion angle for atoms /L GLC 6 C1 GLC 5 O4 C4 C5 is -125.727°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /L:5@C2 /L:5@C1 /L:4@O4 /L:4@C4
+INFO:
+Torsion angle for atoms /L GLC 5 C2 C1 GLC 4 O4 C4 is -126.055°
+INFO:
+Executing: torsion /L:5@C1 /L:4@O4 /L:4@C4 /L:4@C5
+INFO:
+Torsion angle for atoms /L GLC 5 C1 GLC 4 O4 C4 C5 is -117.972°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /L:4@C2 /L:4@C1 /L:3@O4 /L:3@C4
+INFO:
+Torsion angle for atoms /L GLC 4 C2 C1 GLC 3 O4 C4 is -126.999°
+INFO:
+Executing: torsion /L:4@C1 /L:3@O4 /L:3@C4 /L:3@C5
+INFO:
+Torsion angle for atoms /L GLC 4 C1 GLC 3 O4 C4 C5 is -133.369°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /L:3@C2 /L:3@C1 /L:2@O4 /L:2@C4
+INFO:
+Torsion angle for atoms /L GLC 3 C2 C1 GLC 2 O4 C4 is 149.771°
+INFO:
+Executing: torsion /L:3@C1 /L:2@O4 /L:2@C4 /L:2@C5
+INFO:
+Torsion angle for atoms /L GLC 3 C1 GLC 2 O4 C4 C5 is -116.898°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /L:2@C2 /L:2@C1 /L:1@O4 /L:1@C4
+INFO:
+Torsion angle for atoms /L GLC 2 C2 C1 GLC 1 O4 C4 is -124.077°
+INFO:
+Executing: torsion /L:2@C1 /L:1@O4 /L:1@C4 /L:1@C5
+INFO:
+Torsion angle for atoms /L GLC 2 C1 GLC 1 O4 C4 C5 is -119.373°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /H:6@C2 /H:6@C1 /H:5@O4 /H:5@C4
+INFO:
+Torsion angle for atoms /H GLC 6 C2 C1 GLC 5 O4 C4 is -169.671°
+INFO:
+Executing: torsion /H:6@C1 /H:5@O4 /H:5@C4 /H:5@C5
+INFO:
+Torsion angle for atoms /H GLC 6 C1 GLC 5 O4 C4 C5 is -115.392°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /H:5@C2 /H:5@C1 /H:4@O4 /H:4@C4
+INFO:
+Torsion angle for atoms /H GLC 5 C2 C1 GLC 4 O4 C4 is -121.464°
+INFO:
+Executing: torsion /H:5@C1 /H:4@O4 /H:4@C4 /H:4@C5
+INFO:
+Torsion angle for atoms /H GLC 5 C1 GLC 4 O4 C4 C5 is -102.378°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /H:4@C2 /H:4@C1 /H:3@O4 /H:3@C4
+INFO:
+Torsion angle for atoms /H GLC 4 C2 C1 GLC 3 O4 C4 is -141.372°
+INFO:
+Executing: torsion /H:4@C1 /H:3@O4 /H:3@C4 /H:3@C5
+INFO:
+Torsion angle for atoms /H GLC 4 C1 GLC 3 O4 C4 C5 is -127.837°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /H:3@C2 /H:3@C1 /H:2@O4 /H:2@C4
+INFO:
+Torsion angle for atoms /H GLC 3 C2 C1 GLC 2 O4 C4 is 164.306°
+INFO:
+Executing: torsion /H:3@C1 /H:2@O4 /H:2@C4 /H:2@C5
+INFO:
+Torsion angle for atoms /H GLC 3 C1 GLC 2 O4 C4 C5 is -127.414°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /H:2@C2 /H:2@C1 /H:1@O4 /H:1@C4
+INFO:
+Torsion angle for atoms /H GLC 2 C2 C1 GLC 1 O4 C4 is -127.593°
+INFO:
+Executing: torsion /H:2@C1 /H:1@O4 /H:1@C4 /H:1@C5
+INFO:
+Torsion angle for atoms /H GLC 2 C1 GLC 1 O4 C4 C5 is -115.466°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /M:2@C2 /M:2@C1 /M:1@O4 /M:1@C4
+INFO:
+Torsion angle for atoms /M GLC 2 C2 C1 GLC 1 O4 C4 is 116.168°
+INFO:
+Executing: torsion /M:2@C1 /M:1@O4 /M:1@C4 /M:1@C5
+INFO:
+Torsion angle for atoms /M GLC 2 C1 GLC 1 O4 C4 C5 is -136.459°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /Q:2@C2 /Q:2@C1 /Q:1@O4 /Q:1@C4
+INFO:
+Torsion angle for atoms /Q GLC 2 C2 C1 GLC 1 O4 C4 is 118.328°
+INFO:
+Executing: torsion /Q:2@C1 /Q:1@O4 /Q:1@C4 /Q:1@C5
+INFO:
+Torsion angle for atoms /Q GLC 2 C1 GLC 1 O4 C4 C5 is -131.475°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /I:2@C2 /I:2@C1 /I:1@O4 /I:1@C4
+INFO:
+Torsion angle for atoms /I GLC 2 C2 C1 GLC 1 O4 C4 is -135.494°
+INFO:
+Executing: torsion /I:2@C1 /I:1@O4 /I:1@C4 /I:1@C5
+INFO:
+Torsion angle for atoms /I GLC 2 C1 GLC 1 O4 C4 C5 is 80.0086°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /N:6@C2 /N:6@C1 /N:5@O4 /N:5@C4
+INFO:
+Torsion angle for atoms /N GLC 6 C2 C1 GLC 5 O4 C4 is -165.562°
+INFO:
+Executing: torsion /N:6@C1 /N:5@O4 /N:5@C4 /N:5@C5
+INFO:
+Torsion angle for atoms /N GLC 6 C1 GLC 5 O4 C4 C5 is -113.137°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /N:5@C2 /N:5@C1 /N:4@O4 /N:4@C4
+INFO:
+Torsion angle for atoms /N GLC 5 C2 C1 GLC 4 O4 C4 is -118.227°
+INFO:
+Executing: torsion /N:5@C1 /N:4@O4 /N:4@C4 /N:4@C5
+INFO:
+Torsion angle for atoms /N GLC 5 C1 GLC 4 O4 C4 C5 is -62.5481°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /N:4@C2 /N:4@C1 /N:3@O4 /N:3@C4
+INFO:
+Torsion angle for atoms /N GLC 4 C2 C1 GLC 3 O4 C4 is -124.512°
+INFO:
+Executing: torsion /N:4@C1 /N:3@O4 /N:3@C4 /N:3@C5
+INFO:
+Torsion angle for atoms /N GLC 4 C1 GLC 3 O4 C4 C5 is -121.012°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /N:3@C2 /N:3@C1 /N:2@O4 /N:2@C4
+INFO:
+Torsion angle for atoms /N GLC 3 C2 C1 GLC 2 O4 C4 is 157.624°
+INFO:
+Executing: torsion /N:3@C1 /N:2@O4 /N:2@C4 /N:2@C5
+INFO:
+Torsion angle for atoms /N GLC 3 C1 GLC 2 O4 C4 C5 is -135.97°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /N:2@C2 /N:2@C1 /N:1@O4 /N:1@C4
+INFO:
+Torsion angle for atoms /N GLC 2 C2 C1 GLC 1 O4 C4 is -123.208°
+INFO:
+Executing: torsion /N:2@C1 /N:1@O4 /N:1@C4 /N:1@C5
+INFO:
+Torsion angle for atoms /N GLC 2 C1 GLC 1 O4 C4 C5 is -114.275°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /P:6@C2 /P:6@C1 /P:5@O4 /P:5@C4
+INFO:
+Torsion angle for atoms /P GLC 6 C2 C1 GLC 5 O4 C4 is -146.814°
+INFO:
+Executing: torsion /P:6@C1 /P:5@O4 /P:5@C4 /P:5@C5
+INFO:
+Torsion angle for atoms /P GLC 6 C1 GLC 5 O4 C4 C5 is -127.995°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /P:5@C2 /P:5@C1 /P:4@O4 /P:4@C4
+INFO:
+Torsion angle for atoms /P GLC 5 C2 C1 GLC 4 O4 C4 is -120.444°
+INFO:
+Executing: torsion /P:5@C1 /P:4@O4 /P:4@C4 /P:4@C5
+INFO:
+Torsion angle for atoms /P GLC 5 C1 GLC 4 O4 C4 C5 is -119.255°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /P:4@C2 /P:4@C1 /P:3@O4 /P:3@C4
+INFO:
+Torsion angle for atoms /P GLC 4 C2 C1 GLC 3 O4 C4 is -133.838°
+INFO:
+Executing: torsion /P:4@C1 /P:3@O4 /P:3@C4 /P:3@C5
+INFO:
+Torsion angle for atoms /P GLC 4 C1 GLC 3 O4 C4 C5 is -135.637°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /P:3@C2 /P:3@C1 /P:2@O4 /P:2@C4
+INFO:
+Torsion angle for atoms /P GLC 3 C2 C1 GLC 2 O4 C4 is 159.582°
+INFO:
+Executing: torsion /P:3@C1 /P:2@O4 /P:2@C4 /P:2@C5
+INFO:
+Torsion angle for atoms /P GLC 3 C1 GLC 2 O4 C4 C5 is -122.949°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4u3c.pdb
+INFO:
+_4u3c.pdb_ title:  
+ **Docking site of maltohexaose In the MTB GLGE** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4u3c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:15-699 "Select chain") [B](cxcmd:select /B:15-699 "Select
+chain") [C](cxcmd:select /C:15-699 "Select chain") [D](cxcmd:select /D:15-699
+"Select chain") [E](cxcmd:select /E:15-699 "Select chain") [F](cxcmd:select
+/F:15-699 "Select chain") | [α-1,4-glucan:maltose-1-phosphate
+maltosyltransferase](cxcmd:sequence chain #1/A#1/B#1/C#1/D#1/E#1/F "Show
+sequence") | [GLGE_MYCTO](cxcmd:open P9WQ16 from uniprot "Show annotations")
+[1-701](cxcmd:select #1/A,B,C,D,E,F:1-701 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4u3c.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /P:2@C2 /P:2@C1 /P:1@O4 /P:1@C4
+INFO:
+Torsion angle for atoms /P GLC 2 C2 C1 GLC 1 O4 C4 is -118.143°
+INFO:
+Executing: torsion /P:2@C1 /P:1@O4 /P:1@C4 /P:1@C5
+INFO:
+Torsion angle for atoms /P GLC 2 C1 GLC 1 O4 C4 C5 is -120.945°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2cxg.pdb
+INFO:
+_2cxg.pdb_ title:  
+ **Cyclodextrin glycosyltransferase complexed to the inhibitor acarbose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2cxg.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-686 "Select chain") | [cgtase](cxcmd:sequence chain #1/A
+"Show sequence") | [CDGU_BACCI](cxcmd:open P43379 from uniprot "Show
+annotations") [1-686](cxcmd:select #1/A:1-686 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2cxg.pdb #1  
+---  
+[ACI](cxcmd:sel :ACI "select residue") — [6-amino-4-hydroxymethyl-
+cyclohex-4-ene-1,2,3-triol](http://www.rcsb.org/ligand/ACI "show residue
+info")  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[G6D](cxcmd:sel :G6D "select residue") — [α-D-
+quinovopyranose](http://www.rcsb.org/ligand/G6D "show residue info") (α-D-
+quinovose; 6-deoxy-α-D-glucopyranose; D-quinovose; quinovose; 6-deoxy-α-D-
+glucose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /D:2@C2 /D:2@C1 /D:1@O4 /D:1@C4
+INFO:
+Torsion angle for atoms /D GLC 2 C2 C1 GLC 1 O4 C4 is -138.311°
+INFO:
+Executing: torsion /D:2@C1 /D:1@O4 /D:1@C4 /D:1@C5
+INFO:
+Torsion angle for atoms /D GLC 2 C1 GLC 1 O4 C4 C5 is -133.047°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2cxg.pdb
+INFO:
+_2cxg.pdb_ title:  
+ **Cyclodextrin glycosyltransferase complexed to the inhibitor acarbose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2cxg.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-686 "Select chain") | [cgtase](cxcmd:sequence chain #1/A
+"Show sequence") | [CDGU_BACCI](cxcmd:open P43379 from uniprot "Show
+annotations") [1-686](cxcmd:select #1/A:1-686 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2cxg.pdb #1  
+---  
+[ACI](cxcmd:sel :ACI "select residue") — [6-amino-4-hydroxymethyl-
+cyclohex-4-ene-1,2,3-triol](http://www.rcsb.org/ligand/ACI "show residue
+info")  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[G6D](cxcmd:sel :G6D "select residue") — [α-D-
+quinovopyranose](http://www.rcsb.org/ligand/G6D "show residue info") (α-D-
+quinovose; 6-deoxy-α-D-glucopyranose; D-quinovose; quinovose; 6-deoxy-α-D-
+glucose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /E:4@C2 /E:4@C1 /E:3@O4 /E:3@C4
+INFO:
+Torsion angle for atoms /E GLC 4 C2 C1 GLC 3 O4 C4 is -124.55°
+INFO:
+Executing: torsion /E:4@C1 /E:3@O4 /E:3@C4 /E:3@C5
+INFO:
+Torsion angle for atoms /E GLC 4 C1 GLC 3 O4 C4 C5 is -110.723°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2cxg.pdb
+INFO:
+_2cxg.pdb_ title:  
+ **Cyclodextrin glycosyltransferase complexed to the inhibitor acarbose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2cxg.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-686 "Select chain") | [cgtase](cxcmd:sequence chain #1/A
+"Show sequence") | [CDGU_BACCI](cxcmd:open P43379 from uniprot "Show
+annotations") [1-686](cxcmd:select #1/A:1-686 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2cxg.pdb #1  
+---  
+[ACI](cxcmd:sel :ACI "select residue") — [6-amino-4-hydroxymethyl-
+cyclohex-4-ene-1,2,3-triol](http://www.rcsb.org/ligand/ACI "show residue
+info")  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[G6D](cxcmd:sel :G6D "select residue") — [α-D-
+quinovopyranose](http://www.rcsb.org/ligand/G6D "show residue info") (α-D-
+quinovose; 6-deoxy-α-D-glucopyranose; D-quinovose; quinovose; 6-deoxy-α-D-
+glucose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /E:3@C2 /E:3@C1 /E:2@O4 /E:2@C4
+INFO:
+Torsion angle for atoms /E GLC 3 C2 C1 GLC 2 O4 C4 is -120.904°
+INFO:
+Executing: torsion /E:3@C1 /E:2@O4 /E:2@C4 /E:2@C5
+INFO:
+Torsion angle for atoms /E GLC 3 C1 GLC 2 O4 C4 C5 is -140.54°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2cxg.pdb
+INFO:
+_2cxg.pdb_ title:  
+ **Cyclodextrin glycosyltransferase complexed to the inhibitor acarbose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2cxg.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-686 "Select chain") | [cgtase](cxcmd:sequence chain #1/A
+"Show sequence") | [CDGU_BACCI](cxcmd:open P43379 from uniprot "Show
+annotations") [1-686](cxcmd:select #1/A:1-686 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2cxg.pdb #1  
+---  
+[ACI](cxcmd:sel :ACI "select residue") — [6-amino-4-hydroxymethyl-
+cyclohex-4-ene-1,2,3-triol](http://www.rcsb.org/ligand/ACI "show residue
+info")  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[G6D](cxcmd:sel :G6D "select residue") — [α-D-
+quinovopyranose](http://www.rcsb.org/ligand/G6D "show residue info") (α-D-
+quinovose; 6-deoxy-α-D-glucopyranose; D-quinovose; quinovose; 6-deoxy-α-D-
+glucose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /E:2@C2 /E:2@C1 /E:1@O4 /E:1@C4
+INFO:
+Torsion angle for atoms /E GLC 2 C2 C1 GLC 1 O4 C4 is -132.16°
+INFO:
+Executing: torsion /E:2@C1 /E:1@O4 /E:1@C4 /E:1@C5
+INFO:
+Torsion angle for atoms /E GLC 2 C1 GLC 1 O4 C4 C5 is -117.977°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2cxg.pdb
+INFO:
+_2cxg.pdb_ title:  
+ **Cyclodextrin glycosyltransferase complexed to the inhibitor acarbose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2cxg.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-686 "Select chain") | [cgtase](cxcmd:sequence chain #1/A
+"Show sequence") | [CDGU_BACCI](cxcmd:open P43379 from uniprot "Show
+annotations") [1-686](cxcmd:select #1/A:1-686 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2cxg.pdb #1  
+---  
+[ACI](cxcmd:sel :ACI "select residue") — [6-amino-4-hydroxymethyl-
+cyclohex-4-ene-1,2,3-triol](http://www.rcsb.org/ligand/ACI "show residue
+info")  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[G6D](cxcmd:sel :G6D "select residue") — [α-D-
+quinovopyranose](http://www.rcsb.org/ligand/G6D "show residue info") (α-D-
+quinovose; 6-deoxy-α-D-glucopyranose; D-quinovose; quinovose; 6-deoxy-α-D-
+glucose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /B:2@C2 /B:2@C1 /B:1@O4 /B:1@C4
+INFO:
+Torsion angle for atoms /B GLC 2 C2 C1 GLC 1 O4 C4 is -131.863°
+INFO:
+Executing: torsion /B:2@C1 /B:1@O4 /B:1@C4 /B:1@C5
+INFO:
+Torsion angle for atoms /B GLC 2 C1 GLC 1 O4 C4 C5 is -127.934°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /F:5@C2 /F:5@C1 /F:4@O4 /F:4@C4
+INFO:
+Torsion angle for atoms /F GLC 5 C2 C1 GLC 4 O4 C4 is -138.996°
+INFO:
+Executing: torsion /F:5@C1 /F:4@O4 /F:4@C4 /F:4@C5
+INFO:
+Torsion angle for atoms /F GLC 5 C1 GLC 4 O4 C4 C5 is -145.847°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /F:4@C2 /F:4@C1 /F:3@O4 /F:3@C4
+INFO:
+Torsion angle for atoms /F GLC 4 C2 C1 GLC 3 O4 C4 is -143.218°
+INFO:
+Executing: torsion /F:4@C1 /F:3@O4 /F:3@C4 /F:3@C5
+INFO:
+Torsion angle for atoms /F GLC 4 C1 GLC 3 O4 C4 C5 is -131.26°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /F:3@C2 /F:3@C1 /F:2@O4 /F:2@C4
+INFO:
+Torsion angle for atoms /F GLC 3 C2 C1 GLC 2 O4 C4 is -133.726°
+INFO:
+Executing: torsion /F:3@C1 /F:2@O4 /F:2@C4 /F:2@C5
+INFO:
+Torsion angle for atoms /F GLC 3 C1 GLC 2 O4 C4 C5 is -140.797°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /F:2@C2 /F:2@C1 /F:1@O4 /F:1@C4
+INFO:
+Torsion angle for atoms /F GLC 2 C2 C1 GLC 1 O4 C4 is -140.934°
+INFO:
+Executing: torsion /F:2@C1 /F:1@O4 /F:1@C4 /F:1@C5
+INFO:
+Torsion angle for atoms /F GLC 2 C1 GLC 1 O4 C4 C5 is -150.187°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /C:7@C2 /C:7@C1 /C:6@O4 /C:6@C4
+INFO:
+Torsion angle for atoms /C GLC 7 C2 C1 GLC 6 O4 C4 is -155.998°
+INFO:
+Executing: torsion /C:7@C1 /C:6@O4 /C:6@C4 /C:6@C5
+INFO:
+Torsion angle for atoms /C GLC 7 C1 GLC 6 O4 C4 C5 is 160.387°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /C:6@C2 /C:6@C1 /C:5@O4 /C:5@C4
+INFO:
+Torsion angle for atoms /C GLC 6 C2 C1 GLC 5 O4 C4 is -101.436°
+INFO:
+Executing: torsion /C:6@C1 /C:5@O4 /C:5@C4 /C:5@C5
+INFO:
+Torsion angle for atoms /C GLC 6 C1 GLC 5 O4 C4 C5 is -112.358°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /C:5@C2 /C:5@C1 /C:4@O4 /C:4@C4
+INFO:
+Torsion angle for atoms /C GLC 5 C2 C1 GLC 4 O4 C4 is -128.186°
+INFO:
+Executing: torsion /C:5@C1 /C:4@O4 /C:4@C4 /C:4@C5
+INFO:
+Torsion angle for atoms /C GLC 5 C1 GLC 4 O4 C4 C5 is -112.944°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /C:4@C2 /C:4@C1 /C:3@O4 /C:3@C4
+INFO:
+Torsion angle for atoms /C GLC 4 C2 C1 GLC 3 O4 C4 is 165.239°
+INFO:
+Executing: torsion /C:4@C1 /C:3@O4 /C:3@C4 /C:3@C5
+INFO:
+Torsion angle for atoms /C GLC 4 C1 GLC 3 O4 C4 C5 is -150.15°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /C:3@C2 /C:3@C1 /C:2@O4 /C:2@C4
+INFO:
+Torsion angle for atoms /C GLC 3 C2 C1 GLC 2 O4 C4 is -135.617°
+INFO:
+Executing: torsion /C:3@C1 /C:2@O4 /C:2@C4 /C:2@C5
+INFO:
+Torsion angle for atoms /C GLC 3 C1 GLC 2 O4 C4 C5 is -129.902°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /G:6@C2 /G:6@C1 /G:5@O4 /G:5@C4
+INFO:
+Torsion angle for atoms /G GLC 6 C2 C1 GLC 5 O4 C4 is -137.304°
+INFO:
+Executing: torsion /G:6@C1 /G:5@O4 /G:5@C4 /G:5@C5
+INFO:
+Torsion angle for atoms /G GLC 6 C1 GLC 5 O4 C4 C5 is -128.109°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /G:5@C2 /G:5@C1 /G:4@O4 /G:4@C4
+INFO:
+Torsion angle for atoms /G GLC 5 C2 C1 GLC 4 O4 C4 is -133.134°
+INFO:
+Executing: torsion /G:5@C1 /G:4@O4 /G:4@C4 /G:4@C5
+INFO:
+Torsion angle for atoms /G GLC 5 C1 GLC 4 O4 C4 C5 is -126.278°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /G:4@C2 /G:4@C1 /G:3@O4 /G:3@C4
+INFO:
+Torsion angle for atoms /G GLC 4 C2 C1 GLC 3 O4 C4 is -132.075°
+INFO:
+Executing: torsion /G:4@C1 /G:3@O4 /G:3@C4 /G:3@C5
+INFO:
+Torsion angle for atoms /G GLC 4 C1 GLC 3 O4 C4 C5 is -137.439°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /G:3@C2 /G:3@C1 /G:2@O4 /G:2@C4
+INFO:
+Torsion angle for atoms /G GLC 3 C2 C1 GLC 2 O4 C4 is -147.419°
+INFO:
+Executing: torsion /G:3@C1 /G:2@O4 /G:2@C4 /G:2@C5
+INFO:
+Torsion angle for atoms /G GLC 3 C1 GLC 2 O4 C4 C5 is -148.023°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /G:2@C2 /G:2@C1 /G:1@O4 /G:1@C4
+INFO:
+Torsion angle for atoms /G GLC 2 C2 C1 GLC 1 O4 C4 is 179.26°
+INFO:
+Executing: torsion /G:2@C1 /G:1@O4 /G:1@C4 /G:1@C5
+INFO:
+Torsion angle for atoms /G GLC 2 C1 GLC 1 O4 C4 C5 is -157.579°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /H:6@C2 /H:6@C1 /H:5@O4 /H:5@C4
+INFO:
+Torsion angle for atoms /H GLC 6 C2 C1 GLC 5 O4 C4 is -141.493°
+INFO:
+Executing: torsion /H:6@C1 /H:5@O4 /H:5@C4 /H:5@C5
+INFO:
+Torsion angle for atoms /H GLC 6 C1 GLC 5 O4 C4 C5 is -124.022°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /H:5@C2 /H:5@C1 /H:4@O4 /H:4@C4
+INFO:
+Torsion angle for atoms /H GLC 5 C2 C1 GLC 4 O4 C4 is -129.427°
+INFO:
+Executing: torsion /H:5@C1 /H:4@O4 /H:4@C4 /H:4@C5
+INFO:
+Torsion angle for atoms /H GLC 5 C1 GLC 4 O4 C4 C5 is -112.233°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /H:4@C2 /H:4@C1 /H:3@O4 /H:3@C4
+INFO:
+Torsion angle for atoms /H GLC 4 C2 C1 GLC 3 O4 C4 is 165.931°
+INFO:
+Executing: torsion /H:4@C1 /H:3@O4 /H:3@C4 /H:3@C5
+INFO:
+Torsion angle for atoms /H GLC 4 C1 GLC 3 O4 C4 C5 is -150.228°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /H:3@C2 /H:3@C1 /H:2@O4 /H:2@C4
+INFO:
+Torsion angle for atoms /H GLC 3 C2 C1 GLC 2 O4 C4 is -137.343°
+INFO:
+Executing: torsion /H:3@C1 /H:2@O4 /H:2@C4 /H:2@C5
+INFO:
+Torsion angle for atoms /H GLC 3 C1 GLC 2 O4 C4 C5 is -130.6°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /H:2@C2 /H:2@C1 /H:1@O4 /H:1@C4
+INFO:
+Torsion angle for atoms /H GLC 2 C2 C1 GLC 1 O4 C4 is -140.95°
+INFO:
+Executing: torsion /H:2@C1 /H:1@O4 /H:1@C4 /H:1@C5
+INFO:
+Torsion angle for atoms /H GLC 2 C1 GLC 1 O4 C4 C5 is -133.273°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /E:6@C2 /E:6@C1 /E:5@O4 /E:5@C4
+INFO:
+Torsion angle for atoms /E GLC 6 C2 C1 GLC 5 O4 C4 is -133.429°
+INFO:
+Executing: torsion /E:6@C1 /E:5@O4 /E:5@C4 /E:5@C5
+INFO:
+Torsion angle for atoms /E GLC 6 C1 GLC 5 O4 C4 C5 is -128.938°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /E:5@C2 /E:5@C1 /E:4@O4 /E:4@C4
+INFO:
+Torsion angle for atoms /E GLC 5 C2 C1 GLC 4 O4 C4 is -130.654°
+INFO:
+Executing: torsion /E:5@C1 /E:4@O4 /E:4@C4 /E:4@C5
+INFO:
+Torsion angle for atoms /E GLC 5 C1 GLC 4 O4 C4 C5 is -122.449°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /E:4@C2 /E:4@C1 /E:3@O4 /E:3@C4
+INFO:
+Torsion angle for atoms /E GLC 4 C2 C1 GLC 3 O4 C4 is -134.938°
+INFO:
+Executing: torsion /E:4@C1 /E:3@O4 /E:3@C4 /E:3@C5
+INFO:
+Torsion angle for atoms /E GLC 4 C1 GLC 3 O4 C4 C5 is -144.219°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /E:3@C2 /E:3@C1 /E:2@O4 /E:2@C4
+INFO:
+Torsion angle for atoms /E GLC 3 C2 C1 GLC 2 O4 C4 is -161.632°
+INFO:
+Executing: torsion /E:3@C1 /E:2@O4 /E:2@C4 /E:2@C5
+INFO:
+Torsion angle for atoms /E GLC 3 C1 GLC 2 O4 C4 C5 is -146.91°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /E:2@C2 /E:2@C1 /E:1@O4 /E:1@C4
+INFO:
+Torsion angle for atoms /E GLC 2 C2 C1 GLC 1 O4 C4 is -177.939°
+INFO:
+Executing: torsion /E:2@C1 /E:1@O4 /E:1@C4 /E:1@C5
+INFO:
+Torsion angle for atoms /E GLC 2 C1 GLC 1 O4 C4 C5 is -149.023°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /D:5@C2 /D:5@C1 /D:4@O4 /D:4@C4
+INFO:
+Torsion angle for atoms /D GLC 5 C2 C1 GLC 4 O4 C4 is -137.287°
+INFO:
+Executing: torsion /D:5@C1 /D:4@O4 /D:4@C4 /D:4@C5
+INFO:
+Torsion angle for atoms /D GLC 5 C1 GLC 4 O4 C4 C5 is -143.872°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /D:4@C2 /D:4@C1 /D:3@O4 /D:3@C4
+INFO:
+Torsion angle for atoms /D GLC 4 C2 C1 GLC 3 O4 C4 is -142.262°
+INFO:
+Executing: torsion /D:4@C1 /D:3@O4 /D:3@C4 /D:3@C5
+INFO:
+Torsion angle for atoms /D GLC 4 C1 GLC 3 O4 C4 C5 is -129.894°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /D:3@C2 /D:3@C1 /D:2@O4 /D:2@C4
+INFO:
+Torsion angle for atoms /D GLC 3 C2 C1 GLC 2 O4 C4 is -136.962°
+INFO:
+Executing: torsion /D:3@C1 /D:2@O4 /D:2@C4 /D:2@C5
+INFO:
+Torsion angle for atoms /D GLC 3 C1 GLC 2 O4 C4 C5 is -140.084°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3k8l.pdb
+INFO:
+_3k8l.pdb_ title:  
+ **Crystal structure of susg-D498N mutant with maltoheptaose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3k8l.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:44-692 "Select chain") [B](cxcmd:select /B:44-691 "Select
+chain") | [α-amylase, susg](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8A1G3_BACTN](cxcmd:open Q8A1G3 from uniprot "Show annotations")
+[24-692](cxcmd:select #1/A,B:24-692 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3k8l.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /D:2@C2 /D:2@C1 /D:1@O4 /D:1@C4
+INFO:
+Torsion angle for atoms /D GLC 2 C2 C1 GLC 1 O4 C4 is -146.619°
+INFO:
+Executing: torsion /D:2@C1 /D:1@O4 /D:1@C4 /D:1@C5
+INFO:
+Torsion angle for atoms /D GLC 2 C1 GLC 1 O4 C4 C5 is -143.215°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5a2c.pdb
+INFO:
+_5a2c.pdb_ title:  
+ **Crystal structure of anoxybacillus α-amylase provides insights INTO A new
+glycosyl hydrolase subclass** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5a2c.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:26-475 "Select chain") | [α-amylase](cxcmd:sequence chain
+#1/A "Show sequence") | [I1VWH9_9BACI](cxcmd:open I1VWH9 from uniprot "Show
+annotations") [24-478](cxcmd:select #1/A:24-478 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 5a2c.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /B:2@C2 /B:2@C1 /B:1@O4 /B:1@C4
+INFO:
+Torsion angle for atoms /B GLC 2 C2 C1 GLC 1 O4 C4 is -121.971°
+INFO:
+Executing: torsion /B:2@C1 /B:1@O4 /B:1@C4 /B:1@C5
+INFO:
+Torsion angle for atoms /B GLC 2 C1 GLC 1 O4 C4 C5 is -99.2343°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2mpr.pdb
+INFO:
+_2mpr.pdb_ title:  
+ **Maltoporin from salmonella typhimurium** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 2mpr.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-427 "Select chain") [B](cxcmd:select /B:1-427 "Select
+chain") [C](cxcmd:select /C:1-427 "Select chain") |
+[maltoporin](cxcmd:sequence chain #1/A#1/B#1/C "Show sequence") |
+[LAMB_SALTY](cxcmd:open P26466 from uniprot "Show annotations")
+[1-427](cxcmd:select #1/A,B,C:1-427 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2mpr.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /E:3@C2 /E:3@C1 /E:2@O4 /E:2@C4
+INFO:
+Torsion angle for atoms /E GLC 3 C2 C1 GLC 2 O4 C4 is -135.502°
+INFO:
+Executing: torsion /E:3@C1 /E:2@O4 /E:2@C4 /E:2@C5
+INFO:
+Torsion angle for atoms /E GLC 3 C1 GLC 2 O4 C4 C5 is -129.71°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2mpr.pdb
+INFO:
+_2mpr.pdb_ title:  
+ **Maltoporin from salmonella typhimurium** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 2mpr.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-427 "Select chain") [B](cxcmd:select /B:1-427 "Select
+chain") [C](cxcmd:select /C:1-427 "Select chain") |
+[maltoporin](cxcmd:sequence chain #1/A#1/B#1/C "Show sequence") |
+[LAMB_SALTY](cxcmd:open P26466 from uniprot "Show annotations")
+[1-427](cxcmd:select #1/A,B,C:1-427 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2mpr.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /F:3@C2 /F:3@C1 /F:2@O4 /F:2@C4
+INFO:
+Torsion angle for atoms /F GLC 3 C2 C1 GLC 2 O4 C4 is -134.293°
+INFO:
+Executing: torsion /F:3@C1 /F:2@O4 /F:2@C4 /F:2@C5
+INFO:
+Torsion angle for atoms /F GLC 3 C1 GLC 2 O4 C4 C5 is -130.875°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2mpr.pdb
+INFO:
+_2mpr.pdb_ title:  
+ **Maltoporin from salmonella typhimurium** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 2mpr.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-427 "Select chain") [B](cxcmd:select /B:1-427 "Select
+chain") [C](cxcmd:select /C:1-427 "Select chain") |
+[maltoporin](cxcmd:sequence chain #1/A#1/B#1/C "Show sequence") |
+[LAMB_SALTY](cxcmd:open P26466 from uniprot "Show annotations")
+[1-427](cxcmd:select #1/A,B,C:1-427 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2mpr.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /D:3@C2 /D:3@C1 /D:2@O4 /D:2@C4
+INFO:
+Torsion angle for atoms /D GLC 3 C2 C1 GLC 2 O4 C4 is -136.076°
+INFO:
+Executing: torsion /D:3@C1 /D:2@O4 /D:2@C4 /D:2@C5
+INFO:
+Torsion angle for atoms /D GLC 3 C1 GLC 2 O4 C4 C5 is -128.796°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1mw2.pdb
+INFO:
+_1mw2.pdb_ title:  
+ **Amylosucrase soaked with 100MM sucrose** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 1mw2.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:1-628 "Select chain") | [amylosucrase](cxcmd:sequence
+chain #1/A "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 1mw2.pdb #1  
+---  
+[FRU](cxcmd:sel :FRU "select residue") — [β-D-
+fructofuranose](http://www.rcsb.org/ligand/FRU "show residue info") (β-D-
+fructose; D-fructose; fructose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[TRS](cxcmd:sel :TRS "select residue") — [2-amino-2-hydroxymethyl-
+propane-1,3-diol](http://www.rcsb.org/ligand/TRS "show residue info") (tris
+buffer)  
+  
+
+INFO:
+Executing: torsion /B:4@C2 /B:4@C1 /B:3@O4 /B:3@C4
+INFO:
+Torsion angle for atoms /B GLC 4 C2 C1 GLC 3 O4 C4 is -170.664°
+INFO:
+Executing: torsion /B:4@C1 /B:3@O4 /B:3@C4 /B:3@C5
+INFO:
+Torsion angle for atoms /B GLC 4 C1 GLC 3 O4 C4 C5 is -148.368°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1mw2.pdb
+INFO:
+_1mw2.pdb_ title:  
+ **Amylosucrase soaked with 100MM sucrose** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 1mw2.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:1-628 "Select chain") | [amylosucrase](cxcmd:sequence
+chain #1/A "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 1mw2.pdb #1  
+---  
+[FRU](cxcmd:sel :FRU "select residue") — [β-D-
+fructofuranose](http://www.rcsb.org/ligand/FRU "show residue info") (β-D-
+fructose; D-fructose; fructose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[TRS](cxcmd:sel :TRS "select residue") — [2-amino-2-hydroxymethyl-
+propane-1,3-diol](http://www.rcsb.org/ligand/TRS "show residue info") (tris
+buffer)  
+  
+
+INFO:
+Executing: torsion /B:3@C2 /B:3@C1 /B:2@O4 /B:2@C4
+INFO:
+Torsion angle for atoms /B GLC 3 C2 C1 GLC 2 O4 C4 is -155.731°
+INFO:
+Executing: torsion /B:3@C1 /B:2@O4 /B:2@C4 /B:2@C5
+INFO:
+Torsion angle for atoms /B GLC 3 C1 GLC 2 O4 C4 C5 is -147.252°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1mw2.pdb
+INFO:
+_1mw2.pdb_ title:  
+ **Amylosucrase soaked with 100MM sucrose** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 1mw2.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:1-628 "Select chain") | [amylosucrase](cxcmd:sequence
+chain #1/A "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 1mw2.pdb #1  
+---  
+[FRU](cxcmd:sel :FRU "select residue") — [β-D-
+fructofuranose](http://www.rcsb.org/ligand/FRU "show residue info") (β-D-
+fructose; D-fructose; fructose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[TRS](cxcmd:sel :TRS "select residue") — [2-amino-2-hydroxymethyl-
+propane-1,3-diol](http://www.rcsb.org/ligand/TRS "show residue info") (tris
+buffer)  
+  
+
+INFO:
+Executing: torsion /B:2@C2 /B:2@C1 /B:1@O4 /B:1@C4
+INFO:
+Torsion angle for atoms /B GLC 2 C2 C1 GLC 1 O4 C4 is -132.589°
+INFO:
+Executing: torsion /B:2@C1 /B:1@O4 /B:1@C4 /B:1@C5
+INFO:
+Torsion angle for atoms /B GLC 2 C1 GLC 1 O4 C4 C5 is -134.096°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5osq.pdb
+INFO:
+_5osq.pdb_ title:  
+ **ZP-N domain of mammalian sperm receptor ZP3 (crystal form II, processed In
+P21221)** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5osq.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:3-474 "Select chain") [B](cxcmd:select /B:2-473 "Select
+chain") | [maltose-binding periplasmic protein,zona pellucida sperm- binding
+protein 3](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[MALE_ECOLI](cxcmd:open P0AEX9 from uniprot "Show annotations")
+[2-368](cxcmd:select #1/A,B:2-368 "Select sequence"), [ZP3_MOUSE](cxcmd:open
+P10761 from uniprot "Show annotations") [372-473](cxcmd:select #1/A,B:372-473
+"Select sequence")  
+  
+
+INFO:
+Non-standard residues in 5osq.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[PGE](cxcmd:sel :PGE "select residue") — [triethylene
+glycol](http://www.rcsb.org/ligand/PGE "show residue info")  
+  
+
+INFO:
+Executing: torsion /C:2@C2 /C:2@C1 /C:1@O4 /C:1@C4
+INFO:
+Torsion angle for atoms /C GLC 2 C2 C1 GLC 1 O4 C4 is -138.845°
+INFO:
+Executing: torsion /C:2@C1 /C:1@O4 /C:1@C4 /C:1@C5
+INFO:
+Torsion angle for atoms /C GLC 2 C1 GLC 1 O4 C4 C5 is -135.475°
+INFO:
+Executing: close #1
+INFO:
+Executing: exit
+STATUS:
+Exiting ...

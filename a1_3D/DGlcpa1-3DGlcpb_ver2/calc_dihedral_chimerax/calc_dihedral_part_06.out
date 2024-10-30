@@ -1,0 +1,2808 @@
+WARNING:
+Replacing fetcher for 'pdb_nmr' and format NMRSTAR from NMRSTAR bundle with that from NMRSTAR bundle
+INFO:
+UCSF ChimeraX version: 1.6.1 (2023-05-09)
+INFO:
+© 2016-2023 Regents of the University of California.  All rights reserved.
+INFO:
+Executing: open ./calc_dihedral_chimerax/calc_dihedral_part_06.cxc
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3dtu.pdb
+INFO:
+_3dtu.pdb_ title:  
+ **Catalytic core subunits (I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides complexed with deoxycholic acid** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 3dtu.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:13-551 "Select chain") [C](cxcmd:select /C:17-552 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:29-287 "Select chain") [D](cxcmd:select /D:28-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3dtu.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU](cxcmd:sel :CU "select residue") — [copper (II)
+ion](http://www.rcsb.org/ligand/CU "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[DXC](cxcmd:sel :DXC "select residue") —
+[(3Α,5Β,12Α)-3,12-dihydroxycholan-24-oic acid](http://www.rcsb.org/ligand/DXC
+"show residue info") (deoxycholic acid)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTO](cxcmd:sel :HTO "select residue") —
+[heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTO "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[PO4](cxcmd:sel :PO4 "select residue") — [phosphate
+ion](http://www.rcsb.org/ligand/PO4 "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /A:567@C2 /A:567@C1 /A:567@O3 /A:567@C3
+INFO:
+Torsion angle for atoms /A DMU 567 C2 C1 O3 C3 is -76.0516°
+INFO:
+Executing: torsion /A:567@C1 /A:567@O3 /A:567@C3 /A:567@C4
+INFO:
+Torsion angle for atoms /A DMU 567 C1 O3 C3 C4 is 118.765°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3dtu.pdb
+INFO:
+_3dtu.pdb_ title:  
+ **Catalytic core subunits (I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides complexed with deoxycholic acid** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 3dtu.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:13-551 "Select chain") [C](cxcmd:select /C:17-552 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:29-287 "Select chain") [D](cxcmd:select /D:28-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3dtu.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU](cxcmd:sel :CU "select residue") — [copper (II)
+ion](http://www.rcsb.org/ligand/CU "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[DXC](cxcmd:sel :DXC "select residue") —
+[(3Α,5Β,12Α)-3,12-dihydroxycholan-24-oic acid](http://www.rcsb.org/ligand/DXC
+"show residue info") (deoxycholic acid)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTO](cxcmd:sel :HTO "select residue") —
+[heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTO "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[PO4](cxcmd:sel :PO4 "select residue") — [phosphate
+ion](http://www.rcsb.org/ligand/PO4 "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /A:1005@C2 /A:1005@C1 /A:1005@O3 /A:1005@C3
+INFO:
+Torsion angle for atoms /A DMU 1005 C2 C1 O3 C3 is 112.84°
+INFO:
+Executing: torsion /A:1005@C1 /A:1005@O3 /A:1005@C3 /A:1005@C4
+INFO:
+Torsion angle for atoms /A DMU 1005 C1 O3 C3 C4 is 108.275°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3dtu.pdb
+INFO:
+_3dtu.pdb_ title:  
+ **Catalytic core subunits (I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides complexed with deoxycholic acid** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 3dtu.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:13-551 "Select chain") [C](cxcmd:select /C:17-552 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:29-287 "Select chain") [D](cxcmd:select /D:28-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3dtu.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU](cxcmd:sel :CU "select residue") — [copper (II)
+ion](http://www.rcsb.org/ligand/CU "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[DXC](cxcmd:sel :DXC "select residue") —
+[(3Α,5Β,12Α)-3,12-dihydroxycholan-24-oic acid](http://www.rcsb.org/ligand/DXC
+"show residue info") (deoxycholic acid)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTO](cxcmd:sel :HTO "select residue") —
+[heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTO "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[PO4](cxcmd:sel :PO4 "select residue") — [phosphate
+ion](http://www.rcsb.org/ligand/PO4 "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /D:11@C2 /D:11@C1 /D:11@O3 /D:11@C3
+INFO:
+Torsion angle for atoms /D DMU 11 C2 C1 O3 C3 is -50.5806°
+INFO:
+Executing: torsion /D:11@C1 /D:11@O3 /D:11@C3 /D:11@C4
+INFO:
+Torsion angle for atoms /D DMU 11 C1 O3 C3 C4 is 119.169°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3dtu.pdb
+INFO:
+_3dtu.pdb_ title:  
+ **Catalytic core subunits (I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides complexed with deoxycholic acid** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 3dtu.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:13-551 "Select chain") [C](cxcmd:select /C:17-552 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:29-287 "Select chain") [D](cxcmd:select /D:28-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3dtu.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU](cxcmd:sel :CU "select residue") — [copper (II)
+ion](http://www.rcsb.org/ligand/CU "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[DXC](cxcmd:sel :DXC "select residue") —
+[(3Α,5Β,12Α)-3,12-dihydroxycholan-24-oic acid](http://www.rcsb.org/ligand/DXC
+"show residue info") (deoxycholic acid)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTO](cxcmd:sel :HTO "select residue") —
+[heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTO "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[PO4](cxcmd:sel :PO4 "select residue") — [phosphate
+ion](http://www.rcsb.org/ligand/PO4 "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /C:568@C2 /C:568@C1 /C:568@O3 /C:568@C3
+INFO:
+Torsion angle for atoms /C DMU 568 C2 C1 O3 C3 is -52.2485°
+INFO:
+Executing: torsion /C:568@C1 /C:568@O3 /C:568@C3 /C:568@C4
+INFO:
+Torsion angle for atoms /C DMU 568 C1 O3 C3 C4 is 126.377°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/7kkr.pdb
+INFO:
+_7kkr.pdb_ title:  
+ **Fluoride channel fluc-EC2 wild-type with bromide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 7kkr.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:2-126 "Select chain") [B](cxcmd:select /B:1-125 "Select
+chain") | [putative fluoride ion transporter CRCB](cxcmd:sequence chain
+#1/A#1/B "Show sequence") | [Q6J5N4_ECOLX](cxcmd:open Q6J5N4 from uniprot
+"Show annotations") [1-126](cxcmd:select #1/A,B:1-126 "Select sequence")  
+[C](cxcmd:select /C:1-96 "Select chain") [D](cxcmd:select /D:1-96 "Select
+chain") | [monobody](cxcmd:sequence chain #1/C#1/D "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 7kkr.pdb #1  
+---  
+[BR](cxcmd:sel :BR "select residue") — [bromide
+ion](http://www.rcsb.org/ligand/BR "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+  
+
+INFO:
+Executing: torsion /C:501@C2 /C:501@C1 /C:501@O3 /C:501@C3
+INFO:
+Torsion angle for atoms /C DMU 501 C2 C1 O3 C3 is -9.16678°
+INFO:
+Executing: torsion /C:501@C1 /C:501@O3 /C:501@C3 /C:501@C4
+INFO:
+Torsion angle for atoms /C DMU 501 C1 O3 C3 C4 is 104.688°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/7kkr.pdb
+INFO:
+_7kkr.pdb_ title:  
+ **Fluoride channel fluc-EC2 wild-type with bromide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 7kkr.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:2-126 "Select chain") [B](cxcmd:select /B:1-125 "Select
+chain") | [putative fluoride ion transporter CRCB](cxcmd:sequence chain
+#1/A#1/B "Show sequence") | [Q6J5N4_ECOLX](cxcmd:open Q6J5N4 from uniprot
+"Show annotations") [1-126](cxcmd:select #1/A,B:1-126 "Select sequence")  
+[C](cxcmd:select /C:1-96 "Select chain") [D](cxcmd:select /D:1-96 "Select
+chain") | [monobody](cxcmd:sequence chain #1/C#1/D "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 7kkr.pdb #1  
+---  
+[BR](cxcmd:sel :BR "select residue") — [bromide
+ion](http://www.rcsb.org/ligand/BR "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+  
+
+INFO:
+Executing: torsion /B:401@C2 /B:401@C1 /B:401@O3 /B:401@C3
+INFO:
+Torsion angle for atoms /B DMU 401 C2 C1 O3 C3 is -41.7654°
+INFO:
+Executing: torsion /B:401@C1 /B:401@O3 /B:401@C3 /B:401@C4
+INFO:
+Torsion angle for atoms /B DMU 401 C1 O3 C3 C4 is 111°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/7kkr.pdb
+INFO:
+_7kkr.pdb_ title:  
+ **Fluoride channel fluc-EC2 wild-type with bromide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 7kkr.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:2-126 "Select chain") [B](cxcmd:select /B:1-125 "Select
+chain") | [putative fluoride ion transporter CRCB](cxcmd:sequence chain
+#1/A#1/B "Show sequence") | [Q6J5N4_ECOLX](cxcmd:open Q6J5N4 from uniprot
+"Show annotations") [1-126](cxcmd:select #1/A,B:1-126 "Select sequence")  
+[C](cxcmd:select /C:1-96 "Select chain") [D](cxcmd:select /D:1-96 "Select
+chain") | [monobody](cxcmd:sequence chain #1/C#1/D "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 7kkr.pdb #1  
+---  
+[BR](cxcmd:sel :BR "select residue") — [bromide
+ion](http://www.rcsb.org/ligand/BR "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+  
+
+INFO:
+Executing: torsion /A:201@C2 /A:201@C1 /A:201@O3 /A:201@C3
+INFO:
+Torsion angle for atoms /A DMU 201 C2 C1 O3 C3 is -24.6511°
+INFO:
+Executing: torsion /A:201@C1 /A:201@O3 /A:201@C3 /A:201@C4
+INFO:
+Torsion angle for atoms /A DMU 201 C1 O3 C3 C4 is 99.1505°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6m0z.pdb
+INFO:
+_6m0z.pdb_ title:  
+ **X-ray structure of drosophila dopamine transporter with net-like mutations
+(D121G/S426M/F471L) In L-norepinephrine bound form**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6m0z.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:25-601 "Select chain") | [protein fumin](cxcmd:sequence
+chain #1/A "Show sequence") | [DAT_DROME](cxcmd:open Q7K4Y6 from uniprot "Show
+annotations") [25-601](cxcmd:select #1/A:25-601 "Select sequence")  
+[H](cxcmd:select /H:1-219 "Select chain") | [antibody fragment (fab) 9D5 heavy
+chain](cxcmd:sequence chain #1/H "Show sequence") |  
+[L](cxcmd:select /L:1-214 "Select chain") | [antibody fragment (fab) 9D5 light
+chain](cxcmd:sequence chain #1/L "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 6m0z.pdb #1  
+---  
+[CL](cxcmd:sel :CL "select residue") — [chloride
+ion](http://www.rcsb.org/ligand/CL "show residue info")  
+[CLR](cxcmd:sel :CLR "select residue") —
+[cholesterol](http://www.rcsb.org/ligand/CLR "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[LNR](cxcmd:sel :LNR "select residue") —
+[L-norepinephrine](http://www.rcsb.org/ligand/LNR "show residue info")
+(noradrenaline)  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+[Y01](cxcmd:sel :Y01 "select residue") — [cholesterol
+hemisuccinate](http://www.rcsb.org/ligand/Y01 "show residue info")  
+  
+
+INFO:
+Executing: torsion /A:703@C2 /A:703@C1 /A:703@O3 /A:703@C3
+INFO:
+Torsion angle for atoms /A DMU 703 C2 C1 O3 C3 is -47.4642°
+INFO:
+Executing: torsion /A:703@C1 /A:703@O3 /A:703@C3 /A:703@C4
+INFO:
+Torsion angle for atoms /A DMU 703 C1 O3 C3 C4 is 105.015°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6pw1.pdb
+INFO:
+_6pw1.pdb_ title:  
+ **Cytochrome C oxidase δ 16** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6pw1.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-550 "Select chain") [C](cxcmd:select /C:18-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [Q3J5A7_RHOS4](cxcmd:open Q3J5A7 from uniprot "Show annotations")
+[17-550](cxcmd:select #1/A,C:17-550 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [Q3J5G0_RHOS4](cxcmd:open Q3J5G0 from uniprot "Show annotations")
+[30-281](cxcmd:select #1/B,D:30-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 6pw1.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU](cxcmd:sel :CU "select residue") — [copper (II)
+ion](http://www.rcsb.org/ligand/CU "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTH](cxcmd:sel :HTH "select residue") —
+[(2S,3R)-heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTH "show residue
+info") (heptane-1,2,3-triol)  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+[TRS](cxcmd:sel :TRS "select residue") — [2-amino-2-hydroxymethyl-
+propane-1,3-diol](http://www.rcsb.org/ligand/TRS "show residue info") (tris
+buffer)  
+  
+
+INFO:
+Executing: torsion /A:613@C2 /A:613@C1 /A:613@O3 /A:613@C3
+INFO:
+Torsion angle for atoms /A DMU 613 C2 C1 O3 C3 is -56.2686°
+INFO:
+Executing: torsion /A:613@C1 /A:613@O3 /A:613@C3 /A:613@C4
+INFO:
+Torsion angle for atoms /A DMU 613 C1 O3 C3 C4 is 137.581°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6pw1.pdb
+INFO:
+_6pw1.pdb_ title:  
+ **Cytochrome C oxidase δ 16** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6pw1.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-550 "Select chain") [C](cxcmd:select /C:18-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [Q3J5A7_RHOS4](cxcmd:open Q3J5A7 from uniprot "Show annotations")
+[17-550](cxcmd:select #1/A,C:17-550 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [Q3J5G0_RHOS4](cxcmd:open Q3J5G0 from uniprot "Show annotations")
+[30-281](cxcmd:select #1/B,D:30-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 6pw1.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU](cxcmd:sel :CU "select residue") — [copper (II)
+ion](http://www.rcsb.org/ligand/CU "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTH](cxcmd:sel :HTH "select residue") —
+[(2S,3R)-heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTH "show residue
+info") (heptane-1,2,3-triol)  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+[TRS](cxcmd:sel :TRS "select residue") — [2-amino-2-hydroxymethyl-
+propane-1,3-diol](http://www.rcsb.org/ligand/TRS "show residue info") (tris
+buffer)  
+  
+
+INFO:
+Executing: torsion /A:614@C2 /A:614@C1 /A:614@O3 /A:614@C3
+INFO:
+Torsion angle for atoms /A DMU 614 C2 C1 O3 C3 is 41.1296°
+INFO:
+Executing: torsion /A:614@C1 /A:614@O3 /A:614@C3 /A:614@C4
+INFO:
+Torsion angle for atoms /A DMU 614 C1 O3 C3 C4 is 97.6234°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6pw1.pdb
+INFO:
+_6pw1.pdb_ title:  
+ **Cytochrome C oxidase δ 16** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6pw1.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-550 "Select chain") [C](cxcmd:select /C:18-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [Q3J5A7_RHOS4](cxcmd:open Q3J5A7 from uniprot "Show annotations")
+[17-550](cxcmd:select #1/A,C:17-550 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [Q3J5G0_RHOS4](cxcmd:open Q3J5G0 from uniprot "Show annotations")
+[30-281](cxcmd:select #1/B,D:30-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 6pw1.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU](cxcmd:sel :CU "select residue") — [copper (II)
+ion](http://www.rcsb.org/ligand/CU "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTH](cxcmd:sel :HTH "select residue") —
+[(2S,3R)-heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTH "show residue
+info") (heptane-1,2,3-triol)  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+[TRS](cxcmd:sel :TRS "select residue") — [2-amino-2-hydroxymethyl-
+propane-1,3-diol](http://www.rcsb.org/ligand/TRS "show residue info") (tris
+buffer)  
+  
+
+INFO:
+Executing: torsion /A:611@C2 /A:611@C1 /A:611@O3 /A:611@C3
+INFO:
+Torsion angle for atoms /A DMU 611 C2 C1 O3 C3 is 147.67°
+INFO:
+Executing: torsion /A:611@C1 /A:611@O3 /A:611@C3 /A:611@C4
+INFO:
+Torsion angle for atoms /A DMU 611 C1 O3 C3 C4 is 122.885°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6pw1.pdb
+INFO:
+_6pw1.pdb_ title:  
+ **Cytochrome C oxidase δ 16** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6pw1.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-550 "Select chain") [C](cxcmd:select /C:18-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [Q3J5A7_RHOS4](cxcmd:open Q3J5A7 from uniprot "Show annotations")
+[17-550](cxcmd:select #1/A,C:17-550 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [Q3J5G0_RHOS4](cxcmd:open Q3J5G0 from uniprot "Show annotations")
+[30-281](cxcmd:select #1/B,D:30-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 6pw1.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU](cxcmd:sel :CU "select residue") — [copper (II)
+ion](http://www.rcsb.org/ligand/CU "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTH](cxcmd:sel :HTH "select residue") —
+[(2S,3R)-heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTH "show residue
+info") (heptane-1,2,3-triol)  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+[TRS](cxcmd:sel :TRS "select residue") — [2-amino-2-hydroxymethyl-
+propane-1,3-diol](http://www.rcsb.org/ligand/TRS "show residue info") (tris
+buffer)  
+  
+
+INFO:
+Executing: torsion /A:612@C2 /A:612@C1 /A:612@O3 /A:612@C3
+INFO:
+Torsion angle for atoms /A DMU 612 C2 C1 O3 C3 is -42.8984°
+INFO:
+Executing: torsion /A:612@C1 /A:612@O3 /A:612@C3 /A:612@C4
+INFO:
+Torsion angle for atoms /A DMU 612 C1 O3 C3 C4 is 119.143°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6pw1.pdb
+INFO:
+_6pw1.pdb_ title:  
+ **Cytochrome C oxidase δ 16** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6pw1.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-550 "Select chain") [C](cxcmd:select /C:18-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [Q3J5A7_RHOS4](cxcmd:open Q3J5A7 from uniprot "Show annotations")
+[17-550](cxcmd:select #1/A,C:17-550 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [Q3J5G0_RHOS4](cxcmd:open Q3J5G0 from uniprot "Show annotations")
+[30-281](cxcmd:select #1/B,D:30-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 6pw1.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU](cxcmd:sel :CU "select residue") — [copper (II)
+ion](http://www.rcsb.org/ligand/CU "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTH](cxcmd:sel :HTH "select residue") —
+[(2S,3R)-heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTH "show residue
+info") (heptane-1,2,3-triol)  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+[TRS](cxcmd:sel :TRS "select residue") — [2-amino-2-hydroxymethyl-
+propane-1,3-diol](http://www.rcsb.org/ligand/TRS "show residue info") (tris
+buffer)  
+  
+
+INFO:
+Executing: torsion /B:302@C2 /B:302@C1 /B:302@O3 /B:302@C3
+INFO:
+Torsion angle for atoms /B DMU 302 C2 C1 O3 C3 is -48.2795°
+INFO:
+Executing: torsion /B:302@C1 /B:302@O3 /B:302@C3 /B:302@C4
+INFO:
+Torsion angle for atoms /B DMU 302 C1 O3 C3 C4 is 136.953°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/7kka.pdb
+INFO:
+_7kka.pdb_ title:  
+ **Fluoride channel fluc-EC2 mutant S81A with bromide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 7kka.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:2-126 "Select chain") [B](cxcmd:select /B:1-125 "Select
+chain") | [putative fluoride ion transporter CRCB](cxcmd:sequence chain
+#1/A#1/B "Show sequence") | [Q6J5N4_ECOLX](cxcmd:open Q6J5N4 from uniprot
+"Show annotations") [1-126](cxcmd:select #1/A,B:1-126 "Select sequence")  
+[C](cxcmd:select /C:1-96 "Select chain") [D](cxcmd:select /D:1-96 "Select
+chain") | [monobody](cxcmd:sequence chain #1/C#1/D "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 7kka.pdb #1  
+---  
+[BR](cxcmd:sel :BR "select residue") — [bromide
+ion](http://www.rcsb.org/ligand/BR "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[F](cxcmd:sel :F "select residue") — [fluoride
+ion](http://www.rcsb.org/ligand/F "show residue info")  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+  
+
+INFO:
+Executing: torsion /A:204@C2 /A:204@C1 /A:204@O3 /A:204@C3
+INFO:
+Torsion angle for atoms /A DMU 204 C2 C1 O3 C3 is -19.3844°
+INFO:
+Executing: torsion /A:204@C1 /A:204@O3 /A:204@C3 /A:204@C4
+INFO:
+Torsion angle for atoms /A DMU 204 C1 O3 C3 C4 is 102.128°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/7kka.pdb
+INFO:
+_7kka.pdb_ title:  
+ **Fluoride channel fluc-EC2 mutant S81A with bromide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 7kka.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:2-126 "Select chain") [B](cxcmd:select /B:1-125 "Select
+chain") | [putative fluoride ion transporter CRCB](cxcmd:sequence chain
+#1/A#1/B "Show sequence") | [Q6J5N4_ECOLX](cxcmd:open Q6J5N4 from uniprot
+"Show annotations") [1-126](cxcmd:select #1/A,B:1-126 "Select sequence")  
+[C](cxcmd:select /C:1-96 "Select chain") [D](cxcmd:select /D:1-96 "Select
+chain") | [monobody](cxcmd:sequence chain #1/C#1/D "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 7kka.pdb #1  
+---  
+[BR](cxcmd:sel :BR "select residue") — [bromide
+ion](http://www.rcsb.org/ligand/BR "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[F](cxcmd:sel :F "select residue") — [fluoride
+ion](http://www.rcsb.org/ligand/F "show residue info")  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+  
+
+INFO:
+Executing: torsion /C:501@C2 /C:501@C1 /C:501@O3 /C:501@C3
+INFO:
+Torsion angle for atoms /C DMU 501 C2 C1 O3 C3 is -21.9808°
+INFO:
+Executing: torsion /C:501@C1 /C:501@O3 /C:501@C3 /C:501@C4
+INFO:
+Torsion angle for atoms /C DMU 501 C1 O3 C3 C4 is 101.336°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/7kka.pdb
+INFO:
+_7kka.pdb_ title:  
+ **Fluoride channel fluc-EC2 mutant S81A with bromide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 7kka.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:2-126 "Select chain") [B](cxcmd:select /B:1-125 "Select
+chain") | [putative fluoride ion transporter CRCB](cxcmd:sequence chain
+#1/A#1/B "Show sequence") | [Q6J5N4_ECOLX](cxcmd:open Q6J5N4 from uniprot
+"Show annotations") [1-126](cxcmd:select #1/A,B:1-126 "Select sequence")  
+[C](cxcmd:select /C:1-96 "Select chain") [D](cxcmd:select /D:1-96 "Select
+chain") | [monobody](cxcmd:sequence chain #1/C#1/D "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 7kka.pdb #1  
+---  
+[BR](cxcmd:sel :BR "select residue") — [bromide
+ion](http://www.rcsb.org/ligand/BR "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[F](cxcmd:sel :F "select residue") — [fluoride
+ion](http://www.rcsb.org/ligand/F "show residue info")  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+  
+
+INFO:
+Executing: torsion /B:203@C2 /B:203@C1 /B:203@O3 /B:203@C3
+INFO:
+Torsion angle for atoms /B DMU 203 C2 C1 O3 C3 is -51.1224°
+INFO:
+Executing: torsion /B:203@C1 /B:203@O3 /B:203@C3 /B:203@C4
+INFO:
+Torsion angle for atoms /B DMU 203 C1 O3 C3 C4 is 115.867°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5fuf.pdb
+INFO:
+_5fuf.pdb_ title:  
+ **Crystal structure of the MEP2 mutant S453D from candida albicans**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5fuf.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:4-455 "Select chain") | [MEP2](cxcmd:sequence chain #1/A
+"Show sequence") | [Q59UP8_CANAL](cxcmd:open Q59UP8 from uniprot "Show
+annotations") [1-480](cxcmd:select #1/A:1-480 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 5fuf.pdb #1  
+---  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+  
+
+INFO:
+Executing: torsion /A:1458@C2 /A:1458@C1 /A:1458@O3 /A:1458@C3
+INFO:
+Torsion angle for atoms /A DMU 1458 C2 C1 O3 C3 is -55.0679°
+INFO:
+Executing: torsion /A:1458@C1 /A:1458@O3 /A:1458@C3 /A:1458@C4
+INFO:
+Torsion angle for atoms /A DMU 1458 C1 O3 C3 C4 is 149.219°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5fuf.pdb
+INFO:
+_5fuf.pdb_ title:  
+ **Crystal structure of the MEP2 mutant S453D from candida albicans**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5fuf.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:4-455 "Select chain") | [MEP2](cxcmd:sequence chain #1/A
+"Show sequence") | [Q59UP8_CANAL](cxcmd:open Q59UP8 from uniprot "Show
+annotations") [1-480](cxcmd:select #1/A:1-480 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 5fuf.pdb #1  
+---  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+  
+
+INFO:
+Executing: torsion /A:1456@C2 /A:1456@C1 /A:1456@O3 /A:1456@C3
+INFO:
+Torsion angle for atoms /A DMU 1456 C2 C1 O3 C3 is -30.2778°
+INFO:
+Executing: torsion /A:1456@C1 /A:1456@O3 /A:1456@C3 /A:1456@C4
+INFO:
+Torsion angle for atoms /A DMU 1456 C1 O3 C3 C4 is 106.365°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5fuf.pdb
+INFO:
+_5fuf.pdb_ title:  
+ **Crystal structure of the MEP2 mutant S453D from candida albicans**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5fuf.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:4-455 "Select chain") | [MEP2](cxcmd:sequence chain #1/A
+"Show sequence") | [Q59UP8_CANAL](cxcmd:open Q59UP8 from uniprot "Show
+annotations") [1-480](cxcmd:select #1/A:1-480 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 5fuf.pdb #1  
+---  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+  
+
+INFO:
+Executing: torsion /A:1457@C2 /A:1457@C1 /A:1457@O3 /A:1457@C3
+INFO:
+Torsion angle for atoms /A DMU 1457 C2 C1 O3 C3 is -41.1168°
+INFO:
+Executing: torsion /A:1457@C1 /A:1457@O3 /A:1457@C3 /A:1457@C4
+INFO:
+Torsion angle for atoms /A DMU 1457 C1 O3 C3 C4 is 125.817°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3omn.pdb
+INFO:
+_3omn.pdb_ title:  
+ **Catalytic core subunits (I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides with D132A mutation In the reduced state**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3omn.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:20-550 "Select
+chain") | [cytochrome C oxidase, AA3 type, subunit I](cxcmd:sequence chain
+#1/A#1/C "Show sequence") | [Q3J5A7_RHOS4](cxcmd:open Q3J5A7 from uniprot
+"Show annotations") [17-551](cxcmd:select #1/A,C:17-551 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [Q3J5G0_RHOS4](cxcmd:open Q3J5G0 from uniprot "Show annotations")
+[30-281](cxcmd:select #1/B,D:30-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3omn.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CL](cxcmd:sel :CL "select residue") — [chloride
+ion](http://www.rcsb.org/ligand/CL "show residue info")  
+[CU1](cxcmd:sel :CU1 "select residue") — [copper (I)
+ion](http://www.rcsb.org/ligand/CU1 "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTH](cxcmd:sel :HTH "select residue") —
+[(2S,3R)-heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTH "show residue
+info") (heptane-1,2,3-triol)  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /D:8@C2 /D:8@C1 /D:8@O3 /D:8@C3
+INFO:
+Torsion angle for atoms /D DMU 8 C2 C1 O3 C3 is -12.8594°
+INFO:
+Executing: torsion /D:8@C1 /D:8@O3 /D:8@C3 /D:8@C4
+INFO:
+Torsion angle for atoms /D DMU 8 C1 O3 C3 C4 is 113.869°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3omn.pdb
+INFO:
+_3omn.pdb_ title:  
+ **Catalytic core subunits (I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides with D132A mutation In the reduced state**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3omn.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:20-550 "Select
+chain") | [cytochrome C oxidase, AA3 type, subunit I](cxcmd:sequence chain
+#1/A#1/C "Show sequence") | [Q3J5A7_RHOS4](cxcmd:open Q3J5A7 from uniprot
+"Show annotations") [17-551](cxcmd:select #1/A,C:17-551 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [Q3J5G0_RHOS4](cxcmd:open Q3J5G0 from uniprot "Show annotations")
+[30-281](cxcmd:select #1/B,D:30-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3omn.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CL](cxcmd:sel :CL "select residue") — [chloride
+ion](http://www.rcsb.org/ligand/CL "show residue info")  
+[CU1](cxcmd:sel :CU1 "select residue") — [copper (I)
+ion](http://www.rcsb.org/ligand/CU1 "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTH](cxcmd:sel :HTH "select residue") —
+[(2S,3R)-heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTH "show residue
+info") (heptane-1,2,3-triol)  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /C:10@C2 /C:10@C1 /C:10@O3 /C:10@C3
+INFO:
+Torsion angle for atoms /C DMU 10 C2 C1 O3 C3 is 107.383°
+INFO:
+Executing: torsion /C:10@C1 /C:10@O3 /C:10@C3 /C:10@C4
+INFO:
+Torsion angle for atoms /C DMU 10 C1 O3 C3 C4 is 107.308°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3omn.pdb
+INFO:
+_3omn.pdb_ title:  
+ **Catalytic core subunits (I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides with D132A mutation In the reduced state**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3omn.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:20-550 "Select
+chain") | [cytochrome C oxidase, AA3 type, subunit I](cxcmd:sequence chain
+#1/A#1/C "Show sequence") | [Q3J5A7_RHOS4](cxcmd:open Q3J5A7 from uniprot
+"Show annotations") [17-551](cxcmd:select #1/A,C:17-551 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [Q3J5G0_RHOS4](cxcmd:open Q3J5G0 from uniprot "Show annotations")
+[30-281](cxcmd:select #1/B,D:30-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3omn.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CL](cxcmd:sel :CL "select residue") — [chloride
+ion](http://www.rcsb.org/ligand/CL "show residue info")  
+[CU1](cxcmd:sel :CU1 "select residue") — [copper (I)
+ion](http://www.rcsb.org/ligand/CU1 "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTH](cxcmd:sel :HTH "select residue") —
+[(2S,3R)-heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTH "show residue
+info") (heptane-1,2,3-triol)  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /B:1@C2 /B:1@C1 /B:1@O3 /B:1@C3
+INFO:
+Torsion angle for atoms /B DMU 1 C2 C1 O3 C3 is -41.8483°
+INFO:
+Executing: torsion /B:1@C1 /B:1@O3 /B:1@C3 /B:1@C4
+INFO:
+Torsion angle for atoms /B DMU 1 C1 O3 C3 C4 is 108.941°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3omn.pdb
+INFO:
+_3omn.pdb_ title:  
+ **Catalytic core subunits (I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides with D132A mutation In the reduced state**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3omn.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:20-550 "Select
+chain") | [cytochrome C oxidase, AA3 type, subunit I](cxcmd:sequence chain
+#1/A#1/C "Show sequence") | [Q3J5A7_RHOS4](cxcmd:open Q3J5A7 from uniprot
+"Show annotations") [17-551](cxcmd:select #1/A,C:17-551 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [Q3J5G0_RHOS4](cxcmd:open Q3J5G0 from uniprot "Show annotations")
+[30-281](cxcmd:select #1/B,D:30-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3omn.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CL](cxcmd:sel :CL "select residue") — [chloride
+ion](http://www.rcsb.org/ligand/CL "show residue info")  
+[CU1](cxcmd:sel :CU1 "select residue") — [copper (I)
+ion](http://www.rcsb.org/ligand/CU1 "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTH](cxcmd:sel :HTH "select residue") —
+[(2S,3R)-heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTH "show residue
+info") (heptane-1,2,3-triol)  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /B:2@C2 /B:2@C1 /B:2@O3 /B:2@C3
+INFO:
+Torsion angle for atoms /B DMU 2 C2 C1 O3 C3 is -55.2108°
+INFO:
+Executing: torsion /B:2@C1 /B:2@O3 /B:2@C3 /B:2@C4
+INFO:
+Torsion angle for atoms /B DMU 2 C1 O3 C3 C4 is 122.114°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3omn.pdb
+INFO:
+_3omn.pdb_ title:  
+ **Catalytic core subunits (I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides with D132A mutation In the reduced state**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3omn.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:20-550 "Select
+chain") | [cytochrome C oxidase, AA3 type, subunit I](cxcmd:sequence chain
+#1/A#1/C "Show sequence") | [Q3J5A7_RHOS4](cxcmd:open Q3J5A7 from uniprot
+"Show annotations") [17-551](cxcmd:select #1/A,C:17-551 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [Q3J5G0_RHOS4](cxcmd:open Q3J5G0 from uniprot "Show annotations")
+[30-281](cxcmd:select #1/B,D:30-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3omn.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CL](cxcmd:sel :CL "select residue") — [chloride
+ion](http://www.rcsb.org/ligand/CL "show residue info")  
+[CU1](cxcmd:sel :CU1 "select residue") — [copper (I)
+ion](http://www.rcsb.org/ligand/CU1 "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTH](cxcmd:sel :HTH "select residue") —
+[(2S,3R)-heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTH "show residue
+info") (heptane-1,2,3-triol)  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /B:3@C2 /B:3@C1 /B:3@O3 /B:3@C3
+INFO:
+Torsion angle for atoms /B DMU 3 C2 C1 O3 C3 is -44.3073°
+INFO:
+Executing: torsion /B:3@C1 /B:3@O3 /B:3@C3 /B:3@C4
+INFO:
+Torsion angle for atoms /B DMU 3 C1 O3 C3 C4 is 119.136°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3omn.pdb
+INFO:
+_3omn.pdb_ title:  
+ **Catalytic core subunits (I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides with D132A mutation In the reduced state**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3omn.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:20-550 "Select
+chain") | [cytochrome C oxidase, AA3 type, subunit I](cxcmd:sequence chain
+#1/A#1/C "Show sequence") | [Q3J5A7_RHOS4](cxcmd:open Q3J5A7 from uniprot
+"Show annotations") [17-551](cxcmd:select #1/A,C:17-551 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [Q3J5G0_RHOS4](cxcmd:open Q3J5G0 from uniprot "Show annotations")
+[30-281](cxcmd:select #1/B,D:30-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3omn.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CL](cxcmd:sel :CL "select residue") — [chloride
+ion](http://www.rcsb.org/ligand/CL "show residue info")  
+[CU1](cxcmd:sel :CU1 "select residue") — [copper (I)
+ion](http://www.rcsb.org/ligand/CU1 "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTH](cxcmd:sel :HTH "select residue") —
+[(2S,3R)-heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTH "show residue
+info") (heptane-1,2,3-triol)  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /C:9@C2 /C:9@C1 /C:9@O3 /C:9@C3
+INFO:
+Torsion angle for atoms /C DMU 9 C2 C1 O3 C3 is -67.5077°
+INFO:
+Executing: torsion /C:9@C1 /C:9@O3 /C:9@C3 /C:9@C4
+INFO:
+Torsion angle for atoms /C DMU 9 C1 O3 C3 C4 is 122.722°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3omn.pdb
+INFO:
+_3omn.pdb_ title:  
+ **Catalytic core subunits (I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides with D132A mutation In the reduced state**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3omn.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:20-550 "Select
+chain") | [cytochrome C oxidase, AA3 type, subunit I](cxcmd:sequence chain
+#1/A#1/C "Show sequence") | [Q3J5A7_RHOS4](cxcmd:open Q3J5A7 from uniprot
+"Show annotations") [17-551](cxcmd:select #1/A,C:17-551 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [Q3J5G0_RHOS4](cxcmd:open Q3J5G0 from uniprot "Show annotations")
+[30-281](cxcmd:select #1/B,D:30-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3omn.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CL](cxcmd:sel :CL "select residue") — [chloride
+ion](http://www.rcsb.org/ligand/CL "show residue info")  
+[CU1](cxcmd:sel :CU1 "select residue") — [copper (I)
+ion](http://www.rcsb.org/ligand/CU1 "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTH](cxcmd:sel :HTH "select residue") —
+[(2S,3R)-heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTH "show residue
+info") (heptane-1,2,3-triol)  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /B:6@C2 /B:6@C1 /B:6@O3 /B:6@C3
+INFO:
+Torsion angle for atoms /B DMU 6 C2 C1 O3 C3 is -49.4568°
+INFO:
+Executing: torsion /B:6@C1 /B:6@O3 /B:6@C3 /B:6@C4
+INFO:
+Torsion angle for atoms /B DMU 6 C1 O3 C3 C4 is 119.472°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3omn.pdb
+INFO:
+_3omn.pdb_ title:  
+ **Catalytic core subunits (I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides with D132A mutation In the reduced state**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3omn.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:20-550 "Select
+chain") | [cytochrome C oxidase, AA3 type, subunit I](cxcmd:sequence chain
+#1/A#1/C "Show sequence") | [Q3J5A7_RHOS4](cxcmd:open Q3J5A7 from uniprot
+"Show annotations") [17-551](cxcmd:select #1/A,C:17-551 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [Q3J5G0_RHOS4](cxcmd:open Q3J5G0 from uniprot "Show annotations")
+[30-281](cxcmd:select #1/B,D:30-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3omn.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CL](cxcmd:sel :CL "select residue") — [chloride
+ion](http://www.rcsb.org/ligand/CL "show residue info")  
+[CU1](cxcmd:sel :CU1 "select residue") — [copper (I)
+ion](http://www.rcsb.org/ligand/CU1 "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTH](cxcmd:sel :HTH "select residue") —
+[(2S,3R)-heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTH "show residue
+info") (heptane-1,2,3-triol)  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /D:4@C2 /D:4@C1 /D:4@O3 /D:4@C3
+INFO:
+Torsion angle for atoms /D DMU 4 C2 C1 O3 C3 is -32.7255°
+INFO:
+Executing: torsion /D:4@C1 /D:4@O3 /D:4@C3 /D:4@C4
+INFO:
+Torsion angle for atoms /D DMU 4 C1 O3 C3 C4 is 118.39°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3omn.pdb
+INFO:
+_3omn.pdb_ title:  
+ **Catalytic core subunits (I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides with D132A mutation In the reduced state**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3omn.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:20-550 "Select
+chain") | [cytochrome C oxidase, AA3 type, subunit I](cxcmd:sequence chain
+#1/A#1/C "Show sequence") | [Q3J5A7_RHOS4](cxcmd:open Q3J5A7 from uniprot
+"Show annotations") [17-551](cxcmd:select #1/A,C:17-551 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [Q3J5G0_RHOS4](cxcmd:open Q3J5G0 from uniprot "Show annotations")
+[30-281](cxcmd:select #1/B,D:30-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3omn.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CL](cxcmd:sel :CL "select residue") — [chloride
+ion](http://www.rcsb.org/ligand/CL "show residue info")  
+[CU1](cxcmd:sel :CU1 "select residue") — [copper (I)
+ion](http://www.rcsb.org/ligand/CU1 "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTH](cxcmd:sel :HTH "select residue") —
+[(2S,3R)-heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTH "show residue
+info") (heptane-1,2,3-triol)  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /C:5@C2 /C:5@C1 /C:5@O3 /C:5@C3
+INFO:
+Torsion angle for atoms /C DMU 5 C2 C1 O3 C3 is -58.1232°
+INFO:
+Executing: torsion /C:5@C1 /C:5@O3 /C:5@C3 /C:5@C4
+INFO:
+Torsion angle for atoms /C DMU 5 C1 O3 C3 C4 is 169.868°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6b2b.pdb
+INFO:
+_6b2b.pdb_ title:  
+ **Crystal structure of fluoride channel fluc EC2 F83M mutant**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6b2b.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:2-126 "Select chain") [B](cxcmd:select /B:1-125 "Select
+chain") | [fluoride ion transporter CRCB](cxcmd:sequence chain #1/A#1/B "Show
+sequence") | [Q6J5N4_ECOLX](cxcmd:open Q6J5N4 from uniprot "Show annotations")
+[1-126](cxcmd:select #1/A,B:1-126 "Select sequence")  
+[C](cxcmd:select /C:1-96 "Select chain") [D](cxcmd:select /D:1-96 "Select
+chain") | [monobody](cxcmd:sequence chain #1/C#1/D "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 6b2b.pdb #1  
+---  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[F](cxcmd:sel :F "select residue") — [fluoride
+ion](http://www.rcsb.org/ligand/F "show residue info")  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+  
+
+INFO:
+Executing: torsion /B:201@C2 /B:201@C1 /B:201@O3 /B:201@C3
+INFO:
+Torsion angle for atoms /B DMU 201 C2 C1 O3 C3 is -34.0816°
+INFO:
+Executing: torsion /B:201@C1 /B:201@O3 /B:201@C3 /B:201@C4
+INFO:
+Torsion angle for atoms /B DMU 201 C1 O3 C3 C4 is 108.791°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6b2b.pdb
+INFO:
+_6b2b.pdb_ title:  
+ **Crystal structure of fluoride channel fluc EC2 F83M mutant**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6b2b.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:2-126 "Select chain") [B](cxcmd:select /B:1-125 "Select
+chain") | [fluoride ion transporter CRCB](cxcmd:sequence chain #1/A#1/B "Show
+sequence") | [Q6J5N4_ECOLX](cxcmd:open Q6J5N4 from uniprot "Show annotations")
+[1-126](cxcmd:select #1/A,B:1-126 "Select sequence")  
+[C](cxcmd:select /C:1-96 "Select chain") [D](cxcmd:select /D:1-96 "Select
+chain") | [monobody](cxcmd:sequence chain #1/C#1/D "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 6b2b.pdb #1  
+---  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[F](cxcmd:sel :F "select residue") — [fluoride
+ion](http://www.rcsb.org/ligand/F "show residue info")  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+  
+
+INFO:
+Executing: torsion /A:201@C2 /A:201@C1 /A:201@O3 /A:201@C3
+INFO:
+Torsion angle for atoms /A DMU 201 C2 C1 O3 C3 is -23.1052°
+INFO:
+Executing: torsion /A:201@C1 /A:201@O3 /A:201@C3 /A:201@C4
+INFO:
+Torsion angle for atoms /A DMU 201 C1 O3 C3 C4 is 100.777°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6b2b.pdb
+INFO:
+_6b2b.pdb_ title:  
+ **Crystal structure of fluoride channel fluc EC2 F83M mutant**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6b2b.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:2-126 "Select chain") [B](cxcmd:select /B:1-125 "Select
+chain") | [fluoride ion transporter CRCB](cxcmd:sequence chain #1/A#1/B "Show
+sequence") | [Q6J5N4_ECOLX](cxcmd:open Q6J5N4 from uniprot "Show annotations")
+[1-126](cxcmd:select #1/A,B:1-126 "Select sequence")  
+[C](cxcmd:select /C:1-96 "Select chain") [D](cxcmd:select /D:1-96 "Select
+chain") | [monobody](cxcmd:sequence chain #1/C#1/D "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 6b2b.pdb #1  
+---  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[F](cxcmd:sel :F "select residue") — [fluoride
+ion](http://www.rcsb.org/ligand/F "show residue info")  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+  
+
+INFO:
+Executing: torsion /A:202@C2 /A:202@C1 /A:202@O3 /A:202@C3
+INFO:
+Torsion angle for atoms /A DMU 202 C2 C1 O3 C3 is 122.587°
+INFO:
+Executing: torsion /A:202@C1 /A:202@O3 /A:202@C3 /A:202@C4
+INFO:
+Torsion angle for atoms /A DMU 202 C1 O3 C3 C4 is 104.547°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2gsm.pdb
+INFO:
+_2gsm.pdb_ title:  
+ **Catalytic core (subunits I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2gsm.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:17-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2gsm.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU](cxcmd:sel :CU "select residue") — [copper (II)
+ion](http://www.rcsb.org/ligand/CU "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /D:6011@C2 /D:6011@C1 /D:6011@O3 /D:6011@C3
+INFO:
+Torsion angle for atoms /D DMU 6011 C2 C1 O3 C3 is 47.3403°
+INFO:
+Executing: torsion /D:6011@C1 /D:6011@O3 /D:6011@C3 /D:6011@C4
+INFO:
+Torsion angle for atoms /D DMU 6011 C1 O3 C3 C4 is 92.5719°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2gsm.pdb
+INFO:
+_2gsm.pdb_ title:  
+ **Catalytic core (subunits I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2gsm.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:17-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2gsm.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU](cxcmd:sel :CU "select residue") — [copper (II)
+ion](http://www.rcsb.org/ligand/CU "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /A:5002@C2 /A:5002@C1 /A:5002@O3 /A:5002@C3
+INFO:
+Torsion angle for atoms /A DMU 5002 C2 C1 O3 C3 is -57.2712°
+INFO:
+Executing: torsion /A:5002@C1 /A:5002@O3 /A:5002@C3 /A:5002@C4
+INFO:
+Torsion angle for atoms /A DMU 5002 C1 O3 C3 C4 is 121.25°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2gsm.pdb
+INFO:
+_2gsm.pdb_ title:  
+ **Catalytic core (subunits I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2gsm.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:17-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2gsm.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU](cxcmd:sel :CU "select residue") — [copper (II)
+ion](http://www.rcsb.org/ligand/CU "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /C:6004@C2 /C:6004@C1 /C:6004@O3 /C:6004@C3
+INFO:
+Torsion angle for atoms /C DMU 6004 C2 C1 O3 C3 is -62.4629°
+INFO:
+Executing: torsion /C:6004@C1 /C:6004@O3 /C:6004@C3 /C:6004@C4
+INFO:
+Torsion angle for atoms /C DMU 6004 C1 O3 C3 C4 is 144.174°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2gsm.pdb
+INFO:
+_2gsm.pdb_ title:  
+ **Catalytic core (subunits I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2gsm.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:17-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2gsm.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU](cxcmd:sel :CU "select residue") — [copper (II)
+ion](http://www.rcsb.org/ligand/CU "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /C:6005@C2 /C:6005@C1 /C:6005@O3 /C:6005@C3
+INFO:
+Torsion angle for atoms /C DMU 6005 C2 C1 O3 C3 is -51.5506°
+INFO:
+Executing: torsion /C:6005@C1 /C:6005@O3 /C:6005@C3 /C:6005@C4
+INFO:
+Torsion angle for atoms /C DMU 6005 C1 O3 C3 C4 is 105.895°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2gsm.pdb
+INFO:
+_2gsm.pdb_ title:  
+ **Catalytic core (subunits I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2gsm.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:17-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2gsm.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU](cxcmd:sel :CU "select residue") — [copper (II)
+ion](http://www.rcsb.org/ligand/CU "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /A:5001@C2 /A:5001@C1 /A:5001@O3 /A:5001@C3
+INFO:
+Torsion angle for atoms /A DMU 5001 C2 C1 O3 C3 is -48.1896°
+INFO:
+Executing: torsion /A:5001@C1 /A:5001@O3 /A:5001@C3 /A:5001@C4
+INFO:
+Torsion angle for atoms /A DMU 5001 C1 O3 C3 C4 is 111.634°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2gsm.pdb
+INFO:
+_2gsm.pdb_ title:  
+ **Catalytic core (subunits I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2gsm.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:17-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2gsm.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU](cxcmd:sel :CU "select residue") — [copper (II)
+ion](http://www.rcsb.org/ligand/CU "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /D:6003@C2 /D:6003@C1 /D:6003@O3 /D:6003@C3
+INFO:
+Torsion angle for atoms /D DMU 6003 C2 C1 O3 C3 is 18.7257°
+INFO:
+Executing: torsion /D:6003@C1 /D:6003@O3 /D:6003@C3 /D:6003@C4
+INFO:
+Torsion angle for atoms /D DMU 6003 C1 O3 C3 C4 is 109.033°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2gsm.pdb
+INFO:
+_2gsm.pdb_ title:  
+ **Catalytic core (subunits I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2gsm.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:17-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2gsm.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU](cxcmd:sel :CU "select residue") — [copper (II)
+ion](http://www.rcsb.org/ligand/CU "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /A:5004@C2 /A:5004@C1 /A:5004@O3 /A:5004@C3
+INFO:
+Torsion angle for atoms /A DMU 5004 C2 C1 O3 C3 is -58.7659°
+INFO:
+Executing: torsion /A:5004@C1 /A:5004@O3 /A:5004@C3 /A:5004@C4
+INFO:
+Torsion angle for atoms /A DMU 5004 C1 O3 C3 C4 is 163.556°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2gsm.pdb
+INFO:
+_2gsm.pdb_ title:  
+ **Catalytic core (subunits I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2gsm.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:17-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2gsm.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU](cxcmd:sel :CU "select residue") — [copper (II)
+ion](http://www.rcsb.org/ligand/CU "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /B:5003@C2 /B:5003@C1 /B:5003@O3 /B:5003@C3
+INFO:
+Torsion angle for atoms /B DMU 5003 C2 C1 O3 C3 is -50.0106°
+INFO:
+Executing: torsion /B:5003@C1 /B:5003@O3 /B:5003@C3 /B:5003@C4
+INFO:
+Torsion angle for atoms /B DMU 5003 C1 O3 C3 C4 is 120.553°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2gsm.pdb
+INFO:
+_2gsm.pdb_ title:  
+ **Catalytic core (subunits I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2gsm.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:17-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2gsm.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU](cxcmd:sel :CU "select residue") — [copper (II)
+ion](http://www.rcsb.org/ligand/CU "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /C:6002@C2 /C:6002@C1 /C:6002@O3 /C:6002@C3
+INFO:
+Torsion angle for atoms /C DMU 6002 C2 C1 O3 C3 is -51.1405°
+INFO:
+Executing: torsion /C:6002@C1 /C:6002@O3 /C:6002@C3 /C:6002@C4
+INFO:
+Torsion angle for atoms /C DMU 6002 C1 O3 C3 C4 is 123.459°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2gsm.pdb
+INFO:
+_2gsm.pdb_ title:  
+ **Catalytic core (subunits I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2gsm.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:17-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2gsm.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU](cxcmd:sel :CU "select residue") — [copper (II)
+ion](http://www.rcsb.org/ligand/CU "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[OH](cxcmd:sel :OH "select residue") — [hydroxide
+ion](http://www.rcsb.org/ligand/OH "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /B:5011@C2 /B:5011@C1 /B:5011@O3 /B:5011@C3
+INFO:
+Torsion angle for atoms /B DMU 5011 C2 C1 O3 C3 is 44.0311°
+INFO:
+Executing: torsion /B:5011@C1 /B:5011@O3 /B:5011@C3 /B:5011@C4
+INFO:
+Torsion angle for atoms /B DMU 5011 C1 O3 C3 C4 is 103.408°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5da0.pdb
+INFO:
+_5da0.pdb_ title:  
+ **Structure of the the SLC26 transporter SLC26DG In complex with A nanobody**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5da0.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:14-484 "Select chain") | [sulphate
+transporter](cxcmd:sequence chain #1/A "Show sequence") |
+[Q1J2S8_DEIGD](cxcmd:open Q1J2S8 from uniprot "Show annotations")
+[1-499](cxcmd:select #1/A:1-499 "Select sequence")  
+[B](cxcmd:select /B:9-124 "Select chain") | [nanobody](cxcmd:sequence chain
+#1/B "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 5da0.pdb #1  
+---  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+  
+
+INFO:
+Executing: torsion /A:602@C2 /A:602@C1 /A:602@O3 /A:602@C3
+INFO:
+Torsion angle for atoms /A DMU 602 C2 C1 O3 C3 is 50.3581°
+INFO:
+Executing: torsion /A:602@C1 /A:602@O3 /A:602@C3 /A:602@C4
+INFO:
+Torsion angle for atoms /A DMU 602 C1 O3 C3 C4 is 63.0836°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5da0.pdb
+INFO:
+_5da0.pdb_ title:  
+ **Structure of the the SLC26 transporter SLC26DG In complex with A nanobody**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5da0.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:14-484 "Select chain") | [sulphate
+transporter](cxcmd:sequence chain #1/A "Show sequence") |
+[Q1J2S8_DEIGD](cxcmd:open Q1J2S8 from uniprot "Show annotations")
+[1-499](cxcmd:select #1/A:1-499 "Select sequence")  
+[B](cxcmd:select /B:9-124 "Select chain") | [nanobody](cxcmd:sequence chain
+#1/B "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 5da0.pdb #1  
+---  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+  
+
+INFO:
+Executing: torsion /A:601@C2 /A:601@C1 /A:601@O3 /A:601@C3
+INFO:
+Torsion angle for atoms /A DMU 601 C2 C1 O3 C3 is -48.8409°
+INFO:
+Executing: torsion /A:601@C1 /A:601@O3 /A:601@C3 /A:601@C4
+INFO:
+Torsion angle for atoms /A DMU 601 C1 O3 C3 C4 is -157.76°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3fyi.pdb
+INFO:
+_3fyi.pdb_ title:  
+ **Catalytic core subunits (I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides In the reduced state bound with cyanide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3fyi.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:20-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3fyi.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU1](cxcmd:sel :CU1 "select residue") — [copper (I)
+ion](http://www.rcsb.org/ligand/CU1 "show residue info")  
+[CYN](cxcmd:sel :CYN "select residue") — [cyanide
+ion](http://www.rcsb.org/ligand/CYN "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTO](cxcmd:sel :HTO "select residue") —
+[heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTO "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /C:1002@C2 /C:1002@C1 /C:1002@O3 /C:1002@C3
+INFO:
+Torsion angle for atoms /C DMU 1002 C2 C1 O3 C3 is -47.2694°
+INFO:
+Executing: torsion /C:1002@C1 /C:1002@O3 /C:1002@C3 /C:1002@C4
+INFO:
+Torsion angle for atoms /C DMU 1002 C1 O3 C3 C4 is 118.5°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3fyi.pdb
+INFO:
+_3fyi.pdb_ title:  
+ **Catalytic core subunits (I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides In the reduced state bound with cyanide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3fyi.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:20-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3fyi.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU1](cxcmd:sel :CU1 "select residue") — [copper (I)
+ion](http://www.rcsb.org/ligand/CU1 "show residue info")  
+[CYN](cxcmd:sel :CYN "select residue") — [cyanide
+ion](http://www.rcsb.org/ligand/CYN "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTO](cxcmd:sel :HTO "select residue") —
+[heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTO "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /B:288@C2 /B:288@C1 /B:288@O3 /B:288@C3
+INFO:
+Torsion angle for atoms /B DMU 288 C2 C1 O3 C3 is -40.0378°
+INFO:
+Executing: torsion /B:288@C1 /B:288@O3 /B:288@C3 /B:288@C4
+INFO:
+Torsion angle for atoms /B DMU 288 C1 O3 C3 C4 is 116.291°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3fyi.pdb
+INFO:
+_3fyi.pdb_ title:  
+ **Catalytic core subunits (I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides In the reduced state bound with cyanide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3fyi.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:20-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3fyi.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU1](cxcmd:sel :CU1 "select residue") — [copper (I)
+ion](http://www.rcsb.org/ligand/CU1 "show residue info")  
+[CYN](cxcmd:sel :CYN "select residue") — [cyanide
+ion](http://www.rcsb.org/ligand/CYN "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTO](cxcmd:sel :HTO "select residue") —
+[heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTO "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /D:1003@C2 /D:1003@C1 /D:1003@O3 /D:1003@C3
+INFO:
+Torsion angle for atoms /D DMU 1003 C2 C1 O3 C3 is -50.0948°
+INFO:
+Executing: torsion /D:1003@C1 /D:1003@O3 /D:1003@C3 /D:1003@C4
+INFO:
+Torsion angle for atoms /D DMU 1003 C1 O3 C3 C4 is 119.527°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3fyi.pdb
+INFO:
+_3fyi.pdb_ title:  
+ **Catalytic core subunits (I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides In the reduced state bound with cyanide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3fyi.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:20-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3fyi.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU1](cxcmd:sel :CU1 "select residue") — [copper (I)
+ion](http://www.rcsb.org/ligand/CU1 "show residue info")  
+[CYN](cxcmd:sel :CYN "select residue") — [cyanide
+ion](http://www.rcsb.org/ligand/CYN "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTO](cxcmd:sel :HTO "select residue") —
+[heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTO "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /A:576@C2 /A:576@C1 /A:576@O3 /A:576@C3
+INFO:
+Torsion angle for atoms /A DMU 576 C2 C1 O3 C3 is 107.748°
+INFO:
+Executing: torsion /A:576@C1 /A:576@O3 /A:576@C3 /A:576@C4
+INFO:
+Torsion angle for atoms /A DMU 576 C1 O3 C3 C4 is 108.981°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3fyi.pdb
+INFO:
+_3fyi.pdb_ title:  
+ **Catalytic core subunits (I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides In the reduced state bound with cyanide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3fyi.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:20-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3fyi.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU1](cxcmd:sel :CU1 "select residue") — [copper (I)
+ion](http://www.rcsb.org/ligand/CU1 "show residue info")  
+[CYN](cxcmd:sel :CYN "select residue") — [cyanide
+ion](http://www.rcsb.org/ligand/CYN "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTO](cxcmd:sel :HTO "select residue") —
+[heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTO "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /A:574@C2 /A:574@C1 /A:574@O3 /A:574@C3
+INFO:
+Torsion angle for atoms /A DMU 574 C2 C1 O3 C3 is -59.2458°
+INFO:
+Executing: torsion /A:574@C1 /A:574@O3 /A:574@C3 /A:574@C4
+INFO:
+Torsion angle for atoms /A DMU 574 C1 O3 C3 C4 is 125.795°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3fyi.pdb
+INFO:
+_3fyi.pdb_ title:  
+ **Catalytic core subunits (I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides In the reduced state bound with cyanide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3fyi.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:20-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3fyi.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU1](cxcmd:sel :CU1 "select residue") — [copper (I)
+ion](http://www.rcsb.org/ligand/CU1 "show residue info")  
+[CYN](cxcmd:sel :CYN "select residue") — [cyanide
+ion](http://www.rcsb.org/ligand/CYN "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTO](cxcmd:sel :HTO "select residue") —
+[heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTO "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /B:11@C2 /B:11@C1 /B:11@O3 /B:11@C3
+INFO:
+Torsion angle for atoms /B DMU 11 C2 C1 O3 C3 is -45.728°
+INFO:
+Executing: torsion /B:11@C1 /B:11@O3 /B:11@C3 /B:11@C4
+INFO:
+Torsion angle for atoms /B DMU 11 C1 O3 C3 C4 is 119.212°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3fyi.pdb
+INFO:
+_3fyi.pdb_ title:  
+ **Catalytic core subunits (I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides In the reduced state bound with cyanide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3fyi.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:20-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3fyi.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU1](cxcmd:sel :CU1 "select residue") — [copper (I)
+ion](http://www.rcsb.org/ligand/CU1 "show residue info")  
+[CYN](cxcmd:sel :CYN "select residue") — [cyanide
+ion](http://www.rcsb.org/ligand/CYN "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTO](cxcmd:sel :HTO "select residue") —
+[heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTO "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /A:573@C2 /A:573@C1 /A:573@O3 /A:573@C3
+INFO:
+Torsion angle for atoms /A DMU 573 C2 C1 O3 C3 is -45.6423°
+INFO:
+Executing: torsion /A:573@C1 /A:573@O3 /A:573@C3 /A:573@C4
+INFO:
+Torsion angle for atoms /A DMU 573 C1 O3 C3 C4 is 110.109°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3fyi.pdb
+INFO:
+_3fyi.pdb_ title:  
+ **Catalytic core subunits (I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides In the reduced state bound with cyanide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3fyi.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:20-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3fyi.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU1](cxcmd:sel :CU1 "select residue") — [copper (I)
+ion](http://www.rcsb.org/ligand/CU1 "show residue info")  
+[CYN](cxcmd:sel :CYN "select residue") — [cyanide
+ion](http://www.rcsb.org/ligand/CYN "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTO](cxcmd:sel :HTO "select residue") —
+[heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTO "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /D:1011@C2 /D:1011@C1 /D:1011@O3 /D:1011@C3
+INFO:
+Torsion angle for atoms /D DMU 1011 C2 C1 O3 C3 is -29.3773°
+INFO:
+Executing: torsion /D:1011@C1 /D:1011@O3 /D:1011@C3 /D:1011@C4
+INFO:
+Torsion angle for atoms /D DMU 1011 C1 O3 C3 C4 is 112.585°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3fyi.pdb
+INFO:
+_3fyi.pdb_ title:  
+ **Catalytic core subunits (I and II) of cytochrome C oxidase from rhodobacter
+sphaeroides In the reduced state bound with cyanide**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3fyi.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:17-551 "Select chain") [C](cxcmd:select /C:20-550 "Select
+chain") | [cytochrome C oxidase subunit 1](cxcmd:sequence chain #1/A#1/C "Show
+sequence") | [COX1_RHOSH](cxcmd:open P33517 from uniprot "Show annotations")
+[1-566](cxcmd:select #1/A,C:1-566 "Select sequence")  
+[B](cxcmd:select /B:30-285 "Select chain") [D](cxcmd:select /D:30-285 "Select
+chain") | [cytochrome C oxidase subunit 2](cxcmd:sequence chain #1/B#1/D "Show
+sequence") | [COX2_RHOSH](cxcmd:open Q03736 from uniprot "Show annotations")
+[26-281](cxcmd:select #1/B,D:26-281 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3fyi.pdb #1  
+---  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CD](cxcmd:sel :CD "select residue") — [cadmium
+ion](http://www.rcsb.org/ligand/CD "show residue info")  
+[CU1](cxcmd:sel :CU1 "select residue") — [copper (I)
+ion](http://www.rcsb.org/ligand/CU1 "show residue info")  
+[CYN](cxcmd:sel :CYN "select residue") — [cyanide
+ion](http://www.rcsb.org/ligand/CYN "show residue info")  
+[DMU](cxcmd:sel :DMU "select residue") — [decyl-β-D-
+maltopyranoside](http://www.rcsb.org/ligand/DMU "show residue info")
+(decylmaltoside)  
+[HEA](cxcmd:sel :HEA "select residue") —
+[heme-A](http://www.rcsb.org/ligand/HEA "show residue info")  
+[HTO](cxcmd:sel :HTO "select residue") —
+[heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTO "show residue info")  
+[MG](cxcmd:sel :MG "select residue") — [magnesium
+ion](http://www.rcsb.org/ligand/MG "show residue info")  
+[TRD](cxcmd:sel :TRD "select residue") —
+[tridecane](http://www.rcsb.org/ligand/TRD "show residue info") (lipid
+fragment)  
+  
+
+INFO:
+Executing: torsion /C:1005@C2 /C:1005@C1 /C:1005@O3 /C:1005@C3
+INFO:
+Torsion angle for atoms /C DMU 1005 C2 C1 O3 C3 is 113.524°
+INFO:
+Executing: torsion /C:1005@C1 /C:1005@O3 /C:1005@C3 /C:1005@C4
+INFO:
+Torsion angle for atoms /C DMU 1005 C1 O3 C3 C4 is 108.48°
+INFO:
+Executing: close #1
+INFO:
+Executing: exit
+STATUS:
+Exiting ...

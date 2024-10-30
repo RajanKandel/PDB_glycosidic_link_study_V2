@@ -1,0 +1,24 @@
+close #1
+close #1
+
+open ../../../pdbs/2x85.pdb
+torsion /B:6@C2 /B:6@C1 /B:1@O6 /B:1@C6
+torsion /B:6@C1 /B:1@O6 /B:1@C6 /B:1@C5
+close #1
+
+open ../../../pdbs/2x85.pdb
+torsion /B:3@C2 /B:3@C1 /B:1@O6 /B:1@C6
+torsion /B:3@C1 /B:1@O6 /B:1@C6 /B:1@C5
+close #1
+
+open ../../../pdbs/2x6y.pdb
+torsion /B:6@C2 /B:6@C1 /B:1@O6 /B:1@C6
+torsion /B:6@C1 /B:1@O6 /B:1@C6 /B:1@C5
+close #1
+
+open ../../../pdbs/2x6y.pdb
+torsion /B:3@C2 /B:3@C1 /B:1@O6 /B:1@C6
+torsion /B:3@C1 /B:1@O6 /B:1@C6 /B:1@C5
+close #1
+
+exit

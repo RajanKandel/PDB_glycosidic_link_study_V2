@@ -1,0 +1,14 @@
+close #1
+close #1
+
+open ../../../pdbs/1cap.pdb
+torsion /A:8@C2 /A:8@C1 /A:7@O3 /A:7@C3
+torsion /A:8@C1 /A:7@O3 /A:7@C3 /A:7@C4
+close #1
+
+open ../../../pdbs/1cap.pdb
+torsion /A:4@C2 /A:4@C1 /A:3@O3 /A:3@C3
+torsion /A:4@C1 /A:3@O3 /A:3@C3 /A:3@C4
+close #1
+
+exit

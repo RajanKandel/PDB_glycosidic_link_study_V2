@@ -1,0 +1,158 @@
+WARNING:
+Replacing fetcher for 'pdb_nmr' and format NMRSTAR from NMRSTAR bundle with that from NMRSTAR bundle
+INFO:
+UCSF ChimeraX version: 1.6.1 (2023-05-09)
+INFO:
+© 2016-2023 Regents of the University of California.  All rights reserved.
+INFO:
+Executing: open ./calc_dihedral_chimerax/calc_dihedral_part_01.cxc
+INFO:
+Executing: close #1
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3rum.pdb
+INFO:
+_3rum.pdb_ title:  
+ **New strategy to analyze structures of glycopeptide antibiotic-target
+complexes** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3rum.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-378 "Select chain") | [maltose-binding periplasmic
+protein](cxcmd:sequence chain #1/A "Show sequence") | [MALE_ECOLI](cxcmd:open
+P0AEX9 from uniprot "Show annotations") [2-367](cxcmd:select #1/A:2-367
+"Select sequence")  
+[B](cxcmd:select /B:1-7 "Select chain") [C](cxcmd:select /C:1-7 "Select
+chain") | [ristocetin](cxcmd:sequence chain #1/B#1/C "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 3rum.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[BXY](cxcmd:sel :BXY "select residue") — [α-D-
+arabinofuranose](http://www.rcsb.org/ligand/BXY "show residue info") (α-D-
+arabinose; D-arabinose; arabinose)  
+[DAL](cxcmd:sel :DAL "select residue") —
+[D-alanine](http://www.rcsb.org/ligand/DAL "show residue info")  
+[GHP](cxcmd:sel :GHP "select residue") — [(2R)-amino(4-hydroxyphenyl)ethanoic
+acid](http://www.rcsb.org/ligand/GHP "show residue info")  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[HTY](cxcmd:sel :HTY "select residue") — [(betar)-β-hydroxy-D-
+tyrosine](http://www.rcsb.org/ligand/HTY "show residue info")  
+[IPA](cxcmd:sel :IPA "select residue") — [isopropyl
+alcohol](http://www.rcsb.org/ligand/IPA "show residue info") (2-propanol)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[MDF](cxcmd:sel :MDF "select residue") — [meta, meta&#x27;-di-hydroxy-
+phenylalanine](http://www.rcsb.org/ligand/MDF "show residue info")  
+[MP4](cxcmd:sel :MP4 "select residue") —
+[(2S)-amino(3,5-dihydroxy-4-methylphenyl)ethanoic
+acid](http://www.rcsb.org/ligand/MP4 "show residue info")  
+[OMX](cxcmd:sel :OMX "select residue") — [(betar)-β-hydroxy-L-
+tyrosine](http://www.rcsb.org/ligand/OMX "show residue info")  
+[RAM](cxcmd:sel :RAM "select residue") — [α-L-
+rhamnopyranose](http://www.rcsb.org/ligand/RAM "show residue info") (α-L-
+rhamnose; 6-deoxy-α-L-mannopyranose; L-rhamnose; rhamnose)  
+[RST](cxcmd:sel :RST "select residue") — [3-amino-2,3,6-trideoxy-α-L-ribo-
+hexopyranose](http://www.rcsb.org/ligand/RST "show residue info")
+(ristosamine; 3-amino-2,3,6-trideoxy-α-L-ribo-hexose; 3-amino-2,3,6-trideoxy-
+L-ribo-hexose; 3-amino-2,3,6-trideoxy-ribo-hexose)  
+[SO4](cxcmd:sel :SO4 "select residue") — [sulfate
+ion](http://www.rcsb.org/ligand/SO4 "show residue info")  
+  
+
+INFO:
+Executing: torsion /E:2@C2 /E:2@C1 /E:1@O2 /E:1@C2
+INFO:
+Torsion angle for atoms /E MAN 2 C2 C1 BGC 1 O2 C2 is -161.569°
+INFO:
+Executing: torsion /E:2@C1 /E:1@O2 /E:1@C2 /E:1@C3
+INFO:
+Torsion angle for atoms /E MAN 2 C1 BGC 1 O2 C2 C3 is -147.446°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3rum.pdb
+INFO:
+_3rum.pdb_ title:  
+ **New strategy to analyze structures of glycopeptide antibiotic-target
+complexes** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3rum.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-378 "Select chain") | [maltose-binding periplasmic
+protein](cxcmd:sequence chain #1/A "Show sequence") | [MALE_ECOLI](cxcmd:open
+P0AEX9 from uniprot "Show annotations") [2-367](cxcmd:select #1/A:2-367
+"Select sequence")  
+[B](cxcmd:select /B:1-7 "Select chain") [C](cxcmd:select /C:1-7 "Select
+chain") | [ristocetin](cxcmd:sequence chain #1/B#1/C "Show sequence") |  
+  
+
+INFO:
+Non-standard residues in 3rum.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[BXY](cxcmd:sel :BXY "select residue") — [α-D-
+arabinofuranose](http://www.rcsb.org/ligand/BXY "show residue info") (α-D-
+arabinose; D-arabinose; arabinose)  
+[DAL](cxcmd:sel :DAL "select residue") —
+[D-alanine](http://www.rcsb.org/ligand/DAL "show residue info")  
+[GHP](cxcmd:sel :GHP "select residue") — [(2R)-amino(4-hydroxyphenyl)ethanoic
+acid](http://www.rcsb.org/ligand/GHP "show residue info")  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[HTY](cxcmd:sel :HTY "select residue") — [(betar)-β-hydroxy-D-
+tyrosine](http://www.rcsb.org/ligand/HTY "show residue info")  
+[IPA](cxcmd:sel :IPA "select residue") — [isopropyl
+alcohol](http://www.rcsb.org/ligand/IPA "show residue info") (2-propanol)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[MDF](cxcmd:sel :MDF "select residue") — [meta, meta&#x27;-di-hydroxy-
+phenylalanine](http://www.rcsb.org/ligand/MDF "show residue info")  
+[MP4](cxcmd:sel :MP4 "select residue") —
+[(2S)-amino(3,5-dihydroxy-4-methylphenyl)ethanoic
+acid](http://www.rcsb.org/ligand/MP4 "show residue info")  
+[OMX](cxcmd:sel :OMX "select residue") — [(betar)-β-hydroxy-L-
+tyrosine](http://www.rcsb.org/ligand/OMX "show residue info")  
+[RAM](cxcmd:sel :RAM "select residue") — [α-L-
+rhamnopyranose](http://www.rcsb.org/ligand/RAM "show residue info") (α-L-
+rhamnose; 6-deoxy-α-L-mannopyranose; L-rhamnose; rhamnose)  
+[RST](cxcmd:sel :RST "select residue") — [3-amino-2,3,6-trideoxy-α-L-ribo-
+hexopyranose](http://www.rcsb.org/ligand/RST "show residue info")
+(ristosamine; 3-amino-2,3,6-trideoxy-α-L-ribo-hexose; 3-amino-2,3,6-trideoxy-
+L-ribo-hexose; 3-amino-2,3,6-trideoxy-ribo-hexose)  
+[SO4](cxcmd:sel :SO4 "select residue") — [sulfate
+ion](http://www.rcsb.org/ligand/SO4 "show residue info")  
+  
+
+INFO:
+Executing: torsion /D:2@C2 /D:2@C1 /D:1@O2 /D:1@C2
+INFO:
+Torsion angle for atoms /D MAN 2 C2 C1 BGC 1 O2 C2 is -179.22°
+INFO:
+Executing: torsion /D:2@C1 /D:1@O2 /D:1@C2 /D:1@C3
+INFO:
+Torsion angle for atoms /D MAN 2 C1 BGC 1 O2 C2 C3 is -148.549°
+INFO:
+Executing: close #1
+INFO:
+Executing: exit
+STATUS:
+Exiting ...

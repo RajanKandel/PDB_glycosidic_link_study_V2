@@ -1,0 +1,62 @@
+WARNING:
+Replacing fetcher for 'pdb_nmr' and format NMRSTAR from NMRSTAR bundle with that from NMRSTAR bundle
+INFO:
+UCSF ChimeraX version: 1.6.1 (2023-05-09)
+INFO:
+© 2016-2023 Regents of the University of California.  All rights reserved.
+INFO:
+Executing: open ./calc_dihedral_chimerax/calc_dihedral_part_01.cxc
+INFO:
+Executing: close #1
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1n3q.pdb
+INFO:
+_1n3q.pdb_ title:  
+ **Pterocarpus angolensis lectin complexed with turanose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 1n3q.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-241 "Select chain") [B](cxcmd:select /B:1-241 "Select
+chain") | [lectin pal](cxcmd:sequence chain #1/A#1/B "Show sequence") |
+[Q8GSD2_PTEAG](cxcmd:open Q8GSD2 from uniprot "Show annotations")
+[1-252](cxcmd:select #1/A,B:1-252 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 1n3q.pdb #1  
+---  
+[BDF](cxcmd:sel :BDF "select residue") — [β-D-
+fructopyranose](http://www.rcsb.org/ligand/BDF "show residue info") (β-D-
+fructose; D-fructose; fructose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[FRU](cxcmd:sel :FRU "select residue") — [β-D-
+fructofuranose](http://www.rcsb.org/ligand/FRU "show residue info") (β-D-
+fructose; D-fructose; fructose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[MN](cxcmd:sel :MN "select residue") — [manganese (II)
+ion](http://www.rcsb.org/ligand/MN "show residue info")  
+  
+
+INFO:
+Executing: torsion /D:2@C2 /D:2@C1 /D:1@O3 /D:1@C3
+INFO:
+Torsion angle for atoms /D GLC 2 C2 C1 BDF 1 O3 C3 is -144.171°
+INFO:
+Executing: torsion /D:2@C1 /D:1@O3 /D:1@C3 /D:1@C4
+INFO:
+Torsion angle for atoms /D GLC 2 C1 BDF 1 O3 C3 C4 is 106.99°
+INFO:
+Executing: close #1
+INFO:
+Executing: exit
+STATUS:
+Exiting ...

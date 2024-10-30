@@ -1,0 +1,14 @@
+close #1
+close #1
+
+open ../../../pdbs/6hpf.pdb
+torsion /B:5@C2 /B:5@C1 /B:1@O6 /B:1@C6
+torsion /B:5@C1 /B:1@O6 /B:1@C6 /B:1@C5
+close #1
+
+open ../../../pdbs/6hpf.pdb
+torsion /B:4@C2 /B:4@C1 /B:1@O6 /B:1@C6
+torsion /B:4@C1 /B:1@O6 /B:1@C6 /B:1@C5
+close #1
+
+exit

@@ -1,0 +1,225 @@
+WARNING:
+Replacing fetcher for 'pdb_nmr' and format NMRSTAR from NMRSTAR bundle with that from NMRSTAR bundle
+INFO:
+UCSF ChimeraX version: 1.6.1 (2023-05-09)
+INFO:
+© 2016-2023 Regents of the University of California.  All rights reserved.
+INFO:
+Executing: open ./calc_dihedral_chimerax/calc_dihedral_part_01.cxc
+INFO:
+Executing: close #1
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1w9w.pdb
+INFO:
+_1w9w.pdb_ title:  
+ **Structure of A β-1,3-glucan binding CBM6 from bacillus halodurans In
+complex with laminarihexaose** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 1w9w.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:7-140 "Select chain") | [BHCBM6](cxcmd:sequence chain #1/A
+"Show sequence") | [Q9KG76](cxcmd:open Q9KG76 from uniprot "Show annotations")
+[7-142](cxcmd:select #1/A:7-142 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 1w9w.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+  
+
+INFO:
+Executing: torsion /B:3@C2 /B:3@C1 /B:2@O3 /B:2@C3
+INFO:
+Torsion angle for atoms /B GLC 3 C2 C1 BGC 2 O3 C3 is 152.706°
+INFO:
+Executing: torsion /B:3@C1 /B:2@O3 /B:2@C3 /B:2@C4
+INFO:
+Torsion angle for atoms /B GLC 3 C1 BGC 2 O3 C3 C4 is 87.3109°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5fih.pdb
+INFO:
+_5fih.pdb_ title:  
+ **Saccharomyces cerevisiae GAS2P (E176Q mutant) In complex with
+laminaritetraose and laminaripentaose** [[more info...]](cxcmd:log metadata
+#1)  
+  
+
+INFO:
+Chain information for 5fih.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:29-500 "Select chain") |
+[1,3-β-glucanosyltransferase](cxcmd:sequence chain #1/A "Show sequence") |
+[N1P1N2_YEASC](cxcmd:open N1P1N2 from uniprot "Show annotations")
+[1-555](cxcmd:select #1/A:1-555 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 5fih.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /C:3@C2 /C:3@C1 /C:2@O3 /C:2@C3
+INFO:
+Torsion angle for atoms /C GLC 3 C2 C1 BGC 2 O3 C3 is 152.87°
+INFO:
+Executing: torsion /C:3@C1 /C:2@O3 /C:2@C3 /C:2@C4
+INFO:
+Torsion angle for atoms /C GLC 3 C1 BGC 2 O3 C3 C4 is 63.5245°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6k0q.pdb
+INFO:
+_6k0q.pdb_ title:  
+ **Catalytic domain of GH87 α-1,3-glucanase D1068A In complex with nigerose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6k0q.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:726-1287 "Select chain") |
+[α-1,3-glucanase](cxcmd:sequence chain #1/A "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6k0q.pdb #1  
+---  
+[ACY](cxcmd:sel :ACY "select residue") — [acetic
+acid](http://www.rcsb.org/ligand/ACY "show residue info")  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[SO4](cxcmd:sel :SO4 "select residue") — [sulfate
+ion](http://www.rcsb.org/ligand/SO4 "show residue info")  
+  
+
+INFO:
+Executing: torsion /D:2@C2 /D:2@C1 /D:1@O3 /D:1@C3
+INFO:
+Torsion angle for atoms /D GLC 2 C2 C1 BGC 1 O3 C3 is -165.401°
+INFO:
+Executing: torsion /D:2@C1 /D:1@O3 /D:1@C3 /D:1@C4
+INFO:
+Torsion angle for atoms /D GLC 2 C1 BGC 1 O3 C3 C4 is 123.977°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6k0s.pdb
+INFO:
+_6k0s.pdb_ title:  
+ **Catalytic domain of GH87 α-1,3-glucanase D1069A In complex with nigerose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6k0s.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:726-1287 "Select chain") |
+[α-1,3-glucanase](cxcmd:sequence chain #1/A "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6k0s.pdb #1  
+---  
+[ACY](cxcmd:sel :ACY "select residue") — [acetic
+acid](http://www.rcsb.org/ligand/ACY "show residue info")  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[SO4](cxcmd:sel :SO4 "select residue") — [sulfate
+ion](http://www.rcsb.org/ligand/SO4 "show residue info")  
+  
+
+INFO:
+Executing: torsion /D:2@C2 /D:2@C1 /D:1@O3 /D:1@C3
+INFO:
+Torsion angle for atoms /D GLC 2 C2 C1 BGC 1 O3 C3 is -163.166°
+INFO:
+Executing: torsion /D:2@C1 /D:1@O3 /D:1@C3 /D:1@C4
+INFO:
+Torsion angle for atoms /D GLC 2 C1 BGC 1 O3 C3 C4 is 124.736°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6k0v.pdb
+INFO:
+_6k0v.pdb_ title:  
+ **Catalytic domain of GH87 α-1,3-glucanase D1069A In complex with
+tetrasaccharides** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6k0v.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:726-1287 "Select chain") [B](cxcmd:select /B:726-1287
+"Select chain") [C](cxcmd:select /C:726-1287 "Select chain") [D](cxcmd:select
+/D:726-1287 "Select chain") | [α-1,3-glucanase](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6k0v.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[SO4](cxcmd:sel :SO4 "select residue") — [sulfate
+ion](http://www.rcsb.org/ligand/SO4 "show residue info")  
+  
+
+INFO:
+Executing: torsion /G:2@C2 /G:2@C1 /G:1@O3 /G:1@C3
+INFO:
+Torsion angle for atoms /G GLC 2 C2 C1 BGC 1 O3 C3 is -128.1°
+INFO:
+Executing: torsion /G:2@C1 /G:1@O3 /G:1@C3 /G:1@C4
+INFO:
+Torsion angle for atoms /G GLC 2 C1 BGC 1 O3 C3 C4 is 110.672°
+INFO:
+Executing: close #1
+INFO:
+Executing: exit
+STATUS:
+Exiting ...

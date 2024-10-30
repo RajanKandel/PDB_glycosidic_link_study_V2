@@ -1,0 +1,282 @@
+WARNING:
+Replacing fetcher for 'pdb_nmr' and format NMRSTAR from NMRSTAR bundle with that from NMRSTAR bundle
+INFO:
+UCSF ChimeraX version: 1.6.1 (2023-05-09)
+INFO:
+© 2016-2023 Regents of the University of California.  All rights reserved.
+INFO:
+Executing: open ./calc_dihedral_chimerax/calc_dihedral_part_04.cxc
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1zi5.pdb
+INFO:
+_1zi5.pdb_ title:  
+ **Crystal structure of human N-acetylgalactosaminyltransferase (gta)
+complexed with H type I trisaccharide** [[more info...]](cxcmd:log metadata
+#1)  
+  
+
+INFO:
+Chain information for 1zi5.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:62-345 "Select chain") | [fucosylglycoprotein α-N-
+acetylgalactosaminyltransferase (histo-blood group A transferase) (A
+transferase)](cxcmd:sequence chain #1/A "Show sequence") |
+[BGAT_HUMAN](cxcmd:open P16442 from uniprot "Show annotations")
+[64-354](cxcmd:select #1/A:64-354 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 1zi5.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[HG](cxcmd:sel :HG "select residue") — [mercury (II)
+ion](http://www.rcsb.org/ligand/HG "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[UDP](cxcmd:sel :UDP "select residue") —
+[uridine-5&#x27;-diphosphate](http://www.rcsb.org/ligand/UDP "show residue
+info")  
+  
+
+INFO:
+Executing: torsion /B:3@C2 /B:3@C1 /B:2@O2 /B:2@C2
+INFO:
+Torsion angle for atoms /B FUC 3 C2 C1 GAL 2 O2 C2 is 174.153°
+INFO:
+Executing: torsion /B:3@C1 /B:2@O2 /B:2@C2 /B:2@C3
+INFO:
+Torsion angle for atoms /B FUC 3 C1 GAL 2 O2 C2 C3 is -88.7363°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1cly.pdb
+INFO:
+_1cly.pdb_ title:  
+ **IGG fab (human IGG1, κ) chimeric fragment (CBR96) complexed with lewis Y
+nonoate methyl ester** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 1cly.pdb #1  
+---  
+Chain | Description  
+[H](cxcmd:select /H:1-227 "Select chain") | [CBR96 FAB
+(immunoglobulin)](cxcmd:sequence chain #1/H "Show sequence")  
+[L](cxcmd:select /L:3-214 "Select chain") | [CBR96 FAB
+(immunoglobulin)](cxcmd:sequence chain #1/L "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 1cly.pdb #1  
+---  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info")  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info")  
+[NON](cxcmd:sel :NON "select residue") — [methyl nonanoate
+(ester)](http://www.rcsb.org/ligand/NON "show residue info")  
+  
+
+INFO:
+Executing: torsion /A:3@C2 /A:3@C1 /A:2@O2 /A:2@C2
+INFO:
+Torsion angle for atoms /A FUC 3 C2 C1 GAL 2 O2 C2 is 162.279°
+INFO:
+Executing: torsion /A:3@C1 /A:2@O2 /A:2@C2 /A:2@C3
+INFO:
+Torsion angle for atoms /A FUC 3 C1 GAL 2 O2 C2 C3 is -104.802°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3q39.pdb
+INFO:
+_3q39.pdb_ title:  
+ **Crystal structure of P domain from norwalk virus strain vietnam 026 In
+complex with HBGA type H2 (diglycan)** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3q39.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:224-538 "Select chain") [B](cxcmd:select /B:224-538
+"Select chain") | [capsid protein](cxcmd:sequence chain #1/A#1/B "Show
+sequence") | [Q5F4T5_9CALI](cxcmd:open Q5F4T5 from uniprot "Show annotations")
+[224-538](cxcmd:select #1/A,B:224-538 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3q39.pdb #1  
+---  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[IMD](cxcmd:sel :IMD "select residue") —
+[imidazole](http://www.rcsb.org/ligand/IMD "show residue info")  
+  
+
+INFO:
+Executing: torsion /C:2@C2 /C:2@C1 /C:1@O2 /C:1@C2
+INFO:
+Torsion angle for atoms /C FUC 2 C2 C1 GAL 1 O2 C2 is 138.892°
+INFO:
+Executing: torsion /C:2@C1 /C:1@O2 /C:1@C2 /C:1@C3
+INFO:
+Torsion angle for atoms /C FUC 2 C1 GAL 1 O2 C2 C3 is -149.095°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/7l62.pdb
+INFO:
+_7l62.pdb_ title:  
+ **C-type carbohydrate-recognition domain 4 of the mannose receptor complexed
+with L-fucose-(α 1-2)-D-galactose-(Β1-4)-D-glucose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 7l62.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:627-761 "Select chain") | [macrophage mannose receptor
+1](cxcmd:sequence chain #1/A "Show sequence") | [MRC1_HUMAN](cxcmd:open P22897
+from uniprot "Show annotations") [628-761](cxcmd:select #1/A:628-761 "Select
+sequence")  
+  
+
+INFO:
+Non-standard residues in 7l62.pdb #1  
+---  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+  
+
+INFO:
+Executing: torsion /B:3@C2 /B:3@C1 /B:2@O2 /B:2@C2
+INFO:
+Torsion angle for atoms /B FUC 3 C2 C1 GAL 2 O2 C2 is 165.925°
+INFO:
+Executing: torsion /B:3@C1 /B:2@O2 /B:2@C2 /B:2@C3
+INFO:
+Torsion angle for atoms /B FUC 3 C1 GAL 2 O2 C2 C3 is -90.9328°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5iyr.pdb
+INFO:
+_5iyr.pdb_ title:  
+ **Protruding domain of gii.4 human norovirus CHDC2094 In complex with 2-
+fucosyllactose (2 'Fl)** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5iyr.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:225-529 "Select chain") [B](cxcmd:select /B:224-529
+"Select chain") | [gii.4 norovirus CHDC2094 capsid](cxcmd:sequence chain
+#1/A#1/B "Show sequence") | [D0QJ68_9CALI](cxcmd:open D0QJ68 from uniprot
+"Show annotations") [225-529](cxcmd:select #1/A,B:225-529 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 5iyr.pdb #1  
+---  
+[FLC](cxcmd:sel :FLC "select residue") — [citrate
+anion](http://www.rcsb.org/ligand/FLC "show residue info")  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /D:3@C2 /D:3@C1 /D:2@O2 /D:2@C2
+INFO:
+Torsion angle for atoms /D FUC 3 C2 C1 GAL 2 O2 C2 is 164.05°
+INFO:
+Executing: torsion /D:3@C1 /D:2@O2 /D:2@C2 /D:2@C3
+INFO:
+Torsion angle for atoms /D FUC 3 C1 GAL 2 O2 C2 C3 is -92.7124°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/5iyr.pdb
+INFO:
+_5iyr.pdb_ title:  
+ **Protruding domain of gii.4 human norovirus CHDC2094 In complex with 2-
+fucosyllactose (2 'Fl)** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 5iyr.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:225-529 "Select chain") [B](cxcmd:select /B:224-529
+"Select chain") | [gii.4 norovirus CHDC2094 capsid](cxcmd:sequence chain
+#1/A#1/B "Show sequence") | [D0QJ68_9CALI](cxcmd:open D0QJ68 from uniprot
+"Show annotations") [225-529](cxcmd:select #1/A,B:225-529 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 5iyr.pdb #1  
+---  
+[FLC](cxcmd:sel :FLC "select residue") — [citrate
+anion](http://www.rcsb.org/ligand/FLC "show residue info")  
+[FUC](cxcmd:sel :FUC "select residue") — [α-L-
+fucopyranose](http://www.rcsb.org/ligand/FUC "show residue info") (α-L-fucose;
+6-deoxy-α-L-galactopyranose; L-fucose; fucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /C:3@C2 /C:3@C1 /C:2@O2 /C:2@C2
+INFO:
+Torsion angle for atoms /C FUC 3 C2 C1 GAL 2 O2 C2 is 171.237°
+INFO:
+Executing: torsion /C:3@C1 /C:2@O2 /C:2@C2 /C:2@C3
+INFO:
+Torsion angle for atoms /C FUC 3 C1 GAL 2 O2 C2 C3 is -93.1303°
+INFO:
+Executing: close #1
+INFO:
+Executing: exit
+STATUS:
+Exiting ...

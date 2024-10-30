@@ -1,0 +1,118 @@
+WARNING:
+Replacing fetcher for 'pdb_nmr' and format NMRSTAR from NMRSTAR bundle with that from NMRSTAR bundle
+INFO:
+UCSF ChimeraX version: 1.6.1 (2023-05-09)
+INFO:
+© 2016-2023 Regents of the University of California.  All rights reserved.
+INFO:
+Executing: open ./calc_dihedral_chimerax/calc_dihedral_part_01.cxc
+INFO:
+Executing: close #1
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6hpf.pdb
+INFO:
+_6hpf.pdb_ title:  
+ **Structure of inactive E165Q mutant of fungal non-CBM carrying GH26 ENDO-B-
+mannanase from yunnania penicillata In complex with α-62- 61-di-galactosyl-
+mannotriose** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6hpf.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:1-312 "Select chain") | [ENDO-B-mannanase](cxcmd:sequence
+chain #1/A "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6hpf.pdb #1  
+---  
+[ACY](cxcmd:sel :ACY "select residue") — [acetic
+acid](http://www.rcsb.org/ligand/ACY "show residue info")  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[CL](cxcmd:sel :CL "select residue") — [chloride
+ion](http://www.rcsb.org/ligand/CL "show residue info")  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[SO4](cxcmd:sel :SO4 "select residue") — [sulfate
+ion](http://www.rcsb.org/ligand/SO4 "show residue info")  
+  
+
+INFO:
+Executing: torsion /B:5@C2 /B:5@C1 /B:1@O6 /B:1@C6
+INFO:
+Torsion angle for atoms /B GLA 5 C2 C1 MAN 1 O6 C6 is -117.228°
+INFO:
+Executing: torsion /B:5@C1 /B:1@O6 /B:1@C6 /B:1@C5
+INFO:
+Torsion angle for atoms /B GLA 5 C1 MAN 1 O6 C6 C5 is -158.186°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6hpf.pdb
+INFO:
+_6hpf.pdb_ title:  
+ **Structure of inactive E165Q mutant of fungal non-CBM carrying GH26 ENDO-B-
+mannanase from yunnania penicillata In complex with α-62- 61-di-galactosyl-
+mannotriose** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6hpf.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:1-312 "Select chain") | [ENDO-B-mannanase](cxcmd:sequence
+chain #1/A "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6hpf.pdb #1  
+---  
+[ACY](cxcmd:sel :ACY "select residue") — [acetic
+acid](http://www.rcsb.org/ligand/ACY "show residue info")  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[CL](cxcmd:sel :CL "select residue") — [chloride
+ion](http://www.rcsb.org/ligand/CL "show residue info")  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[SO4](cxcmd:sel :SO4 "select residue") — [sulfate
+ion](http://www.rcsb.org/ligand/SO4 "show residue info")  
+  
+
+INFO:
+Executing: torsion /B:4@C2 /B:4@C1 /B:1@O6 /B:1@C6
+INFO:
+Torsion angle for atoms /B GLA 4 C2 C1 MAN 1 O6 C6 is 112.384°
+INFO:
+Executing: torsion /B:4@C1 /B:1@O6 /B:1@C6 /B:1@C5
+INFO:
+Torsion angle for atoms /B GLA 4 C1 MAN 1 O6 C6 C5 is -44.9905°
+INFO:
+Executing: close #1
+INFO:
+Executing: exit
+STATUS:
+Exiting ...

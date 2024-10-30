@@ -1,0 +1,102 @@
+WARNING:
+Replacing fetcher for 'pdb_nmr' and format NMRSTAR from NMRSTAR bundle with that from NMRSTAR bundle
+INFO:
+UCSF ChimeraX version: 1.6.1 (2023-05-09)
+INFO:
+© 2016-2023 Regents of the University of California.  All rights reserved.
+INFO:
+Executing: open ./calc_dihedral_chimerax/calc_dihedral_part_01.cxc
+INFO:
+Executing: close #1
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1cap.pdb
+INFO:
+_1cap.pdb_ title:  
+ **Conformation and molecular organization In fibers of the capsular
+polysaccharide from escherichia coli M41 mutant** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Non-standard residues in 1cap.pdb #1  
+---  
+[BDP](cxcmd:sel :BDP "select residue") — [β-D-glucopyranuronic
+acid](http://www.rcsb.org/ligand/BDP "show residue info") (β-D-glucuronic
+acid; D-glucuronic acid; glucuronicacid)  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CEG](cxcmd:sel :CEG "select residue") —
+[4,6-O-[(1S)-1-carboxyethylidene]-β-D-
+glucopyranose](http://www.rcsb.org/ligand/CEG "show residue info")
+(4,6-O-(1-carboxyethylidene)-β-D-glucose;
+4,6-O-[(1S)-1-carboxyethylidene]-β-D-glucose;
+4,6-O-[(1S)-1-carboxyethylidene]-D-glucose;
+4,6-O-[(1S)-1-carboxyethylidene]-glucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+  
+
+INFO:
+Executing: torsion /A:8@C2 /A:8@C1 /A:7@O3 /A:7@C3
+INFO:
+Torsion angle for atoms /A MAN 8 C2 C1 BGC 7 O3 C3 is -163.587°
+INFO:
+Executing: torsion /A:8@C1 /A:7@O3 /A:7@C3 /A:7@C4
+INFO:
+Torsion angle for atoms /A MAN 8 C1 BGC 7 O3 C3 C4 is 106.421°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1cap.pdb
+INFO:
+_1cap.pdb_ title:  
+ **Conformation and molecular organization In fibers of the capsular
+polysaccharide from escherichia coli M41 mutant** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Non-standard residues in 1cap.pdb #1  
+---  
+[BDP](cxcmd:sel :BDP "select residue") — [β-D-glucopyranuronic
+acid](http://www.rcsb.org/ligand/BDP "show residue info") (β-D-glucuronic
+acid; D-glucuronic acid; glucuronicacid)  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[CEG](cxcmd:sel :CEG "select residue") —
+[4,6-O-[(1S)-1-carboxyethylidene]-β-D-
+glucopyranose](http://www.rcsb.org/ligand/CEG "show residue info")
+(4,6-O-(1-carboxyethylidene)-β-D-glucose;
+4,6-O-[(1S)-1-carboxyethylidene]-β-D-glucose;
+4,6-O-[(1S)-1-carboxyethylidene]-D-glucose;
+4,6-O-[(1S)-1-carboxyethylidene]-glucose)  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+  
+
+INFO:
+Executing: torsion /A:4@C2 /A:4@C1 /A:3@O3 /A:3@C3
+INFO:
+Torsion angle for atoms /A MAN 4 C2 C1 BGC 3 O3 C3 is -163.587°
+INFO:
+Executing: torsion /A:4@C1 /A:3@O3 /A:3@C3 /A:3@C4
+INFO:
+Torsion angle for atoms /A MAN 4 C1 BGC 3 O3 C3 C4 is 106.421°
+INFO:
+Executing: close #1
+INFO:
+Executing: exit
+STATUS:
+Exiting ...

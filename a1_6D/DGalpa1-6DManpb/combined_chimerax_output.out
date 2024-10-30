@@ -1,0 +1,972 @@
+WARNING:
+Replacing fetcher for 'pdb_nmr' and format NMRSTAR from NMRSTAR bundle with that from NMRSTAR bundle
+INFO:
+UCSF ChimeraX version: 1.6.1 (2023-05-09)
+INFO:
+© 2016-2023 Regents of the University of California.  All rights reserved.
+INFO:
+Executing: open ./calc_dihedral_chimerax/calc_dihedral_part_01.cxc
+INFO:
+Executing: close #1
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2yb7.pdb
+INFO:
+_2yb7.pdb_ title:  
+ **CBM62 In complex with 6-α-D-galactosyl-mannotriose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2yb7.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:739-878 "Select chain") [B](cxcmd:select /B:739-878
+"Select chain") | [cellulosomal protein](cxcmd:sequence chain #1/A#1/B "Show
+sequence") | [D1NNT8_CLOTM](cxcmd:open D1NNT8 from uniprot "Show annotations")
+[740-883](cxcmd:select #1/A,B:740-883 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2yb7.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GOL](cxcmd:sel :GOL "select residue") —
+[glycerol](http://www.rcsb.org/ligand/GOL "show residue info") (glycerin;
+propane-1,2,3-triol)  
+  
+
+INFO:
+Executing: torsion /C:2@C2 /C:2@C1 /C:1@O6 /C:1@C6
+INFO:
+Torsion angle for atoms /C GLA 2 C2 C1 BMA 1 O6 C6 is -177.689°
+INFO:
+Executing: torsion /C:2@C1 /C:1@O6 /C:1@C6 /C:1@C5
+INFO:
+Torsion angle for atoms /C GLA 2 C1 BMA 1 O6 C6 C5 is 175.698°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2yb7.pdb
+INFO:
+_2yb7.pdb_ title:  
+ **CBM62 In complex with 6-α-D-galactosyl-mannotriose**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2yb7.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:739-878 "Select chain") [B](cxcmd:select /B:739-878
+"Select chain") | [cellulosomal protein](cxcmd:sequence chain #1/A#1/B "Show
+sequence") | [D1NNT8_CLOTM](cxcmd:open D1NNT8 from uniprot "Show annotations")
+[740-883](cxcmd:select #1/A,B:740-883 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2yb7.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GOL](cxcmd:sel :GOL "select residue") —
+[glycerol](http://www.rcsb.org/ligand/GOL "show residue info") (glycerin;
+propane-1,2,3-triol)  
+  
+
+INFO:
+Executing: torsion /D:2@C2 /D:2@C1 /D:1@O6 /D:1@C6
+INFO:
+Torsion angle for atoms /D GLA 2 C2 C1 BMA 1 O6 C6 is -170.666°
+INFO:
+Executing: torsion /D:2@C1 /D:1@O6 /D:1@C6 /D:1@C5
+INFO:
+Torsion angle for atoms /D GLA 2 C1 BMA 1 O6 C6 C5 is 167.153°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6f7k.pdb
+INFO:
+_6f7k.pdb_ title:  
+ **Crystal structure of dettilon tailspike protein (GP208)**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6f7k.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:253-798 "Select chain") [B](cxcmd:select /B:252-798
+"Select chain") [C](cxcmd:select /C:252-798 "Select chain") [D](cxcmd:select
+/D:252-798 "Select chain") [F](cxcmd:select /F:252-798 "Select chain")
+[G](cxcmd:select /G:252-798 "Select chain") | [tailspike](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D#1/F#1/G "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6f7k.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[RAM](cxcmd:sel :RAM "select residue") — [α-L-
+rhamnopyranose](http://www.rcsb.org/ligand/RAM "show residue info") (α-L-
+rhamnose; 6-deoxy-α-L-mannopyranose; L-rhamnose; rhamnose)  
+  
+
+INFO:
+Executing: torsion /L:6@C2 /L:6@C1 /L:5@O6 /L:5@C6
+INFO:
+Torsion angle for atoms /L GLA 6 C2 C1 BMA 5 O6 C6 is 178.275°
+INFO:
+Executing: torsion /L:6@C1 /L:5@O6 /L:5@C6 /L:5@C5
+INFO:
+Torsion angle for atoms /L GLA 6 C1 BMA 5 O6 C6 C5 is 117.225°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6f7k.pdb
+INFO:
+_6f7k.pdb_ title:  
+ **Crystal structure of dettilon tailspike protein (GP208)**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6f7k.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:253-798 "Select chain") [B](cxcmd:select /B:252-798
+"Select chain") [C](cxcmd:select /C:252-798 "Select chain") [D](cxcmd:select
+/D:252-798 "Select chain") [F](cxcmd:select /F:252-798 "Select chain")
+[G](cxcmd:select /G:252-798 "Select chain") | [tailspike](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D#1/F#1/G "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6f7k.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[RAM](cxcmd:sel :RAM "select residue") — [α-L-
+rhamnopyranose](http://www.rcsb.org/ligand/RAM "show residue info") (α-L-
+rhamnose; 6-deoxy-α-L-mannopyranose; L-rhamnose; rhamnose)  
+  
+
+INFO:
+Executing: torsion /L:3@C2 /L:3@C1 /L:2@O6 /L:2@C6
+INFO:
+Torsion angle for atoms /L GLA 3 C2 C1 BMA 2 O6 C6 is -86.8744°
+INFO:
+Executing: torsion /L:3@C1 /L:2@O6 /L:2@C6 /L:2@C5
+INFO:
+Torsion angle for atoms /L GLA 3 C1 BMA 2 O6 C6 C5 is -145.74°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6f7k.pdb
+INFO:
+_6f7k.pdb_ title:  
+ **Crystal structure of dettilon tailspike protein (GP208)**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6f7k.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:253-798 "Select chain") [B](cxcmd:select /B:252-798
+"Select chain") [C](cxcmd:select /C:252-798 "Select chain") [D](cxcmd:select
+/D:252-798 "Select chain") [F](cxcmd:select /F:252-798 "Select chain")
+[G](cxcmd:select /G:252-798 "Select chain") | [tailspike](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D#1/F#1/G "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6f7k.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[RAM](cxcmd:sel :RAM "select residue") — [α-L-
+rhamnopyranose](http://www.rcsb.org/ligand/RAM "show residue info") (α-L-
+rhamnose; 6-deoxy-α-L-mannopyranose; L-rhamnose; rhamnose)  
+  
+
+INFO:
+Executing: torsion /K:6@C2 /K:6@C1 /K:5@O6 /K:5@C6
+INFO:
+Torsion angle for atoms /K GLA 6 C2 C1 BMA 5 O6 C6 is 159.769°
+INFO:
+Executing: torsion /K:6@C1 /K:5@O6 /K:5@C6 /K:5@C5
+INFO:
+Torsion angle for atoms /K GLA 6 C1 BMA 5 O6 C6 C5 is 132.269°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6f7k.pdb
+INFO:
+_6f7k.pdb_ title:  
+ **Crystal structure of dettilon tailspike protein (GP208)**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6f7k.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:253-798 "Select chain") [B](cxcmd:select /B:252-798
+"Select chain") [C](cxcmd:select /C:252-798 "Select chain") [D](cxcmd:select
+/D:252-798 "Select chain") [F](cxcmd:select /F:252-798 "Select chain")
+[G](cxcmd:select /G:252-798 "Select chain") | [tailspike](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D#1/F#1/G "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6f7k.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[RAM](cxcmd:sel :RAM "select residue") — [α-L-
+rhamnopyranose](http://www.rcsb.org/ligand/RAM "show residue info") (α-L-
+rhamnose; 6-deoxy-α-L-mannopyranose; L-rhamnose; rhamnose)  
+  
+
+INFO:
+Executing: torsion /K:3@C2 /K:3@C1 /K:2@O6 /K:2@C6
+INFO:
+Torsion angle for atoms /K GLA 3 C2 C1 BMA 2 O6 C6 is 143.019°
+INFO:
+Executing: torsion /K:3@C1 /K:2@O6 /K:2@C6 /K:2@C5
+INFO:
+Torsion angle for atoms /K GLA 3 C1 BMA 2 O6 C6 C5 is 152.921°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6f7k.pdb
+INFO:
+_6f7k.pdb_ title:  
+ **Crystal structure of dettilon tailspike protein (GP208)**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6f7k.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:253-798 "Select chain") [B](cxcmd:select /B:252-798
+"Select chain") [C](cxcmd:select /C:252-798 "Select chain") [D](cxcmd:select
+/D:252-798 "Select chain") [F](cxcmd:select /F:252-798 "Select chain")
+[G](cxcmd:select /G:252-798 "Select chain") | [tailspike](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D#1/F#1/G "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6f7k.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[RAM](cxcmd:sel :RAM "select residue") — [α-L-
+rhamnopyranose](http://www.rcsb.org/ligand/RAM "show residue info") (α-L-
+rhamnose; 6-deoxy-α-L-mannopyranose; L-rhamnose; rhamnose)  
+  
+
+INFO:
+Executing: torsion /M:6@C2 /M:6@C1 /M:5@O6 /M:5@C6
+INFO:
+Torsion angle for atoms /M GLA 6 C2 C1 BMA 5 O6 C6 is -165.114°
+INFO:
+Executing: torsion /M:6@C1 /M:5@O6 /M:5@C6 /M:5@C5
+INFO:
+Torsion angle for atoms /M GLA 6 C1 BMA 5 O6 C6 C5 is 120.565°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6f7k.pdb
+INFO:
+_6f7k.pdb_ title:  
+ **Crystal structure of dettilon tailspike protein (GP208)**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6f7k.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:253-798 "Select chain") [B](cxcmd:select /B:252-798
+"Select chain") [C](cxcmd:select /C:252-798 "Select chain") [D](cxcmd:select
+/D:252-798 "Select chain") [F](cxcmd:select /F:252-798 "Select chain")
+[G](cxcmd:select /G:252-798 "Select chain") | [tailspike](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D#1/F#1/G "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6f7k.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[RAM](cxcmd:sel :RAM "select residue") — [α-L-
+rhamnopyranose](http://www.rcsb.org/ligand/RAM "show residue info") (α-L-
+rhamnose; 6-deoxy-α-L-mannopyranose; L-rhamnose; rhamnose)  
+  
+
+INFO:
+Executing: torsion /M:3@C2 /M:3@C1 /M:2@O6 /M:2@C6
+INFO:
+Torsion angle for atoms /M GLA 3 C2 C1 BMA 2 O6 C6 is 3.5216°
+INFO:
+Executing: torsion /M:3@C1 /M:2@O6 /M:2@C6 /M:2@C5
+INFO:
+Torsion angle for atoms /M GLA 3 C1 BMA 2 O6 C6 C5 is -157.785°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6f7k.pdb
+INFO:
+_6f7k.pdb_ title:  
+ **Crystal structure of dettilon tailspike protein (GP208)**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6f7k.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:253-798 "Select chain") [B](cxcmd:select /B:252-798
+"Select chain") [C](cxcmd:select /C:252-798 "Select chain") [D](cxcmd:select
+/D:252-798 "Select chain") [F](cxcmd:select /F:252-798 "Select chain")
+[G](cxcmd:select /G:252-798 "Select chain") | [tailspike](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D#1/F#1/G "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6f7k.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[RAM](cxcmd:sel :RAM "select residue") — [α-L-
+rhamnopyranose](http://www.rcsb.org/ligand/RAM "show residue info") (α-L-
+rhamnose; 6-deoxy-α-L-mannopyranose; L-rhamnose; rhamnose)  
+  
+
+INFO:
+Executing: torsion /H:6@C2 /H:6@C1 /H:5@O6 /H:5@C6
+INFO:
+Torsion angle for atoms /H GLA 6 C2 C1 BMA 5 O6 C6 is 178.403°
+INFO:
+Executing: torsion /H:6@C1 /H:5@O6 /H:5@C6 /H:5@C5
+INFO:
+Torsion angle for atoms /H GLA 6 C1 BMA 5 O6 C6 C5 is 113.444°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6f7k.pdb
+INFO:
+_6f7k.pdb_ title:  
+ **Crystal structure of dettilon tailspike protein (GP208)**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6f7k.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:253-798 "Select chain") [B](cxcmd:select /B:252-798
+"Select chain") [C](cxcmd:select /C:252-798 "Select chain") [D](cxcmd:select
+/D:252-798 "Select chain") [F](cxcmd:select /F:252-798 "Select chain")
+[G](cxcmd:select /G:252-798 "Select chain") | [tailspike](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D#1/F#1/G "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6f7k.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[RAM](cxcmd:sel :RAM "select residue") — [α-L-
+rhamnopyranose](http://www.rcsb.org/ligand/RAM "show residue info") (α-L-
+rhamnose; 6-deoxy-α-L-mannopyranose; L-rhamnose; rhamnose)  
+  
+
+INFO:
+Executing: torsion /H:3@C2 /H:3@C1 /H:2@O6 /H:2@C6
+INFO:
+Torsion angle for atoms /H GLA 3 C2 C1 BMA 2 O6 C6 is -26.5218°
+INFO:
+Executing: torsion /H:3@C1 /H:2@O6 /H:2@C6 /H:2@C5
+INFO:
+Torsion angle for atoms /H GLA 3 C1 BMA 2 O6 C6 C5 is -163.419°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6f7k.pdb
+INFO:
+_6f7k.pdb_ title:  
+ **Crystal structure of dettilon tailspike protein (GP208)**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6f7k.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:253-798 "Select chain") [B](cxcmd:select /B:252-798
+"Select chain") [C](cxcmd:select /C:252-798 "Select chain") [D](cxcmd:select
+/D:252-798 "Select chain") [F](cxcmd:select /F:252-798 "Select chain")
+[G](cxcmd:select /G:252-798 "Select chain") | [tailspike](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D#1/F#1/G "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6f7k.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[RAM](cxcmd:sel :RAM "select residue") — [α-L-
+rhamnopyranose](http://www.rcsb.org/ligand/RAM "show residue info") (α-L-
+rhamnose; 6-deoxy-α-L-mannopyranose; L-rhamnose; rhamnose)  
+  
+
+INFO:
+Executing: torsion /I:4@C2 /I:4@C1 /I:3@O6 /I:3@C6
+INFO:
+Torsion angle for atoms /I GLA 4 C2 C1 BMA 3 O6 C6 is -169.436°
+INFO:
+Executing: torsion /I:4@C1 /I:3@O6 /I:3@C6 /I:3@C5
+INFO:
+Torsion angle for atoms /I GLA 4 C1 BMA 3 O6 C6 C5 is 114.94°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6f7k.pdb
+INFO:
+_6f7k.pdb_ title:  
+ **Crystal structure of dettilon tailspike protein (GP208)**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6f7k.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:253-798 "Select chain") [B](cxcmd:select /B:252-798
+"Select chain") [C](cxcmd:select /C:252-798 "Select chain") [D](cxcmd:select
+/D:252-798 "Select chain") [F](cxcmd:select /F:252-798 "Select chain")
+[G](cxcmd:select /G:252-798 "Select chain") | [tailspike](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D#1/F#1/G "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6f7k.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[RAM](cxcmd:sel :RAM "select residue") — [α-L-
+rhamnopyranose](http://www.rcsb.org/ligand/RAM "show residue info") (α-L-
+rhamnose; 6-deoxy-α-L-mannopyranose; L-rhamnose; rhamnose)  
+  
+
+INFO:
+Executing: torsion /I:1@C2 /I:1@C1 /J:2@O6 /J:2@C6
+INFO:
+Torsion angle for atoms /I GLA 1 C2 C1 /J BMA 2 O6 C6 is 150.509°
+INFO:
+Executing: torsion /I:1@C1 /J:2@O6 /J:2@C6 /J:2@C5
+INFO:
+Torsion angle for atoms /I GLA 1 C1 /J BMA 2 O6 C6 C5 is 144.95°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6f7k.pdb
+INFO:
+_6f7k.pdb_ title:  
+ **Crystal structure of dettilon tailspike protein (GP208)**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6f7k.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:253-798 "Select chain") [B](cxcmd:select /B:252-798
+"Select chain") [C](cxcmd:select /C:252-798 "Select chain") [D](cxcmd:select
+/D:252-798 "Select chain") [F](cxcmd:select /F:252-798 "Select chain")
+[G](cxcmd:select /G:252-798 "Select chain") | [tailspike](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D#1/F#1/G "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6f7k.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[RAM](cxcmd:sel :RAM "select residue") — [α-L-
+rhamnopyranose](http://www.rcsb.org/ligand/RAM "show residue info") (α-L-
+rhamnose; 6-deoxy-α-L-mannopyranose; L-rhamnose; rhamnose)  
+  
+
+INFO:
+Executing: torsion /E:6@C2 /E:6@C1 /E:5@O6 /E:5@C6
+INFO:
+Torsion angle for atoms /E GLA 6 C2 C1 BMA 5 O6 C6 is 178.087°
+INFO:
+Executing: torsion /E:6@C1 /E:5@O6 /E:5@C6 /E:5@C5
+INFO:
+Torsion angle for atoms /E GLA 6 C1 BMA 5 O6 C6 C5 is 113.374°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6f7k.pdb
+INFO:
+_6f7k.pdb_ title:  
+ **Crystal structure of dettilon tailspike protein (GP208)**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6f7k.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:253-798 "Select chain") [B](cxcmd:select /B:252-798
+"Select chain") [C](cxcmd:select /C:252-798 "Select chain") [D](cxcmd:select
+/D:252-798 "Select chain") [F](cxcmd:select /F:252-798 "Select chain")
+[G](cxcmd:select /G:252-798 "Select chain") | [tailspike](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D#1/F#1/G "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6f7k.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[RAM](cxcmd:sel :RAM "select residue") — [α-L-
+rhamnopyranose](http://www.rcsb.org/ligand/RAM "show residue info") (α-L-
+rhamnose; 6-deoxy-α-L-mannopyranose; L-rhamnose; rhamnose)  
+  
+
+INFO:
+Executing: torsion /E:3@C2 /E:3@C1 /E:2@O6 /E:2@C6
+INFO:
+Torsion angle for atoms /E GLA 3 C2 C1 BMA 2 O6 C6 is 148.309°
+INFO:
+Executing: torsion /E:3@C1 /E:2@O6 /E:2@C6 /E:2@C5
+INFO:
+Torsion angle for atoms /E GLA 3 C1 BMA 2 O6 C6 C5 is 155.852°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6hf4.pdb
+INFO:
+_6hf4.pdb_ title:  
+ **The structure of BOMAN26B, A GH26 β-mannanase from bacteroides ovatus,
+complexed with G1M4** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6hf4.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:37-361 "Select chain") | [glycosyl hydrolase family
+26](cxcmd:sequence chain #1/A "Show sequence") | [A7LW89_BACO1](cxcmd:open
+A7LW89 from uniprot "Show annotations") [1-360](cxcmd:select #1/A:1-360
+"Select sequence")  
+  
+
+INFO:
+Non-standard residues in 6hf4.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[CL](cxcmd:sel :CL "select residue") — [chloride
+ion](http://www.rcsb.org/ligand/CL "show residue info")  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+  
+
+INFO:
+Executing: torsion /B:5@C2 /B:5@C1 /B:3@O6 /B:3@C6
+INFO:
+Torsion angle for atoms /B GLA 5 C2 C1 BMA 3 O6 C6 is -178.399°
+INFO:
+Executing: torsion /B:5@C1 /B:3@O6 /B:3@C6 /B:3@C5
+INFO:
+Torsion angle for atoms /B GLA 5 C1 BMA 3 O6 C6 C5 is 120.498°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2yg0.pdb
+INFO:
+_2yg0.pdb_ title:  
+ **CBM62 from clostridium thermocellum XYL5A** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 2yg0.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:2-140 "Select chain") | [cellulosomal
+protein](cxcmd:sequence chain #1/A "Show sequence") |
+[D1NNT8_CLOTM](cxcmd:open D1NNT8 from uniprot "Show annotations")
+[2-145](cxcmd:select #1/A:2-145 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2yg0.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GOL](cxcmd:sel :GOL "select residue") —
+[glycerol](http://www.rcsb.org/ligand/GOL "show residue info") (glycerin;
+propane-1,2,3-triol)  
+  
+
+INFO:
+Executing: torsion /B:2@C2 /B:2@C1 /B:1@O6 /B:1@C6
+INFO:
+Torsion angle for atoms /B GLA 2 C2 C1 BMA 1 O6 C6 is -171.354°
+INFO:
+Executing: torsion /B:2@C1 /B:1@O6 /B:1@C6 /B:1@C5
+INFO:
+Torsion angle for atoms /B GLA 2 C1 BMA 1 O6 C6 C5 is 173.357°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2vx6.pdb
+INFO:
+_2vx6.pdb_ title:  
+ **Cellvibrio japonicus mannanase CJMAN26C GAL1MAN4-bound form**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2vx6.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:53-419 "Select chain") | [cellvibrio japonicus mannanase
+CJMAN26C](cxcmd:sequence chain #1/A "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 2vx6.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+  
+
+INFO:
+Executing: torsion /B:5@C2 /B:5@C1 /B:3@O6 /B:3@C6
+INFO:
+Torsion angle for atoms /B GLA 5 C2 C1 BMA 3 O6 C6 is -148.699°
+INFO:
+Executing: torsion /B:5@C1 /B:3@O6 /B:3@C6 /B:3@C5
+INFO:
+Torsion angle for atoms /B GLA 5 C1 BMA 3 O6 C6 C5 is 177.218°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6hpf.pdb
+INFO:
+_6hpf.pdb_ title:  
+ **Structure of inactive E165Q mutant of fungal non-CBM carrying GH26 ENDO-B-
+mannanase from yunnania penicillata In complex with α-62- 61-di-galactosyl-
+mannotriose** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6hpf.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:1-312 "Select chain") | [ENDO-B-mannanase](cxcmd:sequence
+chain #1/A "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6hpf.pdb #1  
+---  
+[ACY](cxcmd:sel :ACY "select residue") — [acetic
+acid](http://www.rcsb.org/ligand/ACY "show residue info")  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[CL](cxcmd:sel :CL "select residue") — [chloride
+ion](http://www.rcsb.org/ligand/CL "show residue info")  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[SO4](cxcmd:sel :SO4 "select residue") — [sulfate
+ion](http://www.rcsb.org/ligand/SO4 "show residue info")  
+  
+
+INFO:
+Executing: torsion /B:5@C2 /B:5@C1 /B:2@O6 /B:2@C6
+INFO:
+Torsion angle for atoms /B GLA 5 C2 C1 BMA 2 O6 C6 is 131.798°
+INFO:
+Executing: torsion /B:5@C1 /B:2@O6 /B:2@C6 /B:2@C5
+INFO:
+Torsion angle for atoms /B GLA 5 C1 BMA 2 O6 C6 C5 is -1.64276°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6hpf.pdb
+INFO:
+_6hpf.pdb_ title:  
+ **Structure of inactive E165Q mutant of fungal non-CBM carrying GH26 ENDO-B-
+mannanase from yunnania penicillata In complex with α-62- 61-di-galactosyl-
+mannotriose** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 6hpf.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:1-312 "Select chain") | [ENDO-B-mannanase](cxcmd:sequence
+chain #1/A "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6hpf.pdb #1  
+---  
+[ACY](cxcmd:sel :ACY "select residue") — [acetic
+acid](http://www.rcsb.org/ligand/ACY "show residue info")  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[CL](cxcmd:sel :CL "select residue") — [chloride
+ion](http://www.rcsb.org/ligand/CL "show residue info")  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[SO4](cxcmd:sel :SO4 "select residue") — [sulfate
+ion](http://www.rcsb.org/ligand/SO4 "show residue info")  
+  
+
+INFO:
+Executing: torsion /B:4@C2 /B:4@C1 /B:2@O6 /B:2@C6
+INFO:
+Torsion angle for atoms /B GLA 4 C2 C1 BMA 2 O6 C6 is -173.841°
+INFO:
+Executing: torsion /B:4@C1 /B:2@O6 /B:2@C6 /B:2@C5
+INFO:
+Torsion angle for atoms /B GLA 4 C1 BMA 2 O6 C6 C5 is 166.453°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3dni.pdb
+INFO:
+_3dni.pdb_ title:  
+ **Crystallographic refinement and structure of DNAse I At 2 angstroms
+resolution** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3dni.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-260 "Select chain") | [deoxyribonuclease
+I](cxcmd:sequence chain #1/A "Show sequence") | [DRN1_BOVIN](cxcmd:open P00639
+from uniprot "Show annotations") [1-260](cxcmd:select #1/A:1-260 "Select
+sequence")  
+  
+
+INFO:
+Non-standard residues in 3dni.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info")  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info")  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info")  
+  
+
+INFO:
+Executing: torsion /B:5@C2 /B:5@C1 /B:4@O6 /B:4@C6
+INFO:
+Torsion angle for atoms /B GLA 5 C2 C1 BMA 4 O6 C6 is -165.108°
+INFO:
+Executing: torsion /B:5@C1 /B:4@O6 /B:4@C6 /B:4@C5
+INFO:
+Torsion angle for atoms /B GLA 5 C1 BMA 4 O6 C6 C5 is 104.734°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1oh4.pdb
+INFO:
+_1oh4.pdb_ title:  
+ **Structural and thermodynamic dissection of specific mannan recognition by A
+carbohydrate-binding module** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 1oh4.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:3-176 "Select chain") | [β-mannosidase](cxcmd:sequence
+chain #1/A "Show sequence") | [Q9RIK9](cxcmd:open Q9RIK9 from uniprot "Show
+annotations") [1-176](cxcmd:select #1/A:1-176 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 1oh4.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[CA](cxcmd:sel :CA "select residue") — [calcium
+ion](http://www.rcsb.org/ligand/CA "show residue info")  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GOL](cxcmd:sel :GOL "select residue") —
+[glycerol](http://www.rcsb.org/ligand/GOL "show residue info") (glycerin;
+propane-1,2,3-triol)  
+[SO4](cxcmd:sel :SO4 "select residue") — [sulfate
+ion](http://www.rcsb.org/ligand/SO4 "show residue info")  
+  
+
+INFO:
+Executing: torsion /B:6@C2 /B:6@C1 /B:4@O6 /B:4@C6
+INFO:
+Torsion angle for atoms /B GLA 6 C2 C1 BMA 4 O6 C6 is -178.318°
+INFO:
+Executing: torsion /B:6@C1 /B:4@O6 /B:4@C6 /B:4@C5
+INFO:
+Torsion angle for atoms /B GLA 6 C1 BMA 4 O6 C6 C5 is 83.0622°
+INFO:
+Executing: close #1
+INFO:
+Executing: exit
+STATUS:
+Exiting ...

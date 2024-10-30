@@ -1,0 +1,58 @@
+close #1
+
+open ../../../pdbs/2zmn.pdb
+torsion /M:2@C2 /M:2@C1 /M:1@O6 /M:1@C6
+torsion /M:2@C1 /M:1@O6 /M:1@C6 /M:1@C5
+close #1
+
+open ../../../pdbs/2zmn.pdb
+torsion /J:2@C2 /J:2@C1 /J:1@O6 /J:1@C6
+torsion /J:2@C1 /J:1@O6 /J:1@C6 /J:1@C5
+close #1
+
+open ../../../pdbs/2zmn.pdb
+torsion /G:2@C2 /G:2@C1 /G:1@O6 /G:1@C6
+torsion /G:2@C1 /G:1@O6 /G:1@C6 /G:1@C5
+close #1
+
+open ../../../pdbs/2zmn.pdb
+torsion /O:2@C2 /O:2@C1 /O:1@O6 /O:1@C6
+torsion /O:2@C1 /O:1@O6 /O:1@C6 /O:1@C5
+close #1
+
+open ../../../pdbs/2dvg.pdb
+torsion /E:2@C2 /E:2@C1 /E:1@O6 /E:1@C6
+torsion /E:2@C1 /E:1@O6 /E:1@C6 /E:1@C5
+close #1
+
+open ../../../pdbs/1ugy.pdb
+torsion /K:2@C2 /K:2@C1 /K:1@O6 /K:1@C6
+torsion /K:2@C1 /K:1@O6 /K:1@C6 /K:1@C5
+close #1
+
+open ../../../pdbs/1ugy.pdb
+torsion /L:2@C2 /L:2@C1 /L:1@O6 /L:1@C6
+torsion /L:2@C1 /L:1@O6 /L:1@C6 /L:1@C5
+close #1
+
+open ../../../pdbs/2zx3.pdb
+torsion /F:2@C2 /F:2@C1 /F:1@O6 /F:1@C6
+torsion /F:2@C1 /F:1@O6 /F:1@C6 /F:1@C5
+close #1
+
+open ../../../pdbs/2zx3.pdb
+torsion /E:2@C2 /E:2@C1 /E:1@O6 /E:1@C6
+torsion /E:2@C1 /E:1@O6 /E:1@C6 /E:1@C5
+close #1
+
+open ../../../pdbs/2zx3.pdb
+torsion /D:2@C2 /D:2@C1 /D:1@O6 /D:1@C6
+torsion /D:2@C1 /D:1@O6 /D:1@C6 /D:1@C5
+close #1
+
+open ../../../pdbs/2zx3.pdb
+torsion /C:2@C2 /C:2@C1 /C:1@O6 /C:1@C6
+torsion /C:2@C1 /C:1@O6 /C:1@C6 /C:1@C5
+close #1
+
+exit

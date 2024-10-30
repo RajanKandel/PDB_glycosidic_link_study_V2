@@ -1,0 +1,13 @@
+close #1
+
+open ../../../pdbs/3rum.pdb
+torsion /E:2@C2 /E:2@C1 /E:1@O2 /E:1@C2
+torsion /E:2@C1 /E:1@O2 /E:1@C2 /E:1@C3
+close #1
+
+open ../../../pdbs/3rum.pdb
+torsion /D:2@C2 /D:2@C1 /D:1@O2 /D:1@C2
+torsion /D:2@C1 /D:1@O2 /D:1@C2 /D:1@C3
+close #1
+
+exit

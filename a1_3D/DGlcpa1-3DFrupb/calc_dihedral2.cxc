@@ -1,0 +1,8 @@
+close #1
+
+open ../../../pdbs/1n3q.pdb
+torsion /D:2@C2 /D:2@C1 /D:1@O3 /D:1@C3
+torsion /D:2@C1 /D:1@O3 /D:1@C3 /D:1@C4
+close #1
+
+exit

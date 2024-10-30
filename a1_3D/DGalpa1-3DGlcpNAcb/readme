@@ -1,0 +1,47 @@
+
+###################### Script description #######################
+
+Python script is used to extract following information about glycosidic linkages in PDB:
+
+a) dihedrals : ChimeraX command line scripting is used to read a pdb file and extract the dihedrals (Φ,Ψ)
+
+b) average B-factor of a monosaccharide: all atoms of specific residue are read from pdb, total B-factor is divided by the number of atoms found in PDB to get the average B-factor of a monosaccharide
+
+c) ring shape: BFMP script is used to find the standard ring shape 
+(Reference: Makeneni S, Foley BL, Woods RJ. BFMP: a method for discretizing and visualizing pyranose conformations. J Chem Inf Model. 2014 Oct 27;54(10):2744-50. doi: 10.1021/ci500325b.)
+
+###################### input/data ################################
+../data_gf_query/b1-4D_GF_results.csv : Glyfinder Query result (https://glycam.org/portal/gf_home/)
+
+###################### Required python libraries ##################
+numpy
+pandas
+matplotlib
+seaborn
+
+###################### Python script ##############################
+../extract_glycan_info.py :  the program is coded as class 'parse_gf_result' and many methods
+                        >>> look at the jupyter notebook '1.extract_run.ipynb' to find an example use case
+
+###################### Jupyter Notebook scripts ###################
+1.extract_run.ipynb 
+
+###################### output files ###############################
+
+DGalpb1-4DGlcpNAcb_ver2.1.csv : contains all the information computed in this script
+
+###################################################################
+files written/read/erase during execution of script:
+
+selected_pdbs : JSON file created from input.csv
+selected_pdbs2 : curated version of selected pdbs (JSON file) with required glycosidic linkage (eg: DGalpb1-4DGlcpNAcb) and pdbs with only single model 
+
+calc_dihedral2.cxc :  ChimeraX script to compute the dihedral
+
+pdb_input.txt: includes the argument for BFMP run
+ring_file.pdb : copy of required residues from pdb 
+monosachharide_bfmp_run.sh: set up and call bfmp to run the job 
+ring_conformations.txt : contains the ring shape of selected monosaccharide at hand (output from bfmp)
+monosaccharide_ring_conformations.log: contains the log from bfmp run
+ 
+###################################################################

@@ -1,0 +1,730 @@
+WARNING:
+Replacing fetcher for 'pdb_nmr' and format NMRSTAR from NMRSTAR bundle with that from NMRSTAR bundle
+INFO:
+UCSF ChimeraX version: 1.6.1 (2023-05-09)
+INFO:
+© 2016-2023 Regents of the University of California.  All rights reserved.
+INFO:
+Executing: open ./calc_dihedral_chimerax/calc_dihedral_part_01.cxc
+INFO:
+Executing: close #1
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4rk9.pdb
+INFO:
+_4rk9.pdb_ title:  
+ **Crystal structure of sugar transporter BL01359 from bacillus licheniformis,
+target efi-510856, In complex with stachyose** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4rk9.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:32-415 "Select chain") [B](cxcmd:select /B:32-415 "Select
+chain") | [multiple sugar-binding protein MSME](cxcmd:sequence chain #1/A#1/B
+"Show sequence") | [Q65LL6_BACLD](cxcmd:open Q65LL6 from uniprot "Show
+annotations") [19-417](cxcmd:select #1/A,B:19-417 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4rk9.pdb #1  
+---  
+[FRU](cxcmd:sel :FRU "select residue") — [β-D-
+fructofuranose](http://www.rcsb.org/ligand/FRU "show residue info") (β-D-
+fructose; D-fructose; fructose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /D:3@C2 /D:3@C1 /D:2@O6 /D:2@C6
+INFO:
+Torsion angle for atoms /D GLA 3 C2 C1 GLA 2 O6 C6 is 44.5161°
+INFO:
+Executing: torsion /D:3@C1 /D:2@O6 /D:2@C6 /D:2@C5
+INFO:
+Torsion angle for atoms /D GLA 3 C1 GLA 2 O6 C6 C5 is 135.687°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4rk9.pdb
+INFO:
+_4rk9.pdb_ title:  
+ **Crystal structure of sugar transporter BL01359 from bacillus licheniformis,
+target efi-510856, In complex with stachyose** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4rk9.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:32-415 "Select chain") [B](cxcmd:select /B:32-415 "Select
+chain") | [multiple sugar-binding protein MSME](cxcmd:sequence chain #1/A#1/B
+"Show sequence") | [Q65LL6_BACLD](cxcmd:open Q65LL6 from uniprot "Show
+annotations") [19-417](cxcmd:select #1/A,B:19-417 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4rk9.pdb #1  
+---  
+[FRU](cxcmd:sel :FRU "select residue") — [β-D-
+fructofuranose](http://www.rcsb.org/ligand/FRU "show residue info") (β-D-
+fructose; D-fructose; fructose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /C:3@C2 /C:3@C1 /C:2@O6 /C:2@C6
+INFO:
+Torsion angle for atoms /C GLA 3 C2 C1 GLA 2 O6 C6 is -111.75°
+INFO:
+Executing: torsion /C:3@C1 /C:2@O6 /C:2@C6 /C:2@C5
+INFO:
+Torsion angle for atoms /C GLA 3 C1 GLA 2 O6 C6 C5 is -153.816°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6pre.pdb
+INFO:
+_6pre.pdb_ title:  
+ **SBP rafe In complex with verbascose** [[more info...]](cxcmd:log metadata
+#1)  
+  
+
+INFO:
+Chain information for 6pre.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:31-416 "Select chain") [B](cxcmd:select /B:33-416 "Select
+chain") [C](cxcmd:select /C:31-416 "Select chain") [D](cxcmd:select /D:33-416
+"Select chain") | [sugar ABC transporter binding protein](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6pre.pdb #1  
+---  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[FRU](cxcmd:sel :FRU "select residue") — [β-D-
+fructofuranose](http://www.rcsb.org/ligand/FRU "show residue info") (β-D-
+fructose; D-fructose; fructose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /H:4@C2 /H:4@C1 /H:3@O6 /H:3@C6
+INFO:
+Torsion angle for atoms /H GLA 4 C2 C1 GLA 3 O6 C6 is -155.639°
+INFO:
+Executing: torsion /H:4@C1 /H:3@O6 /H:3@C6 /H:3@C5
+INFO:
+Torsion angle for atoms /H GLA 4 C1 GLA 3 O6 C6 C5 is -136.286°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6pre.pdb
+INFO:
+_6pre.pdb_ title:  
+ **SBP rafe In complex with verbascose** [[more info...]](cxcmd:log metadata
+#1)  
+  
+
+INFO:
+Chain information for 6pre.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:31-416 "Select chain") [B](cxcmd:select /B:33-416 "Select
+chain") [C](cxcmd:select /C:31-416 "Select chain") [D](cxcmd:select /D:33-416
+"Select chain") | [sugar ABC transporter binding protein](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6pre.pdb #1  
+---  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[FRU](cxcmd:sel :FRU "select residue") — [β-D-
+fructofuranose](http://www.rcsb.org/ligand/FRU "show residue info") (β-D-
+fructose; D-fructose; fructose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /H:3@C2 /H:3@C1 /H:2@O6 /H:2@C6
+INFO:
+Torsion angle for atoms /H GLA 3 C2 C1 GLA 2 O6 C6 is -167.589°
+INFO:
+Executing: torsion /H:3@C1 /H:2@O6 /H:2@C6 /H:2@C5
+INFO:
+Torsion angle for atoms /H GLA 3 C1 GLA 2 O6 C6 C5 is -168.885°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6pre.pdb
+INFO:
+_6pre.pdb_ title:  
+ **SBP rafe In complex with verbascose** [[more info...]](cxcmd:log metadata
+#1)  
+  
+
+INFO:
+Chain information for 6pre.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:31-416 "Select chain") [B](cxcmd:select /B:33-416 "Select
+chain") [C](cxcmd:select /C:31-416 "Select chain") [D](cxcmd:select /D:33-416
+"Select chain") | [sugar ABC transporter binding protein](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6pre.pdb #1  
+---  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[FRU](cxcmd:sel :FRU "select residue") — [β-D-
+fructofuranose](http://www.rcsb.org/ligand/FRU "show residue info") (β-D-
+fructose; D-fructose; fructose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /E:4@C2 /E:4@C1 /E:3@O6 /E:3@C6
+INFO:
+Torsion angle for atoms /E GLA 4 C2 C1 GLA 3 O6 C6 is -157.307°
+INFO:
+Executing: torsion /E:4@C1 /E:3@O6 /E:3@C6 /E:3@C5
+INFO:
+Torsion angle for atoms /E GLA 4 C1 GLA 3 O6 C6 C5 is -136.803°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6pre.pdb
+INFO:
+_6pre.pdb_ title:  
+ **SBP rafe In complex with verbascose** [[more info...]](cxcmd:log metadata
+#1)  
+  
+
+INFO:
+Chain information for 6pre.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:31-416 "Select chain") [B](cxcmd:select /B:33-416 "Select
+chain") [C](cxcmd:select /C:31-416 "Select chain") [D](cxcmd:select /D:33-416
+"Select chain") | [sugar ABC transporter binding protein](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6pre.pdb #1  
+---  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[FRU](cxcmd:sel :FRU "select residue") — [β-D-
+fructofuranose](http://www.rcsb.org/ligand/FRU "show residue info") (β-D-
+fructose; D-fructose; fructose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /E:3@C2 /E:3@C1 /E:2@O6 /E:2@C6
+INFO:
+Torsion angle for atoms /E GLA 3 C2 C1 GLA 2 O6 C6 is -168.016°
+INFO:
+Executing: torsion /E:3@C1 /E:2@O6 /E:2@C6 /E:2@C5
+INFO:
+Torsion angle for atoms /E GLA 3 C1 GLA 2 O6 C6 C5 is -169.826°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6pre.pdb
+INFO:
+_6pre.pdb_ title:  
+ **SBP rafe In complex with verbascose** [[more info...]](cxcmd:log metadata
+#1)  
+  
+
+INFO:
+Chain information for 6pre.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:31-416 "Select chain") [B](cxcmd:select /B:33-416 "Select
+chain") [C](cxcmd:select /C:31-416 "Select chain") [D](cxcmd:select /D:33-416
+"Select chain") | [sugar ABC transporter binding protein](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6pre.pdb #1  
+---  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[FRU](cxcmd:sel :FRU "select residue") — [β-D-
+fructofuranose](http://www.rcsb.org/ligand/FRU "show residue info") (β-D-
+fructose; D-fructose; fructose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /G:4@C2 /G:4@C1 /G:3@O6 /G:3@C6
+INFO:
+Torsion angle for atoms /G GLA 4 C2 C1 GLA 3 O6 C6 is -155.176°
+INFO:
+Executing: torsion /G:4@C1 /G:3@O6 /G:3@C6 /G:3@C5
+INFO:
+Torsion angle for atoms /G GLA 4 C1 GLA 3 O6 C6 C5 is -137.684°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6pre.pdb
+INFO:
+_6pre.pdb_ title:  
+ **SBP rafe In complex with verbascose** [[more info...]](cxcmd:log metadata
+#1)  
+  
+
+INFO:
+Chain information for 6pre.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:31-416 "Select chain") [B](cxcmd:select /B:33-416 "Select
+chain") [C](cxcmd:select /C:31-416 "Select chain") [D](cxcmd:select /D:33-416
+"Select chain") | [sugar ABC transporter binding protein](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6pre.pdb #1  
+---  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[FRU](cxcmd:sel :FRU "select residue") — [β-D-
+fructofuranose](http://www.rcsb.org/ligand/FRU "show residue info") (β-D-
+fructose; D-fructose; fructose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /G:3@C2 /G:3@C1 /G:2@O6 /G:2@C6
+INFO:
+Torsion angle for atoms /G GLA 3 C2 C1 GLA 2 O6 C6 is -166.737°
+INFO:
+Executing: torsion /G:3@C1 /G:2@O6 /G:2@C6 /G:2@C5
+INFO:
+Torsion angle for atoms /G GLA 3 C1 GLA 2 O6 C6 C5 is -168.845°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6pre.pdb
+INFO:
+_6pre.pdb_ title:  
+ **SBP rafe In complex with verbascose** [[more info...]](cxcmd:log metadata
+#1)  
+  
+
+INFO:
+Chain information for 6pre.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:31-416 "Select chain") [B](cxcmd:select /B:33-416 "Select
+chain") [C](cxcmd:select /C:31-416 "Select chain") [D](cxcmd:select /D:33-416
+"Select chain") | [sugar ABC transporter binding protein](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6pre.pdb #1  
+---  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[FRU](cxcmd:sel :FRU "select residue") — [β-D-
+fructofuranose](http://www.rcsb.org/ligand/FRU "show residue info") (β-D-
+fructose; D-fructose; fructose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /F:4@C2 /F:4@C1 /F:3@O6 /F:3@C6
+INFO:
+Torsion angle for atoms /F GLA 4 C2 C1 GLA 3 O6 C6 is -154.413°
+INFO:
+Executing: torsion /F:4@C1 /F:3@O6 /F:3@C6 /F:3@C5
+INFO:
+Torsion angle for atoms /F GLA 4 C1 GLA 3 O6 C6 C5 is -134.766°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6pre.pdb
+INFO:
+_6pre.pdb_ title:  
+ **SBP rafe In complex with verbascose** [[more info...]](cxcmd:log metadata
+#1)  
+  
+
+INFO:
+Chain information for 6pre.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:31-416 "Select chain") [B](cxcmd:select /B:33-416 "Select
+chain") [C](cxcmd:select /C:31-416 "Select chain") [D](cxcmd:select /D:33-416
+"Select chain") | [sugar ABC transporter binding protein](cxcmd:sequence chain
+#1/A#1/B#1/C#1/D "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6pre.pdb #1  
+---  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[FRU](cxcmd:sel :FRU "select residue") — [β-D-
+fructofuranose](http://www.rcsb.org/ligand/FRU "show residue info") (β-D-
+fructose; D-fructose; fructose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /F:3@C2 /F:3@C1 /F:2@O6 /F:2@C6
+INFO:
+Torsion angle for atoms /F GLA 3 C2 C1 GLA 2 O6 C6 is -167.884°
+INFO:
+Executing: torsion /F:3@C1 /F:2@O6 /F:2@C6 /F:2@C5
+INFO:
+Torsion angle for atoms /F GLA 3 C1 GLA 2 O6 C6 C5 is -170.725°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6prg.pdb
+INFO:
+_6prg.pdb_ title:  
+ **SBP rafe In complex with stachyose** [[more info...]](cxcmd:log metadata
+#1)  
+  
+
+INFO:
+Chain information for 6prg.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:31-416 "Select chain") [B](cxcmd:select /B:31-416 "Select
+chain") | [sugar ABC transporter binding protein](cxcmd:sequence chain
+#1/A#1/B "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6prg.pdb #1  
+---  
+[CIT](cxcmd:sel :CIT "select residue") — [citric
+acid](http://www.rcsb.org/ligand/CIT "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[FRU](cxcmd:sel :FRU "select residue") — [β-D-
+fructofuranose](http://www.rcsb.org/ligand/FRU "show residue info") (β-D-
+fructose; D-fructose; fructose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /D:3@C2 /D:3@C1 /D:2@O6 /D:2@C6
+INFO:
+Torsion angle for atoms /D GLA 3 C2 C1 GLA 2 O6 C6 is -159.802°
+INFO:
+Executing: torsion /D:3@C1 /D:2@O6 /D:2@C6 /D:2@C5
+INFO:
+Torsion angle for atoms /D GLA 3 C1 GLA 2 O6 C6 C5 is -135.578°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/6prg.pdb
+INFO:
+_6prg.pdb_ title:  
+ **SBP rafe In complex with stachyose** [[more info...]](cxcmd:log metadata
+#1)  
+  
+
+INFO:
+Chain information for 6prg.pdb #1  
+---  
+Chain | Description  
+[A](cxcmd:select /A:31-416 "Select chain") [B](cxcmd:select /B:31-416 "Select
+chain") | [sugar ABC transporter binding protein](cxcmd:sequence chain
+#1/A#1/B "Show sequence")  
+  
+
+INFO:
+Non-standard residues in 6prg.pdb #1  
+---  
+[CIT](cxcmd:sel :CIT "select residue") — [citric
+acid](http://www.rcsb.org/ligand/CIT "show residue info")  
+[EDO](cxcmd:sel :EDO "select residue") —
+[1,2-ethanediol](http://www.rcsb.org/ligand/EDO "show residue info") (ethylene
+glycol)  
+[FRU](cxcmd:sel :FRU "select residue") — [β-D-
+fructofuranose](http://www.rcsb.org/ligand/FRU "show residue info") (β-D-
+fructose; D-fructose; fructose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /C:3@C2 /C:3@C1 /C:2@O6 /C:2@C6
+INFO:
+Torsion angle for atoms /C GLA 3 C2 C1 GLA 2 O6 C6 is -159.84°
+INFO:
+Executing: torsion /C:3@C1 /C:2@O6 /C:2@C6 /C:2@C5
+INFO:
+Torsion angle for atoms /C GLA 3 C1 GLA 2 O6 C6 C5 is -134.667°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4fnu.pdb
+INFO:
+_4fnu.pdb_ title:  
+ **Crystal structure of GH36 α-galactosidase agaa A355E D478A from geobacillus
+stearothermophilus In complex with stachyose** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4fnu.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:10-727 "Select chain") [B](cxcmd:select /B:10-727 "Select
+chain") [C](cxcmd:select /C:10-727 "Select chain") [D](cxcmd:select /D:10-727
+"Select chain") | [α-galactosidase agaa](cxcmd:sequence chain #1/A#1/B#1/C#1/D
+"Show sequence") | [Q9ALJ4_GEOSE](cxcmd:open Q9ALJ4 from uniprot "Show
+annotations") [1-729](cxcmd:select #1/A,B,C,D:1-729 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4fnu.pdb #1  
+---  
+[FRU](cxcmd:sel :FRU "select residue") — [β-D-
+fructofuranose](http://www.rcsb.org/ligand/FRU "show residue info") (β-D-
+fructose; D-fructose; fructose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /G:1@C2 /G:1@C1 /G:2@O6 /G:2@C6
+INFO:
+Torsion angle for atoms /G GLA 1 C2 C1 GLA 2 O6 C6 is -168.802°
+INFO:
+Executing: torsion /G:1@C1 /G:2@O6 /G:2@C6 /G:2@C5
+INFO:
+Torsion angle for atoms /G GLA 1 C1 GLA 2 O6 C6 C5 is 156.33°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4fnu.pdb
+INFO:
+_4fnu.pdb_ title:  
+ **Crystal structure of GH36 α-galactosidase agaa A355E D478A from geobacillus
+stearothermophilus In complex with stachyose** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4fnu.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:10-727 "Select chain") [B](cxcmd:select /B:10-727 "Select
+chain") [C](cxcmd:select /C:10-727 "Select chain") [D](cxcmd:select /D:10-727
+"Select chain") | [α-galactosidase agaa](cxcmd:sequence chain #1/A#1/B#1/C#1/D
+"Show sequence") | [Q9ALJ4_GEOSE](cxcmd:open Q9ALJ4 from uniprot "Show
+annotations") [1-729](cxcmd:select #1/A,B,C,D:1-729 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4fnu.pdb #1  
+---  
+[FRU](cxcmd:sel :FRU "select residue") — [β-D-
+fructofuranose](http://www.rcsb.org/ligand/FRU "show residue info") (β-D-
+fructose; D-fructose; fructose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /H:1@C2 /H:1@C1 /H:2@O6 /H:2@C6
+INFO:
+Torsion angle for atoms /H GLA 1 C2 C1 GLA 2 O6 C6 is 163.097°
+INFO:
+Executing: torsion /H:1@C1 /H:2@O6 /H:2@C6 /H:2@C5
+INFO:
+Torsion angle for atoms /H GLA 1 C1 GLA 2 O6 C6 C5 is 166.065°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4fnu.pdb
+INFO:
+_4fnu.pdb_ title:  
+ **Crystal structure of GH36 α-galactosidase agaa A355E D478A from geobacillus
+stearothermophilus In complex with stachyose** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4fnu.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:10-727 "Select chain") [B](cxcmd:select /B:10-727 "Select
+chain") [C](cxcmd:select /C:10-727 "Select chain") [D](cxcmd:select /D:10-727
+"Select chain") | [α-galactosidase agaa](cxcmd:sequence chain #1/A#1/B#1/C#1/D
+"Show sequence") | [Q9ALJ4_GEOSE](cxcmd:open Q9ALJ4 from uniprot "Show
+annotations") [1-729](cxcmd:select #1/A,B,C,D:1-729 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4fnu.pdb #1  
+---  
+[FRU](cxcmd:sel :FRU "select residue") — [β-D-
+fructofuranose](http://www.rcsb.org/ligand/FRU "show residue info") (β-D-
+fructose; D-fructose; fructose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /F:1@C2 /F:1@C1 /F:2@O6 /F:2@C6
+INFO:
+Torsion angle for atoms /F GLA 1 C2 C1 GLA 2 O6 C6 is 165.071°
+INFO:
+Executing: torsion /F:1@C1 /F:2@O6 /F:2@C6 /F:2@C5
+INFO:
+Torsion angle for atoms /F GLA 1 C1 GLA 2 O6 C6 C5 is 148.725°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4fnu.pdb
+INFO:
+_4fnu.pdb_ title:  
+ **Crystal structure of GH36 α-galactosidase agaa A355E D478A from geobacillus
+stearothermophilus In complex with stachyose** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 4fnu.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:10-727 "Select chain") [B](cxcmd:select /B:10-727 "Select
+chain") [C](cxcmd:select /C:10-727 "Select chain") [D](cxcmd:select /D:10-727
+"Select chain") | [α-galactosidase agaa](cxcmd:sequence chain #1/A#1/B#1/C#1/D
+"Show sequence") | [Q9ALJ4_GEOSE](cxcmd:open Q9ALJ4 from uniprot "Show
+annotations") [1-729](cxcmd:select #1/A,B,C,D:1-729 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4fnu.pdb #1  
+---  
+[FRU](cxcmd:sel :FRU "select residue") — [β-D-
+fructofuranose](http://www.rcsb.org/ligand/FRU "show residue info") (β-D-
+fructose; D-fructose; fructose)  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+  
+
+INFO:
+Executing: torsion /E:1@C2 /E:1@C1 /E:2@O6 /E:2@C6
+INFO:
+Torsion angle for atoms /E GLA 1 C2 C1 GLA 2 O6 C6 is 166.679°
+INFO:
+Executing: torsion /E:1@C1 /E:2@O6 /E:2@C6 /E:2@C5
+INFO:
+Torsion angle for atoms /E GLA 1 C1 GLA 2 O6 C6 C5 is 141.202°
+INFO:
+Executing: close #1
+INFO:
+Executing: exit
+STATUS:
+Exiting ...

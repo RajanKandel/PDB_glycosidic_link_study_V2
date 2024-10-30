@@ -1,0 +1,129 @@
+WARNING:
+Replacing fetcher for 'pdb_nmr' and format NMRSTAR from NMRSTAR bundle with that from NMRSTAR bundle
+INFO:
+UCSF ChimeraX version: 1.6.1 (2023-05-09)
+INFO:
+© 2016-2023 Regents of the University of California.  All rights reserved.
+INFO:
+Executing: open ./calc_dihedral_chimerax/calc_dihedral_part_46.cxc
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3rg1.pdb
+INFO:
+_3rg1.pdb_ title:  
+ **Crystal structure of the RP105/Md-1 complex** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 3rg1.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:26-619 "Select chain") [B](cxcmd:select /B:27-625 "Select
+chain") [E](cxcmd:select /E:26-617 "Select chain") [F](cxcmd:select /F:27-625
+"Select chain") [I](cxcmd:select /I:26-529 "Select chain") [J](cxcmd:select
+/J:27-625 "Select chain") [M](cxcmd:select /M:26-618 "Select chain")
+[N](cxcmd:select /N:27-625 "Select chain") | [CD180 molecule](cxcmd:sequence
+chain #1/A#1/B#1/E#1/F#1/I#1/J#1/M#1/N "Show sequence") |
+[A6QNK7_BOVIN](cxcmd:open A6QNK7 from uniprot "Show annotations")
+[24-626](cxcmd:select #1/A,B,E,F,I,J,M,N:24-626 "Select sequence")  
+[C](cxcmd:select /C:21-158 "Select chain") [D](cxcmd:select /D:23-158 "Select
+chain") [G](cxcmd:select /G:21-158 "Select chain") [H](cxcmd:select /H:23-160
+"Select chain") [K](cxcmd:select /K:21-157 "Select chain") [L](cxcmd:select
+/L:23-160 "Select chain") [O](cxcmd:select /O:21-158 "Select chain")
+[P](cxcmd:select /P:23-157 "Select chain") | [MD-1](cxcmd:sequence chain
+#1/C#1/D#1/G#1/H#1/K#1/L#1/O#1/P "Show sequence") | [A4IFT3_BOVIN](cxcmd:open
+A4IFT3 from uniprot "Show annotations") [21-159](cxcmd:select
+#1/C,D,G,H,K,L,O,P:21-159 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3rg1.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info")  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info")  
+[PGT](cxcmd:sel :PGT "select residue") —
+[(1S)-2-{[{[(2R)-2,3-dihydroxypropyl]oxy}(hydroxy)phosphoryl]oxy}-1-[(palmitoyloxy)methyl]ethyl
+stearate](http://www.rcsb.org/ligand/PGT "show residue info")
+(phosphatidylglycerol; 1-palmitoyl-2-oleoyl-Sn-glycero-3-[phospho-
+rac-(1-glycerol)](sodium salt))  
+  
+
+INFO:
+Executing: torsion /R:5@C2 /R:5@C1 /R:4@O2 /R:4@C2
+INFO:
+Torsion angle for atoms /R MAN 5 C2 C1 MAN 4 O2 C2 is 174.997°
+INFO:
+Executing: torsion /R:5@C1 /R:4@O2 /R:4@C2 /R:4@C3
+INFO:
+Torsion angle for atoms /R MAN 5 C1 MAN 4 O2 C2 C3 is -61.7199°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/7qko.pdb
+INFO:
+_7qko.pdb_ title:  
+ **Torpedo muscle-type nicotinic acetylcholine receptor - resting
+conformation** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 7qko.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-434 "Select chain") [D](cxcmd:select /D:1-432 "Select
+chain") | [acetylcholine receptor subunit α](cxcmd:sequence chain #1/A#1/D
+"Show sequence") | [ACHA_TETCF](cxcmd:open P02710 from uniprot "Show
+annotations") [1-437](cxcmd:select #1/A,D:1-437 "Select sequence")  
+[B](cxcmd:select /B:1-469 "Select chain") | [acetylcholine receptor subunit
+β](cxcmd:sequence chain #1/B "Show sequence") | [ACHB_TETCF](cxcmd:open P02712
+from uniprot "Show annotations") [1-469](cxcmd:select #1/B:1-469 "Select
+sequence")  
+[C](cxcmd:select /C:1-500 "Select chain") | [acetylcholine receptor subunit
+δ](cxcmd:sequence chain #1/C "Show sequence") | [ACHD_TETCF](cxcmd:open P02718
+from uniprot "Show annotations") [1-501](cxcmd:select #1/C:1-501 "Select
+sequence")  
+[E](cxcmd:select /E:2-489 "Select chain") | [acetylcholine receptor subunit
+γ](cxcmd:sequence chain #1/E "Show sequence") | [ACHG_TETCF](cxcmd:open P02714
+from uniprot "Show annotations") [1-489](cxcmd:select #1/E:1-489 "Select
+sequence")  
+  
+
+INFO:
+Non-standard residues in 7qko.pdb #1  
+---  
+[BMA](cxcmd:sel :BMA "select residue") — [β-D-
+mannopyranose](http://www.rcsb.org/ligand/BMA "show residue info") (β-D-
+mannose; D-mannose; mannose)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[POV](cxcmd:sel :POV "select residue") —
+[(2S)-3-(hexadecanoyloxy)-2-[(9Z)-octadec-9-enoyloxy]propyl
+2-(trimethylammonio)ethyl phosphate](http://www.rcsb.org/ligand/POV "show
+residue info") (POPC)  
+  
+
+INFO:
+Executing: torsion /I:5@C2 /I:5@C1 /I:4@O2 /I:4@C2
+INFO:
+Torsion angle for atoms /I MAN 5 C2 C1 MAN 4 O2 C2 is 65.2133°
+INFO:
+Executing: torsion /I:5@C1 /I:4@O2 /I:4@C2 /I:4@C3
+INFO:
+Torsion angle for atoms /I MAN 5 C1 MAN 4 O2 C2 C3 is 107.694°
+INFO:
+Executing: close #1
+INFO:
+Executing: exit
+STATUS:
+Exiting ...

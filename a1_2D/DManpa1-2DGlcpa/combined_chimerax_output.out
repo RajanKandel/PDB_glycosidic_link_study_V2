@@ -1,0 +1,658 @@
+WARNING:
+Replacing fetcher for 'pdb_nmr' and format NMRSTAR from NMRSTAR bundle with that from NMRSTAR bundle
+INFO:
+UCSF ChimeraX version: 1.6.1 (2023-05-09)
+INFO:
+© 2016-2023 Regents of the University of California.  All rights reserved.
+INFO:
+Executing: open ./calc_dihedral_chimerax/calc_dihedral_part_01.cxc
+INFO:
+Executing: close #1
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1brr.pdb
+INFO:
+_1brr.pdb_ title:  
+ **X-ray structure of the bacteriorhodopsin trimer/lipid complex**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 1brr.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:3-232 "Select chain") [B](cxcmd:select /B:2-232 "Select
+chain") [C](cxcmd:select /C:1-232 "Select chain") | [BR](cxcmd:sequence chain
+#1/A#1/B#1/C "Show sequence") | [BACR_HALHA](cxcmd:open P02945 from uniprot
+"Show annotations") [1-247](cxcmd:select #1/A,B,C:1-247 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 1brr.pdb #1  
+---  
+[ARC](cxcmd:sel :ARC "select residue") — [3,7,11,15-tetramethyl-
+hexadecan-1-ol](http://www.rcsb.org/ligand/ARC "show residue info")  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[GOL](cxcmd:sel :GOL "select residue") —
+[glycerol](http://www.rcsb.org/ligand/GOL "show residue info") (glycerin;
+propane-1,2,3-triol)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[OCT](cxcmd:sel :OCT "select residue") —
+[N-octane](http://www.rcsb.org/ligand/OCT "show residue info")  
+[RET](cxcmd:sel :RET "select residue") —
+[retinal](http://www.rcsb.org/ligand/RET "show residue info")  
+[SGA](cxcmd:sel :SGA "select residue") — [3-O-sulfo-β-D-
+galactopyranose](http://www.rcsb.org/ligand/SGA "show residue info")
+(O3-sulfonylgalactose; 3-O-sulfo-β-D-galactose; 3-O-sulfo-D-galactose;
+3-O-sulfo-galactose)  
+  
+
+INFO:
+Executing: torsion /E:2@C2 /E:2@C1 /E:1@O2 /E:1@C2
+INFO:
+Torsion angle for atoms /E MAN 2 C2 C1 GLC 1 O2 C2 is -161.886°
+INFO:
+Executing: torsion /E:2@C1 /E:1@O2 /E:1@C2 /E:1@C3
+INFO:
+Torsion angle for atoms /E MAN 2 C1 GLC 1 O2 C2 C3 is -151.244°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1brr.pdb
+INFO:
+_1brr.pdb_ title:  
+ **X-ray structure of the bacteriorhodopsin trimer/lipid complex**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 1brr.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:3-232 "Select chain") [B](cxcmd:select /B:2-232 "Select
+chain") [C](cxcmd:select /C:1-232 "Select chain") | [BR](cxcmd:sequence chain
+#1/A#1/B#1/C "Show sequence") | [BACR_HALHA](cxcmd:open P02945 from uniprot
+"Show annotations") [1-247](cxcmd:select #1/A,B,C:1-247 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 1brr.pdb #1  
+---  
+[ARC](cxcmd:sel :ARC "select residue") — [3,7,11,15-tetramethyl-
+hexadecan-1-ol](http://www.rcsb.org/ligand/ARC "show residue info")  
+[BGC](cxcmd:sel :BGC "select residue") — [β-D-
+glucopyranose](http://www.rcsb.org/ligand/BGC "show residue info") (β-D-
+glucose; D-glucose; glucose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[GOL](cxcmd:sel :GOL "select residue") —
+[glycerol](http://www.rcsb.org/ligand/GOL "show residue info") (glycerin;
+propane-1,2,3-triol)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[OCT](cxcmd:sel :OCT "select residue") —
+[N-octane](http://www.rcsb.org/ligand/OCT "show residue info")  
+[RET](cxcmd:sel :RET "select residue") —
+[retinal](http://www.rcsb.org/ligand/RET "show residue info")  
+[SGA](cxcmd:sel :SGA "select residue") — [3-O-sulfo-β-D-
+galactopyranose](http://www.rcsb.org/ligand/SGA "show residue info")
+(O3-sulfonylgalactose; 3-O-sulfo-β-D-galactose; 3-O-sulfo-D-galactose;
+3-O-sulfo-galactose)  
+  
+
+INFO:
+Executing: torsion /D:2@C2 /D:2@C1 /D:1@O2 /D:1@C2
+INFO:
+Torsion angle for atoms /D MAN 2 C2 C1 GLC 1 O2 C2 is 174.741°
+INFO:
+Executing: torsion /D:2@C1 /D:1@O2 /D:1@C2 /D:1@C3
+INFO:
+Torsion angle for atoms /D MAN 2 C1 GLC 1 O2 C2 C3 is -135.92°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1qm8.pdb
+INFO:
+_1qm8.pdb_ title:  
+ **Structure of bacteriorhodopsin At 100 K** [[more info...]](cxcmd:log
+metadata #1)  
+  
+
+INFO:
+Chain information for 1qm8.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:2-230 "Select chain") | [bacteriorhodopsin](cxcmd:sequence
+chain #1/A "Show sequence") | [BACR_HALHA](cxcmd:open P02945 from uniprot
+"Show annotations") [1-248](cxcmd:select #1/A:1-248 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 1qm8.pdb #1  
+---  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[L1P](cxcmd:sel :L1P "select residue") — [3-phosphoryl-[1,2-di-
+phytanyl]glycerol](http://www.rcsb.org/ligand/L1P "show residue info")
+(1,2-di-1-(3,7,11,15-tetramethyl-hexadecane)-Sn-glycero-3-phosphate)  
+[L2P](cxcmd:sel :L2P "select residue") — [2,3-di-phytanyl-
+glycerol](http://www.rcsb.org/ligand/L2P "show residue info")
+(1,2-di-1-(3,7,11,15-tetramethyl-hexadecane)-Sn-glycerol)  
+[L3P](cxcmd:sel :L3P "select residue") — [2,3-di-O-phytanly-3-Sn-
+glycero-1-phosphoryl-3&#x27;-Sn-
+glycerol-1&#x27;-phosphate](http://www.rcsb.org/ligand/L3P "show residue
+info")  
+[L4P](cxcmd:sel :L4P "select residue") — [3-[glycerolylphosphonyl]-[1,2-di-
+phytanyl]glycerol](http://www.rcsb.org/ligand/L4P "show residue info")
+(2,3-di-O-phytanly-3-Sn-glycero-1-phosphoryl-3&#x27;-Sn-glycerol)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[RET](cxcmd:sel :RET "select residue") —
+[retinal](http://www.rcsb.org/ligand/RET "show residue info")  
+  
+
+INFO:
+Executing: torsion /B:2@C2 /B:2@C1 /B:1@O2 /B:1@C2
+INFO:
+Torsion angle for atoms /B MAN 2 C2 C1 GLC 1 O2 C2 is -124.442°
+INFO:
+Executing: torsion /B:2@C1 /B:1@O2 /B:1@C2 /B:1@C3
+INFO:
+Torsion angle for atoms /B MAN 2 C1 GLC 1 O2 C2 C3 is -142.492°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3vi0.pdb
+INFO:
+_3vi0.pdb_ title:  
+ **Crystal structure of the O intermediate of the L93A mutant of
+bacteriorhodopsin** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3vi0.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:5-231 "Select chain") | [bacteriorhodopsin](cxcmd:sequence
+chain #1/A "Show sequence") | [BACR_HALSA](cxcmd:open P02945 from uniprot
+"Show annotations") [-12-249](cxcmd:select #1/A:-12-249 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3vi0.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[L2P](cxcmd:sel :L2P "select residue") — [2,3-di-phytanyl-
+glycerol](http://www.rcsb.org/ligand/L2P "show residue info")
+(1,2-di-1-(3,7,11,15-tetramethyl-hexadecane)-Sn-glycerol)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[RET](cxcmd:sel :RET "select residue") —
+[retinal](http://www.rcsb.org/ligand/RET "show residue info")  
+[SGA](cxcmd:sel :SGA "select residue") — [3-O-sulfo-β-D-
+galactopyranose](http://www.rcsb.org/ligand/SGA "show residue info")
+(O3-sulfonylgalactose; 3-O-sulfo-β-D-galactose; 3-O-sulfo-D-galactose;
+3-O-sulfo-galactose)  
+[SOG](cxcmd:sel :SOG "select residue") — [octyl 1-thio-β-D-
+glucopyranoside](http://www.rcsb.org/ligand/SOG "show residue info")
+(2-hydroxymethyl-6-octylsulfanyl-tetrahydro-pyran-3,4,5-triol; 1-S-octyl-β-D-
+thioglucoside; octyl 1-thio-β-D-glucoside; octyl 1-thio-D-glucoside; octyl
+1-thio-glucoside)  
+  
+
+INFO:
+Executing: torsion /B:2@C2 /B:2@C1 /B:1@O2 /B:1@C2
+INFO:
+Torsion angle for atoms /B MAN 2 C2 C1 GLC 1 O2 C2 is -155.565°
+INFO:
+Executing: torsion /B:2@C1 /B:1@O2 /B:1@C2 /B:1@C3
+INFO:
+Torsion angle for atoms /B MAN 2 C1 GLC 1 O2 C2 C3 is -151.367°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2z55.pdb
+INFO:
+_2z55.pdb_ title:  
+ **Bacterioruberin In the trimeric structure of archaerhodopsin-2**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2z55.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-242 "Select chain") [B](cxcmd:select /B:1-238 "Select
+chain") [D](cxcmd:select /D:5-241 "Select chain") [E](cxcmd:select /E:1-238
+"Select chain") | [Ar 2](cxcmd:sequence chain #1/A#1/B#1/D#1/E "Show
+sequence") | [BACR2_HALS2](cxcmd:open P29563 from uniprot "Show annotations")
+[1-253](cxcmd:select #1/A,B,D,E:1-253 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2z55.pdb #1  
+---  
+[22B](cxcmd:sel :22B "select residue") —
+[bacterioruberin](http://www.rcsb.org/ligand/22B "show residue info")  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[L2P](cxcmd:sel :L2P "select residue") — [2,3-di-phytanyl-
+glycerol](http://www.rcsb.org/ligand/L2P "show residue info")
+(1,2-di-1-(3,7,11,15-tetramethyl-hexadecane)-Sn-glycerol)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[RET](cxcmd:sel :RET "select residue") —
+[retinal](http://www.rcsb.org/ligand/RET "show residue info")  
+  
+
+INFO:
+Executing: torsion /F:2@C2 /F:2@C1 /F:1@O2 /F:1@C2
+INFO:
+Torsion angle for atoms /F MAN 2 C2 C1 GLC 1 O2 C2 is -161.542°
+INFO:
+Executing: torsion /F:2@C1 /F:1@O2 /F:1@C2 /F:1@C3
+INFO:
+Torsion angle for atoms /F MAN 2 C1 GLC 1 O2 C2 C3 is -163.004°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2z55.pdb
+INFO:
+_2z55.pdb_ title:  
+ **Bacterioruberin In the trimeric structure of archaerhodopsin-2**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2z55.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-242 "Select chain") [B](cxcmd:select /B:1-238 "Select
+chain") [D](cxcmd:select /D:5-241 "Select chain") [E](cxcmd:select /E:1-238
+"Select chain") | [Ar 2](cxcmd:sequence chain #1/A#1/B#1/D#1/E "Show
+sequence") | [BACR2_HALS2](cxcmd:open P29563 from uniprot "Show annotations")
+[1-253](cxcmd:select #1/A,B,D,E:1-253 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2z55.pdb #1  
+---  
+[22B](cxcmd:sel :22B "select residue") —
+[bacterioruberin](http://www.rcsb.org/ligand/22B "show residue info")  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[L2P](cxcmd:sel :L2P "select residue") — [2,3-di-phytanyl-
+glycerol](http://www.rcsb.org/ligand/L2P "show residue info")
+(1,2-di-1-(3,7,11,15-tetramethyl-hexadecane)-Sn-glycerol)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[RET](cxcmd:sel :RET "select residue") —
+[retinal](http://www.rcsb.org/ligand/RET "show residue info")  
+  
+
+INFO:
+Executing: torsion /C:2@C2 /C:2@C1 /C:1@O2 /C:1@C2
+INFO:
+Torsion angle for atoms /C MAN 2 C2 C1 GLC 1 O2 C2 is 18.9712°
+INFO:
+Executing: torsion /C:2@C1 /C:1@O2 /C:1@C2 /C:1@C3
+INFO:
+Torsion angle for atoms /C MAN 2 C1 GLC 1 O2 C2 C3 is -55.1847°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2z55.pdb
+INFO:
+_2z55.pdb_ title:  
+ **Bacterioruberin In the trimeric structure of archaerhodopsin-2**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2z55.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-242 "Select chain") [B](cxcmd:select /B:1-238 "Select
+chain") [D](cxcmd:select /D:5-241 "Select chain") [E](cxcmd:select /E:1-238
+"Select chain") | [Ar 2](cxcmd:sequence chain #1/A#1/B#1/D#1/E "Show
+sequence") | [BACR2_HALS2](cxcmd:open P29563 from uniprot "Show annotations")
+[1-253](cxcmd:select #1/A,B,D,E:1-253 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2z55.pdb #1  
+---  
+[22B](cxcmd:sel :22B "select residue") —
+[bacterioruberin](http://www.rcsb.org/ligand/22B "show residue info")  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[L2P](cxcmd:sel :L2P "select residue") — [2,3-di-phytanyl-
+glycerol](http://www.rcsb.org/ligand/L2P "show residue info")
+(1,2-di-1-(3,7,11,15-tetramethyl-hexadecane)-Sn-glycerol)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[RET](cxcmd:sel :RET "select residue") —
+[retinal](http://www.rcsb.org/ligand/RET "show residue info")  
+  
+
+INFO:
+Executing: torsion /H:2@C2 /H:2@C1 /H:1@O2 /H:1@C2
+INFO:
+Torsion angle for atoms /H MAN 2 C2 C1 GLC 1 O2 C2 is -95.9287°
+INFO:
+Executing: torsion /H:2@C1 /H:1@O2 /H:1@C2 /H:1@C3
+INFO:
+Torsion angle for atoms /H MAN 2 C1 GLC 1 O2 C2 C3 is -78.1477°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2z55.pdb
+INFO:
+_2z55.pdb_ title:  
+ **Bacterioruberin In the trimeric structure of archaerhodopsin-2**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2z55.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-242 "Select chain") [B](cxcmd:select /B:1-238 "Select
+chain") [D](cxcmd:select /D:5-241 "Select chain") [E](cxcmd:select /E:1-238
+"Select chain") | [Ar 2](cxcmd:sequence chain #1/A#1/B#1/D#1/E "Show
+sequence") | [BACR2_HALS2](cxcmd:open P29563 from uniprot "Show annotations")
+[1-253](cxcmd:select #1/A,B,D,E:1-253 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2z55.pdb #1  
+---  
+[22B](cxcmd:sel :22B "select residue") —
+[bacterioruberin](http://www.rcsb.org/ligand/22B "show residue info")  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[L2P](cxcmd:sel :L2P "select residue") — [2,3-di-phytanyl-
+glycerol](http://www.rcsb.org/ligand/L2P "show residue info")
+(1,2-di-1-(3,7,11,15-tetramethyl-hexadecane)-Sn-glycerol)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[RET](cxcmd:sel :RET "select residue") —
+[retinal](http://www.rcsb.org/ligand/RET "show residue info")  
+  
+
+INFO:
+Executing: torsion /G:2@C2 /G:2@C1 /G:1@O2 /G:1@C2
+INFO:
+Torsion angle for atoms /G MAN 2 C2 C1 GLC 1 O2 C2 is -67.2019°
+INFO:
+Executing: torsion /G:2@C1 /G:1@O2 /G:1@C2 /G:1@C3
+INFO:
+Torsion angle for atoms /G MAN 2 C1 GLC 1 O2 C2 C3 is 68.7838°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2zzl.pdb
+INFO:
+_2zzl.pdb_ title:  
+ **Structure of bacteriorhodopsin 'S M intermediate At pH 7**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2zzl.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:5-232 "Select chain") | [BR](cxcmd:sequence chain #1/A
+"Show sequence") | [BACR_HALSA](cxcmd:open P02945 from uniprot "Show
+annotations") [-12-249](cxcmd:select #1/A:-12-249 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2zzl.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[L1P](cxcmd:sel :L1P "select residue") — [3-phosphoryl-[1,2-di-
+phytanyl]glycerol](http://www.rcsb.org/ligand/L1P "show residue info")
+(1,2-di-1-(3,7,11,15-tetramethyl-hexadecane)-Sn-glycero-3-phosphate)  
+[L2P](cxcmd:sel :L2P "select residue") — [2,3-di-phytanyl-
+glycerol](http://www.rcsb.org/ligand/L2P "show residue info")
+(1,2-di-1-(3,7,11,15-tetramethyl-hexadecane)-Sn-glycerol)  
+[L3P](cxcmd:sel :L3P "select residue") — [2,3-di-O-phytanly-3-Sn-
+glycero-1-phosphoryl-3&#x27;-Sn-
+glycerol-1&#x27;-phosphate](http://www.rcsb.org/ligand/L3P "show residue
+info")  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[RET](cxcmd:sel :RET "select residue") —
+[retinal](http://www.rcsb.org/ligand/RET "show residue info")  
+[SGA](cxcmd:sel :SGA "select residue") — [3-O-sulfo-β-D-
+galactopyranose](http://www.rcsb.org/ligand/SGA "show residue info")
+(O3-sulfonylgalactose; 3-O-sulfo-β-D-galactose; 3-O-sulfo-D-galactose;
+3-O-sulfo-galactose)  
+[SOG](cxcmd:sel :SOG "select residue") — [octyl 1-thio-β-D-
+glucopyranoside](http://www.rcsb.org/ligand/SOG "show residue info")
+(2-hydroxymethyl-6-octylsulfanyl-tetrahydro-pyran-3,4,5-triol; 1-S-octyl-β-D-
+thioglucoside; octyl 1-thio-β-D-glucoside; octyl 1-thio-D-glucoside; octyl
+1-thio-glucoside)  
+  
+
+INFO:
+Executing: torsion /B:2@C2 /B:2@C1 /B:1@O2 /B:1@C2
+INFO:
+Torsion angle for atoms /B MAN 2 C2 C1 GLC 1 O2 C2 is -160.823°
+INFO:
+Executing: torsion /B:2@C1 /B:1@O2 /B:1@C2 /B:1@C3
+INFO:
+Torsion angle for atoms /B MAN 2 C1 GLC 1 O2 C2 C3 is -136.3°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2zfe.pdb
+INFO:
+_2zfe.pdb_ title:  
+ **Crystal structure of bacteriorhodopsin-xenon complex**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2zfe.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:5-231 "Select chain") | [BR](cxcmd:sequence chain #1/A
+"Show sequence") | [BACR_HALSA](cxcmd:open P02945 from uniprot "Show
+annotations") [-12-249](cxcmd:select #1/A:-12-249 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2zfe.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[L1P](cxcmd:sel :L1P "select residue") — [3-phosphoryl-[1,2-di-
+phytanyl]glycerol](http://www.rcsb.org/ligand/L1P "show residue info")
+(1,2-di-1-(3,7,11,15-tetramethyl-hexadecane)-Sn-glycero-3-phosphate)  
+[L2P](cxcmd:sel :L2P "select residue") — [2,3-di-phytanyl-
+glycerol](http://www.rcsb.org/ligand/L2P "show residue info")
+(1,2-di-1-(3,7,11,15-tetramethyl-hexadecane)-Sn-glycerol)  
+[L3P](cxcmd:sel :L3P "select residue") — [2,3-di-O-phytanly-3-Sn-
+glycero-1-phosphoryl-3&#x27;-Sn-
+glycerol-1&#x27;-phosphate](http://www.rcsb.org/ligand/L3P "show residue
+info")  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[RET](cxcmd:sel :RET "select residue") —
+[retinal](http://www.rcsb.org/ligand/RET "show residue info")  
+[SGA](cxcmd:sel :SGA "select residue") — [3-O-sulfo-β-D-
+galactopyranose](http://www.rcsb.org/ligand/SGA "show residue info")
+(O3-sulfonylgalactose; 3-O-sulfo-β-D-galactose; 3-O-sulfo-D-galactose;
+3-O-sulfo-galactose)  
+[XE](cxcmd:sel :XE "select residue") — [XENON](http://www.rcsb.org/ligand/XE
+"show residue info")  
+  
+
+INFO:
+Executing: torsion /B:2@C2 /B:2@C1 /B:1@O2 /B:1@C2
+INFO:
+Torsion angle for atoms /B MAN 2 C2 C1 GLC 1 O2 C2 is -172.179°
+INFO:
+Executing: torsion /B:2@C1 /B:1@O2 /B:1@C2 /B:1@C3
+INFO:
+Torsion angle for atoms /B MAN 2 C1 GLC 1 O2 C2 C3 is -137.065°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1dze.pdb
+INFO:
+_1dze.pdb_ title:  
+ **Structure of the M intermediate of bacteriorhodopsin trapped At 100K**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 1dze.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:6-230 "Select chain") | [bacteriorhodopsin (M
+intermediate)](cxcmd:sequence chain #1/A "Show sequence") |
+[BACR_HALHA](cxcmd:open P02945 from uniprot "Show annotations")
+[1-248](cxcmd:select #1/A:1-248 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 1dze.pdb #1  
+---  
+[GAL](cxcmd:sel :GAL "select residue") — [β-D-
+galactopyranose](http://www.rcsb.org/ligand/GAL "show residue info") (β-D-
+galactose; D-galactose; galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[L1P](cxcmd:sel :L1P "select residue") — [3-phosphoryl-[1,2-di-
+phytanyl]glycerol](http://www.rcsb.org/ligand/L1P "show residue info")
+(1,2-di-1-(3,7,11,15-tetramethyl-hexadecane)-Sn-glycero-3-phosphate)  
+[L2P](cxcmd:sel :L2P "select residue") — [2,3-di-phytanyl-
+glycerol](http://www.rcsb.org/ligand/L2P "show residue info")
+(1,2-di-1-(3,7,11,15-tetramethyl-hexadecane)-Sn-glycerol)  
+[L3P](cxcmd:sel :L3P "select residue") — [2,3-di-O-phytanly-3-Sn-
+glycero-1-phosphoryl-3&#x27;-Sn-
+glycerol-1&#x27;-phosphate](http://www.rcsb.org/ligand/L3P "show residue
+info")  
+[L4P](cxcmd:sel :L4P "select residue") — [3-[glycerolylphosphonyl]-[1,2-di-
+phytanyl]glycerol](http://www.rcsb.org/ligand/L4P "show residue info")
+(2,3-di-O-phytanly-3-Sn-glycero-1-phosphoryl-3&#x27;-Sn-glycerol)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[RET](cxcmd:sel :RET "select residue") —
+[retinal](http://www.rcsb.org/ligand/RET "show residue info")  
+  
+
+INFO:
+Executing: torsion /B:2@C2 /B:2@C1 /B:1@O2 /B:1@C2
+INFO:
+Torsion angle for atoms /B MAN 2 C2 C1 GLC 1 O2 C2 is -131.464°
+INFO:
+Executing: torsion /B:2@C1 /B:1@O2 /B:1@C2 /B:1@C3
+INFO:
+Torsion angle for atoms /B MAN 2 C1 GLC 1 O2 C2 C3 is -134.438°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/3vhz.pdb
+INFO:
+_3vhz.pdb_ title:  
+ **Crystal structure of the trans isomer of the L93A mutant of
+bacteriorhodopsin** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 3vhz.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:5-232 "Select chain") | [bacteriorhodopsin](cxcmd:sequence
+chain #1/A "Show sequence") | [BACR_HALSA](cxcmd:open P02945 from uniprot
+"Show annotations") [-12-249](cxcmd:select #1/A:-12-249 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 3vhz.pdb #1  
+---  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[L2P](cxcmd:sel :L2P "select residue") — [2,3-di-phytanyl-
+glycerol](http://www.rcsb.org/ligand/L2P "show residue info")
+(1,2-di-1-(3,7,11,15-tetramethyl-hexadecane)-Sn-glycerol)  
+[MAN](cxcmd:sel :MAN "select residue") — [α-D-
+mannopyranose](http://www.rcsb.org/ligand/MAN "show residue info") (α-D-
+mannose; D-mannose; mannose)  
+[RET](cxcmd:sel :RET "select residue") —
+[retinal](http://www.rcsb.org/ligand/RET "show residue info")  
+[SGA](cxcmd:sel :SGA "select residue") — [3-O-sulfo-β-D-
+galactopyranose](http://www.rcsb.org/ligand/SGA "show residue info")
+(O3-sulfonylgalactose; 3-O-sulfo-β-D-galactose; 3-O-sulfo-D-galactose;
+3-O-sulfo-galactose)  
+[SOG](cxcmd:sel :SOG "select residue") — [octyl 1-thio-β-D-
+glucopyranoside](http://www.rcsb.org/ligand/SOG "show residue info")
+(2-hydroxymethyl-6-octylsulfanyl-tetrahydro-pyran-3,4,5-triol; 1-S-octyl-β-D-
+thioglucoside; octyl 1-thio-β-D-glucoside; octyl 1-thio-D-glucoside; octyl
+1-thio-glucoside)  
+  
+
+INFO:
+Executing: torsion /B:2@C2 /B:2@C1 /B:1@O2 /B:1@C2
+INFO:
+Torsion angle for atoms /B MAN 2 C2 C1 GLC 1 O2 C2 is -150.832°
+INFO:
+Executing: torsion /B:2@C1 /B:1@O2 /B:1@C2 /B:1@C3
+INFO:
+Torsion angle for atoms /B MAN 2 C1 GLC 1 O2 C2 C3 is -156.857°
+INFO:
+Executing: close #1
+INFO:
+Executing: exit
+STATUS:
+Exiting ...

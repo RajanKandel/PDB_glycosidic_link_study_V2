@@ -1,0 +1,12 @@
+close #1
+open ../../../pdbs/3rg1.pdb
+torsion /R:5@C2 /R:5@C1 /R:4@O2 /R:4@C2
+torsion /R:5@C1 /R:4@O2 /R:4@C2 /R:4@C3
+close #1
+
+open ../../../pdbs/7qko.pdb
+torsion /I:5@C2 /I:5@C1 /I:4@O2 /I:4@C2
+torsion /I:5@C1 /I:4@O2 /I:4@C2 /I:4@C3
+close #1
+
+exit

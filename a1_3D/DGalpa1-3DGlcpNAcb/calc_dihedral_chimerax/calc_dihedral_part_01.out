@@ -1,0 +1,214 @@
+WARNING:
+Replacing fetcher for 'pdb_nmr' and format NMRSTAR from NMRSTAR bundle with that from NMRSTAR bundle
+INFO:
+UCSF ChimeraX version: 1.6.1 (2023-05-09)
+INFO:
+© 2016-2023 Regents of the University of California.  All rights reserved.
+INFO:
+Executing: open ./calc_dihedral_chimerax/calc_dihedral_part_01.cxc
+INFO:
+Executing: close #1
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/4xla.pdb
+INFO:
+_4xla.pdb_ title:  
+ **Tailspike protein mutant D339A of E. Coli bacteriophage HK620 In complex
+with pentasaccharide** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 4xla.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:110-709 "Select chain") | [tail spike
+protein](cxcmd:sequence chain #1/A "Show sequence") |
+[Q9AYY6_BPHK6](cxcmd:open Q9AYY6 from uniprot "Show annotations")
+[110-709](cxcmd:select #1/A:110-709 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 4xla.pdb #1  
+---  
+[FMT](cxcmd:sel :FMT "select residue") — [formic
+acid](http://www.rcsb.org/ligand/FMT "show residue info")  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[RAM](cxcmd:sel :RAM "select residue") — [α-L-
+rhamnopyranose](http://www.rcsb.org/ligand/RAM "show residue info") (α-L-
+rhamnose; 6-deoxy-α-L-mannopyranose; L-rhamnose; rhamnose)  
+[TRS](cxcmd:sel :TRS "select residue") — [2-amino-2-hydroxymethyl-
+propane-1,3-diol](http://www.rcsb.org/ligand/TRS "show residue info") (tris
+buffer)  
+  
+
+INFO:
+Executing: torsion /B:2@C2 /B:2@C1 /B:1@O3 /B:1@C3
+INFO:
+Torsion angle for atoms /B GLA 2 C2 C1 NAG 1 O3 C3 is -152.268°
+INFO:
+Executing: torsion /B:2@C1 /B:1@O3 /B:1@C3 /B:1@C4
+INFO:
+Torsion angle for atoms /B GLA 2 C1 NAG 1 O3 C3 C4 is 92.8523°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2x85.pdb
+INFO:
+_2x85.pdb_ title:  
+ **Tailspike protein of E. Coli bacteriophage HK620 In complex with
+hexasaccharide** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2x85.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:113-709 "Select chain") | [tailspike protein
+HK620](cxcmd:sequence chain #1/A "Show sequence") | [Q9AYY6_BPHK6](cxcmd:open
+Q9AYY6 from uniprot "Show annotations") [110-709](cxcmd:select #1/A:110-709
+"Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2x85.pdb #1  
+---  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[RAM](cxcmd:sel :RAM "select residue") — [α-L-
+rhamnopyranose](http://www.rcsb.org/ligand/RAM "show residue info") (α-L-
+rhamnose; 6-deoxy-α-L-mannopyranose; L-rhamnose; rhamnose)  
+[TRS](cxcmd:sel :TRS "select residue") — [2-amino-2-hydroxymethyl-
+propane-1,3-diol](http://www.rcsb.org/ligand/TRS "show residue info") (tris
+buffer)  
+  
+
+INFO:
+Executing: torsion /B:2@C2 /B:2@C1 /B:1@O3 /B:1@C3
+INFO:
+Torsion angle for atoms /B GLA 2 C2 C1 NAG 1 O3 C3 is -154.867°
+INFO:
+Executing: torsion /B:2@C1 /B:1@O3 /B:1@C3 /B:1@C4
+INFO:
+Torsion angle for atoms /B GLA 2 C1 NAG 1 O3 C3 C4 is 96.2718°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/1ay2.pdb
+INFO:
+_1ay2.pdb_ title:  
+ **Structure of the fiber-forming protein pilin At 2.6 angstroms resolution**
+[[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 1ay2.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:1-158 "Select chain") | [fimbriae](cxcmd:sequence chain
+#1/A "Show sequence") | [FMM1_NEIGO](cxcmd:open P02974 from uniprot "Show
+annotations") [1-158](cxcmd:select #1/A:1-158 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 1ay2.pdb #1  
+---  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[HTO](cxcmd:sel :HTO "select residue") —
+[heptane-1,2,3-triol](http://www.rcsb.org/ligand/HTO "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[PT](cxcmd:sel :PT "select residue") — [platinum (II)
+ion](http://www.rcsb.org/ligand/PT "show residue info")  
+  
+
+INFO:
+Executing: torsion /B:2@C2 /B:2@C1 /B:1@O3 /B:1@C3
+INFO:
+Torsion angle for atoms /B GLA 2 C2 C1 NAG 1 O3 C3 is -160.865°
+INFO:
+Executing: torsion /B:2@C1 /B:1@O3 /B:1@C3 /B:1@C4
+INFO:
+Torsion angle for atoms /B GLA 2 C1 NAG 1 O3 C3 C4 is 103.708°
+INFO:
+Executing: close #1
+INFO:
+Executing: open ../../../pdbs/2x6y.pdb
+INFO:
+_2x6y.pdb_ title:  
+ **Tailspike protein mutant D339A of E.coli bacteriophage HK620 In complex
+with hexasaccharide** [[more info...]](cxcmd:log metadata #1)  
+  
+
+INFO:
+Chain information for 2x6y.pdb #1  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select /A:113-709 "Select chain") | [tail spike
+protein](cxcmd:sequence chain #1/A "Show sequence") |
+[Q9AYY6_BPHK6](cxcmd:open Q9AYY6 from uniprot "Show annotations")
+[110-709](cxcmd:select #1/A:110-709 "Select sequence")  
+  
+
+INFO:
+Non-standard residues in 2x6y.pdb #1  
+---  
+[GLA](cxcmd:sel :GLA "select residue") — [α-D-
+galactopyranose](http://www.rcsb.org/ligand/GLA "show residue info") (α-D-
+galactose; D-galactose; galactose; α D-galactose)  
+[GLC](cxcmd:sel :GLC "select residue") — [α-D-
+glucopyranose](http://www.rcsb.org/ligand/GLC "show residue info") (α-D-
+glucose; D-glucose; glucose)  
+[NA](cxcmd:sel :NA "select residue") — [sodium
+ion](http://www.rcsb.org/ligand/NA "show residue info")  
+[NAG](cxcmd:sel :NAG "select residue") — [2-acetamido-2-deoxy-β-D-
+glucopyranose](http://www.rcsb.org/ligand/NAG "show residue info") (N-acetyl-
+β-D-glucosamine; 2-acetamido-2-deoxy-β-D-glucose; 2-acetamido-2-deoxy-D-
+glucose; 2-acetamido-2-deoxy-glucose; N-acetyl-D-glucosamine)  
+[RAM](cxcmd:sel :RAM "select residue") — [α-L-
+rhamnopyranose](http://www.rcsb.org/ligand/RAM "show residue info") (α-L-
+rhamnose; 6-deoxy-α-L-mannopyranose; L-rhamnose; rhamnose)  
+[TRS](cxcmd:sel :TRS "select residue") — [2-amino-2-hydroxymethyl-
+propane-1,3-diol](http://www.rcsb.org/ligand/TRS "show residue info") (tris
+buffer)  
+  
+
+INFO:
+Executing: torsion /B:2@C2 /B:2@C1 /B:1@O3 /B:1@C3
+INFO:
+Torsion angle for atoms /B GLA 2 C2 C1 NAG 1 O3 C3 is -156.123°
+INFO:
+Executing: torsion /B:2@C1 /B:1@O3 /B:1@C3 /B:1@C4
+INFO:
+Torsion angle for atoms /B GLA 2 C1 NAG 1 O3 C3 C4 is 94.5195°
+INFO:
+Executing: close #1
+INFO:
+Executing: exit
+STATUS:
+Exiting ...

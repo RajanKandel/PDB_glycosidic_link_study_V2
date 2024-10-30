@@ -1,0 +1,32 @@
+close #1
+open ../../../pdbs/1zi5.pdb
+torsion /B:3@C2 /B:3@C1 /B:2@O2 /B:2@C2
+torsion /B:3@C1 /B:2@O2 /B:2@C2 /B:2@C3
+close #1
+
+open ../../../pdbs/1cly.pdb
+torsion /A:3@C2 /A:3@C1 /A:2@O2 /A:2@C2
+torsion /A:3@C1 /A:2@O2 /A:2@C2 /A:2@C3
+close #1
+
+open ../../../pdbs/3q39.pdb
+torsion /C:2@C2 /C:2@C1 /C:1@O2 /C:1@C2
+torsion /C:2@C1 /C:1@O2 /C:1@C2 /C:1@C3
+close #1
+
+open ../../../pdbs/7l62.pdb
+torsion /B:3@C2 /B:3@C1 /B:2@O2 /B:2@C2
+torsion /B:3@C1 /B:2@O2 /B:2@C2 /B:2@C3
+close #1
+
+open ../../../pdbs/5iyr.pdb
+torsion /D:3@C2 /D:3@C1 /D:2@O2 /D:2@C2
+torsion /D:3@C1 /D:2@O2 /D:2@C2 /D:2@C3
+close #1
+
+open ../../../pdbs/5iyr.pdb
+torsion /C:3@C2 /C:3@C1 /C:2@O2 /C:2@C2
+torsion /C:3@C1 /C:2@O2 /C:2@C2 /C:2@C3
+close #1
+
+exit

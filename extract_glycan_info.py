@@ -285,7 +285,7 @@ class parse_gf_result:
                 if not (self.check_pdb_model_count(pdbpath)):
                     for resID in self.selected_pdbs[pdb]:
                         results=[]                
-                        if(self.check_glycosidic_bond_exist(pdb, resID, self.patterns2)):                    
+                        if(self.check_glycosidic_bond_exist(pdb, resID, self.patterns2)):                
                             for pattern in self.patterns1:
                                 if self.required_residues(resID, pattern) != None:
                                     results.extend(self.required_residues(resID, pattern))  
@@ -301,9 +301,9 @@ class parse_gf_result:
                                     nag2 = str2[1] + ':' + str2[0]
 
                                     str1 = re.search(r"\(.*\)", NAG[-1]).group(0)[1:-1].split(sep='_')
-                                    nag1 = str1[1] + ':' + str1[0]    
+                                    nag1 = str1[1] + ':' + str1[0]
 
-                                    if ((self.check_atom_exist(pdbpath, str2[1], self.di_sugar[0], str2[0], self.phi_dihedral[0])) and
+                                    if ((self.check_atom_exist(pdbpath, str2[1], self.di_sugar[0], str2[0], self.phi_dihedral[0]) ) and
                                         (self.check_atom_exist(pdbpath, str2[1], self.di_sugar[0], str2[0], self.phi_dihedral[1]) ) and
                                         (self.check_atom_exist(pdbpath, str1[1], self.di_sugar[1], str1[0], self.phi_dihedral[2]) ) and
                                         (self.check_atom_exist(pdbpath, str1[1], self.di_sugar[1], str1[0], self.phi_dihedral[3]) ) and
@@ -798,7 +798,7 @@ class parse_gf_result:
         # Reset the index if needed
         df = df.reset_index(drop=True)
 
-        print(f'droped rows: {rows_to_drop}')
+        print(f'dropped rows: {rows_to_drop}')
         return (df)
     
 

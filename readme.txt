@@ -5,7 +5,7 @@ The pipeline for studying the carbohydrate glycosidic linkage (dihedral angles) 
 Look at Example_template/readme to get more information. 
 
 ###########################################################################
-The curated data files containing the dihedral (φ, ψ, and ω) angles can be downloaded at Zenodo: https://doi.org/10.5281/zenodo.18382166
+The curated data files containing the dihedral (φ (Phi), ψ (Psi), and ω (Omega)) angles can be downloaded at Zenodo: https://doi.org/10.5281/zenodo.18382166
 This dataset serves as a benchmark dataset for anyone looking for carbohydrate structure data from the PDB.
 
 ###########################################################################

@@ -1,4 +1,4 @@
-The pipeline for studying the glycosidic linkage (dihedral angles) involves using following tools:
+The pipeline for studying the carbohydrate glycosidic linkage (dihedral angles) involves using following tools:
 1) GlyFinder tool to find all carbohydrates structures in the PDB (https://glycam.org/portal/gf_home/)
 2) Best-fit, Four-Membered Plane (BFMP) tool to characterize pyranose ring geometry (https://doi.org/10.1021/ci500325b)
 
